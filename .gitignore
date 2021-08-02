@@ -1,0 +1,6 @@
+# Only allow .json files
+!*/*.json
+
+# No need to save .cfg files or .log files
+*/*.log
+*/*.cfg
