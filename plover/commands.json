@@ -17,6 +17,7 @@
   "PW-FP": "{#BackSpace}",
   "R*R": "{#Return}{^}",
   "R-R": "{^~|\n^}",
+  "R-RB": "{#Shift_L(Return)}",
   "SH-FT": "{#Control_L(Home)}{^}",
   "SKW-BGS": "{#Return}{^}",
   "SKWRAEURBGS": "{^\n\n^}{-|}",

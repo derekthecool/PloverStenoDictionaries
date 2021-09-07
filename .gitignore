@@ -4,3 +4,5 @@
 # No need to save .cfg files or .log files
 */*.log
 */*.cfg
+
+.cache/
