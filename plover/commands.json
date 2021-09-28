@@ -41,6 +41,7 @@
   "PHROFBGS": "{PLOVER:FOCUS}",
   "PHROBGT": "{PLOVER:QUIT}",
   "PHROFL": "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}",
+  "PHROFS": "{PLOVER:SUGGESTIONS}",
   "KA*PS": "{MODE:CAPS}",
   "TAO*EULT": "{MODE:TITLE}",
   "HRO*ERS": "{MODE:LOWER}",
