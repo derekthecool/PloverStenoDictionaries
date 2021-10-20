@@ -6,3 +6,6 @@
 */*.cfg
 
 .cache/
+
+# Don't track plugins
+/plover/plugins/
