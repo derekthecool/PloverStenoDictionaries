@@ -1,8 +1,8 @@
 {
+  "EFRBGS": "{#Control_L(e)}",
   "TPH-FRBGS": "{#Control_L(n)}",
-  "TPH-RPBGS": "{#Alt_L(n)}",
-  "TPH-RBLGS": "{#Shift_L(n)}",
-  "TPH-RBGTS": "{#Super_L(n)}",
   "TPH-FRPBLGTS": "{#Control_L(Alt_L(Shift_L(Super_L(n))))}",
-  "EFRBGS": "{#Control_L(e)}"
+  "TPH-RBGTS": "{#Super_L(n)}",
+  "TPH-RBLGS": "{#Shift_L(n)}",
+  "TPH-RPBGS": "{#Alt_L(n)}"
 }
