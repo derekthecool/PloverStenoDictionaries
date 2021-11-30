@@ -2,8 +2,7 @@
 import re
 
 # define your ender here
-uniqueEnders = ["Z"]
-
+uniqueEnders = ["TD"]
 
 LONGEST_KEY = 1
 
@@ -87,7 +86,7 @@ def lookup(chord):
     assert len(chord) <= LONGEST_KEY
 
     # extract relevant parts of the stroke
-    firstMatch = re.fullmatch(r'([#STKPWHR]*)([AO]*)([*-]*)([EU]*)([FRPBLGTS]*)([DZ]*)', stroke)
+    firstMatch = re.fullmatch(r'([#STKPWHR]*)([AO]*)([*-]*)([EU]*)([FRPBLG]*)([TSDZ]*)', stroke)
 
     # error out if there are no matches found
     if firstMatch is None:
@@ -189,13 +188,13 @@ def lookup(chord):
     # may need to reorder?
     modKeys = modifiers
     mods = []
-    if "R" in modKeys:
+    if "P" in modKeys:
         mods.append("control")
-    if "B" in modKeys:
+    if "L" in modKeys:
         mods.append("alt")
-    if "G" in modKeys:
+    if "B" in modKeys:
         mods.append("super")
-    if "S" in modKeys:
+    if "G" in modKeys:
         mods.append("shift")
 
     # apply those modifiers

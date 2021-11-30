@@ -1,0 +1,6 @@
+{
+  "TPHUPL/WORD/0": "{:number_word_conversion:0:2}",
+  "TPHUPL/WORD/1": "{:number_word_conversion:1:2}",
+  "TPHUPL/WORD/2": "{:number_word_conversion:2:2}",
+  "TPHUPL/WORD/ROEPL": "{:number_format_roman:0:0}"
+}
