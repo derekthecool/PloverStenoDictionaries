@@ -28,3 +28,8 @@ Awesome features of this keyboard include:
 * Replace your mouse with this keyboard
 
 Here is my [Stenography layer](https://configure.zsa.io/moonlander/layouts/mz7LN/latest/9)
+
+## Typey Type Progress
+
+I am storing my [Typey Type Progress](https://didoesdigital.com/typey-type/progress)
+json file here.

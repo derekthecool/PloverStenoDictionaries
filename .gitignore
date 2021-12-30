@@ -1,9 +1,8 @@
 # Only allow .json files
 !*/*.json
 
-# No need to save .cfg files or .log files
+# No need to save .log files
 */*.log
-*/*.cfg
 
 .cache/
 
