@@ -50,14 +50,14 @@ symbols = {
         "P"      : ["`", "⊂", "⊃", "π"],
         "PB"     : ["|", "⊤", "⊥", "¦"],
         "FPBG"   : ["~", "⊆", "⊇", "˜"],
-        "FPBL"   : ["↑", "←", "→", "↓"]
+        "FPBL"   : ["↑", "←", "→", "↓"],
+        "RBLG": ["{MODE:TITLE}", "{MODE:LOWER}", "{MODE:CAMEL}", "{MODE:SNAKE}"],
+        "FPLG": ["{PLOVER:LOOKUP}", "{PLOVER:SUGGESTIONS}", "{PLOVER:ADD_TRANSLATION}", "{PLOVER:SET_CONFIG:'translation_frame_opacity':30}"]
     },
     uniqueStarters[1]: { # custom
         # add your own strokes here (or above, or wherever else you like)!
-        ""       : "test"
     }
 }
-
 
 def lookup(chord):
 
