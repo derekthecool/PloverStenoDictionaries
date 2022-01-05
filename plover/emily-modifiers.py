@@ -188,14 +188,14 @@ def lookup(chord):
     # may need to reorder?
     modKeys = modifiers
     mods = []
+    if "B" in modKeys:
+        mods.append("shift")
     if "F" in modKeys:
         mods.append("control")
     if "P" in modKeys:
         mods.append("alt")
     if "R" in modKeys:
         mods.append("super")
-    if "B" in modKeys:
-        mods.append("shift")
 
     # apply those modifiers
     combo = character

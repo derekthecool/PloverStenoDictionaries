@@ -1,0 +1,5 @@
+[2022-01-05 10:12:21] how the         || HOU/-T -> HOUT, HO*UT
+[2022-01-05 10:13:00] any of          || TPHEU/-F -> TPHEUF
+[2022-01-05 10:13:02] any of          || TPHEU/-F -> TPHEUF
+[2022-01-05 10:13:34] also            || AL/SO -> HR-S
+[2022-01-05 10:18:02] know the        || TPHOE/-T -> TPHO*ET
