@@ -1,8 +1,8 @@
 {
-  "AD/AD": "Addie",
-  "AD/AD/AD": "Adaline",
-  "KAS": "Cass",
   "STKPWHR": "Derek",
+  "STKPWHR/STKPWHR": "Derek Lomax",
   "STKPWHR*": "Cassie",
-  "STKPWHR/STKPWHR": "Derek Lomax"
+  "KAS": "Cass",
+  "AD/AD": "Addie",
+  "AD/AD/AD": "Adaline"
 }
