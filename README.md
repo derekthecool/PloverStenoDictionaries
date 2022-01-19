@@ -1,6 +1,16 @@
 # Derek's Plover Stenography Dictionaries
 
-This is my Plover Stenography dictionaries.
+These are my Plover Stenography dictionaries
+
+## Markdown Format Dictionaries
+
+* [commands.md](plover/commands.md)
+* [personal.md](plover/personal.md)
+* [programming.md](plover/programming.md)
+* [work.md](plover/work.md)
+* [churchofjesuschristoflatterdaysaints.md](plover/churchofjesuschristoflatterdaysaints.md)
+
+## Learning Resources
 
 * [Plover GitHub](https://github.com/openstenoproject/plover)
 * [Learn Plover](https://github.com/openstenoproject/plover/wiki/Learning-Stenography)

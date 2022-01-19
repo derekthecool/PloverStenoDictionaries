@@ -11,7 +11,7 @@ PW-FPL      : {\#Delete}
 R*R         : {\#Return}{^}
 R-R         : {\#Return}{^}{MODE:RESET}
 R-RB        : {\#Shift_L(Return)}{^}{MODE:RESET}
-SKWRA*URBGS : {\#Shift_L(\\n \\n)}{^}{-|}{MODE:RESET}
+SKWRA*URBGS : {\#Shift_L(Return Return)}{^}{-|}{MODE:RESET}
 SKWRAURBGS  : {^\\n\\n^}{-|}
 STPH-B      : {\#Down}{^}
 STPH-BG     : {\#Control_L(Right)}{^}
@@ -23,8 +23,8 @@ TA*B        : {\#Tab}{^}
 TA*BT       : {\#Alt_L(Tab Tab)}
 TK*EL       : {\#Delete}
 TPEFBG      : {\#Escape}
-SR-RS       : {\#Escape}
-SR*RS       : {\#Control_L(bracketleft)}
+SR-RS       : {\#Escape}{^} # Suppress the next space after escape
+SR*RS       : {\#Control_L(bracketleft)}{^}
 ```
 
 ## Plover Control
@@ -37,8 +37,8 @@ PHROLG   : {PLOVER:TOGGLE}
 PHR*UP   : {PLOVER:LOOKUP}
 PHROFG   : {PLOVER:CONFIGURE}
 PHROFBGS : {PLOVER:FOCUS}
-PHROBGT  : {PLOVER:QUIT}
-PHROFL   : {PLOVER:SET_CONFIG:translation_frame_opacity:100}
+PHROBGT  : {PLOVER:QUIT} 
+PHROFL   : "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
 PHROFS   : {PLOVER:SUGGESTIONS}
 ```
 
@@ -73,34 +73,47 @@ TK-FPS  : {=retrospective_delete_space}
 ## plover_fancy_text Plugin Commands
 
 ```yaml
-23*9          :{:fancytext_set:off}
-23*9/S/1      :{:fancytext_retro:1:figlet:script}
-23*9/S/2      :{:fancytext_retro:2:figlet:script}
-23*9/S/3      :{:fancytext_retro:3:figlet:script}
-23*9/S/4      :{:fancytext_retro:4:figlet:script}
-23*9/S/5      :{:fancytext_retro:5:figlet:script}
-23*9/T-/1     :{:fancytext_retro:1:figlet}
-23*9/T-/2     :{:fancytext_retro:2:figlet}
-23*9/T-/3     :{:fancytext_retro:3:figlet}
-23*9/T-/4     :{:fancytext_retro:4:figlet}
-23*9/T-/5     :{:fancytext_retro:5:figlet}
-23*9/P/1      :{:fancytext_retro:1:figlet:shadow}
-23*9/P/2      :{:fancytext_retro:2:figlet:shadow}
-23*9/P/3      :{:fancytext_retro:3:figlet:shadow}
-23*9/P/4      :{:fancytext_retro:4:figlet:shadow}
-23*9/P/5      :{:fancytext_retro:5:figlet:shadow}
-23*9/PHORS    :{:fancytext_set:morse}
-23*9/PWORD    :{:fancytext_set:blackboardbold}
-23*9/SPWAP    :{:fancytext_set:smallcaps}
-23*9/PW-UB    :{:fancytext_set:bubble}
-23*9/KRAO-EU  :{:fancytext_set:crytyping}
-23*9/SRA-EUP  :{:fancytext_set:fullwidth}
-23*9/PH-ED    :{:fancytext_set:medieval}
-23*9/SA-RBG   :{:fancytext_set:sarcasm}
-23*9/-UP      :{:fancytext_set:upsidedown}
-23*9/AO-U     :{:fancytext_set:uwu}
-23*9/AO*U     :{:fancytext_set:UwU}
-23*9/STKPWA-L :{:fancytext_set:zalgo}
+23*9          : {:fancytext_set:off}
+23*9/S/1      : {:fancytext_retro:1:figlet:script}
+23*9/S/2      : {:fancytext_retro:2:figlet:script}
+23*9/S/3      : {:fancytext_retro:3:figlet:script}
+23*9/S/4      : {:fancytext_retro:4:figlet:script}
+23*9/S/5      : {:fancytext_retro:5:figlet:script}
+23*9/T-/1     : {:fancytext_retro:1:figlet}
+23*9/T-/2     : {:fancytext_retro:2:figlet}
+23*9/T-/3     : {:fancytext_retro:3:figlet}
+23*9/T-/4     : {:fancytext_retro:4:figlet}
+23*9/T-/5     : {:fancytext_retro:5:figlet}
+23*9/P/1      : {:fancytext_retro:1:figlet:shadow}
+23*9/P/2      : {:fancytext_retro:2:figlet:shadow}
+23*9/P/3      : {:fancytext_retro:3:figlet:shadow}
+23*9/P/4      : {:fancytext_retro:4:figlet:shadow}
+23*9/P/5      : {:fancytext_retro:5:figlet:shadow}
+23*9/PHORS    : {:fancytext_set:morse}
+23*9/PWORD    : {:fancytext_set:blackboardbold}
+23*9/SPWAP    : {:fancytext_set:smallcaps}
+23*9/PW-UB    : {:fancytext_set:bubble}
+23*9/KRAO-EU  : {:fancytext_set:crytyping}
+23*9/SRA-EUP  : {:fancytext_set:fullwidth}
+23*9/PH-ED    : {:fancytext_set:medieval}
+23*9/SA-RBG   : {:fancytext_set:sarcasm}
+23*9/-UP      : {:fancytext_set:upsidedown}
+23*9/AO-U     : {:fancytext_set:uwu}
+23*9/AO*U     : {:fancytext_set:UwU}
+23*9/STKPWA-L : {:fancytext_set:zalgo}
 ```
 
+## plover_number_conversion Plugin Commands
 
+```yaml
+TPHUPL/WORD/0     : {:number_word_conversion:0:2}
+TPHUPL/WORD/1     : {:number_word_conversion:1:2}
+TPHUPL/WORD/2     : {:number_word_conversion:2:2}
+TPHUPL/WORD/ROEPL : {:number_format_roman:0:0}
+```
+
+## plover_emoji Plugin Commands
+
+```yaml
+PHOEPBLG : {:emoji}
+```
