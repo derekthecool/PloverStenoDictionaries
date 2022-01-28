@@ -10,6 +10,10 @@ These are my Plover Stenography dictionaries
 * [work.md](plover/work.md)
 * [churchofjesuschristoflatterdaysaints.md](plover/churchofjesuschristoflatterdaysaints.md)
 
+## Plover Guide
+
+Here is my [Dereks_Plover_guide](Dereks_Plover_guide) to working with Plover
+
 ## Learning Resources
 
 * [Plover GitHub](https://github.com/openstenoproject/plover)

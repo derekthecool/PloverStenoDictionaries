@@ -25,6 +25,10 @@ TK*EL       : {\#Delete}
 TPEFBG      : {\#Escape}
 SR-RS       : {\#Escape}{^} # Suppress the next space after escape
 SR*RS       : {\#Control_L(bracketleft)}{^}
+STP-R       : {\#alt(j)}
+STP-G       : {\#alt(k)}
+STP-P       : {\#alt(Left)}
+STP-B       : {\#alt(Right)}
 ```
 
 ## Plover Control

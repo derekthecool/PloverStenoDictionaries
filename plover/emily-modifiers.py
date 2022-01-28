@@ -203,7 +203,10 @@ def lookup(chord):
         combo = mod + "(" + combo + ")"
 
     # package it up with the syntax
-    ret = "{#" + combo + "}"
+    # Derek: add the{^^} to the end for 2 reasons
+    # 1. Help with sticky modifiers
+    # 1. The {^^} helps with having no space afterwards which is good for vim
+    ret = "{#" + combo + "}{^^}"
 
     # all done! :D
     return ret

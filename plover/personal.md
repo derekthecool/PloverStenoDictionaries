@@ -17,3 +17,9 @@ AD/AD/AD        : Adaline
 AOE/PHA*EUL         : derekthecool@gmail.com
 AOE/PHA*EUL/PHA*EUL : dlomax@freeus.com
 ```
+
+## Briefs
+
+```yaml
+KR-Z : crazy
+```

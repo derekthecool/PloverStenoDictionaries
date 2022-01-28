@@ -1,16 +1,37 @@
 # Programming Dictionary
 
+SKW-T: \' # single quote character
+KR-GS: \" # double quote character
+PW-RB: \\ # backslash
+HAERB: \# # hash character on the right hand side
+'#-T': 9 # you should not escape the # in strokes
+
+## C Programming
+
+```yaml
+STR/HREPB  :  strlen(
+STR/KOP    :  strcpy(
+STP/KOPB   :  strncpy(
+PHEPL/SET  :  memset(
+TP*R       :  {^}for(int i=0;i<{^}
+TP*R/TP*R  :  {^};i++)\\n
+```
+
 ## Terminal
 
 ```yaml
-KHRAOEU        :  terminal
-KHRAO*EU       :  CLI
-PW-RB          :  PowerShell
-PHUBGS         :  tmux
-PR*EUFPBT      :  printf
-PROE/TOE/SAOE  :  protoc
-PROE/TOE/PWUF  :  protobuf
-TKPWO*         :  {./^}
+EBG                :  echo
+KHRAOEU            :  terminal
+KHRAO*EU           :  CLI
+PW-RB              :  PowerShell
+PHUBGS             :  tmux
+PR*EUFPBT          :  printf
+PR*EUF             :  printf
+PROE/TOE/SAOE      :  protoc
+PROE/TOE/PWUF      :  protobuf
+KPHAEUBG           :  cmake
+KPHAEUBG/KPHAEUBG  :  CMakeLists.txt
+TKPWO*             :  {./^}
 ```
 
 ## Vim

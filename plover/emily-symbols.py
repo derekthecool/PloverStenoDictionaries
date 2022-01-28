@@ -15,44 +15,56 @@ LONGEST_KEY = 1
 symbols = {
     uniqueStarters[0]: { # standard
         # more computer function-y symbols
-        "FG"    : ["{#Tab}", "{#Backspace}", "{#Delete}", "{#Escape}"],
-        "RPBG"  : ["{#Up}", "{#Left}", "{#Right}", "{#Down}"],
-        "FRPBG" : ["{#Page_Up}", "{#Home}", "{#End}", "{#Page_Down}"],
-        "FRBG"  : ["{#AudioPlay}", "{#AudioPrev}", "{#AudioNext}", "{#AudioStop}"],
-        "FRB"   : ["{#AudioMute}", "{#AudioLowerVolume}", "{#AudioRaiseVolume}", "{#Eject}"],
-        ""      : ["", "{*!}", "{*?}", "{#Space}"],
-        "FL"    : ["{*-|}", "{*<}", "{<}", "{*>}"],
+        "FG"    : ["{#Tab}"       , "{#Backspace}"        , "{#Delete}"           , "{#Escape}"]    ,
+        "RPBG"  : ["{#Up}"        , "{#Left}"             , "{#Right}"            , "{#Down}"]      ,
+        "FRPBG" : ["{#Page_Up}"   , "{#Home}"             , "{#End}"              , "{#Page_Down}"] ,
+        "FRBG"  : ["{#AudioPlay}" , "{#AudioPrev}"        , "{#AudioNext}"        , "{#AudioStop}"] ,
+        "FRB"   : ["{#AudioMute}" , "{#AudioLowerVolume}" , "{#AudioRaiseVolume}" , "{#Eject}"]     ,
+        ""      : [""             , "{*!}"                , "{*?}"                , "{#Space}"]     ,
+        "FL"    : ["{*-|}"        , "{*<}"                , "{<}"                 , "{*>}"]         ,
 
         # typable symbols
-        "FR"     : ["!", "¬", "↦", "¡"],
-        "FP"     : ["\"", "“", "”", "„"],
-        "FRLG"   : ["#", "©", "®", "™"],
-        "RPBL"   : ["$", "¥", "€", "£"],
-        "FRPB"   : ["%", "‰", "‱", "φ"],
-        "FBG"    : ["&", "∩", "∧", "∈"],
-        "F"      : ["'", "‘", "’", "‚"],
-        "FPL"    : ["(", "[", "<", "\{"],
-        "RBG"    : [")", "]", ">", "\}"],
-        "L"      : ["*", "∏", "§", "×"],
-        "G"      : ["+", "∑", "¶", "±"],
-        "B"      : [",", "∪", "∨", "∉"],
-        "PL"     : ["-", "−", "–", "—"],
-        "R"      : [".", "•", "·", "…"],
-        "RP"     : ["/", "⇒", "⇔", "÷"],
-        "LG"     : [":", "∋", "∵", "∴"],
-        "RB"     : [";", "∀", "∃", "∄"],
-        "PBLG"   : ["=", "≡", "≈", "≠"],
-        "FPB"    : ["?", "¿", "∝", "‽"],
-        "FRPBLG" : ["@", "⊕", "⊗", "∅"],
-        "FB"     : ["\\", "Δ", "√", "∞"],
-        "RPG"    : ["^", "«", "»", "°"],
-        "BG"     : ["_", "≤", "≥", "µ"],
-        "P"      : ["`", "⊂", "⊃", "π"],
-        "PB"     : ["|", "⊤", "⊥", "¦"],
-        "FPBG"   : ["~", "⊆", "⊇", "˜"],
-        "FPBL"   : ["↑", "←", "→", "↓"],
-        "RBLG": ["{MODE:TITLE}", "{MODE:LOWER}", "{MODE:CAMEL}", "{MODE:SNAKE}"],
-        "FPLG": ["{PLOVER:LOOKUP}", "{PLOVER:SUGGESTIONS}", "{PLOVER:ADD_TRANSLATION}", "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"]
+        "FR"     : ["!"  , "¬" , "↦" , "¡"]  ,
+        "FP"     : ["\"" , "“" , "”" , "„"]  ,
+        "FRLG"   : ["#"  , "©" , "®" , "™"]  ,
+        "RPBL"   : ["$"  , "¥" , "€" , "£"]  ,
+        "FRPB"   : ["%"  , "‰" , "‱" , "φ"]  ,
+        "FBG"    : ["&"  , "∩" , "∧" , "∈"]  ,
+        "F"      : ["'"  , "‘" , "’" , "‚"]  ,
+        "FPL"    : ["("  , "[" , "<" , "\{"] ,
+        "RBG"    : [")"  , "]" , ">" , "\}"] ,
+        "L"      : ["*"  , "∏" , "§" , "×"]  ,
+        "G"      : ["+"  , "∑" , "¶" , "±"]  ,
+        "B"      : [","  , "∪" , "∨" , "∉"]  ,
+        "PL"     : ["-"  , "−" , "–" , "—"]  ,
+        "R"      : ["."  , "•" , "·" , "…"]  ,
+        "RP"     : ["/"  , "⇒" , "⇔" , "÷"]  ,
+        "LG"     : [":"  , "∋" , "∵" , "∴"]  ,
+        "RB"     : [";"  , "∀" , "∃" , "∄"]  ,
+        "PBLG"   : ["="  , "≡" , "≈" , "≠"]  ,
+        "FPB"    : ["?"  , "¿" , "∝" , "‽"]  ,
+        "FRPBLG" : ["@"  , "⊕" , "⊗" , "∅"]  ,
+        "FB"     : ["\\" , "Δ" , "√" , "∞"]  ,
+        "RPG"    : ["^"  , "«" , "»" , "°"]  ,
+        "BG"     : ["_"  , "≤" , "≥" , "µ"]  ,
+        "P"      : ["`"  , "⊂" , "⊃" , "π"]  ,
+        "PB"     : ["|"  , "⊤" , "⊥" , "¦"]  ,
+        "FPBG"   : ["~"  , "⊆" , "⊇" , "˜"]  ,
+        "FPBL"   : ["↑"  , "←" , "→" , "↓"]  ,
+
+        "RBLG": [
+            "{MODE:TITLE}",
+            "{MODE:LOWER}",
+            "{MODE:CAMEL}",
+            "{MODE:SNAKE}"
+        ],
+        "FPLG": [
+            "{PLOVER:LOOKUP}",
+            "{PLOVER:SUGGESTIONS}",
+            "{PLOVER:ADD_TRANSLATION}",
+            "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"
+        ]
+
     },
     uniqueStarters[1]: { # custom
         # add your own strokes here (or above, or wherever else you like)!
@@ -145,7 +157,7 @@ def lookup(chord):
         if not attach[0]:
             output = "{}" + output
         if not attach[1]:
-            output = output + "{}"
+            output = output + "{^ ^}" # explicit space
 
     # apply capitalisation
     if capital:
