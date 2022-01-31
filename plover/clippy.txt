@@ -10825,3 +10825,1243 @@
 [2022-01-28 09:33:22] Bi              || PW*P/*EU -> PW*EU
 [2022-01-28 09:33:28] hi              || H*/*EU -> HEU, HAO*EU
 [2022-01-28 09:34:17] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-28 09:35:40] cc              || KR*/KR* -> KR*BG
+[2022-01-28 09:35:44] cc              || KR*/KR* -> KR*BG
+[2022-01-28 09:35:44] cc              || KR*/KR* -> KR*BG
+[2022-01-28 09:35:59] ci              || KR*/*EU -> KR*EUP
+[2022-01-28 09:36:11] lots of         || HROTS/-F -> HROFTS
+[2022-01-28 09:36:17] improvement     || EUPL/PROFPLT -> PROFPLT
+[2022-01-28 09:36:18] improvements    || EUPL/PROFPLT/-S -> EUPL/PROFPLTS, EUPL/PROFPLGTS
+[2022-01-28 09:36:22] s and           || -S/SP -> SKP-PBS
+[2022-01-28 09:36:31] dictionaries    || TKEUBGS/REU/-S -> TKEUBGS/AERS
+[2022-01-28 09:40:33] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 09:40:53] co              || KR*/O* -> KO*, KAU
+[2022-01-28 09:40:54] on              || O*/TPH* -> OB, OPB, O*PB, AOPB, AUPB
+[2022-01-28 09:40:54] con             || KR*/O*/TPH* -> KOPB, KAUPB
+[2022-01-28 09:40:55] conf            || KR*/O*/TPH*/TP* -> KO*FPB
+[2022-01-28 09:40:56] ig              || *EU/TKPW* -> EUG
+[2022-01-28 09:40:56] fig             || TP*/*EU/TKPW* -> TP*EUG
+[2022-01-28 09:40:56] config          || KR*/O*/TPH*/TP*/*EU/TKPW* -> KOPB/TP*EUG
+[2022-01-28 09:42:18] in              || *EU/TPH* -> TPH, *EUPB, EUPB
+[2022-01-28 09:42:18] rin             || R*/*EU/TPH* -> REUPB
+[2022-01-28 09:42:19] int             || *EU/TPH*/T* -> SPW*, *EUPBT
+[2022-01-28 09:42:19] print           || P*/R*/*EU/TPH*/T* -> PREUPBT
+[2022-01-28 09:42:20] printf          || P*/R*/*EU/TPH*/T*/TP* -> PR*EUF, PR*EUFPBT
+[2022-01-28 09:42:22] fn              || TP*/R-R/TPH* -> TP*PB
+[2022-01-28 09:43:10] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 09:43:33] do              || TK*/O* -> TKO
+[2022-01-28 09:43:37] do              || TK*/O* -> TKO
+[2022-01-28 09:43:49] doj             || TK*/O*/H-FLTZ/K-FLTZ/SKWR* -> TK-RBGS/O*PBLG
+[2022-01-28 09:45:00] do              || TK*/O* -> TKO
+[2022-01-28 09:45:06] do              || TK*/O* -> TKO
+[2022-01-28 09:45:09] do              || TK*/O* -> TKO
+[2022-01-28 09:45:30] uk              || *U/K* -> AOUBG
+[2022-01-28 09:45:37] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 09:45:48] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 09:48:53] kkk             || K*/K-FLTZ/K-FLTZ/K*/K* -> K-RBGS/K*BG
+[2022-01-28 09:48:54] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 09:49:26] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-28 09:49:31] of              || O*/TP* -> -F, *F
+[2022-01-28 09:49:46] st              || S*/T* -> *FT
+[2022-01-28 09:50:02] oS              || O*/TK-LS/S*P -> O*S, OS
+[2022-01-28 09:50:02] ST              || S*P/T*P -> *FT
+[2022-01-28 09:50:08] T-              || T*P/SKWH-PL -> T-PLT
+[2022-01-28 09:50:09] -S              || SKWH-PL/S*P -> S-RBGZ
+[2022-01-28 09:50:10] -D              || SKWH-PL/TK*P -> TK-RBGZ
+[2022-01-28 09:50:23] RO              || R*P/O*P -> RO
+[2022-01-28 09:50:45] ER              || *EP/R*P -> *ER, ER
+[2022-01-28 09:50:50] st              || S*/T* -> *FT
+[2022-01-28 09:50:53] std             || S*/T*/TK* -> S-RBGS/T*D
+[2022-01-28 09:50:53] de              || TK*/*E -> TK*E, TKE
+[2022-01-28 09:50:55] er              || *E/R* -> *ER, ER
+[2022-01-28 09:50:55] err             || *E/R*/R* -> R*ER, ER/*R, ER/*ER
+[2022-01-28 09:50:59] ST              || S*P/T*P -> *FT
+[2022-01-28 09:51:01] T-              || T*P/SKWH-PL -> T-PLT
+[2022-01-28 09:51:02] -D              || SKWH-PL/TK*P -> TK-RBGZ
+[2022-01-28 09:51:19] UT              || *UP/T*P -> UT
+[2022-01-28 09:51:27] st              || S*/T* -> *FT
+[2022-01-28 09:51:28] std             || S*/T*/TK* -> S-RBGS/T*D
+[2022-01-28 09:51:31] do              || TK*/O* -> TKO
+[2022-01-28 09:51:33] ut              || *U/T* -> UT
+[2022-01-28 09:51:33] out             || O*/*U/T* -> OUT, OUTD, OULT, KWROUT, SKWROUT, AOT, AOUT, AO*UT
+[2022-01-28 09:51:33] stdout          || S*/T*/TK*/O*/*U/T* -> STKOUT
+[2022-01-28 09:51:58] ,"              || KW-BG/SKWH-FP -> KW-RBGTS
+[2022-01-28 09:52:49] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 09:52:52] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 09:53:00] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 09:53:06] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 09:53:19] dC              || TK*/KR*P -> TK*BG
+[2022-01-28 09:59:41] i'll            || *EU/-L -> AOEUL
+[2022-01-28 10:00:03] configure       || KAUPB/TK-LS/TPEUG -> KAUPB/TPEUG, KAUPB/TPEURG
+[2022-01-28 10:00:04] config          || KAUPB/TK-LS/TP*EUG -> KOPB/TP*EUG
+[2022-01-28 10:01:51] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-28 10:02:24] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 10:06:42] db              || TK*/PW* -> TK-B, TK*B
+[2022-01-28 10:07:50] do              || TK*/O* -> TKO
+[2022-01-28 10:07:54] do              || TK*/O* -> TKO
+[2022-01-28 10:08:12] rd              || R*/TK* -> R*D, *RD
+[2022-01-28 10:08:18] rd              || R*/TK* -> R*D, *RD
+[2022-01-28 10:08:20] rd              || R*/TK* -> R*D, *RD
+[2022-01-28 10:08:22] rd              || R*/TK* -> R*D, *RD
+[2022-01-28 10:08:26] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:08:28] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:08:32] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:08:33] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:08:36] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:08:38] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:08:44] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:08:46] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:08:54] .r              || SKWH-R/R* -> R*PD, R*PLD
+[2022-01-28 10:08:59] jr.             || SKWR*/R*/SKWH-R -> SKWR*R
+[2022-01-28 10:09:01] .r              || SKWH-R/R* -> R*PD, R*PLD
+[2022-01-28 10:09:02] rd              || R*/TK* -> R*D, *RD
+[2022-01-28 10:09:06] rd              || R*/TK* -> R*D, *RD
+[2022-01-28 10:21:58] ()              || SKWH-FPL/SKWH-RBG -> PR*EPBS
+[2022-01-28 10:22:35] fn              || TP*/TPH* -> TP*PB
+[2022-01-28 10:23:39] ni              || TPH*/*EU -> TPHAO*E
+[2022-01-28 10:23:54] fe              || TP*/*E -> TPE, TP*E
+[2022-01-28 10:24:01] fe              || TP*/*E -> TPE, TP*E
+[2022-01-28 10:24:08] fe              || TP*/*E -> TPE, TP*E
+[2022-01-28 10:24:37] .p              || SKWH-R/P* -> P*PD, P*PLD
+[2022-01-28 10:26:00] ch              || KR*/H* -> *FP, KH*, KH-RBGS
+[2022-01-28 10:26:01] .s              || SKWH-R/S* -> S*PD, S*PLD
+[2022-01-28 10:26:02] sh              || S*/H* -> *RB, SH-RBGS
+[2022-01-28 10:26:21] Convert         || KOPB/SRERT -> KWERT, KWERLT, KWEFRT
+[2022-01-28 10:26:24] UT              || *UP/T*P -> UT
+[2022-01-28 10:27:04] ic              || *EU/KR* -> EUBG
+[2022-01-28 10:27:06] co              || KR*/O* -> KO*, KAU
+[2022-01-28 10:27:06] on              || O*/TPH* -> OB, OPB, O*PB, AOPB, AUPB
+[2022-01-28 10:27:06] con             || KR*/O*/TPH* -> KOPB, KAUPB
+[2022-01-28 10:27:06] icon            || *EU/KR*/O*/TPH* -> AOEU/KOPB, AOEUBG/O*PB, AOEUBG/KOPB
+[2022-01-28 10:27:23] UT              || *UP/T*P -> UT
+[2022-01-28 10:27:40] no              || TPH*/O* -> PHO, TPHO
+[2022-01-28 10:27:41] ex              || *E/KP* -> *EBGS, KWREBGS, SKWREBGS, EBGS
+[2022-01-28 10:27:47] xp              || KP*/SKWH-FG/P* -> KP-P
+[2022-01-28 10:27:51] lo              || HR*/SKWH-FG/O* -> HRO
+[2022-01-28 10:27:51] plo             || P*/HR*/SKWH-FG/O* -> P-RBGS/HRO*
+[2022-01-28 10:27:56] love            || HR*/SKWH-FG/O*/SKWH-FG/SR*/*E -> HOF, HR-F, HRUF, HROF, HR*UF, HRO*F
+[2022-01-28 10:28:02] .f              || SKWH-R/TP* -> TP*PD, TP*PLD
+[2022-01-28 10:28:04] .f              || SKWH-R/TP* -> TP*PD, TP*PLD
+[2022-01-28 10:28:05] .p              || SKWH-R/P* -> P*PD, P*PLD
+[2022-01-28 10:28:48] cd              || KR*/TK* -> KR*D
+[2022-01-28 10:28:51] lo              || HR*/O* -> HRO
+[2022-01-28 10:28:51] plo             || P*/HR*/O* -> P-RBGS/HRO*
+[2022-01-28 10:30:20] as              || A*/S* -> AZ, AS, ASZ
+[2022-01-28 10:30:21] ci              || KR*/*EU -> KR*EUP
+[2022-01-28 10:30:21] ii              || *EU/*EU -> 2-R
+[2022-01-28 10:30:21] ascii           || A*/S*/KR*/*EU/*EU -> AS/KEU, AS/KAOE
+[2022-01-28 10:31:34] en              || *E/TPH* -> *EB, *EPB, EPB
+[2022-01-28 10:31:35] em              || *E/PH* -> EPL
+[2022-01-28 10:32:02] .p              || SKWH-R/P* -> P*PD, P*PLD
+[2022-01-28 10:32:50] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-28 10:35:42] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-28 10:36:36] ok              || O*/TK-LS/EFLTZ/K* -> O*EBG, ORBGS/K-RBGS
+[2022-01-28 10:36:38] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 10:36:38] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 10:36:38] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 10:36:42] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 10:36:45] kI              || K*/*EUP -> KAO*EU
+[2022-01-28 10:40:52] ({^}            || SKWH-FPL/SKWHEUFPL/SKWH-RPG/SKWHEURBG -> P*PB
+[2022-01-28 10:41:04] cc              || KR*/KR* -> KR*BG
+[2022-01-28 10:41:32] cc              || KR*/KR* -> KR*BG
+[2022-01-28 10:43:57] Adjusted        || A/SKWRUFTD -> SKWRUFTD
+[2022-01-28 10:45:07] crashes         || KRARB/-S -> KRARBS
+[2022-01-28 10:45:12] oo              || O*/O* -> AO, SKWRAO
+[2022-01-28 10:45:26] cc              || KR*/KR* -> KR*BG
+[2022-01-28 10:45:27] ci              || KR*/*EU -> KR*EUP
+[2022-01-28 10:45:38] adjust          || A/SKWRUFT -> SKWR*UFT
+[2022-01-28 10:46:15] that was        || THA/WA -> THAFS
+[2022-01-28 10:46:25] causing         || KAUS/-G -> KAUFG
+[2022-01-28 10:56:43] .j              || SKWH-R/SKWR-FLTZ/KWR-FLTZ/SR-RS/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-28 10:56:45] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-28 10:56:53] .B              || SKWH-R/SKWR-FLTZ/KWR-FLTZ/SR-RS/PW*P -> PW*PD, PW*PLD
+[2022-01-28 10:57:07] rf              || R*/TP* -> R-F
+[2022-01-28 10:57:09] rf              || R*/TP* -> R-F
+[2022-01-28 10:57:21] cc              || KR*/KR* -> KR*BG
+[2022-01-28 10:57:23] ci              || KR*/KPA*/*EU -> KR*EUP
+[2022-01-28 10:57:35] modifier        || PHOD/TPAOEUR -> PHOEUFR
+[2022-01-28 11:07:21] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-28 11:08:29] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-28 11:09:16] 22              || 2/SR-RS/2 -> 2-D
+[2022-01-28 11:09:26] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 11:09:30] ph              || P*/H* -> PH, PAEUFP
+[2022-01-28 11:09:57] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-28 11:10:28] uA              || *U/A*P -> PHAO*EU
+[2022-01-28 11:10:59] oS              || O*/S*P -> O*S, OS
+[2022-01-28 11:11:02] S-              || S*P/SKWH-PL -> S-PLT
+[2022-01-28 11:11:04] -P              || SKWH-PL/P*P -> P-RBGZ
+[2022-01-28 11:13:52] Bi              || PW*P/*EU -> PW*EU
+[2022-01-28 11:14:02] {^^}            || SKWHEUFPL/SKWH-RPG/S-P/SKWH-RPG/SKWHEURBG -> TK-LS
+[2022-01-28 11:14:05] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-28 11:14:35] IS THE          || S/-T -> S-T
+[2022-01-28 11:27:25] pI              || P*/*EUP -> PEU, P*EU, PAO*EU
+[2022-01-28 11:28:33] you know        || U/TPHOE -> KWRAOUPB, KWRO*UPB
+[2022-01-28 11:28:34] know.           || TPHOE/TP-PL -> TPHOEFPLT
+[2022-01-28 11:28:36] .I              || TP-PL/SKWRA*URBGS/EU -> *EUPD, *EUPLD
+[2022-01-28 11:28:36] I have          || EU/SR -> SREU
+[2022-01-28 11:28:37] have a          || SR/AEU -> SRA, SRAEU, SR*EU, SRA*EU
+[2022-01-28 11:29:02] .m              || TP-PL/R-R/PH* -> PH*PD, PH*PLD
+[2022-01-28 11:29:03] os              || O*/S* -> O*S, OS
+[2022-01-28 11:29:11] id              || *EU/TK* -> KWR*EUD, EUD, AO*EUD
+[2022-01-28 11:29:11] quid            || KW*/*U/*EU/TK* -> KWEUD
+[2022-01-28 11:29:11] squid           || S*/STPH-P/KW*/*U/*EU/TK* -> SKWEUD
+[2022-01-28 11:29:12] it              || *EU/T* -> T, EUT, *EUT
+[2022-01-28 11:29:12] quit            || KW*/*U/*EU/T* -> KWEUT, STPHOEUS
+[2022-01-28 11:29:13] to              || T*/O* -> O, TO, TPO
+[2022-01-28 11:29:17] sub             || S*/*U/PW* -> SUB, S*UB, AUB, SAUP, SAUB, KAUB
+[2022-01-28 11:29:40] os              || O*/S* -> O*S, OS
+[2022-01-28 11:29:49] sub             || S*/*U/PW* -> SUB, S*UB, AUB, SAUP, SAUB, KAUB
+[2022-01-28 11:32:22] gU              || TKPW*/*UP -> TKPWU
+[2022-01-28 11:32:24] gUi             || TKPW*/*UP/*EU -> TKPWRAOEU
+[2022-01-28 11:32:53] is              || *EU/S* -> S, EUS
+[2022-01-28 11:33:02] sa              || S*/A* -> SA
+[2022-01-28 11:33:04] as              || A*/S* -> AZ, AS, ASZ
+[2022-01-28 11:33:05] ask             || A*/S*/K* -> SK, SKW
+[2022-01-28 11:33:06] ci              || KR*/*EU -> KR*EUP
+[2022-01-28 11:33:06] ii              || *EU/*EU -> 2-R
+[2022-01-28 11:33:06] ascii           || A*/S*/KR*/*EU/*EU -> AS/KEU, AS/KAOE
+[2022-01-28 11:42:38] os              || O*/S* -> O*S, OS
+[2022-01-28 11:42:43] it              || *EU/T* -> T, EUT, *EUT
+[2022-01-28 11:42:43] quit            || KW*/*U/*EU/T* -> KWEUT, STPHOEUS
+[2022-01-28 11:42:44] to              || T*/O* -> O, TO, TPO
+[2022-01-28 11:43:35] AB              || A*P/PW*P -> AB
+[2022-01-28 11:43:37] CC              || KR*P/KR*P -> KR*BG
+[2022-01-28 11:50:15] starting        || START/-G -> STARGT
+[2022-01-28 11:51:11] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 11:51:11] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 11:51:12] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 11:51:24] 3d              || 3/TK* -> 30*EUD, THRAOED
+[2022-01-28 11:54:16] selected        || SHREBGT/-D -> SHREBGD, SHREBGTD
+[2022-01-28 11:54:18] for the         || TP-R/-T -> TP-RT
+[2022-01-28 11:54:22] random          || RAPBD/OPL -> TKROPL, TKRO*PL, TKPRO*PL
+[2022-01-28 13:28:06] da              || TK*/A* -> TKA
+[2022-01-28 13:28:06] aw              || A*/W* -> A*U
+[2022-01-28 13:29:24] is it           || S/T -> ST
+[2022-01-28 13:29:33] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:29:33] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:29:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:29:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:29:47] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:29:47] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:29:47] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:30:02] si              || S*/*EU -> S*EU
+[2022-01-28 13:30:08] si              || S*/*EU -> S*EU
+[2022-01-28 13:30:20] si              || S*/*EU -> S*EU
+[2022-01-28 13:36:00] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:36:39] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:36:41] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-28 13:36:43] op              || O*/R-R/SR-RS/P* -> OP
+[2022-01-28 13:36:48] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:37:02] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:37:02] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:37:02] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:38:58] Too bad         || TAO/PWAD -> TAOBD
+[2022-01-28 13:39:21] hopeful         || HOEP/TPUL -> HOEFL
+[2022-01-28 13:39:23] hopefully       || HOEP/TPUL/HREU -> PHO*EFL, HO*EF, HO*EFL, HO*EFPL, HO*EFL/HREU, HOEP/TPHREU
+[2022-01-28 13:40:15] es              || *E/S* -> ES, S*E
+[2022-01-28 13:40:15] nes             || TPH*/*E/S* -> TPH*ES
+[2022-01-28 13:40:15] ess             || *E/S*/S* -> *ES
+[2022-01-28 13:40:15] ness            || TPH*/*E/S*/S* -> -PBS
+[2022-01-28 13:41:10] getting         || TKPWET/-G -> TKPEGT, TKPWEGT
+[2022-01-28 13:41:20] alter           || ALT/ER -> AURLT
+[2022-01-28 13:41:22] altered         || ALT/ER/-D -> AURLTD, A*URLTD, AULT/-D, ALT/ERD, AULT/*ERD
+[2022-01-28 13:41:39] on and          || OPB/SP -> SKPOPB
+[2022-01-28 13:41:54] Basic           || PWAEUS/EUBG -> PWAEUFBG, PWAOEUFBG, PWAEUFPBG
+[2022-01-28 13:41:55] Basically       || PWAEUS/EUBG/HREU -> PHRAEUFBG, PWHAEUFBG, PWHRAEUFL, PWHRAEUFBG, PWHRAEUFPBG, PWHRA*EUFBG, PWHRAOEUFBG, PWAEUS/KHREU, PWAEUFBG/HREU, PWHRAEUFBG/HREU
+[2022-01-28 13:42:21] I did           || EU/TK -> TK*EUD
+[2022-01-28 13:44:22] ip              || *EU/P* -> EUP
+[2022-01-28 13:44:22] yip             || KWR*/*EU/P* -> KWREUP
+[2022-01-28 13:45:15] 3D              || 3/TK*P -> 30*EUD, THRAOED
+[2022-01-28 13:45:21] that is         || THA/S -> THAS, SHATS
+[2022-01-28 13:45:22] is an           || S/APB -> SA*PB
+[2022-01-28 13:46:57] as an           || AS/APB -> SA*EPB
+[2022-01-28 13:47:22] It was          || T/WA -> TWUZ, TWUS, T-FS, TWAS
+[2022-01-28 13:48:01] is the          || S/-T -> S-T
+[2022-01-28 13:49:21] so I            || SO/EU -> SO*EU
+[2022-01-28 13:49:27] it was          || T/WA -> TWUZ, TWUS, T-FS, TWAS
+[2022-01-28 13:49:31] codes           || KOED/-S -> KOEDZ
+[2022-01-28 13:49:45] ./              || TP-PL/R-R/SKWH-RP -> TKPWO*
+[2022-01-28 13:50:13] nd              || TPH*/TK* -> *PBD
+[2022-01-28 13:50:15] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:50:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 13:50:19] op              || O*/SR-RS/P* -> OP
+[2022-01-28 13:50:21] pO              || P*/O*P -> PO*, PO
+[2022-01-28 13:50:32] On the          || OPB/-T -> OPBT, O*PBT
+[2022-01-28 13:51:11] a               || A/S-P -> AEU, KWRA, SKWRA, SKWRA*, A
+[2022-01-28 13:51:52] tested          || TEFT/-D -> T*EFD, TEFTD
+[2022-01-28 13:52:00] sending         || SEPBD/-G -> SEPBGD
+[2022-01-28 13:52:37] using           || AOUS/-G -> AOUGS, AOUFG
+[2022-01-28 13:53:07] that a          || THA/PHR*UP/A* -> THA*
+[2022-01-28 13:53:08] act             || A*/KR*/T* -> A*BGT, ABGT, ABLGT
+[2022-01-28 13:53:09] ua              || *U/A* -> PHAO*EU
+[2022-01-28 13:53:09] tua             || T*/*U/A* -> TU/KWRA
+[2022-01-28 13:53:09] al              || A*/HR* -> AL, A*L
+[2022-01-28 13:53:09] ual             || *U/A*/HR* -> WAL
+[2022-01-28 13:53:09] actual          || A*/KR*/T*/*U/A*/HR* -> 250U8, TAOUL, TWAUL, STAOUL, ABG/KHUL
+[2022-01-28 13:55:06] actually        || TWAUL/HREU -> TAOULT, TWAEUL, THAOULT, THRAOUL, THRAULT, THRAOULT, THRAO*ULT, THRAOEULT, TKHRAOULT, TPHRAOULT, TWHRAOULT
+[2022-01-28 13:55:09] working         || WORBG/-G -> WOG, WO*G
+[2022-01-28 13:58:29] random          || RAPBD/OPL -> TKROPL, TKRO*PL, TKPRO*PL
+[2022-01-28 13:59:26] random          || RAPBD/OPL -> TKROPL, TKRO*PL, TKPRO*PL
+[2022-01-28 13:59:47] random          || RAPBD/OPL -> TKROPL, TKRO*PL, TKPRO*PL
+[2022-01-28 14:00:08] ++              || SKWH-G/SKWH-G -> PHR*SZ
+[2022-01-28 14:03:50] xi              || KP*/*EU -> KPEU, 1-RD
+[2022-01-28 14:08:53] received        || RE/SAOEFD -> SAOEFD, SAO*EFD, SAOEFTD
+[2022-01-28 14:10:28] \{              || SKWH-FB/SKWHEUFPL -> PWR-S, TPR-BGT
+[2022-01-28 14:10:43] \}              || SKWH-FB/SKWHEURBG -> PWR*S, TPR*BGT
+[2022-01-28 14:13:59] received        || RE/SAOEFD -> SAOEFD, SAO*EFD, SAOEFTD
+[2022-01-28 14:19:14] cc              || KR*/KR* -> KR*BG
+[2022-01-28 14:35:24] with the        || W/-T -> W-T
+[2022-01-28 14:35:43] repeat          || RE/PAOET -> RAOEPT, PRAOET
+[2022-01-28 14:35:56] when I          || WHEPB/EU -> WHEU, WH*EU
+[2022-01-28 14:36:09] when I          || WHEPB/EU -> WHEU, WH*EU
+[2022-01-28 14:36:15] random          || RAPBD/OPL -> TKROPL, TKRO*PL, TKPRO*PL
+[2022-01-28 14:42:28] causes          || KAUS/-S -> KAUFS, KA*UFS
+[2022-01-28 14:42:43] it was          || T/WA -> TWUZ, TWUS, T-FS, TWAS
+[2022-01-28 14:42:53] get that        || TKPWET/THA -> TKPWHAET
+[2022-01-28 14:42:56] coding          || KOED/-G -> KOEGD
+[2022-01-28 14:42:56] encoding        || EPB/KOED/-G -> EPB/KOEGD
+[2022-01-28 14:43:02] I did           || EU/TK -> TK*EUD
+[2022-01-28 14:43:03] did not         || TK/TPHOT -> TK-PBLT, TKEUPBLT
+[2022-01-28 14:43:12] cases           || KAEUS/-S -> KAEUSZ, KA*EUFS
+[2022-01-28 14:43:12] s.              || -S/TP-PL -> -PS
+[2022-01-28 14:43:21] ?               || TP-PL/STPH-RB -> KWEZ, KW*EPB
+[2022-01-28 14:48:50] I should        || EU/SHO -> EURBD
+[2022-01-28 14:48:57] of the          || -F/-T -> -FT, -FLT, -FTS, -FTD
+[2022-01-28 14:49:38] convert         || KOPB/SRERT -> KWERT, KWERLT, KWEFRT
+[2022-01-28 14:49:40] converted       || KOPB/SRERT/-D -> KWERTD
+[2022-01-28 14:49:40] ed to           || -D/O -> TOD, TOTD
+[2022-01-28 14:51:21] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:21] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:21] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:21] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:22] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:22] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:22] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:22] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:23] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:23] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:23] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 14:51:38] 000             || 0Z/R-R/0 -> THUZ
+[2022-01-28 14:53:00] there is        || THR/S -> THR-LGS
+[2022-01-28 14:53:01] is no           || S/TPHO -> STPHO
+[2022-01-28 14:53:07] in the          || TPH/-T -> TPH-T
+[2022-01-28 14:53:25] ready to        || R-D/O -> TKRAOE
+[2022-01-28 14:53:50] for the         || TP-R/-T -> TP-RT
+[2022-01-28 14:54:09] is the          || S/-T -> S-T
+[2022-01-28 14:54:28] is the          || S/-T -> S-T
+[2022-01-28 14:54:46] As far          || AS/TPAR -> STPA*R
+[2022-01-28 14:54:48] As far as       || AS/TPAR/AS -> STPARS, STPARZ, TPA*RS, STPA*RZ, STPARBZ, STPA*RS, STPA*RTS, STKPA*RS, STPA*FRS, STPA*RGS
+[2022-01-28 14:54:49] we know         || WE/TPHOE -> W*EPB
+[2022-01-28 14:55:00] it could        || T/KO -> T-BGD
+[2022-01-28 14:55:00] could be        || KO/-B -> KOB, KOUB
+[2022-01-28 15:02:25] Go              || TKPW*P/O* -> TKW, TPW, TKPW, TKPWO, TKPWOE
+[2022-01-28 15:02:50] ah              || A*/SR-RS/H* -> HA*E, A*ERBGS
+[2022-01-28 15:03:40] ap              || A*/P* -> A*EP
+[2022-01-28 15:03:40] yap             || KWR*/A*/P* -> KWRAP
+[2022-01-28 15:04:03] er              || *E/R* -> *ER, ER
+[2022-01-28 15:04:03] zer             || STKPW*/*E/R* -> S*ER
+[2022-01-28 15:04:10] ro              || R*/O* -> RO
+[2022-01-28 15:04:10] zero            || STKPW*/*E/R*/O* -> SO*EUR, SAO*ER/OE, SAO*E/ROE, SAO*ER/ROE
+[2022-01-28 15:04:38] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-28 15:05:04] ki              || K*/*EU -> KAO*EU
+[2022-01-28 15:05:10] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-28 15:05:15] ap              || A*/P* -> A*EP
+[2022-01-28 15:05:15] yap             || KWR*/A*/P* -> KWRAP
+[2022-01-28 15:05:26] kA              || K*/A*P -> KA
+[2022-01-28 15:05:47] ap              || A*/P* -> A*EP
+[2022-01-28 15:05:47] yap             || KWR*/A*/P* -> KWRAP
+[2022-01-28 15:06:53] ii              || *EU/*EU -> 2-R
+[2022-01-28 15:07:18] with the        || W/-T -> W-T
+[2022-01-28 15:07:26] MQTT            || PH*P/KW*P/T*P/T*P -> PH/KW
+[2022-01-28 15:07:34] 00              || 0/0 -> #-Z, HUPBZ, 0D, 0Z, OZ
+[2022-01-28 15:07:43] problems        || PRO*B/-S -> PROBS, PR*BS, PRO*BS, PRO*PBS, PRO*FBS
+[2022-01-28 15:07:52] is not          || S/TPHOT -> STPHOT, S-PBLT
+[2022-01-28 15:07:57] come on         || KOPL/OPB -> KPHAUPB
+[2022-01-28 15:08:00] come in         || KOPL/EUPB -> TKPHOPL
+[2022-01-28 15:08:28] co              || KR*/O* -> KO*, KAU
+[2022-01-28 15:08:29] om              || O*/PH* -> OPL
+[2022-01-28 15:08:29] com             || KR*/O*/PH* -> KO*PL/KO*PL
+[2022-01-28 15:08:30] on              || O*/TPH* -> OB, OPB, O*PB, AOPB, AUPB
+[2022-01-28 15:08:30] mon             || PH*/O*/TPH* -> PHOPB
+[2022-01-28 15:08:30] common          || KR*/O*/PH*/PH*/O*/TPH* -> KPHOB, KPHOP, KPHOPB, KOPL/PHOPB
+[2022-01-28 15:08:31] on to           || O*/TPH*/O -> OUPB/TO
+[2022-01-28 15:08:42] saw it          || SAU/T -> STAU
+[2022-01-28 15:08:46] There are       || THR/-R -> THR-R
+[2022-01-28 15:09:13] behaves         || PWE/HAEUFS -> PWHAEUFS
+[2022-01-28 15:09:14] behaviors       || PWE/HAEUFRS -> PWHAEUFRS, PWHRAEUFRS
+[2022-01-28 15:09:21] how it          || HOU/T -> THOU
+[2022-01-28 15:11:27] cd              || KR*/TK* -> KR*D
+[2022-01-28 15:11:54] os              || O*/S* -> O*S, OS
+[2022-01-28 15:12:36] Conf            || KOPB/TK-LS/TP* -> KO*FPB
+[2022-01-28 15:12:38] ig              || *EU/TKPW* -> EUG
+[2022-01-28 15:12:38] fig             || TP*/*EU/TKPW* -> TP*EUG
+[2022-01-28 15:12:38] Config          || KOPB/TK-LS/TP*/*EU/TKPW* -> KOPB/TP*EUG
+[2022-01-28 15:13:03] I know          || EU/TPHOE -> KWRO*, KWR-PB, KWR*PB
+[2022-01-28 15:13:38] in our          || TPH/OUR -> TPHOUR
+[2022-01-28 15:13:48] Will you        || WEUL/U -> HRU
+[2022-01-28 15:14:02] I want          || EU/WAPBT -> EUPT
+[2022-01-28 15:14:03] want to         || WAPBT/O -> WA*PBT, TWAOPBT
+[2022-01-28 15:14:06] inspect         || EUPB/SPEBGT -> TPH-PT
+[2022-01-28 15:14:28] What is         || WHA/S -> WHAS, SWHA*
+[2022-01-28 15:15:08] capture         || KAP/TAOUR -> KA*FP
+[2022-01-28 15:15:17] I don't         || EU/TKOPBT -> KWROEU, KWROPBT
+[2022-01-28 15:17:16] co              || KR*/O* -> KO*, KAU
+[2022-01-28 15:17:17] on              || O*/TPH* -> OB, OPB, O*PB, AOPB, AUPB
+[2022-01-28 15:17:17] con             || KR*/O*/TPH* -> KOPB, KAUPB
+[2022-01-28 15:17:17] conf            || KR*/O*/TPH*/TP* -> KO*FPB
+[2022-01-28 15:17:20] iq              || *EU/KW* -> *EUBG
+[2022-01-28 15:17:22] ig              || *EU/TKPW* -> EUG
+[2022-01-28 15:17:22] fig             || TP*/*EU/TKPW* -> TP*EUG
+[2022-01-28 15:17:22] config          || KR*/O*/TPH*/TP*/*EU/TKPW* -> KOPB/TP*EUG
+[2022-01-28 15:18:21] AN              || A*P/TPH*P -> APB, -PB, ARPB, A*PB
+[2022-01-28 15:18:23] ANT             || A*P/TPH*P/T*P -> A*PBT, APBT
+[2022-01-28 15:20:47] Go              || TKPW*P/O* -> TKW, TPW, TKPW, TKPWO, TKPWOE
+[2022-01-28 15:22:59] Go              || TKPW*P/O* -> TKW, TPW, TKPW, TKPWO, TKPWOE
+[2022-01-28 15:23:01] op              || O*/SR-RS/P* -> OP
+[2022-01-28 15:23:01] Gop             || TKPW*P/O*/SR-RS/P* -> TKPW-RBGS/O*P
+[2022-01-28 15:23:30] ki              || K*/*EU -> KAO*EU
+[2022-01-28 15:23:54] gU              || TKPW*/*UP -> TKPWU
+[2022-01-28 15:23:55] gUi             || TKPW*/*UP/*EU -> TKPWRAOEU
+[2022-01-28 15:24:58] that would      || THA/WO -> THALD
+[2022-01-28 15:24:59] that could      || THA/KO -> THABGD
+[2022-01-28 15:25:00] could be        || KO/-B -> KOB, KOUB
+[2022-01-28 15:25:44] I can           || EU/K -> AOEUBG
+[2022-01-28 15:34:08] as              || A*/S* -> AZ, AS, ASZ
+[2022-01-28 15:34:09] ass             || A*/S*/PW-FP/PW-FP/PW-FP/PW-FP/S* -> A*S
+[2022-01-28 15:34:12] as              || A*/S* -> AZ, AS, ASZ
+[2022-01-28 15:34:17] q-              || KW*/SKWH-PL -> KW-PLT
+[2022-01-28 15:34:37] ai              || A*/*EU -> A*EUP
+[2022-01-28 15:34:37] ir              || *EU/R* -> EUR
+[2022-01-28 15:34:37] air             || A*/*EU/R* -> AEUR
+[2022-01-28 15:34:37] re              || R*/*E -> RE, RAOE
+[2022-01-28 15:34:37] ire             || *EU/R*/*E -> AOEUR
+[2022-01-28 15:34:59] ref             || R*/*E/R-R/TP* -> R*EF
+[2022-01-28 15:35:01] fe              || TP*/*E -> TPE, TP*E
+[2022-01-28 15:38:30] There is        || THR/S -> THR-LGS
+[2022-01-28 15:38:39] checking        || KHEBG/-G -> KHEG
+[2022-01-28 15:39:35] Odd             || O*P/SR-RS/TK*/TK* -> OD
+[2022-01-28 15:39:36] do              || TK*/O* -> TKO
+[2022-01-28 15:42:42] sending         || SEPBD/-G -> SEPBGD
+[2022-01-28 15:42:45] Sending         || SEPBD/-G -> SEPBGD
+[2022-01-28 15:42:50] thing to        || -T/TOG -> THOEUPG, THOEUPBG
+[2022-01-28 15:42:55] following       || TPOL/-G -> TPOLG
+[2022-01-28 15:43:01] following       || TPOL/-G -> TPOLG
+[2022-01-28 15:43:16] to the          || O/-T -> TOT, TO*T
+[2022-01-28 15:47:00] response        || RE/SPOPBS -> SPOPBS
+[2022-01-28 15:47:01] responses       || RE/SPOPBS/-S -> SPOPBSZ, SPOPBS/-S, SPOBS/-PS
+[2022-01-28 15:47:13] KA              || K*P/A*P -> KA
+[2022-01-28 15:47:35] If the          || TP/-T -> TP-T
+[2022-01-28 15:47:42] is not          || S/TPHOT -> STPHOT, S-PBLT
+[2022-01-28 15:47:45] properly        || PROP/HREU -> PRORL, PRORPL, PHRORL, PROERL, PROERPL
+[2022-01-28 15:47:51] will not        || WEUL/TPHOT -> HR-PBT, HR-PBLT
+[2022-01-28 15:47:55] That is         || THA/S -> THAS, SHATS
+[2022-01-28 15:47:58] where the       || W-R/-T -> W-RT
+[2022-01-28 15:48:44] at the          || AT/-T -> TE
+[2022-01-28 15:48:48] coding          || KOED/-G -> KOEGD
+[2022-01-28 15:48:48] encoding        || EPB/KOED/-G -> EPB/KOEGD
+[2022-01-28 15:48:54] there is        || THR/S -> THR-LGS
+[2022-01-28 15:48:54] is a            || S/AEU -> SA*EU
+[2022-01-28 15:49:01] I have          || EU/SR -> SREU
+[2022-01-28 15:49:04] have a          || SR/AEU -> SRA, SRAEU, SR*EU, SRA*EU
+[2022-01-28 15:49:09] I have          || EU/SR -> SREU
+[2022-01-28 15:49:29] that are        || THA/-R -> THAR
+[2022-01-28 15:49:30] tested          || TEFT/-D -> T*EFD, TEFTD
+[2022-01-28 15:49:46] I don't         || EU/TKOPBT -> KWROEU, KWROPBT
+[2022-01-28 15:49:47] I don't have    || EU/TKOPBT/SR -> KWROF, KWROEUF
+[2022-01-28 15:49:58] We are          || WE/-R -> WER
+[2022-01-28 15:49:59] heading         || HED/-G -> HEGD
+[2022-01-28 15:50:05] out to          || AOUT/S-P/O -> TPOUT
+[2022-01-28 15:50:55] .G              || TP-PL/R-R/TKPW*P -> TKPW*PD, TKPW*PLD
+[2022-01-28 15:51:03] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:51:03] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:53:15] causes          || KAUS/-S -> KAUFS, KA*UFS
+[2022-01-28 15:53:40] .I              || TP-PL/STPH-B/R-R/R-R/KPA*/EU -> *EUPD, *EUPLD
+[2022-01-28 15:53:42] I have          || EU/SR -> SREU
+[2022-01-28 15:53:55] this is         || TH/S -> TH-S
+[2022-01-28 15:53:56] is a            || S/AEU -> SA*EU
+[2022-01-28 15:54:04] and I           || SP/EU -> SKPEU
+[2022-01-28 15:54:05] I don't         || EU/TKOPBT -> KWROEU, KWROPBT
+[2022-01-28 15:54:07] I don't think   || EU/TKOPBT/THEU -> KWREUPG, KWROPBG, KWREUPBG, KWROEUPBG, SKWREUPBG
+[2022-01-28 15:54:08] I don't think it || EU/TKOPBT/THEU/T -> TKWREUPBG
+[2022-01-28 15:54:19] sent to         || SEPBT/O -> STOEPBT
+[2022-01-28 15:54:21] to be           || O/-B -> TOB
+[2022-01-28 15:54:28] published       || PUB/HREURBD -> PHR*EURBD, PHR*EUFRBD, SPHR*EURBD, PHR*EURBTD
+[2022-01-28 15:54:41] coding          || KOED/-G -> KOEGD
+[2022-01-28 15:54:41] encoding        || EPB/KOED/-G -> EPB/KOEGD
+[2022-01-28 15:54:46] as well         || AS/WEL -> SW*EL
+[2022-01-28 15:54:52] is a            || S/AEU -> SA*EU
+[2022-01-28 15:55:33] re              || R*/*E -> RE, RAOE
+[2022-01-28 15:55:33] ure             || *U/R*/*E -> AOUR
+[2022-01-28 15:55:33] failure         || TPAEUL/TK-LS/*U/R*/*E -> TPA*EURL, TPA*EUFRL, TPAEUL/AOUR, TPAEUL/KWRUR, TPAEUL/KWRAOUR
+[2022-01-28 15:55:34] re:             || R*/*E/SKWH-LG -> REFRPLT
+[2022-01-28 15:56:06] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:07] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:07] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:07] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:08] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:08] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:09] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:09] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:09] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:09] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:09] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:10] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:10] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:10] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:10] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:56:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-28 15:57:05] I had           || EU/HAD -> H*EU
+[2022-01-28 15:57:21] Happy           || HAP/KWREU -> HAEP, HAEFP
+[2022-01-29 16:32:31] ci              || KR*/*EU -> KR*EUP
+[2022-01-29 16:32:32] is              || *EU/S* -> S, EUS
+[2022-01-29 16:32:34] co              || KR*/O* -> KO*, KAU
+[2022-01-29 16:32:34] cisco           || KR*/*EU/S*/KR*/O* -> SEUS/KOE, SEUS/KO*E
+[2022-01-29 17:53:48] coding          || KOED/-G -> KOEGD
+[2022-01-29 17:55:03] actors          || ABGT/ORS -> A*RBGTS
+[2022-01-29 17:55:17] ()              || SKWH-FPL/SKWH-RBG -> PR*EPBS
+[2022-01-29 17:57:19] ii              || *EU/*EU -> 2-R
+[2022-01-29 17:57:21] ii              || *EU/*EU -> 2-R
+[2022-01-29 17:57:21] iii             || *EU/*EU/*EU -> 3-R
+[2022-01-29 17:57:21] ii              || *EU/*EU -> 2-R
+[2022-01-29 17:57:21] iii             || *EU/*EU/*EU -> 3-R
+[2022-01-29 17:59:51] ok              || O*/SR-RS/K* -> O*EBG, ORBGS/K-RBGS
+[2022-01-29 17:59:56] ly              || HR*/KWR* -> HREU
+[2022-01-29 18:00:00] pe              || P*/*E -> PE
+[2022-01-29 18:00:01] pea             || P*/*E/A* -> PAE
+[2022-01-29 18:00:22] xu              || KP*/*U -> KP*U
+[2022-01-29 18:00:23] uk              || *U/K* -> AOUBG
+[2022-01-29 18:03:18] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:03:30] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:03:30] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:04:39] gu              || TKPW*/*U -> TKPWU
+[2022-01-29 18:04:59] uk              || *U/R-R/TK-LS/K* -> AOUBG
+[2022-01-29 18:04:59] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:05:00] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:05:05] ay              || A*/KWR* -> KWRA*E
+[2022-01-29 18:05:13] uk              || *U/K* -> AOUBG
+[2022-01-29 18:05:14] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:05:14] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:05:18] ap              || A*/P* -> A*EP
+[2022-01-29 18:05:22] pen             || P*/*EB -> PEPB
+[2022-01-29 18:05:44] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:05:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:05:46] hp              || H*/P* -> H-P
+[2022-01-29 18:10:29] kA              || K*/A*P -> KA
+[2022-01-29 18:10:32] Am              || A*P/PH* -> *PL, APL
+[2022-01-29 18:10:33] ma              || PH*/A* -> PHA*, PHA
+[2022-01-29 18:10:33] Ama             || A*P/PH*/A* -> ARBGS/PHA*
+[2022-01-29 18:10:34] mag             || PH*/A*/TKPW* -> PHA*G
+[2022-01-29 18:10:35] gi              || TKPW*/*EU -> TKPW*EU, TKPW*EUP, TKPW*EUFP
+[2022-01-29 18:10:35] magi            || PH*/A*/TKPW*/*EU -> PHAPBLG/SKWREU
+[2022-01-29 18:10:35] ic              || *EU/KR* -> EUBG
+[2022-01-29 18:10:35] magic           || PH*/A*/TKPW*/*EU/KR* -> SKWREUBG, PHAPBLG/EUBG, PHA/SKWREUBG
+[2022-01-29 18:15:33] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:15:34] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:15:34] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:15:34] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:15:35] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:15:37] kA              || K*/A*P -> KA
+[2022-01-29 18:17:34] gage            || TKPW*/TK-LS/AEUPBLG -> TKPWAEPBLG
+[2022-01-29 18:17:38] gAng            || TKPW*/TK-LS/APBG -> TKPWAPBG
+[2022-01-29 18:17:48] gage            || TKPW*/TK-LS/AEUPBL -> TKPWAEPBLG
+[2022-01-29 18:17:50] gage            || TKPW*/TK-LS/AEUPBL -> TKPWAEPBLG
+[2022-01-29 18:17:57] gage            || TKPW*/TK-LS/AEUPBLG -> TKPWAEPBLG
+[2022-01-29 18:17:58] gage            || TKPW*/TK-LS/AEUPBLG -> TKPWAEPBLG
+[2022-01-29 18:18:02] ga              || TKPW*/TK-LS/A* -> TKPWA
+[2022-01-29 18:18:03] an              || A*/TPH* -> -PB, APB, ARPB, A*PB
+[2022-01-29 18:18:04] ang             || A*/TPH*/TKPW* -> APBG
+[2022-01-29 18:18:04] gang            || TKPW*/TK-LS/A*/TPH*/TKPW* -> TKPWAPBG
+[2022-01-29 18:18:05] le              || HR*/*E -> HRE, *L
+[2022-01-29 18:18:05] angle           || A*/TPH*/TKPW*/HR*/*E -> A*PBLG, APG/*L, APBG/-L, APBG/*L, APBG/*PL, APBG/*LT
+[2022-01-29 18:19:15] items           || AOEUPLT/-S -> AOEUPLTS
+[2022-01-29 18:20:47] lists           || HR*EUS/PHR*UP/R-RS -> HR*EUS/-S
+[2022-01-29 18:20:49] s-              || R-RS/SR-RS/SKWH-PL -> S-PLT
+[2022-01-29 18:21:32] ut              || *U/T* -> UT
+[2022-01-29 18:21:33] er              || *E/R* -> *ER, ER
+[2022-01-29 18:21:33] ter             || T*/*E/R* -> TER
+[2022-01-29 18:21:33] utter           || *U/T*/T*/*E/R* -> UT/ER, UT/TER, UT/*ER
+[2022-01-29 18:21:33] clutter         || KR*/HR*/*U/T*/T*/*E/R* -> KHRAOURT, KHRUT/ER, KHRUT/*ER, KHRUT/TER
+[2022-01-29 18:22:00] Clutter         || KHRUT/ER -> KHRAOURT
+[2022-01-29 18:22:08] Actor           || ABGT/O*R -> ARBGT, A*RBGT
+[2022-01-29 18:22:19] actor           || ABGT/O*R -> ARBGT, A*RBGT
+[2022-01-29 18:22:56] clutter         || KHRUT/ER -> KHRAOURT
+[2022-01-29 18:23:20] clutter         || KHRUT/ER -> KHRAOURT
+[2022-01-29 18:27:23] oRa             || O*/KPA*/SR-RS/TP-FLTZ/RA -> OR/SKWRA
+[2022-01-29 18:27:24] or              || O*/KPA*/SR-RS/TP-FLTZ/R* -> OR, ORB, O*R, AUR
+[2022-01-29 18:27:25] ra              || R*/A* -> RA
+[2022-01-29 18:27:25] ora             || O*/KPA*/SR-RS/TP-FLTZ/R*/A* -> OR/SKWRA
+[2022-01-29 18:27:26] aw              || A*/W* -> A*U
+[2022-01-29 18:27:26] raw             || R*/A*/W* -> RAU
+[2022-01-29 18:27:57] S               || RA*U/S -> -Z, -S, *S, -SZ, -GS, S*P, S*EP, S*DZ
+[2022-01-29 18:27:58] T               || RA*U/T -> T*P, T*DZ, T*EUP
+[2022-01-29 18:27:58] P               || RA*U/P -> *P, P*P, P*DZ
+[2022-01-29 18:28:08] S               || RA*U/S -> -Z, -S, *S, -SZ, -GS, S*P, S*EP, S*DZ
+[2022-01-29 18:28:08] S with          || RA*U/S/W -> W-S
+[2022-01-29 18:28:49] +=              || SKWH-G/SKWH-PBLG -> PHRULS
+[2022-01-29 18:29:23] return          || RE/TURPB -> RURPB
+[2022-01-29 18:29:39] fa              || TP*/A* -> TPA
+[2022-01-29 18:30:21] ci              || KR*/*EU -> KR*EUP
+[2022-01-29 18:30:22] public          || PUB/HREUBG -> PHREUBG, PHREUPBG, PHROEUBG, PHR*EUBG
+[2022-01-29 18:30:27] public          || PUB/HREUBG -> PHREUBG, PHREUPBG, PHROEUBG, PHR*EUBG
+[2022-01-29 18:30:31] static          || STAT/EUBG -> STA*BG, STA*EBG, STA*EUBG
+[2022-01-29 18:30:54] St              || S*P/T* -> *FT
+[2022-01-29 18:31:00] st              || S*/T* -> *FT
+[2022-01-29 18:31:41] di              || TK*/*EU -> TK*EU
+[2022-01-29 18:31:41] ic              || *EU/KR* -> EUBG
+[2022-01-29 18:31:42] dict            || TK*/*EU/KR*/T* -> TKEUBGT
+[2022-01-29 18:32:07] BY              || PW*P/KWR*P -> PWEU
+[2022-01-29 18:32:16] BY              || PW*P/KWR*P -> PWEU
+[2022-01-29 18:33:59] public          || PUB/HREUBG -> PHREUBG, PHREUPBG, PHROEUBG, PHR*EUBG
+[2022-01-29 18:34:05] static          || STAT/EUBG -> STA*BG, STA*EBG, STA*EUBG
+[2022-01-29 18:34:47] St              || S*P/T* -> *FT
+[2022-01-29 18:34:57] st              || S*/T* -> *FT
+[2022-01-29 18:35:23] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-29 18:35:25] oS              || O*/S*P -> OS, O*S
+[2022-01-29 18:35:25] ST              || S*P/T*P -> *FT
+[2022-01-29 18:35:35] st              || S*/T* -> *FT
+[2022-01-29 18:36:11] le              || HR*/*E -> HRE, *L
+[2022-01-29 18:36:11] en              || *E/TPH* -> *EB, *EPB, EPB
+[2022-01-29 18:36:11] len             || HR*/*E/TPH* -> HREPB
+[2022-01-29 18:36:17] nd              || TPH*/SR-RS/TK* -> *PBD
+[2022-01-29 18:36:17] end             || *E/TPH*/SR-RS/TK* -> EPD, EPBD, EPBTD
+[2022-01-29 18:36:17] lend            || HR*/*E/TPH*/SR-RS/TK* -> HREPBD
+[2022-01-29 18:36:27] xi              || KP*/*EU -> 1-RD, KPEU
+[2022-01-29 18:38:18] BY              || PW*P/KWR*P -> PWEU
+[2022-01-29 18:38:29] BY              || PW*P/KWR*P -> PWEU
+[2022-01-29 18:41:21] closing         || KHROES/-G -> KHROEFG, KHRO*EFG, KPHROEFG
+[2022-01-29 18:41:31] parens          || PA/REPB/-S -> PA/REPBZ
+[2022-01-29 18:41:49] pa              || P*/A* -> PA, PA*EU
+[2022-01-29 18:41:51] pa              || P*/A* -> PA, PA*EU
+[2022-01-29 18:41:51] ar              || A*/R* -> AR, A*R
+[2022-01-29 18:41:51] par             || P*/A*/R* -> PAR
+[2022-01-29 18:41:52] re              || R*/*E -> RE, RAOE
+[2022-01-29 18:41:52] are             || A*/R*/*E -> R, -R
+[2022-01-29 18:41:52] pare            || P*/A*/R*/*E -> PA*ER, PA*EUR
+[2022-01-29 18:41:52] en              || *E/TPH* -> *EB, *EPB, EPB
+[2022-01-29 18:41:52] ren             || R*/*E/TPH* -> REPB
+[2022-01-29 18:41:52] paren           || P*/A*/R*/*E/TPH* -> PA/REPB
+[2022-01-29 18:41:53] ent             || *E/TPH*/T* -> EPBT, AO*EPBT
+[2022-01-29 18:41:53] rent            || R*/*E/TPH*/T* -> REPBT
+[2022-01-29 18:41:53] parent          || P*/A*/R*/*E/TPH*/T* -> PARPBT, PAEURPBT, PAEURPBTD, PA*EUFRPT, PA*EUFRPBT, PA*EURPBTD
+[2022-01-29 18:41:54] th              || T*/H* -> *T, TH*
+[2022-01-29 18:41:54] nth             || TPH*/T*/H* -> TPH*/*PBT
+[2022-01-29 18:41:55] he              || H*/*E -> E, HE
+[2022-01-29 18:41:55] the             || T*/H*/*E -> -T, -TS, -LT, -TD, T-T
+[2022-01-29 18:41:55] es              || *E/S* -> ES, S*E
+[2022-01-29 18:41:56] se              || S*/*E -> SE
+[2022-01-29 18:41:56] ese             || *E/S*/*E -> AOEZ, AO*EZ
+[2022-01-29 18:41:56] these           || T*/H*/*E/S*/*E -> THEZ, THAOEZ, THAOES, THAO*ES, THAOESZ, THAOEGS, THAOETS
+[2022-01-29 18:41:56] es              || *E/S* -> ES, S*E
+[2022-01-29 18:41:56] theses          || T*/H*/*E/S*/*E/S* -> THAES/-S, THAES/ES, THAOES/ES, THAE/SAOES, THAOES/AOES, THAOE/SAOEZ, THAOES/AOEZ, THAOES/EUS/-S
+[2022-01-29 18:42:01] s and           || S*/S-P/SP -> SKP-PBS
+[2022-01-29 18:42:16] EE              || *EP/*EP -> KWRAE
+[2022-01-29 18:42:16] EE              || *EP/*EP -> KWRAE
+[2022-01-29 18:43:18] return          || RE/TURPB -> RURPB
+[2022-01-29 18:45:17] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-29 18:45:39] an              || A*/TPH* -> -PB, APB, ARPB, A*PB
+[2022-01-29 18:45:40] am              || A*/PH* -> *PL, APL
+[2022-01-29 18:45:40] yam             || KWR*/A*/PH* -> KWRAPL
+[2022-01-29 18:45:45] cc              || KR*/KR* -> KR*BG
+[2022-01-29 18:46:07] craw            || KR*/TK-LS/RAU -> KRAU
+[2022-01-29 18:46:12] craw            || KR*/TK-LS/RAU -> KRAU
+[2022-01-29 18:46:20] O               || RA*U/O -> KWRO, STPO, SKWRO, SKWRO*, O*P, O*DZ
+[2022-01-29 18:46:20] cO              || KR*/TK-LS/RA*U/O -> KO*, KAU
+[2022-01-29 18:46:54] ToString        || TO/KPA*/STREUPBG -> TO/STR*EUPBG
+[2022-01-29 18:46:56] ()              || SKWH-FPL/SKWH-RBG -> PR*EPBS
+[2022-01-29 18:47:08] Bi              || PW*P/*EU -> PW*EU
+[2022-01-29 18:49:46] symbol          || SEUPL/PWOL -> SPWOL
+[2022-01-29 18:50:38] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:50:39] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:50:39] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:50:39] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:50:39] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:50:39] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:50:40] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:50:40] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:51:07] oF              || O*/PW-FP/PW-FP/PW-FP/PW-FP/TP*P -> *F, -F
+[2022-01-29 18:51:32] ()              || SKWH-FPL/SKWH-RBG -> PR*EPBS
+[2022-01-29 18:51:35] ,"              || KW-BG/R-R/SKWH-FP -> KW-RBGTS
+[2022-01-29 18:51:44] ,"              || KW-BG/R-R/SKWH-FP -> KW-RBGTS
+[2022-01-29 18:51:50] ,"              || KW-BG/R-R/SKWH-FP -> KW-RBGTS
+[2022-01-29 18:53:40] odd             || O*/1KW4EU678/SR-RS/TK*/TK* -> OD
+[2022-01-29 18:54:08] odd             || O*/SR-RS/TK*/TK* -> OD
+[2022-01-29 18:54:15] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:43] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:43] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:44] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:44] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:44] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:44] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:54:47] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:55:15] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-29 18:56:54] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:56:54] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:56:54] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:56:55] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:56:55] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:56:55] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 18:58:37] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-29 18:58:40] ia              || *EU/SKWH-FG/SR-RS/A* -> KWRA*
+[2022-01-29 18:59:01] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-29 19:00:29] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-29 19:01:14] xi              || KP*/*EU -> 1-RD, KPEU
+[2022-01-29 19:01:15] iT              || *EU/T*P -> *EUT, T, EUT
+[2022-01-29 19:01:20] iTa             || *EU/T*P/SR-RS/STPA -> EUT/KWRA
+[2022-01-29 19:04:45] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-29 19:05:19] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-29 19:09:47] fe              || TP*/*E -> TP*E, TPE
+[2022-01-29 19:09:53] js              || SKWR*/S* -> SKWR-S, SKWR-FS
+[2022-01-29 19:09:53] so              || S*/O* -> SO, SAO
+[2022-01-29 19:09:54] on              || O*/TPH* -> OB, OPB, O*PB, AUPB, AOPB
+[2022-01-29 19:09:54] son             || S*/O*/TPH* -> SOPB, SO*PB
+[2022-01-29 19:09:54] json            || SKWR*/S*/O*/TPH* -> SKWR-FPB, SKWRO*FPB, SKWR*P/SO*PB
+[2022-01-29 19:09:59] nd              || TPH*/TK* -> *PBD
+[2022-01-29 19:10:12] nd              || TPH*/TK* -> *PBD
+[2022-01-29 19:10:17] nd              || TPH*/TK* -> *PBD
+[2022-01-29 19:10:27] nd              || TPH*/TK* -> *PBD
+[2022-01-29 19:10:34] nd              || TPH*/TK* -> *PBD
+[2022-01-29 19:10:43] fe              || TP*/*E -> TP*E, TPE
+[2022-01-29 19:10:45] eN              || *E/TPH*P -> *EB, *EPB, EPB
+[2022-01-29 19:10:45] feN             || TP*/*E/TPH*P -> TPEPB
+[2022-01-29 19:10:48] Nd              || TPH*P/TK* -> *PBD
+[2022-01-29 19:10:53] nd              || TPH*/TK* -> *PBD
+[2022-01-29 19:10:58] nd              || TPH*/TK* -> *PBD
+[2022-01-29 19:11:13] aback           || A*/TK-LS/PWABG -> A/PWABG
+[2022-01-29 19:11:15] back up         || PWABG/UP -> PWAUP
+[2022-01-29 19:11:16] backup          || PWABG/TK-LS/UP -> PWA*UP, PWABG/SKWRUP
+[2022-01-29 19:11:24] js              || SKWR*/S* -> SKWR-S, SKWR-FS
+[2022-01-29 19:11:24] so              || S*/O* -> SO, SAO
+[2022-01-29 19:11:25] on              || O*/TPH* -> OB, OPB, O*PB, AUPB, AOPB
+[2022-01-29 19:11:25] son             || S*/O*/TPH* -> SOPB, SO*PB
+[2022-01-29 19:11:25] json            || SKWR*/S*/O*/TPH* -> SKWR-FPB, SKWRO*FPB, SKWR*P/SO*PB
+[2022-01-29 19:11:28] .j              || SKWH-R/SKWR* -> SKWR*PD, SKWR*PLD
+[2022-01-29 19:11:29] js              || SKWR*/S* -> SKWR-S, SKWR-FS
+[2022-01-29 19:11:29] so              || S*/O* -> SO, SAO
+[2022-01-29 19:11:30] on              || O*/TPH* -> OB, OPB, O*PB, AUPB, AOPB
+[2022-01-29 19:11:30] son             || S*/O*/TPH* -> SOPB, SO*PB
+[2022-01-29 19:11:30] json            || SKWR*/S*/O*/TPH* -> SKWR-FPB, SKWRO*FPB, SKWR*P/SO*PB
+[2022-01-29 19:11:30] .json           || SKWH-R/SKWR*/S*/O*/TPH* -> SKPWR-FPB
+[2022-01-29 19:11:59] ba              || PW*/A* -> PWA
+[2022-01-29 19:12:13] pk              || P*/K* -> P-BG
+[2022-01-29 19:12:15] di              || TK*/*EU -> TK*EU
+[2022-01-29 19:12:20] si              || S*/*EU -> S*EU
+[2022-01-29 19:12:25] sI              || S*/*EUP -> S*EU
+[2022-01-29 19:12:30] si              || S*/*EU -> S*EU
+[2022-01-29 19:12:35] si              || S*/*EU -> S*EU
+[2022-01-29 19:12:37] si              || S*/*EU -> S*EU
+[2022-01-29 19:12:48] aw              || A*/SR-RS/W* -> A*U
+[2022-01-29 19:12:54] si              || S*/*EU -> S*EU
+[2022-01-29 19:12:58] ly              || HR*/KWR* -> HREU
+[2022-01-29 19:12:59] si              || S*/*EU -> S*EU
+[2022-01-29 19:13:26] ly              || HR*/KWR* -> HREU
+[2022-01-29 19:13:34] hp              || H*/P* -> H-P
+[2022-01-29 19:13:35] pa              || P*/A* -> PA, PA*EU
+[2022-01-29 19:14:16] fe              || TP*/*E -> TP*E, TPE
+[2022-01-29 19:14:19] fe              || TP*/*E -> TP*E, TPE
+[2022-01-29 19:14:28] fe              || TP*/*E -> TP*E, TPE
+[2022-01-29 19:14:34] fe              || TP*/*E -> TP*E, TPE
+[2022-01-29 19:15:32] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-29 19:15:38] 00              || TPH*UL/TPH*UL/TPH*UL -> #-Z, HUPBZ, HUPB/HUPB, OZ, 0D, 0Z
+[2022-01-29 19:17:56] ka              || K*/A* -> KA
+[2022-01-29 19:17:58] ah              || A*/SR-RS/H* -> HA*E, A*ERBGS
+[2022-01-29 19:18:04] ci              || KR*/*EU -> KR*EUP
+[2022-01-29 19:18:24] 0               || A/A/A -> 0EU, 0RBGS
+[2022-01-29 19:19:09] discord         || TKEUS/KORD -> STKO*RD, STKORD
+[2022-01-29 19:21:07] entry           || EPBT/REU -> SPWREU
+[2022-01-29 19:21:14] for the         || TP-R/-T -> TP-RT
+[2022-01-29 19:21:32] This is         || TH/S -> TH-S
+[2022-01-29 19:21:40] so far          || SO/TPAR -> SOFR, STPAR
+[2022-01-29 19:22:08] but it          || PWUT/T -> TPWUT
+[2022-01-29 19:22:16] as a            || AS/A -> SA*Z, SA*DZ, SA*FZ, SA*SZ
+[2022-01-29 19:22:16] 0               || A/A/A -> 0EU, 0RBGS
+[2022-01-29 19:22:28] 0               || A/A/A -> 0EU, 0RBGS
+[2022-01-29 19:22:42] and the         || SP/-T -> SKPAT, SKPET, SKP-T, SKPW-T, SKP-LT, STKP-T, STKPH-T
+[2022-01-29 19:22:53] is not          || S/TPHOT -> S-PBLT, STPHOT
+[2022-01-29 19:22:54] able to         || ABL/O -> TAOEUBL
+[2022-01-29 19:22:55] to be           || O/-B -> TOB
+[2022-01-29 19:23:37] js              || SKWR*/S* -> SKWR-S, SKWR-FS
+[2022-01-29 19:23:37] so              || S*/O* -> SO, SAO
+[2022-01-29 19:23:38] on              || O*/TPH* -> OB, OPB, O*PB, AUPB, AOPB
+[2022-01-29 19:23:38] son             || S*/O*/TPH* -> SOPB, SO*PB
+[2022-01-29 19:23:38] json            || SKWR*/S*/O*/TPH* -> SKWR-FPB, SKWRO*FPB, SKWR*P/SO*PB
+[2022-01-29 19:24:10] nIt             || TPH*/R-R/PW-FP/R-R/KPA*/T -> TPH*EUT
+[2022-01-29 19:25:18] return is       || RURPB/S -> SRURPB
+[2022-01-29 19:25:19] is not          || S/TPHOT -> S-PBLT, STPHOT
+[2022-01-29 19:25:44] that is         || THA/S -> THAS, SHATS
+[2022-01-29 19:26:53] \}              || SKWH-FB/SKWHEURBG -> PWR*S, TPR*BGT
+[2022-01-29 19:27:04] \{              || SKWH-FB/SKWHEUFPL -> PWR-S, TPR-BGT
+[2022-01-29 19:27:25] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-29 19:27:49] ad              || A/SR-RS/TK* -> A*D, A*ED, KWRA*D
+[2022-01-29 19:27:49] add             || A/SR-RS/TK*/TK* -> AD
+[2022-01-29 19:28:02] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 19:28:16] hA              || H*/A*P -> HAE
+[2022-01-29 19:28:21] AB              || A*P/SR-RS/PW*P -> AB
+[2022-01-29 19:28:36] \{              || SKWH-FB/SKWHEUFPL -> PWR-S, TPR-BGT
+[2022-01-29 19:28:54] \}              || SKWH-FB/SKWHEURBG -> PWR*S, TPR*BGT
+[2022-01-29 19:29:31] si              || S*/*EU -> S*EU
+[2022-01-29 19:30:08] uA              || *U/A*P -> PHAO*EU
+[2022-01-29 19:31:15] to be           || O/-B -> TOB
+[2022-01-29 19:31:15] needs to be     || TPHAOEDZ/O/-B -> TPHAOEBDZ
+[2022-01-29 19:31:18] quoted          || KWOET/-D -> KWOETD
+[2022-01-29 19:31:26] pe              || P*/*E -> PE
+[2022-01-29 19:31:27] eE              || *E/*EP -> KWRAE
+[2022-01-29 19:31:27] peE             || P*/*E/*EP -> PAOE
+[2022-01-29 19:31:50] kI              || K*/*EUP -> KAO*EU
+[2022-01-29 19:32:05] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-29 19:33:11] odd             || O*/SR-RS/TK*/TK* -> OD
+[2022-01-29 19:33:28] s'              || S*/SKWH-F -> A*ES
+[2022-01-29 19:35:30] id              || *EU/PW-FP/TK* -> EUD, KWR*EUD, AO*EUD
+[2022-01-29 19:36:16] ha              || H*/A* -> HAE
+[2022-01-29 19:36:19] 'll             || SKWH-F/SR-RS/HR*/HR* -> -L
+[2022-01-29 19:36:22] 'll             || SKWH-F/SR-RS/HR*/HR* -> -L
+[2022-01-29 19:36:22] i'll            || *EU/SKWH-F/SR-RS/HR*/HR* -> AOEUL, EUL/AE, EU/AOEL, AOEUL/AE
+[2022-01-29 19:36:50] 'll             || SKWH-F/HR*/HR* -> -L
+[2022-01-29 19:40:25] Hi              || H*P/*EU -> HEU, HAO*EU
+[2022-01-29 19:40:50] iE              || *EU/R*FLTZ/R*FLTZ/R-FLTZ/SR-RS/*EP -> AO*E
+[2022-01-29 19:40:53] discord         || TKEUS/KORD -> STKO*RD, STKORD
+[2022-01-29 19:41:05] ba              || PW*/A* -> PWA
+[2022-01-29 19:44:39] fa              || TP*/A* -> TPA
+[2022-01-29 19:44:40] ai              || A*/*EU -> A*EUP
+[2022-01-29 19:44:40] if              || *EU/TP* -> TP
+[2022-01-29 19:45:08] xi              || KP*/TPH-FLTZ/WH*PLTZ/WH*PLTZ/WH*FLTZ/*EU -> 1-RD, KPEU
+[2022-01-29 19:46:57] ux              || *U/TPH-FLTZ/KP* -> UBGS
+[2022-01-29 19:46:59] xi              || KP*/TPH-FLTZ/*EU -> 1-RD, KPEU
+[2022-01-29 19:47:50] where could     || W-R/KO -> WR-BGD
+[2022-01-29 20:47:44] bo              || PW*/O* -> PWO
+[2022-01-29 20:48:02] oi              || O*/TPH-FLTZ/*EU -> O*EU
+[2022-01-29 20:49:55] bi              || PW*/*EU -> PW*EU
+[2022-01-29 20:49:55] fbi             || TP*/PW*/*EU -> TP*EUB, TP-RBGS/PW*EU
+[2022-01-29 20:50:02] ix              || *EU/KP* -> EUBGS, R-9
+[2022-01-29 20:50:08] xi              || KP*/TPH-FLTZ/*EU -> 1-RD, KPEU
+[2022-01-29 20:50:10] i mean          || *EU/PHAOEPB -> KWR-PL
+[2022-01-29 20:54:18] along           || A/HROPBG -> AOL, AOLG, HRAOPBG
+[2022-01-29 20:59:51] out-            || OUT/SKWH-PL -> KWRO*UT
+[2022-01-29 21:04:38] wp              || W*/P* -> WAO*EP
+[2022-01-29 21:04:46] fe              || TP*/*E -> TP*E, TPE
+[2022-01-29 21:08:48] along           || A/HROPBG -> AOL, AOLG, HRAOPBG
+[2022-01-29 21:10:37] percent         || PER/SEPBT -> PERS, PWERS
+[2022-01-29 21:12:10] too many        || TAO/PHAEPB -> TAOPL
+[2022-01-29 21:14:24] percent         || PER/SEPBT -> PERS, PWERS
+[2022-01-29 21:17:59] as an           || AS/APB -> SA*EPB
+[2022-01-29 21:18:13] now the         || TPHOU/-T -> TPHOUT
+[2022-01-29 21:19:14] been to         || PW-PB/O -> TPWOPB
+[2022-01-29 21:20:49] following       || TPOL/-G -> TPOLG
+[2022-01-29 21:21:32] former          || TPORPL/*ER -> TPRORPL, TPROERPL
+[2022-01-29 21:22:22] dealing         || TKAOEL/KHR-G -> TKAOEG, TAOELG, TKAOELG
+[2022-01-29 21:22:56] across          || A/KROS -> KRAOS
+[2022-01-30 21:06:08] dO              || TK*/O*P -> TKO
+[2022-01-30 21:06:11] dOE             || TK*/O*P/*EP -> TK-RBGS/O*E, TKO*E
+[2022-01-30 21:06:14] Ex              || *EP/SR-RS/KP* -> *EBGS, KWREBGS, SKWREBGS, EBGS
+[2022-01-30 21:06:18] ExEc            || *EP/SR-RS/KP*/*EP/KR* -> KPEBG, EBGS/EBG
+[2022-01-30 21:07:16] yo              || KWR*/TR*FLTZ/O* -> KWROE
+[2022-01-30 21:09:02] st              || S*/T* -> *FT
+[2022-01-30 21:09:04] std             || S*/T*/TK* -> S-RBGS/T*D
+[2022-01-30 21:09:04] di              || TK*/*EU -> TK*EU
+[2022-01-30 21:09:05] io              || *EU/O* -> KWRO*E
+[2022-01-30 21:09:05] dio             || TK*/*EU/O* -> TKAOE/KWROE
+[2022-01-30 21:09:09] .h              || SKWH-R/H* -> H*PD
+[2022-01-30 21:09:40] st              || S*/T* -> *FT
+[2022-01-30 21:09:40] std             || S*/T*/TK* -> S-RBGS/T*D
+[2022-01-30 21:09:43] lib             || HR*/*EU/PW* -> HREUB
+[2022-01-30 21:09:45] .h              || SKWH-R/H* -> H*PD
+[2022-01-30 21:14:43] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:14:53] vp              || SR*/P* -> SR-P
+[2022-01-30 21:14:53] pk              || P*/K* -> P-BG
+[2022-01-30 21:16:30] lo              || HR*/O* -> HRO
+[2022-01-30 21:16:31] lot             || HR*/O*/T* -> HROT
+[2022-01-30 21:18:35] uA              || *U/A*P -> PHAO*EU
+[2022-01-30 21:18:59] kA              || K*/A*P -> KA
+[2022-01-30 21:19:25] da              || TK*/STPA -> TKA
+[2022-01-30 21:27:27] Vp              || SR*P/P* -> SR-P
+[2022-01-30 21:27:38] si              || S*/*EU -> S*EU
+[2022-01-30 21:28:56] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:28:57] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:29:31] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:29:32] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:30:21] .h              || SKWH-R/H* -> H*PD
+[2022-01-30 21:31:39] ()              || SKWH-FPL/SKWH-RBG -> PR*EPBS
+[2022-01-30 21:32:09] \{              || SKWH-FB/SKWHEUFPL -> PWR-S, TPR-BGT
+[2022-01-30 21:32:14] si              || S*/*EU -> S*EU
+[2022-01-30 21:32:23] Bi              || PW*P/*EU -> PW*EU
+[2022-01-30 21:32:37] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-30 21:34:59] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-30 21:35:23] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:35:23] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:35:24] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:35:24] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:35:24] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:35:24] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:35:32] lull            || HR*/*U/HR*/HR* -> HRUL
+[2022-01-30 21:35:38] pA              || P*/A*P -> PA, PA*EU
+[2022-01-30 21:36:04] is              || *EU/S* -> S, EUS
+[2022-01-30 21:36:05] ia              || *EU/A* -> KWRA*
+[2022-01-30 21:36:05] lia             || HR*/*EU/A* -> HRAOE/KWRA*
+[2022-01-30 21:36:06] ar              || A*/R* -> AR, A*R
+[2022-01-30 21:36:06] liar            || HR*/*EU/A*/R* -> HRAOEUR, HRAOEU/A*R
+[2022-01-30 21:36:11] ch              || KR*/SR-RS/H* -> *FP, KH*, KH-RBGS
+[2022-01-30 21:36:12] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-30 21:36:21] la              || HR*/A* -> HRA
+[2022-01-30 21:36:42] ar              || 5*/R* -> AR, A*R
+[2022-01-30 21:36:51] vd              || SR*/SR-RS/TK* -> SR*D
+[2022-01-30 21:37:02] ba              || PW*/A* -> PWA
+[2022-01-30 21:37:07] ad              || A*/TK* -> A*D, A*ED, KWRA*D
+[2022-01-30 21:37:07] bad             || PW*/A*/TK* -> PWAD, PWATD
+[2022-01-30 21:37:08] add             || A*/TK*/TK* -> AD
+[2022-01-30 21:37:13] dE              || TK*/*EP -> TK*E, TKE
+[2022-01-30 21:37:15] Ex              || *EP/SR-RS/KP* -> *EBGS, KWREBGS, SKWREBGS, EBGS
+[2022-01-30 21:37:20] Exo             || *EP/SR-RS/KP*/TPH-FLTZ/O* -> EBGS/OE, EBGS/SKWRO
+[2022-01-30 21:37:30] ar              || A*/R* -> AR, A*R
+[2022-01-30 21:37:30] Car             || KR*P/A*/R* -> KAR
+[2022-01-30 21:37:33] ar              || A*/R* -> AR, A*R
+[2022-01-30 21:37:58] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-30 21:39:36] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-30 21:39:58] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-30 21:40:24] cc              || KR*/KR* -> KR*BG
+[2022-01-30 21:40:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:45] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:46] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:40:55] kI              || K*/*EUP -> KAO*EU
+[2022-01-30 21:41:11] cc              || KR*/KR* -> KR*BG
+[2022-01-30 21:42:03] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:42:04] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:42:04] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:42:05] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:42:05] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:42:05] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:42:06] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:42:27] ok              || O*/SR-RS/K* -> O*EBG, ORBGS/K-RBGS
+[2022-01-30 21:43:29] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:43:29] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:43:29] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:43:30] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:43:30] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:43:30] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:43:30] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:43:44] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-30 21:44:31] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:44:31] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:44:31] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:44:31] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:44:32] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:44:32] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:44:32] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:44:32] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:44:34] kA              || K*/A*P -> KA
+[2022-01-30 21:44:38] \{              || SKWH-FB/SKWHEUFPL -> PWR-S, TPR-BGT
+[2022-01-30 21:45:00] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:00] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:01] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:01] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:01] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:01] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:01] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:01] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:02] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:15] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:45:36] lA              || HR*/A*P -> HRA
+[2022-01-30 21:46:50] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:46:50] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:46:50] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:46:50] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:46:51] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:46:51] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:46:51] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:46:51] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:46:52] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:48:22] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:48:22] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:48:23] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:48:23] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:48:27] Bi              || PW*P/*EU -> PW*EU
+[2022-01-30 21:49:49] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:49] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:49] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:49] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:49] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:50] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:50] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:50] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:50] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:51] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:51] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:49:52] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-30 21:50:40] ee              || *E/*E -> KWRAE
+[2022-01-30 21:50:44] ee              || *E/*E -> KWRAE
+[2022-01-30 21:52:53] steno           || STEPB/TK-LS/O* -> STOEUPB, STO*EUPB, STE/TPHOE, STEPB/TPHOE, STEPB/SKWRO
+[2022-01-30 21:52:56] steno jig       || STEPB/TK-LS/O*/SKWREUG -> STOEUPB/SKWREUG
+[2022-01-30 21:53:02] fe              || TP*/*E -> TP*E, TPE
+[2022-01-30 21:53:09] fe              || TP*/*E -> TP*E, TPE
+[2022-01-30 21:55:54] percent         || PER/SEPBT -> PERS, PWERS
+[2022-01-30 21:58:35] cc              || KR*/KR* -> KR*BG
+[2022-01-30 22:02:09] ex              || *E/KP* -> *EBGS, KWREBGS, SKWREBGS, EBGS
+[2022-01-30 22:02:09] xp              || KP*/P* -> KP-P
+[2022-01-30 22:02:21] po              || P*/O* -> PO, PO*
+[2022-01-30 22:02:21] ow              || O*/W* -> OU, O*U
+[2022-01-30 22:02:21] pow             || P*/O*/W* -> POU, PO*U, P-RBGS/O*U
+[2022-01-30 22:03:44] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-31 08:42:18] I can           || EU/KAPB -> AOEUBG
+[2022-01-31 08:43:06] when you        || WHEPB/U -> WHU
+[2022-01-31 08:43:09] you want        || U/WAPBT -> UPT, UPBT
+[2022-01-31 08:43:09] want to         || WAPBT/O -> WA*PBT, TWAOPBT
+[2022-01-31 08:44:21] si              || S*/*EU -> S*EU
+[2022-01-31 08:44:25] si              || S*/*EU -> S*EU
+[2022-01-31 08:44:58] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:44:58] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:44:58] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:44:58] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:45:00] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-31 08:45:29] 72              || -7/2 -> 2EU7
+[2022-01-31 08:45:56] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:45:56] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:45:57] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:46:25] si              || S*/*EU -> S*EU
+[2022-01-31 08:46:31] ly              || HR*/KWR* -> HREU
+[2022-01-31 08:46:32] si              || S*/*EU -> S*EU
+[2022-01-31 08:47:53] is the          || S/-T -> S-T
+[2022-01-31 08:48:04] is the          || S/-T -> S-T
+[2022-01-31 08:48:36] ap              || A*/P* -> A*EP
+[2022-01-31 08:48:36] cap             || KR*/A*/P* -> KAP, KA*P
+[2022-01-31 08:48:37] pk              || P*/SR-RS/K* -> P-BG
+[2022-01-31 08:48:47] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-31 08:48:48] is it           || S/T -> ST
+[2022-01-31 08:49:04] 2000            || 2-Z/0 -> TWOUZ, TWOUPBD
+[2022-01-31 08:49:14] a               || A/S-P -> AEU, KWRA, SKWRA, SKWRA*, A
+[2022-01-31 08:49:14] is it           || S/T -> ST
+[2022-01-31 08:49:19] 2000            || 2-Z/0 -> TWOUZ, TWOUPBD
+[2022-01-31 08:49:36] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:36] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:36] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:36] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:36] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:36] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:37] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:37] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:37] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:41] kkk             || K*/K*/UFLTZ/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:41] kkk             || K*/UFLTZ/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:41] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:49:50] 22              || 2/2 -> 2-D
+[2022-01-31 08:51:43] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-31 08:53:14] iV              || *EU/23*9/SR-RS/SR*P -> 4-R
+[2022-01-31 08:53:21] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 08:56:11] fe              || TP*/*E -> TP*E, TPE
+[2022-01-31 08:56:13] fe              || TP*/*E -> TP*E, TPE
+[2022-01-31 08:58:55] qd              || KW*/TK* -> KW*D
+[2022-01-31 08:59:40] co              || KR*/O* -> KO*, KAU
+[2022-01-31 08:59:41] on              || O*/TPH* -> OB, OPB, O*PB, AUPB, AOPB
+[2022-01-31 08:59:41] con             || KR*/O*/TPH* -> KOPB, KAUPB
+[2022-01-31 08:59:41] conf            || KR*/O*/TPH*/TP* -> KO*FPB
+[2022-01-31 08:59:42] ig              || *EU/TKPW* -> EUG
+[2022-01-31 08:59:42] fig             || TP*/*EU/TKPW* -> TP*EUG
+[2022-01-31 08:59:42] config          || KR*/O*/TPH*/TP*/*EU/TKPW* -> KOPB/TP*EUG
+[2022-01-31 09:00:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 09:00:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 09:00:17] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 09:00:26] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 09:00:31] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 09:01:16] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 09:01:17] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 09:07:55] di              || TK*/*EU -> TK*EU
+[2022-01-31 09:07:58] im              || *EU/R-FLTZ/PH* -> KWRA*EUPL, EUPL, *EUPL
+[2022-01-31 09:07:58] dim             || TK*/*EU/R-FLTZ/PH* -> TKEUPL
+[2022-01-31 09:07:59] os              || O*/S* -> OS, O*S
+[2022-01-31 09:10:09] ci              || KR*/*EU -> KR*EUP
+[2022-01-31 09:10:10] is              || *EU/S* -> S, EUS
+[2022-01-31 09:10:11] co              || KR*/O* -> KO*, KAU
+[2022-01-31 09:10:11] cisco           || KR*/*EU/S*/KR*/O* -> SEUS/KO*E, SEUS/KOE
+[2022-01-31 09:10:43] ox              || O*/KR-FLTZ/KR-FLTZ/STPH-P/R-R/KP* -> O*BGS
+[2022-01-31 09:10:43] cox             || KR*/O*/KR-FLTZ/KR-FLTZ/STPH-P/R-R/KP* -> KO*BGS, KOBGS
+[2022-01-31 09:14:20] di              || TK*/*EU -> TK*EU
+[2022-01-31 09:28:59] iE              || *EU/SKWR-PBLTZ/*EP -> AO*E
+[2022-01-31 09:28:59] diE             || TK*/*EU/SKWR-PBLTZ/*EP -> TKAOEU
+[2022-01-31 09:29:20] co              || KR*/O* -> KO*, KAU
+[2022-01-31 09:29:21] cod             || KR*/O*/TK* -> KOD, KROD, KR-RBGS/O*D
+[2022-01-31 09:29:21] de              || TK*/*E -> TK*E, TKE
+[2022-01-31 09:29:21] ode             || O*/TK*/*E -> OED
+[2022-01-31 09:29:21] code            || KR*/O*/TK*/*E -> KOED
+[2022-01-31 09:30:00] vd              || SR*/TK* -> SR*D
+[2022-01-31 09:39:45] dE              || TK*/SR-FLTZ/R-R/*EP -> TK*E, TKE
+[2022-01-31 09:39:46] dEv             || TK*/SR-FLTZ/R-R/*EP/SR* -> TK*EF
+[2022-01-31 09:39:49] co              || KR*/O* -> KO*, KAU
+[2022-01-31 09:39:49] cod             || KR*/O*/TK* -> KOD, KROD, KR-RBGS/O*D
+[2022-01-31 09:39:50] de              || TK*/*E -> TK*E, TKE
+[2022-01-31 09:39:50] ode             || O*/TK*/*E -> OED
+[2022-01-31 09:39:50] code            || KR*/O*/TK*/*E -> KOED
+[2022-01-31 09:39:54] ar              || A*/R* -> AR, A*R
+[2022-01-31 09:46:52] si              || S*/*EU -> S*EU
+[2022-01-31 09:46:54] is              || *EU/PW-FP/PW-FP/S* -> S, EUS
+[2022-01-31 09:46:54] sis             || S*/*EU/PW-FP/PW-FP/S* -> SEUS
+[2022-01-31 09:46:55] ia              || *EU/PW-FP/PW-FP/A* -> KWRA*
+[2022-01-31 09:46:55] as              || A*/S* -> AS, AZ, ASZ
+[2022-01-31 09:46:55] ias             || *EU/PW-FP/PW-FP/A*/S* -> KWRAS
+[2022-01-31 09:46:56] ask             || A*/S*/K* -> SK, SKW
+[2022-01-31 09:46:57] ci              || KR*/*EU -> KR*EUP
+[2022-01-31 09:46:57] ii              || *EU/*EU -> 2-R
+[2022-01-31 09:46:57] ascii           || A*/S*/KR*/*EU/*EU -> AS/KEU, AS/KAOE
+[2022-01-31 10:13:51] have an         || SR/APB -> SRA*PB, SRA*EPB
+[2022-01-31 10:13:53] have a          || SR/A -> SRA, SR*EU, SRAEU, SRA*EU
+[2022-01-31 10:14:15] What are        || WHA/-R -> WHAR
+[2022-01-31 10:14:31] I can           || EU/K -> AOEUBG
+[2022-01-31 10:14:33] get that        || TKPWET/THA -> TKPWHAET
+[2022-01-31 10:14:41] If you          || TP/U -> TPU
+[2022-01-31 10:14:42] you want        || U/WAPBT -> UPT, UPBT
+[2022-01-31 10:14:49] account         || A/KOUPBT -> K-T
+[2022-01-31 10:14:52] I think         || EU/THEU -> KWREUBG
+[2022-01-31 10:14:57] has to          || HAS/O -> THAOS
+[2022-01-31 10:15:33] I can           || EU/K -> AOEUBG
+[2022-01-31 10:16:07] ir              || *EU/R-R/R* -> EUR
+[2022-01-31 10:17:06] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 10:17:06] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 10:17:07] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 10:24:14] uA              || *U/A*P -> PHAO*EU
+[2022-01-31 10:25:13] io              || *EU/O* -> KWRO*E
+[2022-01-31 10:26:29] Dr.             || TK*P/R*/TP-PL -> TKR-FPLT
+[2022-01-31 10:26:58] Dr.             || TK*P/R*/TP-PL -> TKR-FPLT
+[2022-01-31 10:39:01] it              || *EU/T* -> *EUT, T, EUT
+[2022-01-31 10:39:01] Suit            || S*P/*U/*EU/T* -> SAOUT
+[2022-01-31 10:39:02] ite             || *EU/T*/*E -> AOEUT
+[2022-01-31 10:39:02] Suite           || S*P/*U/*EU/T*/*E -> SWAO*ET
+[2022-01-31 10:39:03] es              || *E/S* -> ES, S*E
+[2022-01-31 10:39:03] Suites          || S*P/*U/*EU/T*/*E/S* -> SAO*UT/-S
+[2022-01-31 10:39:14] de              || TK*/*E -> TK*E, TKE
+[2022-01-31 10:39:15] en              || *E/TPH* -> *EB, *EPB, EPB
+[2022-01-31 10:39:15] den             || TK*/*E/TPH* -> TKEPB, TK*EPB
+[2022-01-31 10:39:15] Ogden           || O*P/TKPW*/TK*/*E/TPH* -> OG/TKEPB, OG/TK*EPB
+[2022-01-31 10:39:18] nU              || TPH*/SKWH-FG/*UP -> TPH*U
+[2022-01-31 10:39:19] UT              || *UP/T*P -> UT
+[2022-01-31 10:39:19] nUT             || TPH*/SKWH-FG/*UP/T*P -> TPHUT
+[2022-01-31 10:40:45] is the          || S/-T -> S-T
+[2022-01-31 10:40:47] SI              || S*P/*EUP -> S*EU
+[2022-01-31 10:40:47] ID              || *EUP/TK*P -> AO*EUD, EUD, KWR*EUD
+[2022-01-31 10:40:47] SID             || S*P/*EUP/TK*P -> SEUD
+[2022-01-31 10:41:15] for the         || TP-R/-T -> TP-RT
+[2022-01-31 10:41:22] token           || TOEBG/EPB -> TO*EPB
+[2022-01-31 10:44:37] What are        || WHA/-R -> WHAR
+[2022-01-31 10:44:37] are you         || -R/U -> RU
+[2022-01-31 10:44:44] No              || TPH*P/O* -> PHO, TPHO
+[2022-01-31 10:44:44] ok              || O*/K* -> O*EBG
+[2022-01-31 10:44:46] is              || *EU/S* -> S, EUS
+[2022-01-31 10:44:46] kris            || K*/R*/*EU/S* -> KR*EUS
+[2022-01-31 10:45:55] from the        || TPR/-T -> TPR-T
+[2022-01-31 10:46:02] io              || *EU/O* -> KWRO*E
+[2022-01-31 10:46:02] ilio            || *EU/HR*/*EU/O* -> EUL/KWRO, EUL/KWROE
+[2022-01-31 10:46:02] Twilio          || T*P/W*/*EU/HR*/*EU/O* -> TWEUL/KWROE
+[2022-01-31 10:47:12] io              || *EU/O* -> KWRO*E
+[2022-01-31 10:47:12] ilio            || *EU/HR*/*EU/O* -> EUL/KWRO, EUL/KWROE
+[2022-01-31 10:47:12] Twilio          || T*P/W*/*EU/HR*/*EU/O* -> TWEUL/KWROE
+[2022-01-31 10:47:15] AP              || A*P/P*P -> A*EP
+[2022-01-31 10:47:16] PI              || P*P/*EUP -> PEU, P*EU, PAO*EU
+[2022-01-31 10:47:16] API             || A*P/P*P/*EUP -> OEUP
+[2022-01-31 10:47:29] I have          || EU/SR -> SREU
+[2022-01-31 10:47:29] have a          || SR/AEU -> SRA, SR*EU, SRAEU, SRA*EU
+[2022-01-31 10:47:33] all the         || AUL/-T -> AULT
+[2022-01-31 10:47:37] in a            || TPH/AEU -> TPHA*EU, TPHRA*EU
+[2022-01-31 10:47:47] project that    || PROPBLG/THA -> TPHRAOPBLG
+[2022-01-31 10:47:49] that is         || THA/S -> THAS, SHATS
+[2022-01-31 10:47:50] in the          || TPH/-T -> TPH-T
+[2022-01-31 10:47:53] repo            || RE/POE -> ROEUP
+[2022-01-31 10:48:19] Repo            || RE/POE -> ROEUP
+[2022-01-31 10:48:56] require         || RE/KWAOEUR -> RAOEUR
+[2022-01-31 10:49:21] hosting         || HOFT/-G -> HOEFG
+[2022-01-31 10:50:21] ==              || SKWH-PBLG/SKWH-PBLG -> KW-LS
+[2022-01-31 10:51:24] 'S              || SKWH-F/S*P -> AES
+[2022-01-31 10:52:07] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-31 10:52:26] io              || *EU/O* -> KWRO*E
+[2022-01-31 10:52:26] ilio            || *EU/HR*/*EU/O* -> EUL/KWRO, EUL/KWROE
+[2022-01-31 10:52:26] Twilio          || T*P/W*/*EU/HR*/*EU/O* -> TWEUL/KWROE
+[2022-01-31 10:52:37] That would      || THA/WO -> THALD
+[2022-01-31 10:52:38] would be        || WO/-B -> WOB, WOUB
+[2022-01-31 10:53:08] Caller          || KAUL/*ER -> KAURL
+[2022-01-31 10:53:22] as a            || AS/AEU -> SA*Z, SA*DZ, SA*FZ, SA*SZ
+[2022-01-31 10:53:34] basic           || PWAEUS/EUBG -> PWAEUFBG, PWAOEUFBG, PWAEUFPBG
+[2022-01-31 10:54:15] R&D             || R*P/SKWH-FBG/TK*P -> R-RBGS/TPH*D
+[2022-01-31 10:55:25] .I              || TP-PL/SKWRA*URBGS/EU -> *EUPD, *EUPLD
+[2022-01-31 10:55:31] that the        || THA/-T -> THAT, THA*T, THA*ET
+[2022-01-31 10:55:33] needed          || TPHAOED/-D -> TPHAOETD
+[2022-01-31 10:56:04] actually        || TWAUL/HREU -> TAOULT, TWAEUL, THRAULT, THRAOUL, THAOULT, THRAOULT, TPHRAOULT, THRAO*ULT, TKHRAOULT, TWHRAOULT, THRAOEULT
+[2022-01-31 10:56:11] actually        || TWAUL/HREU -> TAOULT, TWAEUL, THRAULT, THRAOUL, THAOULT, THRAOULT, TPHRAOULT, THRAO*ULT, TKHRAOULT, TWHRAOULT, THRAOEULT
+[2022-01-31 10:56:43] receive         || RE/SAOEF -> SAOEF
+[2022-01-31 10:57:20] worked          || WORG/-D -> WORBGD, WORBGTD
+[2022-01-31 10:57:43] .h              || TP-PL/R-R/H* -> H*PD
+[2022-01-31 10:57:50] That would      || THA/WO -> THALD
+[2022-01-31 10:57:51] would be        || WO/-B -> WOB, WOUB
+[2022-01-31 10:57:51] in the          || TPH/-T -> TPH-T
+[2022-01-31 10:58:03] Caller          || KAUL/*ER -> KAURL
+[2022-01-31 10:58:10] de              || TK*/*E -> TK*E, TKE
+[2022-01-31 10:58:11] em              || *E/PH* -> EPL
+[2022-01-31 10:58:11] dem             || TK*/*E/PH* -> TKEPL
+[2022-01-31 10:58:12] emo             || *E/PH*/O* -> AOEPL, AOE/PHOE
+[2022-01-31 10:58:12] demo            || TK*/*E/PH*/O* -> TKPHO, TKPHOE, TKOEUPL, TKO*EUPL, TKEPL/OE, TKEPL/O*, TKEPL/PHOE, TKEPL/SKWRO
+[2022-01-31 10:59:39] oo              || O*/TPH-FLTZ/O* -> AO, SKWRAO
+[2022-01-31 10:59:41] oo              || O*/O* -> AO, SKWRAO
+[2022-01-31 10:59:45] ed              || *E/TK* -> *ED, -D, -DZ, #-D, SKWRAOED
+[2022-01-31 10:59:46] di              || TK*/*EU -> TK*EU
+[2022-01-31 11:01:23] fn              || TP*/SR-RS/TPH* -> TP*PB
+[2022-01-31 11:07:29] He              || H*P/*E -> E, HE
+[2022-01-31 11:12:42] ee              || *E/*E -> KWRAE
+[2022-01-31 11:12:53] ee              || *E/*E -> KWRAE
+[2022-01-31 11:14:09] Changed         || KHAEUPBG/-D -> KHAEPBGD, KHAEUPBGD, KHAEUPBGSD
+[2022-01-31 11:14:18] Changed         || KHAEUPBLG/-D -> KHAEPBGD, KHAEUPBGD, KHAEUPBGSD
+[2022-01-31 11:14:54] Changed         || KHAEUPBLG/-D -> KHAEPBGD, KHAEUPBGD, KHAEUPBGSD
+[2022-01-31 11:15:27] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:15:28] ka              || K*/A* -> KA
+[2022-01-31 11:15:30] cc              || KR*/KR* -> KR*BG
+[2022-01-31 11:15:31] ci              || KR*/*EU -> KR*EUP
+[2022-01-31 11:16:54] Good luck       || TKPWAOD/HRUBG -> TKPWHRUBG, TKPWHR*UBG
+[2022-01-31 11:20:25] kA              || K*/A*P -> KA
+[2022-01-31 11:21:48] ,"              || KW-BG/R-R/SKWH-FP -> KW-RBGTS
+[2022-01-31 11:22:15] .s              || SKWH-R/S* -> S*PD, S*PLD
+[2022-01-31 11:22:16] sh              || S*/H* -> *RB, SH-RBGS
+[2022-01-31 11:22:39] python          || PAOEU/THOPB -> THO*PB
+[2022-01-31 11:23:59] go              || TKPW*/O* -> TKW, TPW, TKPW, TKPWO, TKPWOE
+[2022-01-31 11:24:02] jo              || SKWR*/O* -> SKWRO*E
+[2022-01-31 11:24:21] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:24:21] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:24:44] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:24:45] kA              || K*/A*P -> KA
+[2022-01-31 11:25:43] kA              || K*/A*P -> KA
+[2022-01-31 11:26:08] ux              || *U/KP* -> UBGS
+[2022-01-31 11:26:15] da              || TK*/A* -> TKA
+[2022-01-31 11:26:16] ap              || A*/P* -> A*EP
+[2022-01-31 11:26:16] dap             || TK*/A*/P* -> TKAP
+[2022-01-31 11:26:25] pk              || P*/K* -> P-BG
+[2022-01-31 11:26:26] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:26] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:26] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:27] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:27] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:27] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:27] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:28] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:28] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:28] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:28] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:43] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:43] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:43] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:43] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:44] kkk             || K*/K*/K* -> K-RBGS/K*BG
+[2022-01-31 11:26:45] kA              || K*/A*P -> KA
+[2022-01-31 11:27:31] hi              || H*/*EU -> HEU, HAO*EU
+[2022-01-31 11:28:01] di              || TK*/*EU -> TK*EU
+[2022-01-31 11:29:33] Ah              || A*P/SR-RS/H* -> HA*E, A*ERBGS
+[2022-01-31 11:31:06] ka              || K*/A* -> KA

@@ -9,12 +9,35 @@ HAERB: \# # hash character on the right hand side
 ## C Programming
 
 ```yaml
-STR/HREPB  :  strlen(
-STR/KOP    :  strcpy(
-STP/KOPB   :  strncpy(
-PHEPL/SET  :  memset(
-TP*R       :  {^}for(int i=0;i<{^}
-TP*R/TP*R  :  {^};i++)\\n
+STR                :  {^}str
+STR/KOP            :  {^}strcpy({^}
+STP/KOPB           :  {^}strncpy({^}
+PHEPL/SET          :  {^}memset({^}
+TP*R               :  {^}for(int i=0;i<{^}
+TP*R/TP*R          :  {^};i++)\\n
+ST-D/RO*ER         :  stderr
+ST-D/O*UT          :  stdout
+ED                 :  {^};\\n{^}  # end line with semicolon
+EDZ                :  {^});\\n{^} # end line with closing parentheses and semicolon
+PHAO*EBG           :  -=
+PHRAO*EBG          :  +=
+TPH*UL             :  "\\{'\\0'\\}" # Print {'\0'}, this needs to be quoted
+TPH*UL/TPH*UL      :  "'\\0'"       # Print '\0', this needs to be quoted
+KHR*U/ST*D         :  {^}\#include <stdio.h>\\n\#include <stdlib.h>\\n
+KHR*U/STR*EUPBG    :  {^}\#include <string.h>\\n
+EUPBT/PHAEUPB      :  {^}int main()\\n\\{\\n
+EUPBT/PHAEUPB/ARG  :  {^}int main(int argc, char *argv[])\\n\\{\\n
+PR*EUF             :  {^}printf(\"{^}
+TPR*EUF            :  {^}fprintf(stderr, \"{^}
+KHROET             :  {^}\",{^ ^}  # Klote... Closing quote with comma
+KPHAEUBG           :  cmake
+KPHAEUBG/KPHAEUBG  :  CMakeLists.txt
+```
+
+## C Sharp
+
+```yaml
+O/STR*EUPBG    : {^}.ToString()
 ```
 
 ## Terminal
@@ -25,21 +48,18 @@ KHRAOEU            :  terminal
 KHRAO*EU           :  CLI
 PW-RB              :  PowerShell
 PHUBGS             :  tmux
-PR*EUFPBT          :  printf
-PR*EUF             :  printf
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
-KPHAEUBG           :  cmake
-KPHAEUBG/KPHAEUBG  :  CMakeLists.txt
 TKPWO*             :  {./^}
 ```
 
 ## Vim
 
 ```yaml
+PHAOEUFP   : "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
 TKHRAO*ET  :  ^dd^
 KWO*RD     :  {\#Escape}{^ciw^}
-PR*EPL     :  {\#Escape}:%s
+PR*EPL     :  {\#Escape}:%smagic/
 STPA       :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
 STPHA      :  {\#Escape}{^ZZ^}
 ```

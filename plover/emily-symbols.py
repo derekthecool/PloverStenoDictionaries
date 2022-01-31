@@ -1,5 +1,6 @@
 # Emily's Symbol Dictionary
 import re
+import datetime
 
 # define your starters here
 #                standard  custom
@@ -52,22 +53,40 @@ symbols = {
         "FPBG"   : ["~"  , "⊆" , "⊇" , "˜"]  ,
         "FPBL"   : ["↑"  , "←" , "→" , "↓"]  ,
 
+        # Text modes
         "RBLG": [
             "{MODE:TITLE}",
             "{MODE:LOWER}",
             "{MODE:CAMEL}",
             "{MODE:SNAKE}"
         ],
+
+        # Plover commands
         "FPLG": [
             "{PLOVER:LOOKUP}",
             "{PLOVER:SUGGESTIONS}",
             "{PLOVER:ADD_TRANSLATION}",
             "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"
         ]
-
     },
     uniqueStarters[1]: { # custom
         # add your own strokes here (or above, or wherever else you like)!
+
+        # Pairs of brackets
+        "FPL": [
+            "()",
+            "[]",
+            "<>",
+            "\{\}"
+        ],
+
+        # Date and time commands
+        "R": [
+            f"{datetime.datetime.now():%Y-%m-%d}",
+            f"{datetime.datetime.now()}",
+            f"",
+            f"{datetime.datetime.now():%H:%M:%S}"
+        ]
     }
 }
 
