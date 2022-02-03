@@ -189,13 +189,13 @@ def lookup(chord):
     modKeys = modifiers
     mods = []
     if "B" in modKeys:
-        mods.append("shift")
+        mods.append("Shift_L")
     if "F" in modKeys:
-        mods.append("control")
+        mods.append("Control_L")
     if "P" in modKeys:
-        mods.append("alt")
+        mods.append("Alt_L")
     if "R" in modKeys:
-        mods.append("super")
+        mods.append("Super_L")
 
     # apply those modifiers
     combo = character
@@ -203,10 +203,10 @@ def lookup(chord):
         combo = mod + "(" + combo + ")"
 
     # package it up with the syntax
-    # Derek: add the{^^} to the end for 2 reasons
-    # 1. Help with sticky modifiers
-    # 1. The {^^} helps with having no space afterwards which is good for vim
-    ret = "{#" + combo + "}{^^}"
+    # Derek change notes:
+    # 1. Help with sticky modifiers adding the null stroke of {#}
+    # 2. The {^^} helps with having no space afterwards which is good for vim
+    ret = "{#" + combo + "}{^^}{#}"
 
     # all done! :D
     return ret

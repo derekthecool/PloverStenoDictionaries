@@ -11,14 +11,18 @@ HAERB: \# # hash character on the right hand side
 ```yaml
 STR                :  {^}str
 STR/KOP            :  {^}strcpy({^}
-STP/KOPB           :  {^}strncpy({^}
+STR/HREPB          :  {^}strlen({^}
+STR/KOPB           :  {^}strncpy({^}
+STR/KPH-P          :  {^}strcmp({^}
 PHEPL/SET          :  {^}memset({^}
 TP*R               :  {^}for(int i=0;i<{^}
 TP*R/TP*R          :  {^};i++)\\n
 ST-D/RO*ER         :  stderr
 ST-D/O*UT          :  stdout
-ED                 :  {^};\\n{^}  # end line with semicolon
-EDZ                :  {^});\\n{^} # end line with closing parentheses and semicolon
+*ED                :  {^};\\n{^}  # end line with semicolon and new line
+#*ED               :  {^};{^}  # end line with semicolon
+*EDZ               :  {^});\\n{^} # end line with closing parentheses and semicolon and new line
+#*EDZ              :  {^});{^} # end line with closing parentheses and semicolon
 PHAO*EBG           :  -=
 PHRAO*EBG          :  +=
 TPH*UL             :  "\\{'\\0'\\}" # Print {'\0'}, this needs to be quoted
@@ -32,15 +36,28 @@ TPR*EUF            :  {^}fprintf(stderr, \"{^}
 KHROET             :  {^}\",{^ ^}  # Klote... Closing quote with comma
 KPHAEUBG           :  cmake
 KPHAEUBG/KPHAEUBG  :  CMakeLists.txt
+TP/TP              :  {^}\#if
+EFPBD              :  {^}\#endif\\n
+*EFPBD             :  {^}\#endif
+TK*UF              :  {^}\#define
+*EUF               :  {^}if ({^}
+EFL                :  {^}\\}\\nelse if({^}
+E8S                :  {^}else\\n\\{\\n
+-PBD               :  {^})\\n\\{\\n
+-PBD/-PBD          :  {^})\\n
 ```
 
 ## C Sharp
 
 ```yaml
 O/STR*EUPBG    : {^}.ToString()
+TKOT/TPHET     : dotnet
+TKOT/TPHET/TPHU : dotnet new console --framework net6.0
 ```
 
 ## Terminal
+
+### General
 
 ```yaml
 EBG                :  echo
@@ -51,6 +68,13 @@ PHUBGS             :  tmux
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
 TKPWO*             :  {./^}
+```
+
+### Linux Shell Scripting
+
+```yaml
+AUBG/AUBG : {^}awk \'\\{print $1\\}\'{^ ^}
+AUBG/AUBG/AUBG : {^}awk \'/search/ \\{print $1\\}\'{^}
 ```
 
 ## Vim

@@ -57,6 +57,8 @@ OET/RORPT: OTAReport
 ```yaml
 TPRAPT: FreeusAdapter
 TPRAPT/KR*: FreeusAdapter.c
+TPAEU/REP: FArepack
+TPAEU/KPHAPBD: FAcommand
 ```
 
 ## Hardware
