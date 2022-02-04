@@ -9,7 +9,7 @@ AUPBTSDZ   : updates  # This is a practical misstroke
 ## Conditional Dictionary Mappings
 
 ```yaml
-STKPW       : {=[AEIOUaeiou]/an/a}  # From Plover example, puts "an" if next word starts with AEIOU upper or lower case otherwise "a"
+AEU       : {=[AEIOUaeiou]/an/a}  # From Plover example, puts "an" if next word starts with AEIOU upper or lower case otherwise "a"
 ```
 
 ```yaml

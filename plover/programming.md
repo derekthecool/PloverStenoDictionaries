@@ -6,6 +6,15 @@ PW-RB: \\ # backslash
 HAERB: \# # hash character on the right hand side
 '#-T': 9 # you should not escape the # in strokes
 
+## Technical Jargon
+
+```yaml
+PH*BG : MQTT
+TAOEP : TCP
+TAOEP/TAOEP : TCP/IP
+HREUBGS : Linux
+```
+
 ## C Programming
 
 ```yaml
@@ -45,7 +54,9 @@ EFL                :  {^}\\}\\nelse if({^}
 E8S                :  {^}else\\n\\{\\n
 -PBD               :  {^})\\n\\{\\n
 -PBD/-PBD          :  {^})\\n
+TPR-R              :  {=1234/some/none}
 ```
+ is none none some 1234
 
 ## C Sharp
 
@@ -75,6 +86,10 @@ TKPWO*             :  {./^}
 ```yaml
 AUBG/AUBG : {^}awk \'\\{print $1\\}\'{^ ^}
 AUBG/AUBG/AUBG : {^}awk \'/search/ \\{print $1\\}\'{^}
+HR-PT : {^}lftp
+KR*D  : {^}cd
+PHOFBG : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
+PHOFBG : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 ```
 
 ## Vim

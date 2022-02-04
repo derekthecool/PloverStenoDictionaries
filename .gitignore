@@ -1,6 +1,10 @@
 # Only allow .json files
 !*/*.json
 
+# Log files from plugins
+plover/clippy.txt
+plover/tapey_tape.txt
+
 # No need to save .log files
 */*.log
 
