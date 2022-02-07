@@ -38,6 +38,8 @@ PHAO*U: MCU
 
 ```yaml
 WAL/TAOL: WallabyTool
+PW*EL/EBGS/TKAOEL/TKAOL: BelleX_DealerTool
+PW*EL/EBGS/SEFR : BelleX_Server
 STKPWAOPL: Zoom
 TREL/OE: Trello
 KAO*EL: Keil
@@ -50,6 +52,7 @@ TWEUL/KWROE  : Twilio
 ```yaml
 OET/KPHAPBD: OTACommand
 OET/RORPT: OTAReport
+OET/RORP: OTAReport
 ```
 
 ### BelleM
