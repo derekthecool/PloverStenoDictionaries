@@ -1,7 +1,7 @@
 # Plover Commands
 
 This Markdown file is a Plover stenography dictionary. This requires the use of
-[plover_markdown_dictionary plugin](https://github.com/antistic/plover_markdown_dictionary).
+[plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary).
 
 ## Basic Commands
 
@@ -71,12 +71,12 @@ KPA*L   : {:case:upper_first_word}
 HRO*ER  : {:case:lower_first_char}
 HRO*ERD : {:retro_case:lower_first_char}
 #       : =repeat_last_stroke
-#*      : {=retrospective_toggle_asterisk}
-AFPS    : {=retrospective_insert_space}
-TK-FPS  : {=retrospective_delete_space}
+#*      : {*}  # The long format command has errors {=retrospective_toggle_asterisk}
+AFPS    : {*?} # The long format command has errors {=retrospective_insert_space}
+TK-FPS  : {*!} # The long format command has errors {=retrospective_delete_space}
 ```
 
-## plover_fancy_text Plugin Commands
+## [plover_fancy_text](https://github.com/psethwick/plover_fancytext) Plugin Commands
 
 ```yaml
 23*9          : "{:fancytext_set:off}"
@@ -109,7 +109,7 @@ TK-FPS  : {=retrospective_delete_space}
 23*9/STKPWA-L : "{:fancytext_set:zalgo}"
 ```
 
-## plover_number_conversion Plugin Commands
+## [plover_number_conversion](https://github.com/Volensia/plover_number_format) Plugin Commands
 
 ```yaml
 TPHUPL/WORD/0     : "{:number_word_conversion:0:2}"
@@ -118,7 +118,7 @@ TPHUPL/WORD/2     : "{:number_word_conversion:2:2}"
 TPHUPL/WORD/ROEPL : "{:number_format_roman:0:0}"
 ```
 
-## plover_emoji Plugin Commands
+## [plover_emoji](https://github.com/morinted/plover_emoji) Plugin Commands
 
 ```yaml
 PHOEPBLG : "{:emoji}"

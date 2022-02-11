@@ -64,6 +64,7 @@ TPR-R              :  {=1234/some/none}
 O/STR*EUPBG    : {^}.ToString()
 TKOT/TPHET     : dotnet
 TKOT/TPHET/TPHU : dotnet new console --framework net6.0
+TPRAOEFP       : {^}foreach(var{^ ^}
 ```
 
 ## Terminal
@@ -72,13 +73,26 @@ TKOT/TPHET/TPHU : dotnet new console --framework net6.0
 
 ```yaml
 EBG                :  echo
-KHRAOEU            :  terminal
+T*ERPL             :  terminal
 KHRAO*EU           :  CLI
 PW-RB              :  PowerShell
 PHUBGS             :  tmux
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
 TKPWO*             :  {./^}
+```
+
+### Getting Help
+
+```yaml
+KHAO*ET : {^}cht.sh {^ ^}
+KHAO*ET/KHAO*ET : {^}curl cht.sh/{^}{MODE:SET_SPACE:+}
+```
+
+### Names Of Programs That Are Not Used In A Shell Command Manner
+
+```yaml
+A/HRAEUBG : Alacritty
 ```
 
 ### Linux Shell Scripting
@@ -234,6 +248,8 @@ KWO*RD     :  {\#Escape}{^ciw^}
 PR*EPL     :  {\#Escape}:%smagic/
 STPA       :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
 STPHA      :  {\#Escape}{^ZZ^}
+KW*EUT     :  {\#Escape}:q\\n
+T*EFT      :  {\#Escape},ui
 SREUPL     :  vim    # Swap with victim as I use this more
 SR*EUPL    :  victim # Swap with vim as I use this less
 ```

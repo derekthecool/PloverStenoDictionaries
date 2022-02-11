@@ -4,6 +4,9 @@
 
 ```yaml
 AUPBTSDZ   : updates  # This is a practical misstroke
+TKPWEG     : getting  # Shorter version of getting instead of TKPWEGT
+HRUFRPB    : lunch # Swap with lurch
+HRA*UFRPB  : lurch # Swap with lunch
 ```
 
 ## Conditional Dictionary Mappings
@@ -16,12 +19,13 @@ AEU       : {=[AEIOUaeiou]/an/a}  # From Plover example, puts "an" if next word 
 
 ```yaml
 STKPWHR         : Derek
+HRO*EBG         : Lomax # Sounds like "Loax"
 STKPWHR/STKPWHR : Derek Lomax
 STKPWHR*        : Cassie
 KAS             : Cass
 AD/AD           : Addie
 AD/AD/AD        : Adaline
-PHOEUG          : {^}Magoo{^}
+PHOEUG          : {^}Magoo
 ```
 
 ## Email

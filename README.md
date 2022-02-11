@@ -19,6 +19,8 @@ Here is my [Dereks_Plover_guide](Dereks_Plover_guide) to working with Plover
 * [Plover GitHub](https://github.com/openstenoproject/plover)
 * [Learn Plover](https://github.com/openstenoproject/plover/wiki/Learning-Stenography)
 
+## Python Dictionaries
+
 I am using the 2 following python dictionaries from EPLHREU (emily)
 
 1. [emily-symbols](https://github.com/EPLHREU/emily-symbols)
@@ -26,10 +28,12 @@ I am using the 2 following python dictionaries from EPLHREU (emily)
 
 ## Plover Plugins Used
 
+* [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
 * [plover-python-dictionary](https://github.com/benoit-pierre/plover_python_dictionary) needed for emily-modifiers & emily-symbols
 * [plover-plugins-manager](https://github.com/benoit-pierre/plover_plugins_manager) required for any plugins
 * [plover-fancy-text](https://github.com/psethwick/plover_fancytext)
 * [plover-number-format](https://github.com/Volensia/plover_number_format)
+* [plover_emoji](https://github.com/morinted/plover_emoji)
 
 ## My Current Hardware
 
