@@ -81,11 +81,12 @@ symbols = {
         ],
 
         # Date and time commands
+        # Needs plover_current_time plugin https://github.com/EPLHREU/plover-current-time
         "R": [
-            f"{datetime.datetime.now():%Y-%m-%d}",
-            f"{datetime.datetime.now()}",
-            f"",
-            f"{datetime.datetime.now():%H:%M:%S}"
+            "{:time:%Y-%m-%d}",
+            "{:time:%H-%M-%S}",
+            "",
+            "{:time:%Y-%m-%d}{^}_{^}"
         ]
     }
 }

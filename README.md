@@ -29,11 +29,12 @@ I am using the 2 following python dictionaries from EPLHREU (emily)
 ## Plover Plugins Used
 
 * [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
-* [plover-python-dictionary](https://github.com/benoit-pierre/plover_python_dictionary) needed for emily-modifiers & emily-symbols
-* [plover-plugins-manager](https://github.com/benoit-pierre/plover_plugins_manager) required for any plugins
-* [plover-fancy-text](https://github.com/psethwick/plover_fancytext)
-* [plover-number-format](https://github.com/Volensia/plover_number_format)
+* [plover_python_dictionary](https://github.com/benoit-pierre/plover_python_dictionary) needed for emily-modifiers & emily-symbols
+* [plover_plugins_manager](https://github.com/benoit_pierre/plover_plugins_manager) required for any plugins
+* [plover_fancy_text](https://github.com/psethwick/plover_fancytext)
+* [plover_number_format](https://github.com/Volensia/plover_number_format)
 * [plover_emoji](https://github.com/morinted/plover_emoji)
+* [plover_current_time](https://github.com/EPLHREU/plover-current-time)
 
 ## My Current Hardware
 

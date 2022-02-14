@@ -7,11 +7,14 @@ This Markdown file is a Plover stenography dictionary. This requires the use of
 
 ```yaml
 PW-FP       : {\#BackSpace}
+PW*FP       : {\#Control(BackSpace)} # Delete backward by word
 PW-FPL      : {\#Delete}
-R*R         : {\#Return}{^}
-R-R         : {\#Return}{^}{MODE:RESET}
-R-RB        : {\#Shift_L(Return)}{^}{MODE:RESET}
-SKWRA*URBGS : {\#Shift_L(Return Return)}{^}{-|}{MODE:RESET}
+PW*FPL      : {\#Control(Delete)}  # Delete forward by word
+PW-FPL      : {\#Delete}
+R-R         : {^\\n}{^}{MODE:RESET} # Normal enter method
+R*R         : {^\\n}{^} # Back up method that does not reset mode
+R-RB        : {\#Shift_L(Return)}{^}{MODE:RESET} # Good for teams and discord for multiline messages
+SKWRA*URBGS : {\#Shift_L(Return Return)}{^}{-|}{MODE:RESET} # Good for teams and discord for multiline messages
 SKWRAURBGS  : {^\\n\\n^}{-|}
 STPH-B      : {\#Down}{^}
 STPH-BG     : {\#Control_L(Right)}{^}
@@ -23,10 +26,6 @@ TA*B        : {\#Tab}{^}
 TA*BT       : {\#Alt_L(Tab Tab)}
 TK*EL       : {\#Delete}
 TPEFBG      : {\#Escape}
-STP-R       : {\#alt(j)}
-STP-G       : {\#alt(k)}
-STP-P       : {\#alt(Left)}
-STP-B       : {\#alt(Right)}
 ```
 
 ## Plover Control
