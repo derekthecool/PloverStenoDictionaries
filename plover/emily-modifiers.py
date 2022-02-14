@@ -193,7 +193,7 @@ def lookup(chord):
     if "F" in modKeys:
         mods.append("Control_L")
     if "P" in modKeys:
-        mods.append("Alt_L")
+        mods.append("Alt_R")
     if "R" in modKeys:
         mods.append("Super_L")
 
@@ -206,7 +206,7 @@ def lookup(chord):
     # Derek change notes:
     # 1. Help with sticky modifiers adding the null stroke of {#}
     # 2. The {^^} helps with having no space afterwards which is good for vim
-    ret = "{#" + combo + "}{^^}{#}"
+    ret = "{#" + combo + "}"
 
     # all done! :D
     return ret

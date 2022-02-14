@@ -6,6 +6,12 @@ PW-RB: \\ # backslash
 HAERB: \# # hash character on the right hand side
 '#-T': 9 # you should not escape the # in strokes
 
+## Frequently Used Words
+
+```yaml
+RAO*T : reboot  # This word should be one stroke!
+```
+
 ## Technical Jargon
 
 ```yaml
