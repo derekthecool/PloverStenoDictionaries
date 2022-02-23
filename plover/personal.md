@@ -11,7 +11,9 @@ HRA*UFRPB  : lurch # Swap with lunch
 
 ## Conditional Dictionary Mappings
 
-```yaml
+These could be powerful, but this example is not helpful
+
+```bad
 AEU       : {=[AEIOUaeiou]/an/a}  # From Plover example, puts "an" if next word starts with AEIOU upper or lower case otherwise "a"
 ```
 

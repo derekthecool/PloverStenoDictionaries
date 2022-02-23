@@ -19,6 +19,8 @@ PH*BG : MQTT
 TAOEP : TCP
 TAOEP/TAOEP : TCP/IP
 HREUBGS : Linux
+KEUG    : config # Overwrites: can Iing
+K*EUG   : {^}Config # Overwrites: Qiing
 ```
 
 ## C Programming
@@ -29,6 +31,7 @@ STR/KOP            :  {^}strcpy({^}
 STR/HREPB          :  {^}strlen({^}
 STR/KOPB           :  {^}strncpy({^}
 STR/KPH-P          :  {^}strcmp({^}
+STR/TOBG           :  {^}strtok({^}
 PHEPL/SET          :  {^}memset({^}
 TP*R               :  {^}for(int i=0;i<{^}
 TP*R/TP*R          :  {^};i++)\\n
@@ -78,7 +81,10 @@ TPRAOEFP       : {^}foreach(var{^ ^}
 ### General
 
 ```yaml
-EBG                :  echo
+EBG                :  echo{^ ^}
+KR*D               :  cd{^ ^}
+R-PL               :  rm{^ ^}
+PH-BG/TKEUR        :  mkdir{^ ^}
 T*ERPL             :  terminal
 KHRAO*EU           :  CLI
 PW-RB              :  PowerShell
@@ -104,11 +110,14 @@ A/HRAEUBG : Alacritty
 ### Linux Shell Scripting
 
 ```yaml
+HO*EPL    : {^}~/{^}
+HO*EPL/HO*EPL    : {^}$HOME/{^}
+HO*EPL/HO*EPL/HO*EPL  : {^}192.168.{^}
 AUBG/AUBG : {^}awk \'\\{print $1\\}\'{^ ^}
 AUBG/AUBG/AUBG : {^}awk \'/search/ \\{print $1\\}\'{^}
 HR-PT : {^}lftp
 KR*D  : {^}cd
-PHOFBG : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
+PHO*FBG : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
 PHOFBG : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 ```
 
@@ -254,8 +263,10 @@ KWO*RD     :  {\#Escape}{^ciw^}
 PR*EPL     :  {\#Escape}:%smagic/
 STPA       :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
 STPHA      :  {\#Escape}{^ZZ^}
-KW*EUT     :  {\#Escape}:q\\n
-T*EFT      :  {\#Escape},ui
+KW*EUT     :  {\#Escape}:q\\n{^}
+T*EFT      :  {\#Escape},ui{^}
+PHRA*US    :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
+HRA*US     :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
 SREUPL     :  vim    # Swap with victim as I use this more
 SR*EUPL    :  victim # Swap with vim as I use this less
 ```
@@ -267,6 +278,7 @@ TKPWEUT                                  : git
 ST*TS                                    : status
 TKPW*EUT/TKEUF                           : git diff
 TKPWEUT/ST*TS                            : git status
+TKPWEUT/TKPWEUT                          : git status\\n{^}
 PHERPBLG                                 : merge
 TKPWEUT/TKEUF/H-PBZ/KAERBD               : git diff --cached
 TKPWEUT/KPHEUT/H-PBS/SR*                 : git commit -v
