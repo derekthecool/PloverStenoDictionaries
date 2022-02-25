@@ -77,6 +77,8 @@ TK-FPS  : {*!} # The long format command has errors {=retrospective_delete_space
 
 ## [plover_fancy_text](https://github.com/psethwick/plover_fancytext) Plugin Commands
 
+Don't use the - in words that do not have a vowel.
+
 ```yaml
 23*9          : "{:fancytext_set:off}"
 23*9/S/1      : "{:fancytext_retro:1:figlet:script}"
@@ -97,15 +99,15 @@ TK-FPS  : {*!} # The long format command has errors {=retrospective_delete_space
 23*9/PHORS    : "{:fancytext_set:morse}"
 23*9/PWORD    : "{:fancytext_set:blackboardbold}"
 23*9/SPWAP    : "{:fancytext_set:smallcaps}"
-23*9/PW-UB    : "{:fancytext_set:bubble}"
-23*9/KRAO-EU  : "{:fancytext_set:crytyping}"
-23*9/SRA-EUP  : "{:fancytext_set:fullwidth}"
-23*9/PH-ED    : "{:fancytext_set:medieval}"
+23*9/PWUB    : "{:fancytext_set:bubble}"
+23*9/KRAOEU  : "{:fancytext_set:crytyping}"
+23*9/SRAEUP  : "{:fancytext_set:fullwidth}"
+23*9/PHED    : "{:fancytext_set:medieval}"
 23*9/SA-RBG   : "{:fancytext_set:sarcasm}"
-23*9/-UP      : "{:fancytext_set:upsidedown}"
-23*9/AO-U     : "{:fancytext_set:uwu}"
+23*9/UP      : "{:fancytext_set:upsidedown}"
+23*9/AOU     : "{:fancytext_set:uwu}"
 23*9/AO*U     : "{:fancytext_set:UwU}"
-23*9/STKPWA-L : "{:fancytext_set:zalgo}"
+23*9/STKPWAL : "{:fancytext_set:zalgo}"
 ```
 
 ## [plover_number_conversion](https://github.com/Volensia/plover_number_format) Plugin Commands

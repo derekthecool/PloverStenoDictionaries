@@ -70,10 +70,12 @@ TPR-R              :  {=1234/some/none}
 ## C Sharp
 
 ```yaml
-O/STR*EUPBG    : {^}.ToString()
-TKOT/TPHET     : dotnet
+SHA*RP          : csharp
+SHA*RP/SHA*RP   : C\#
+O/STR*EUPBG     : {^}.ToString()
+TKOT/TPHET      : dotnet
 TKOT/TPHET/TPHU : dotnet new console --framework net6.0
-TPRAOEFP       : {^}foreach(var{^ ^}
+TPRAOEFP        : {^}foreach(var{^ ^}
 ```
 
 ## Terminal
