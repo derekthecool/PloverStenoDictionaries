@@ -125,6 +125,26 @@ PHOFBG : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 
 ## Vim
 
+### Commands
+
+```yaml
+PHAOEUFP           :  "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
+TKHRAO*ET          :  ^dd^
+KWO*RD             :  {\#Escape}{^ciw^}
+PR*EPL             :  {\#Escape}:%smagic/
+STPA               :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
+STPHA              :  {\#Escape}{^ZZ^}
+KW*EUT             :  {\#Escape}:q\\n{^}
+T*EFT              :  {\#Escape},ui{^}
+PHRA*US            :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
+HRA*US             :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
+TPH*EUPL           :  {^}nvim{^ ^}
+TPH*EUPL/RAED      :  {^}nvim README.md
+TPH*EUPL/TPH*EUPL  :  Neovim
+SREUPL             :  vim    # Swap with victim as I use this more
+SR*EUPL            :  victim # Swap with vim as I use this less
+```
+
 ### Remapped Finger Spelling
 
 This dictionary is from
@@ -254,23 +274,6 @@ SWR*       : {^}{>}z{^}
 SWR*P      : {^}{-|}z{^}
 SWR*RBGS   : {>}{&z}
 SWR*FPLT   : {-|}{&z}
-```
-
-### Commands
-
-```yaml
-PHAOEUFP   : "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
-TKHRAO*ET  :  ^dd^
-KWO*RD     :  {\#Escape}{^ciw^}
-PR*EPL     :  {\#Escape}:%smagic/
-STPA       :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
-STPHA      :  {\#Escape}{^ZZ^}
-KW*EUT     :  {\#Escape}:q\\n{^}
-T*EFT      :  {\#Escape},ui{^}
-PHRA*US    :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
-HRA*US     :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
-SREUPL     :  vim    # Swap with victim as I use this more
-SR*EUPL    :  victim # Swap with vim as I use this less
 ```
 
 ## Git

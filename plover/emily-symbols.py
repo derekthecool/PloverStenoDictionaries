@@ -16,7 +16,7 @@ LONGEST_KEY = 1
 symbols = {
     uniqueStarters[0]: { # standard
         # more computer function-y symbols
-        "FG"    : ["{#Tab}"       , "{#Backspace}"        , "{#Delete}"           , "{#Escape}"]    ,
+        "FG"    : ["{#Tab}"       , "{#Backspace}"        , "{#Delete}"           , "{#Shift_L(Tab)}"],
         "RPBG"  : ["{#Up}"        , "{#Left}"             , "{#Right}"            , "{#Down}"]      ,
         "FRPBG" : ["{#Page_Up}"   , "{#Home}"             , "{#End}"              , "{#Page_Down}"] ,
         "FRBG"  : ["{#AudioPlay}" , "{#AudioPrev}"        , "{#AudioNext}"        , "{#AudioStop}"] ,
