@@ -23,6 +23,13 @@ KEUG    : config # Overwrites: can Iing
 K*EUG   : {^}Config # Overwrites: Qiing
 ```
 
+## Common File Names
+
+```yaml
+RAO*ED : README.md
+KHOG : CHANGELOG.md
+```
+
 ## C Programming
 
 ```yaml
@@ -71,11 +78,19 @@ TPR-R              :  {=1234/some/none}
 
 ```yaml
 SHA*RP          : csharp
+HRAO*EPBG       : Linq
 SHA*RP/SHA*RP   : C\#
+TPAUR           : =>
 O/STR*EUPBG     : {^}.ToString()
 TKOT/TPHET      : dotnet
 TKOT/TPHET/TPHU : dotnet new console --framework net6.0
 TPRAOEFP        : {^}foreach(var{^ ^}
+```
+
+## Lua
+
+```yaml
+HRAOU : lua
 ```
 
 ## Terminal
@@ -99,19 +114,25 @@ TKPWO*             :  {./^}
 ### Getting Help
 
 ```yaml
-KHAO*ET : {^}cht.sh {^ ^}
-KHAO*ET/KHAO*ET : {^}curl cht.sh/{^}{MODE:SET_SPACE:+}
+KHAO*ET                  :  {^}cht.sh {^ ^} # Run script on Linux
+KHAO*ET/KHAO*ET          :  {^}curl cht.sh/{^}{MODE:SET_SPACE:+} # Again Linux but using curl
+KHAO*ET/KHAO*ET/KHAO*ET  :  {^}curl.exe cht.sh/{^}{MODE:SET_SPACE:+} # For use on windows
+T*ERB                    :  {^}nc termbin.com 9999
+T*ERB/T*ERB              :  https://termbin.com/{^}
 ```
 
 ### Names Of Programs That Are Not Used In A Shell Command Manner
 
 ```yaml
-A/HRAEUBG : Alacritty
+A/HRABG : Alacritty
 ```
 
 ### Linux Shell Scripting
 
 ```yaml
+TP*EU    : {^}fi
+AO*EF    : env
+AO*EF/AO*EF    : {^}$env:{^}
 HO*EPL    : {^}~/{^}
 HO*EPL/HO*EPL    : {^}$HOME/{^}
 HO*EPL/HO*EPL/HO*EPL  : {^}192.168.{^}
@@ -130,7 +151,15 @@ PHOFBG : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 ```yaml
 PHAOEUFP           :  "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
 TKHRAO*ET          :  ^dd^
-KWO*RD             :  {\#Escape}{^ciw^}
+KWO*RD             :  {^ciw^}
+KR*EU              :  {^ci^}
+KWR*EU             :  {^yi^}
+SR*EU              :  {^vi^}
+TK*EU              :  {^di^}
+KRA*               :  {^ca^}  # Overwrites California
+KWRA*              :  {^ya^}  # Overwrites suffix 'ia'
+SRA*               :  {^va^}  # Overwrites Virginia
+TKA*               :  {^da^}
 PR*EPL             :  {\#Escape}:%smagic/
 STPA               :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
 STPHA              :  {\#Escape}{^ZZ^}
@@ -308,9 +337,12 @@ AD/-P                                    : add .
 ## General Use
 
 ```yaml
-S*UP     :  software update
-TPRAEUR  :  firmware
-TPUP     :  firmware update
-PHA*     :  mA # Milliamp
-PHAO*EU  :  uA # Microamp
+TPRAEUR : firmware
+SWAEUR  : software
+TKRAEUR : hardware
+S*UP    : software update
+TP*UP   : firmware update
+TKR*UP  : hardware update
+PHA*    : mA # Milliamp
+PHAO*EU : uA # Microamp
 ```

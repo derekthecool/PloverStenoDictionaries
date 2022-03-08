@@ -7,6 +7,8 @@ AUPBTSDZ   : updates  # This is a practical misstroke
 TKPWEG     : getting  # Shorter version of getting instead of TKPWEGT
 HRUFRPB    : lunch # Swap with lurch
 HRA*UFRPB  : lurch # Swap with lunch
+TP*FGS     : info
+STUPG      : setting up
 ```
 
 ## Conditional Dictionary Mappings

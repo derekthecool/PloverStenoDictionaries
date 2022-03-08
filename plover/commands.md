@@ -26,6 +26,7 @@ TA*B        : {\#Tab}{^}
 TA*BT       : {\#Alt_L(Tab Tab)}
 TK*EL       : {\#Delete}
 TPEFBG      : {\#Escape}
+SKWR        : {^^} # Another way besides.TK-LS
 ```
 
 ## Plover Control
