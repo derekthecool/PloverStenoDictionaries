@@ -26,12 +26,8 @@ PW*EL/-L: BelleLTE
 ### General
 
 ```yaml
-TPO*ET: FOTA
-AOU/ART: UART
+TPO*ET: Fota
 R*EFP: resp
-KPAP: pcap
-PH/KW: MQTT
-PHAO*U: MCU
 ```
 
 ### Programs
@@ -40,6 +36,8 @@ PHAO*U: MCU
 WAL/TAOL: WallabyTool
 PW*EL/EBGS/TKAOEL/TKAOL: BelleX_DealerTool
 PW*EL/EBGS/SEFR : BelleX_Server
+PW*P/KP*P/TPO*ET : BXFota
+PW*/KP*/TPO*ET : BXFota
 STKPWAOPL: Zoom
 TREL/OE: Trello
 KAO*EL: Keil

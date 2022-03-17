@@ -9,12 +9,18 @@ HAERB: \# # hash character on the right hand side
 ## Frequently Used Words
 
 ```yaml
-RAO*T : reboot  # This word should be one stroke!
+RAO*T  : reboot  # This word should be one stroke!
+RAOEBT : reboot
+KRORPL : cross platform
+ARGS   : args
 ```
 
 ## Technical Jargon
 
 ```yaml
+AOU/ART: UART
+KPAP: pcap
+PHAO*U: MCU
 PH*BG : MQTT
 TAOEP : TCP
 TAOEP/TAOEP : TCP/IP
@@ -26,7 +32,7 @@ K*EUG   : {^}Config # Overwrites: Qiing
 ## Common File Names
 
 ```yaml
-RAO*ED : README.md
+RA*ED : README.md
 KHOG : CHANGELOG.md
 ```
 
@@ -78,6 +84,7 @@ TPR-R              :  {=1234/some/none}
 
 ```yaml
 SHA*RP          : csharp
+KA*UPBT : const
 HRAO*EPBG       : Linq
 SHA*RP/SHA*RP   : C\#
 TPAUR           : =>
@@ -164,7 +171,14 @@ PR*EPL             :  {\#Escape}:%smagic/
 STPA               :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
 STPHA              :  {\#Escape}{^ZZ^}
 KW*EUT             :  {\#Escape}:q\\n{^}
-T*EFT              :  {\#Escape},ui{^}
+T*EFT              :  {^},ui{^} # Test
+R*UPB              :  {^},uu{^} # Run
+PW-D              :  {^},u;{^} # Build
+KW*EUBG           :  {^},lq{^} # LSP quick change
+TKPW*URB          :  {^},gp{^} # Git push (gush)
+TKPW*URB/TKPW*URB :  git push
+TKPW*UL           :  {^},gP{^} # Git pull (gull)
+TKPW*UL/TKPW*UL    :  git pull
 PHRA*US            :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
 HRA*US             :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
 TPH*EUPL           :  {^}nvim{^ ^}
@@ -172,6 +186,13 @@ TPH*EUPL/RAED      :  {^}nvim README.md
 TPH*EUPL/TPH*EUPL  :  Neovim
 SREUPL             :  vim    # Swap with victim as I use this more
 SR*EUPL            :  victim # Swap with vim as I use this less
+```
+
+### Other Vim Programs
+
+```yaml
+SRAOEB : Vieb
+SRAOEP : Vieb
 ```
 
 ### Remapped Finger Spelling
@@ -308,30 +329,26 @@ SWR*FPLT   : {-|}{&z}
 ## Git
 
 ```yaml
-TKPWEUT                                  : git
-ST*TS                                    : status
-TKPW*EUT/TKEUF                           : git diff
-TKPWEUT/ST*TS                            : git status
-TKPWEUT/TKPWEUT                          : git status\\n{^}
-PHERPBLG                                 : merge
-TKPWEUT/TKEUF/H-PBZ/KAERBD               : git diff --cached
-TKPWEUT/KPHEUT/H-PBS/SR*                 : git commit -v
-TKPWEUT/KPHEUT/H-PBS/SR*/H-PBZ/APLD      : git commit -v --amend
-TKPWEUT/KHEBG/O*UT                       : git checkout
-TKPWEUT/KHEBG/O*UT/H-PBS/PW*             : git checkout -b
-TKPWEUT/PHERPBLG                         : git merge
-TKPWEUT/HUB                              : GitHub
-TKPWEUT/AD                               : git add
-TKEUF                                    : diff
-TKEUF/H-PBZ/KAERBD                       : diff --cached
-KPHEUT/H*PB/SR*                          : commit -v
-KHEBG/SKWROUT/H*PB/PW*/HOT/TK-LS/TPEUBGS : checkout -b hotfix
-PURB/O*RPBLG/PHAFRT                      : push origin master
-PUL/H-PBZ/RE/PWAEUS                      : pull --rebase
-HROG/H*PB/P*                             : log -p
-RE/SET/KPA*E/HED/KR-RT                   : reset HEAD ^
-RE/SET/H-PBZ/HARD/O*RPBLG/OEU/PHAFRT     : reset --hard origin/master
-AD/-P                                    : add .
+TKPWEUT                    : git
+ST*TS                      : status
+TKPWEUT/TKEUF              : git diff
+TKPWA*P                    : add .
+TKPWEUT/ST*TS              : git status
+TKPWEUT/TKPWEUT            : git status\\n{^}
+PHERPBLG                   : merge
+TKPWEUT/TKEUF/H-PBZ/KAERBD : git diff --cached
+TKPWEUT/KPHEUT/H-PBS/SR*   : git commit -v
+TKPWEUT/KHEBG/O*UT         : git checkout
+TKPWEUT/KHEBGT/PW*         : git checkout -b{^ ^}
+TKPWEUT/PHERPBLG           : git merge
+TKPWEUT/AD                 : git add
+TKEUF                      : diff
+TKEUF/H-PBZ/KAERBD         : diff --cached
+KPHEUT/H*PB/SR*            : commit -v
+PURB/O*RPBLG/PHAFRT        : push origin master
+PUL/H-PBZ/RE/PWAEUS        : pull --rebase
+HROG/H*PB/P*               : log -p
+RE/SET/KPA*E/HED/KR-RT     : reset HEAD ^
 ```
 
 ## General Use
