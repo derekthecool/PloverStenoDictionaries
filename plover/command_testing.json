@@ -1,0 +1,5 @@
+{
+  "*UPBDZ": "=retro_everything:{MODE:SET_SPACE:_},{MODE:RESET})",
+  "KARPS": "=retro_everything:{MODE:CAPS},{MODE:RESET}",
+  "KWO*ES": "=retro_everything:{MODE:SET_SPACE:'},{MODE:RESET}"
+}

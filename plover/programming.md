@@ -13,6 +13,8 @@ RAO*T  : reboot  # This word should be one stroke!
 RAOEBT : reboot
 KRORPL : cross platform
 ARGS   : args
+KAO*UT : execute
+KAOUBL : executable
 ```
 
 ## Technical Jargon
@@ -151,12 +153,21 @@ PHO*FBG : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
 PHOFBG : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 ```
 
+### Windows Shell Scripting
+
+```yaml
+AUPT : {^}APPDATA{^}
+A*UPT : {^}LOCALAPPDATA{^}
+```
+
 ## Vim
 
 ### Commands
 
 ```yaml
 PHAOEUFP           :  "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
+K-PL               :  {^gcc^}
+K*PL               :  {^gbc^}
 TKHRAO*ET          :  ^dd^
 KWO*RD             :  {^ciw^}
 KR*EU              :  {^ci^}
@@ -181,11 +192,13 @@ TKPW*UL           :  {^},gP{^} # Git pull (gull)
 TKPW*UL/TKPW*UL    :  git pull
 PHRA*US            :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
 HRA*US             :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
-TPH*EUPL           :  {^}nvim{^ ^}
+TPH*EUPL           :  nvim{^ ^}
 TPH*EUPL/RAED      :  {^}nvim README.md
-TPH*EUPL/TPH*EUPL  :  Neovim
+TPHOEUPL           :  neovim # sounds like 'noim'
 SREUPL             :  vim    # Swap with victim as I use this more
 SR*EUPL            :  victim # Swap with vim as I use this less
+HRAO*ERD           : {^}<leader>{^}
+KR-R               : {^}<cr>{^}
 ```
 
 ### Other Vim Programs
