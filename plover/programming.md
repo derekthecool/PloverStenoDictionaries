@@ -125,7 +125,7 @@ TKPWO*             :  {./^}
 ```yaml
 KHAO*ET                  :  {^}cht.sh {^ ^} # Run script on Linux
 KHAO*ET/KHAO*ET          :  {^}curl cht.sh/{^}{MODE:SET_SPACE:+} # Again Linux but using curl
-KHAO*ET/KHAO*ET/KHAO*ET  :  {^}curl.exe cht.sh/{^}{MODE:SET_SPACE:+} # For use on windows
+KHAO*ET/KHAO*ET/KHAO*ET  :  {^}(curl cht.sh/).Content{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{^}{MODE:SET_SPACE:+} # For use on windows
 T*ERB                    :  {^}nc termbin.com 9999
 T*ERB/T*ERB              :  https://termbin.com/{^}
 ```
@@ -158,6 +158,13 @@ PHOFBG : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 ```yaml
 AUPT : {^}APPDATA{^}
 A*UPT : {^}LOCALAPPDATA{^}
+```
+
+## tmux
+
+```yaml
+-FP : {^}{\#Control_R(u)}{^}
+-PL : {^}{\#Control_R(d)}{^}
 ```
 
 ## Vim

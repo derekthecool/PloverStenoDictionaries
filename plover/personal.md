@@ -9,6 +9,7 @@ HRUFRPB    : lunch # Swap with lurch
 HRA*UFRPB  : lurch # Swap with lunch
 TP*FGS     : info
 STUPG      : setting up
+HRAOEURBG  : library  # misstroke for library, nobody wants librarying
 ```
 
 ## Conditional Dictionary Mappings
