@@ -24,6 +24,8 @@ AOU/ART: UART
 KPAP: pcap
 PHAO*U: MCU
 PH*BG : MQTT
+PH*BG/PH*BG : LWT
+PH*BG/PH*BG/PH*BG : QoS
 TAOEP : TCP
 TAOEP/TAOEP : TCP/IP
 HREUBGS : Linux
@@ -36,6 +38,13 @@ K*EUG   : {^}Config # Overwrites: Qiing
 ```yaml
 RA*ED : README.md
 KHOG : CHANGELOG.md
+```
+
+## File Extensions
+
+```yaml
+SKWR-FPB : json # over writes uppercase version of JSON
+KWRAUPL : yaml
 ```
 
 ## C Programming
@@ -169,13 +178,9 @@ A*UPT : {^}LOCALAPPDATA{^}
 
 ## Vim
 
-### Commands
+### Operators
 
 ```yaml
-PHAOEUFP           :  "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
-K-PL               :  {^gcc^}
-K*PL               :  {^gbc^}
-TKHRAO*ET          :  ^dd^
 KWO*RD             :  {^ciw^}
 KR*EU              :  {^ci^}
 KWR*EU             :  {^yi^}
@@ -185,6 +190,17 @@ KRA*               :  {^ca^}  # Overwrites California
 KWRA*              :  {^ya^}  # Overwrites suffix 'ia'
 SRA*               :  {^va^}  # Overwrites Virginia
 TKA*               :  {^da^}
+TKPW-PL            :  {^gc^}  # Line wise comment operator. GM doesn't really mean anything.
+TKPW*PL            :  {^gb^}  # Block wise comment operator. GM doesn't really mean anything.
+```
+
+### Commands
+
+```yaml
+PHAOEUFP           : "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # This command is meant to save my file in vim and reload Plover
+K-PL               :  {^gcc^} # Comment current line in line wise style
+K*PL               :  {^gbc^} # Comment current line in block wise style
+TKHRAO*ET          :  ^dd^ # Delete line
 PR*EPL             :  {\#Escape}:%smagic/
 STPA               :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
 STPHA              :  {\#Escape}{^ZZ^}
@@ -206,6 +222,7 @@ SREUPL             :  vim    # Swap with victim as I use this more
 SR*EUPL            :  victim # Swap with vim as I use this less
 HRAO*ERD           : {^}<leader>{^}
 KR-R               : {^}<cr>{^}
+HRAOUF             : {^}luafile %{^}
 ```
 
 ### Other Vim Programs

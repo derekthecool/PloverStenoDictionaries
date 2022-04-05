@@ -12,6 +12,12 @@ STUPG      : setting up
 HRAOEURBG  : library  # misstroke for library, nobody wants librarying
 ```
 
+## Slang
+
+```yaml
+PW*T : BTW
+```
+
 ## Conditional Dictionary Mappings
 
 These could be powerful, but this example is not helpful
