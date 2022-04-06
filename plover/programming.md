@@ -127,6 +127,7 @@ PHUBGS             :  tmux
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
 TKPWO*             :  {./^}
+H-F                :  {^}{\#Control(c)}{^}
 ```
 
 ### Getting Help
@@ -205,6 +206,21 @@ PR*EPL             :  {\#Escape}:%smagic/
 STPA               :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
 STPHA              :  {\#Escape}{^ZZ^}
 KW*EUT             :  {\#Escape}:q\\n{^}
+TPH*EUPL           :  nvim{^ ^}
+TPH*EUPL/RAED      :  {^}nvim README.md
+TPHOEUPL           :  neovim # sounds like 'noim'
+SREUPL             :  vim    # Swap with victim as I use this more
+SR*EUPL            :  victim # Swap with vim as I use this less
+HRAO*ERD           : {^}<leader>{^}
+KR-R               : {^}<cr>{^}
+HRAOUF             : {^}luafile %{^}
+```
+
+### Personal Mappings That Need To Be Fast
+
+```yaml
+KH*EBGD : {^},vl{^} # Mark down check box
+TRAO*E : {^},fe{^} # File tree toggle
 T*EFT              :  {^},ui{^} # Test
 R*UPB              :  {^},uu{^} # Run
 PW-D              :  {^},u;{^} # Build
@@ -215,14 +231,12 @@ TKPW*UL           :  {^},gP{^} # Git pull (gull)
 TKPW*UL/TKPW*UL    :  git pull
 PHRA*US            :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
 HRA*US             :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
-TPH*EUPL           :  nvim{^ ^}
-TPH*EUPL/RAED      :  {^}nvim README.md
-TPHOEUPL           :  neovim # sounds like 'noim'
-SREUPL             :  vim    # Swap with victim as I use this more
-SR*EUPL            :  victim # Swap with vim as I use this less
-HRAO*ERD           : {^}<leader>{^}
-KR-R               : {^}<cr>{^}
-HRAOUF             : {^}luafile %{^}
+TPAO*EUL : {^},fF{^} # File search
+TKPWAO*EUL : {^},fG{^} # (Guiles) File search for git files
+PW*UFR : {^},fb{^} # Search buffers
+TKPWR*EP : {^},fg{^} # Grep files command
+TK*EUFR : {^},gd{^} # Call plugin DiffViewOpen
+TKPW*EUT : {^},gg{^} # Call plugin neogit
 ```
 
 ### Other Vim Programs
