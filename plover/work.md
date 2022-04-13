@@ -35,14 +35,14 @@ R*EFP: resp
 ```yaml
 WAL/TAOL: WallabyTool
 PW*EL/EBGS/TKAOEL/TKAOL: BelleX_DealerTool
-PW*EL/EBGS/SEFR : BelleX_Server
-PW*P/KP*P/TPO*ET : BXFota
-PW*/KP*/TPO*ET : BXFota
+PW*EL/EBGS/SEFR: BelleX_Server
+PW*P/KP*P/TPO*ET: BXFota
+PW*/KP*/TPO*ET: BXFota
 STKPWAOPL: Zoom
 TREL/OE: Trello
 KAO*EL: Keil
 KWAOU/EBGS/-D: QXDM
-TWEUL/KWROE  : Twilio
+TWEUL/KWROE: Twilio
 ```
 
 ### BelleX
@@ -71,6 +71,7 @@ ABGS/PHERT: accelerometer
 ## Cell Related
 
 ```yaml
+SR-LT: VoLTE
 SRER/AOEUPBZ: Verizon
 AT/*T: AT&T
 AOEU/AOEU: IMEI

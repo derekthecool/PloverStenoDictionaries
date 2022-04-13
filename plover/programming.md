@@ -226,6 +226,7 @@ R*UPB              :  {^},uu{^} # Run
 PW-D              :  {^},u;{^} # Build
 KW*EUBG           :  {^},lq{^} # LSP quick change
 TKPW*URB          :  {^},gp{^} # Git push (gush)
+TPO*RPLT          :  {^},lf{^} # Format code
 TKPW*URB/TKPW*URB :  git push
 TKPW*UL           :  {^},gP{^} # Git pull (gull)
 TKPW*UL/TKPW*UL    :  git pull

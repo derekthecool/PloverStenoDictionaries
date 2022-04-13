@@ -1,0 +1,3 @@
+[submodule "plover-mouse"]
+	path = plover-mouse
+	url = https://github.com/derekthecool/plover-mouse
