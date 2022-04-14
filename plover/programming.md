@@ -9,12 +9,12 @@ HAERB: \# # hash character on the right hand side
 ## Frequently Used Words
 
 ```yaml
-RAO*T  : reboot  # This word should be one stroke!
-RAOEBT : reboot
-KRORPL : cross platform
-ARGS   : args
-KAO*UT : execute
-KAOUBL : executable
+RAO*T: reboot # This word should be one stroke!
+RAOEBT: reboot
+KRORPL: cross platform
+ARGS: args
+KAO*UT: execute
+KAOUBL: executable
 ```
 
 ## Technical Jargon
@@ -36,15 +36,15 @@ K*EUG   : {^}Config # Overwrites: Qiing
 ## Common File Names
 
 ```yaml
-RA*ED : README.md
-KHOG : CHANGELOG.md
+RA*ED: README.md
+KHOG: CHANGELOG.md
 ```
 
 ## File Extensions
 
 ```yaml
-SKWR-FPB : json # over writes uppercase version of JSON
-KWRAUPL : yaml
+SKWR-FPB: json # over writes uppercase version of JSON
+KWRAUPL: yaml
 ```
 
 ## C Programming
@@ -89,26 +89,28 @@ E8S                :  {^}else\\n\\{\\n
 -PBD/-PBD          :  {^})\\n
 TPR-R              :  {=1234/some/none}
 ```
- is none none some 1234
 
 ## C Sharp
 
 ```yaml
 SHA*RP          : csharp
+SPROPBLG        : {^}.csproj{^}
 KA*UPBT : const
 HRAO*EPBG       : Linq
 SHA*RP/SHA*RP   : C\#
 TPAUR           : =>
 O/STR*EUPBG     : {^}.ToString()
 TKOT/TPHET      : dotnet
-TKOT/TPHET/TPHU : dotnet new console --framework net6.0
+TKOT/TPHET/TPHU : dotnet new
+TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
+TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
 TPRAOEFP        : {^}foreach(var{^ ^}
 ```
 
 ## Lua
 
 ```yaml
-HRAOU : lua
+HRAOU: lua
 ```
 
 ## Terminal
@@ -143,7 +145,7 @@ T*ERB/T*ERB              :  https://termbin.com/{^}
 ### Names Of Programs That Are Not Used In A Shell Command Manner
 
 ```yaml
-A/HRABG : Alacritty
+A/HRABG: Alacritty
 ```
 
 ### Linux Shell Scripting
@@ -182,62 +184,62 @@ A*UPT : {^}LOCALAPPDATA{^}
 ### Operators
 
 ```yaml
-KWO*RD             :  {^ciw^}
-KR*EU              :  {^ci^}
-KWR*EU             :  {^yi^}
-SR*EU              :  {^vi^}
-TK*EU              :  {^di^}
-KRA*               :  {^ca^}  # Overwrites California
-KWRA*              :  {^ya^}  # Overwrites suffix 'ia'
-SRA*               :  {^va^}  # Overwrites Virginia
-TKA*               :  {^da^}
-TKPW-PL            :  {^gc^}  # Line wise comment operator. GM doesn't really mean anything.
-TKPW*PL            :  {^gb^}  # Block wise comment operator. GM doesn't really mean anything.
+KWO*RD   :  {^ciw^}
+KR*EU    :  {^ci^}
+KWR*EU   :  {^yi^}
+SR*EU    :  {^vi^}
+TK*EU    :  {^di^}
+KRA*     :  {^ca^}  # Overwrites California
+KWRA*    :  {^ya^}  # Overwrites suffix 'ia'
+SRA*     :  {^va^}  # Overwrites Virginia
+TKA*     :  {^da^}
+TKPW-PL  :  {^gc^}  # Line wise comment operator. GM doesn't really mean anything.
+TKPW*PL  :  {^gb^}  # Block wise comment operator. GM doesn't really mean anything.
 ```
 
 ### Commands
 
 ```yaml
-PHAOEUFP           : "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # This command is meant to save my file in vim and reload Plover
-K-PL               :  {^gcc^} # Comment current line in line wise style
-K*PL               :  {^gbc^} # Comment current line in block wise style
-TKHRAO*ET          :  ^dd^ # Delete line
-PR*EPL             :  {\#Escape}:%smagic/
-STPA               :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
-STPHA              :  {\#Escape}{^ZZ^}
-KW*EUT             :  {\#Escape}:q\\n{^}
-TPH*EUPL           :  nvim{^ ^}
-TPH*EUPL/RAED      :  {^}nvim README.md
-TPHOEUPL           :  neovim # sounds like 'noim'
-SREUPL             :  vim    # Swap with victim as I use this more
-SR*EUPL            :  victim # Swap with vim as I use this less
-HRAO*ERD           : {^}<leader>{^}
-KR-R               : {^}<cr>{^}
-HRAOUF             : {^}luafile %{^}
+PHAOEUFP       :  "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # This command is meant to save my file in vim and reload Plover
+K-PL           :  {^gcc^} # Comment current line in line wise style
+K*PL           :  {^gbc^} # Comment current line in block wise style
+TKHRAO*ET      :  ^dd^ # Delete line
+PR*EPL         :  {\#Escape}:%smagic/
+STPA           :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
+STPHA          :  {\#Escape}{^ZZ^}
+KW*EUT         :  {\#Escape}:q\\n{^}
+TPH*EUPL       :  nvim{^ ^}
+TPH*EUPL/RAED  :  {^}nvim README.md
+TPHOEUPL       :  neovim # sounds like 'noim'
+SREUPL         :  vim    # Swap with victim as I use this more
+SR*EUPL        :  victim # Swap with vim as I use this less
+HRAO*ERD       :  {^}<leader>{^}
+KR-R           :  {^}<CR>{^}
+HRAOUF         :  {^}luafile %{^}
 ```
 
 ### Personal Mappings That Need To Be Fast
 
 ```yaml
-KH*EBGD : {^},vl{^} # Mark down check box
-TRAO*E : {^},fe{^} # File tree toggle
+KH*EBGD            :  {^},vl{^} # Mark down check box
+TRAO*E             :  {^},fe{^} # File tree toggle
 T*EFT              :  {^},ui{^} # Test
 R*UPB              :  {^},uu{^} # Run
-PW-D              :  {^},u;{^} # Build
-KW*EUBG           :  {^},lq{^} # LSP quick change
-TKPW*URB          :  {^},gp{^} # Git push (gush)
-TPO*RPLT          :  {^},lf{^} # Format code
-TKPW*URB/TKPW*URB :  git push
-TKPW*UL           :  {^},gP{^} # Git pull (gull)
+PW-D               :  {^},u;{^} # Build
+KW*EUBG            :  {^},lA{^} # LSP code action
+TKPW*URB           :  {^},gp{^} # Git push (gush)
+TPO*RPLT           :  {^},lf{^} # Format code
+TKPW*URB/TKPW*URB  :  git push
+TKPW*UL            :  {^},gP{^} # Git pull (gull)
 TKPW*UL/TKPW*UL    :  git pull
 PHRA*US            :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
 HRA*US             :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
-TPAO*EUL : {^},fF{^} # File search
-TKPWAO*EUL : {^},fG{^} # (Guiles) File search for git files
-PW*UFR : {^},fb{^} # Search buffers
-TKPWR*EP : {^},fg{^} # Grep files command
-TK*EUFR : {^},gd{^} # Call plugin DiffViewOpen
-TKPW*EUT : {^},gg{^} # Call plugin neogit
+TPAO*EUL           :  {^},fF{^} # File search
+TKPWAO*EUL         :  {^},fG{^} # (Guiles) File search for git files
+PW*UFR             :  {^},fb{^} # Search buffers
+TKPWR*EP           :  {^},fg{^} # Grep files command
+TK*EUFR            :  {^},gd{^} # Call plugin DiffViewOpen
+TKPW*EUT           :  {^},gg{^} # Call plugin neogit
 ```
 
 ### Other Vim Programs
@@ -381,37 +383,37 @@ SWR*FPLT   : {-|}{&z}
 ## Git
 
 ```yaml
-TKPWEUT                    : git
-ST*TS                      : status
-TKPWEUT/TKEUF              : git diff
-TKPWA*P                    : add .
-TKPWEUT/ST*TS              : git status
-TKPWEUT/TKPWEUT            : git status\\n{^}
-PHERPBLG                   : merge
-TKPWEUT/TKEUF/H-PBZ/KAERBD : git diff --cached
-TKPWEUT/KPHEUT/H-PBS/SR*   : git commit -v
-TKPWEUT/KHEBG/O*UT         : git checkout
-TKPWEUT/KHEBGT/PW*         : git checkout -b{^ ^}
-TKPWEUT/PHERPBLG           : git merge
-TKPWEUT/AD                 : git add
-TKEUF                      : diff
-TKEUF/H-PBZ/KAERBD         : diff --cached
-KPHEUT/H*PB/SR*            : commit -v
-PURB/O*RPBLG/PHAFRT        : push origin master
-PUL/H-PBZ/RE/PWAEUS        : pull --rebase
-HROG/H*PB/P*               : log -p
-RE/SET/KPA*E/HED/KR-RT     : reset HEAD ^
+TKPWEUT                     :  git
+ST*TS                       :  status
+TKPWEUT/TKEUF               :  git diff
+TKPWA*P                     :  add .
+TKPWEUT/ST*TS               :  git status
+TKPWEUT/TKPWEUT             :  git status\\n{^}
+PHERPBLG                    :  merge
+TKPWEUT/TKEUF/H-PBZ/KAERBD  :  git diff --cached
+TKPWEUT/KPHEUT/H-PBS/SR*    :  git commit -v
+TKPWEUT/KHEBG/O*UT          :  git checkout
+TKPWEUT/KHEBGT/PW*          :  git checkout -b{^ ^}
+TKPWEUT/PHERPBLG            :  git merge
+TKPWEUT/AD                  :  git add
+TKEUF                       :  diff
+TKEUF/H-PBZ/KAERBD          :  diff --cached
+KPHEUT/H*PB/SR*             :  commit -v
+PURB/O*RPBLG/PHAFRT         :  push origin master
+PUL/H-PBZ/RE/PWAEUS         :  pull --rebase
+HROG/H*PB/P*                :  log -p
+RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
 ```
 
 ## General Use
 
 ```yaml
-TPRAEUR : firmware
-SWAEUR  : software
-TKRAEUR : hardware
-S*UP    : software update
-TP*UP   : firmware update
-TKR*UP  : hardware update
-PHA*    : mA # Milliamp
-PHAO*EU : uA # Microamp
+TPRAEUR  :  firmware
+SWAEUR   :  software
+TKRAEUR  :  hardware
+S*UP     :  software update
+TP*UP    :  firmware update
+TKR*UP   :  hardware update
+PHA*     :  mA # Milliamp
+PHAO*EU  :  uA # Microamp
 ```
