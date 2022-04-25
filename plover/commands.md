@@ -39,7 +39,7 @@ PHROLG   : {PLOVER:TOGGLE}
 PHR*UP   : {PLOVER:LOOKUP}
 PHROFG   : {PLOVER:CONFIGURE}
 PHROFBGS : {PLOVER:FOCUS}
-PHROBGT  : {PLOVER:QUIT} 
+PHROBGT  : {PLOVER:QUIT}
 PHROFL   : "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
 PHROFS   : {PLOVER:SUGGESTIONS}
 ```
@@ -61,6 +61,8 @@ PH*UPB        : {MODE:SET_SPACE:💲}
 STKPWR/PRAPL  : {PLOVER:PRIORITY_DICT:programming.md}
 STKPWR/WORBG : {PLOVER:PRIORITY_DICT:work.md}
 ```
+
+PWHRO\*EBG : {PLOVER:TOGGLE_DICT:untranslated_block.md}
 
 ## Plover Spacing
 

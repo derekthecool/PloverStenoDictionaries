@@ -226,12 +226,12 @@ TRAO*E             :  {^},fe{^} # File tree toggle
 T*EFT              :  {^},ui{^} # Test
 R*UPB              :  {^},uu{^} # Run
 PW-D               :  {^},u;{^} # Build
-KW*EUBG            :  {^},lA{^} # LSP code action
-TKPW*URB           :  {^},gp{^} # Git push (gush)
+KW*EUBG            :  {^},lb{^} # LSP code action
+TKPW*URB           :  {^}Pp{^} # Git push (gush)
 TPO*RPLT           :  {^},lf{^} # Format code
-TKPW*URB/TKPW*URB  :  git push
-TKPW*UL            :  {^},gP{^} # Git pull (gull)
-TKPW*UL/TKPW*UL    :  git pull
+TKPW*URB/TKPW*URB  :  {^}git push\\n
+TKPW*UL            :  {^}pp{^} # Git pull (gull)
+TKPW*UL/TKPW*UL    :  {^}git pull\\n
 PHRA*US            :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
 HRA*US             :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
 TPAO*EUL           :  {^},fF{^} # File search

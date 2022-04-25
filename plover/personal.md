@@ -10,6 +10,7 @@ HRA*UFRPB: lurch # Swap with lunch
 TP*FGS: info
 STUPG: setting up
 HRAOEURBG: library # misstroke for library, nobody wants librarying
+PWHRAOD: payload # misstoke for blood
 ```
 
 ## Slang
@@ -54,8 +55,8 @@ HRO*EBG         : Lomax # Sounds like "Loax"
 STKPWHR/STKPWHR : Derek Lomax
 STKPWHR*        : Cassie
 KAS             : Cass
-AD/AD           : Addie
-AD/AD/AD        : Adaline
+AD/TKEU           : Addie
+AD/HRAOEUPB        : Adaline
 PHOEUG          : {^}Magoo
 HRA*EUT/OPB       : Layton
 ```
