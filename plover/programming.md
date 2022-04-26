@@ -208,7 +208,7 @@ PR*EPL         :  {\#Escape}:%smagic/
 STPA           :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
 STPHA          :  {\#Escape}{^ZZ^}
 KW*EUT         :  {\#Escape}:q\\n{^}
-TPH*EUPL       :  nvim{^ ^}
+TPH*EUPL       :  nvim{^}
 TPH*EUPL/RAED  :  {^}nvim README.md
 TPHOEUPL       :  neovim # sounds like 'noim'
 SREUPL         :  vim    # Swap with victim as I use this more
@@ -383,6 +383,10 @@ SWR*FPLT   : {-|}{&z}
 ## Git
 
 ```yaml
+TKPWUB                      :  GitHub
+TKPWUB/TKPWUB               :  https://github.com/{^}
+TKPWUB/TKPWUB/TKPWUB        :  "git@github.com:{^}"
+TKPWHRAB                    :  GitLab
 TKPWEUT                     :  git
 ST*TS                       :  status
 TKPWEUT/TKEUF               :  git diff

@@ -10,7 +10,7 @@ HRA*UFRPB: lurch # Swap with lunch
 TP*FGS: info
 STUPG: setting up
 HRAOEURBG: library # misstroke for library, nobody wants librarying
-PWHRAOD: payload # misstoke for blood
+PHRAOD: payload # misstoke for blood
 ```
 
 ## Slang
@@ -53,6 +53,7 @@ AEU       : {=[AEIOUaeiou]/an/a}  # From Plover example, puts "an" if next word 
 STKPWHR         : Derek
 HRO*EBG         : Lomax # Sounds like "Loax"
 STKPWHR/STKPWHR : Derek Lomax
+STKPWHR/STKPWHR/STKPWHR : derekthecool
 STKPWHR*        : Cassie
 KAS             : Cass
 AD/TKEU           : Addie
@@ -69,6 +70,8 @@ AOE/PHA*EUL/PHA*EUL: dlomax@freeus.com
 ```
 
 ## Date/Time
+
+See [emily-symbols.py](./emily-symbols.py) for more of my time items.
 
 ```yaml
 KWRAO*ER : {^}2022{^}
