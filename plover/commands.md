@@ -48,21 +48,21 @@ PHROFS   : {PLOVER:SUGGESTIONS}
 
 ```yaml
 SR-RS         : {\#Escape}{^}{MODE:RESET} # Suppress the next space after escape
-SR*RS         : {\#Control_L(bracketleft)}{^}{MODE:RESET}
+SR*RS         : {\#Control_L(bracketleft)}{^}{MODE:RESET} # Alternate escape
 S-P           : {^ ^}{MODE:RESET}
+S*P           : {^ ^}
 KA*PS         : {MODE:CAPS}
 TAO*EULT      : {MODE:TITLE}
 HRO*ERS       : {MODE:LOWER}
 KAPL/*EL      : {MODE:CAMEL}
 KAEPL         : {MODE:CAMEL}
+KA*EPL        : {MODE:TITLE}{MODE:SET_SPACE:}
 SKWRO*EUPB    : {MODE:SET_SPACE:}
 STPHA*EUBG    : {MODE:SNAKE}
 PH*UPB        : {MODE:SET_SPACE:💲}
 STKPWR/PRAPL  : {PLOVER:PRIORITY_DICT:programming.md}
 STKPWR/WORBG : {PLOVER:PRIORITY_DICT:work.md}
 ```
-
-PWHRO\*EBG : {PLOVER:TOGGLE_DICT:untranslated_block.md}
 
 ## Plover Spacing
 
@@ -72,10 +72,10 @@ KPA*L   : {:case:upper_first_word}
 *UPD    : {:retro_case:upper_first_word}
 HRO*ER  : {:case:lower_first_char}
 HRO*ERD : {:retro_case:lower_first_char}
-#       : =repeat_last_stroke
-#*      : {*}  # The long format command has errors {=retrospective_toggle_asterisk}
-AFPS    : {*?} # The long format command has errors {=retrospective_insert_space}
-TK-FPS  : {*!} # The long format command has errors {=retrospective_delete_space}
+#       : =repeat_last_stroke # Quick command to run the last stroke again
+#*      : {*}  # Retroactively toggle the asterisk. The long format command has errors {=retrospective_toggle_asterisk}
+AFPS    : {*?} # Retroactively insert a space. Writing the phrase "worth" + "while" makes the translation of worthwhile, running this command will split the phrase into two parts. The long format command has errors {=retrospective_insert_space}
+TK-FPS  : {*!} # Retroactively delete a space. Writing any two words can be jammed back together using this stroke. The long format command has errors {=retrospective_delete_space}
 ```
 
 ## [plover_fancy_text](https://github.com/psethwick/plover_fancytext) Plugin Commands

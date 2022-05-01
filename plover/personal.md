@@ -11,6 +11,7 @@ TP*FGS: info
 STUPG: setting up
 HRAOEURBG: library # misstroke for library, nobody wants librarying
 PHRAOD: payload # misstoke for blood
+KPAOUGS: execution # Replaces excusing with I'll never use
 ```
 
 ## Slang
