@@ -15,6 +15,8 @@ KRORPL: cross platform
 ARGS: args
 KAO*UT: execute
 KAOUBL: executable
+SEUS/HROG: syslog
+SHROG: syslog
 ```
 
 ## Technical Jargon
@@ -28,6 +30,8 @@ PH*BG/PH*BG : LWT
 PH*BG/PH*BG/PH*BG : QoS
 TAOEP : TCP
 TAOEP/TAOEP : TCP/IP
+PHABG : mac
+PHABGD : mac address
 HREUBGS : Linux
 KEUG    : config # Overwrites: can Iing
 K*EUG   : {^}Config # Overwrites: Qiing
@@ -137,7 +141,7 @@ H-F                :  {^}{\#Control(c)}{^}
 ```yaml
 KHAO*ET                  :  {^}cht.sh {^ ^} # Run script on Linux
 KHAO*ET/KHAO*ET          :  {^}curl cht.sh/{^}{MODE:SET_SPACE:+} # Again Linux but using curl
-KHAO*ET/KHAO*ET/KHAO*ET  :  {^}(curl cht.sh/).Content{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{^}{MODE:SET_SPACE:+} # For use on windows
+KHAO*ET/KHAO*ET/KHAO*ET  :  {^}(Invoke-WebRequest cht.sh/).Content{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{^}{MODE:SET_SPACE:+} # For use on windows, need to use Invoke-WebRequest instead of the alias curl to work on all PowerShell versions
 T*ERB                    :  {^}nc termbin.com 9999
 T*ERB/T*ERB              :  https://termbin.com/{^}
 ```
@@ -200,12 +204,13 @@ TKPW*PL  :  {^gb^}  # Block wise comment operator. GM doesn't really mean anythi
 ### Commands
 
 ```yaml
-PHAOEUFP       :  "{#Escape}{^zz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # This command is meant to save my file in vim and reload Plover
+PHAOEUFP       :  "{#Escape}{^zzz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # This command is meant to save my file in vim and reload Plover
 K-PL           :  {^gcc^} # Comment current line in line wise style
 K*PL           :  {^gbc^} # Comment current line in block wise style
 TKHRAO*ET      :  ^dd^ # Delete line
 PR*EPL         :  {\#Escape}:%smagic/
-STPA           :  {\#Escape}{^zz^} # Mapped in vim to :update<CR>
+#SR-RS         :  {^}{\#Control_R(backslash)}{\#Control_R(n)}{^}
+STPA           :  {\#Escape}{^zzz^} # Mapped in vim to :update<CR>
 STPHA          :  {\#Escape}{^ZZ^}
 KW*EUT         :  {\#Escape}:q\\n{^}
 TPH*EUPL       :  nvim{^}

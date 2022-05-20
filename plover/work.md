@@ -76,4 +76,6 @@ SRER/AOEUPBZ: Verizon
 AT/*T: AT&T
 AOEU/AOEU: IMEI
 AOEU/AOEUS: ICCID
+SOEUPL: sim # Replaces sodium
+SOEUPL/SOEUPL: ICCID # Replaces sodium
 ```

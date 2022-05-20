@@ -12,10 +12,11 @@ PW-FPL      : {\#Delete}
 PW*FPL      : {\#Control(Delete)}  # Delete forward by word
 PW-FPL      : {\#Delete}
 R-R         : {^\\n}{^}{MODE:RESET} # Normal enter method
-R*R         : {^\\n}{^} # Back up method that does not reset mode
+#R-R        : {^\\n}{^} # Back up method that does not reset mode
 R-RB        : {\#Shift_L(Return)}{^}{MODE:RESET} # Good for teams and discord for multiline messages
+R*R         : {^\\n}{^}{-|} # Single new line with making next word capitalized
 SKWRA*URBGS : {\#Shift_L(Return Return)}{^}{-|}{MODE:RESET} # Good for teams and discord for multiline messages
-SKWRAURBGS  : {^\\n\\n^}{-|}
+SKWRAURBGS  : {^\\n\\n^}{-|}{MODE:RESET}
 STPH-B      : {\#Down}{^}
 STPH-BG     : {\#Control_L(Right)}{^}
 STPH-G      : {\#Right}{^}
