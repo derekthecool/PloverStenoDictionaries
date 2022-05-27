@@ -4,11 +4,11 @@ These are my Plover Stenography dictionaries
 
 ## Markdown Format Dictionaries
 
-* [commands.md](plover/commands.md)
-* [personal.md](plover/personal.md)
-* [programming.md](plover/programming.md)
-* [work.md](plover/work.md)
-* [churchofjesuschristoflatterdaysaints.md](plover/churchofjesuschristoflatterdaysaints.md)
+- [commands.md](plover/commands.md)
+- [personal.md](plover/personal.md)
+- [programming.md](plover/programming.md)
+- [work.md](plover/work.md)
+- [churchofjesuschristoflatterdaysaints.md](plover/churchofjesuschristoflatterdaysaints.md)
 
 ## Plover Guide
 
@@ -16,8 +16,8 @@ Here is my [Dereks_Plover_guide](Dereks_Plover_guide) to working with Plover
 
 ## Learning Resources
 
-* [Plover GitHub](https://github.com/openstenoproject/plover)
-* [Learn Plover](https://github.com/openstenoproject/plover/wiki/Learning-Stenography)
+- [Plover GitHub](https://github.com/openstenoproject/plover)
+- [Learn Plover](https://github.com/openstenoproject/plover/wiki/Learning-Stenography)
 
 ## Python Dictionaries
 
@@ -28,13 +28,13 @@ I am using the 2 following python dictionaries from EPLHREU (emily)
 
 ## Plover Plugins Used
 
-* [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
-* [plover_python_dictionary](https://github.com/benoit-pierre/plover_python_dictionary) needed for emily-modifiers & emily-symbols
-* [plover_plugins_manager](https://github.com/benoit_pierre/plover_plugins_manager) required for any plugins
-* [plover_fancy_text](https://github.com/psethwick/plover_fancytext)
-* [plover_number_format](https://github.com/Volensia/plover_number_format)
-* [plover_emoji](https://github.com/morinted/plover_emoji)
-* [plover_current_time](https://github.com/EPLHREU/plover-current-time)
+- [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
+- [plover_python_dictionary](https://github.com/benoit-pierre/plover_python_dictionary) needed for emily-modifiers & emily-symbols
+- [plover_plugins_manager](https://github.com/benoit_pierre/plover_plugins_manager) required for any plugins
+- [plover_fancy_text](https://github.com/psethwick/plover_fancytext)
+- [plover_number_format](https://github.com/Volensia/plover_number_format)
+- [plover_emoji](https://github.com/morinted/plover_emoji)
+- [plover_current_time](https://github.com/EPLHREU/plover-current-time)
 
 ## My Current Hardware
 
@@ -42,9 +42,9 @@ I am using the [ZSA Moonlander](https://www.zsa.io/moonlander/buy/) keyboard.
 
 Awesome features of this keyboard include:
 
-* Programmable keys
-* Supports Stenography Gemini PR and Bolt protocols
-* Replace your mouse with this keyboard
+- Programmable keys
+- Supports Stenography Gemini PR and Bolt protocols
+- Replace your mouse with this keyboard
 
 Here is my [Stenography layer](https://configure.zsa.io/moonlander/layouts/mz7LN/latest/9)
 

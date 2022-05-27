@@ -17,6 +17,15 @@ KAO*UT: execute
 KAOUBL: executable
 SEUS/HROG: syslog
 SHROG: syslog
+RAOES: release
+```
+
+## Linux
+
+```yaml
+HREUBGS : Linux
+PHAPB/SKWRA*R : Manjaro
+TPOEUD : Fedora # Replaces "for identification"
 ```
 
 ## Technical Jargon
@@ -32,7 +41,6 @@ TAOEP : TCP
 TAOEP/TAOEP : TCP/IP
 PHABG : mac
 PHABGD : mac address
-HREUBGS : Linux
 KEUG    : config # Overwrites: can Iing
 K*EUG   : {^}Config # Overwrites: Qiing
 ```
@@ -132,6 +140,7 @@ PW-RB              :  PowerShell
 PHUBGS             :  tmux
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
+PROEUT             :  proto
 TKPWO*             :  {./^}
 H-F                :  {^}{\#Control(c)}{^}
 ```
@@ -414,15 +423,18 @@ HROG/H*PB/P*                :  log -p
 RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
 ```
 
-## General Use
+## Hardware Software Firmware Items
 
 ```yaml
-TPRAEUR  :  firmware
-SWAEUR   :  software
-TKRAEUR  :  hardware
-S*UP     :  software update
-TP*UP    :  firmware update
-TKR*UP   :  hardware update
-PHA*     :  mA # Milliamp
-PHAO*EU  :  uA # Microamp
+TPRAEUR   : firmware
+SWAEUR    : software
+TKRAEUR   : hardware
+S*UP      : software update
+TP*UP     : firmware update
+TKR*UP    : hardware update
+TPHRAO*ES : firmware release
+SHRAO*ES  : software release
+TKHRAOES  : hardware release
+PHA*      : mA # Milliamp
+PHAO*EU   : uA # Microamp
 ```

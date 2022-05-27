@@ -11,12 +11,12 @@ PW*FP       : {\#Control(BackSpace)} # Delete backward by word
 PW-FPL      : {\#Delete}
 PW*FPL      : {\#Control(Delete)}  # Delete forward by word
 PW-FPL      : {\#Delete}
-R-R         : {^\\n}{^}{MODE:RESET} # Normal enter method
+R-R         : {MODE:RESET}{^\\n}{^} # Normal enter method
 #R-R        : {^\\n}{^} # Back up method that does not reset mode
-R-RB        : {\#Shift_L(Return)}{^}{MODE:RESET} # Good for teams and discord for multiline messages
+R-RB        : {MODE:RESET}{\#Shift_L(Return)}{^} # Good for teams and discord for multiline messages
 R*R         : {^\\n}{^}{-|} # Single new line with making next word capitalized
-SKWRA*URBGS : {\#Shift_L(Return Return)}{^}{-|}{MODE:RESET} # Good for teams and discord for multiline messages
-SKWRAURBGS  : {^\\n\\n^}{-|}{MODE:RESET}
+SKWRA*URBGS : {MODE:RESET}{\#Shift_L(Return Return)}{^}{-|} # Good for teams and discord for multiline messages
+SKWRAURBGS  : {MODE:RESET}{^\\n\\n^}{-|}
 STPH-B      : {\#Down}{^}
 STPH-BG     : {\#Control_L(Right)}{^}
 STPH-G      : {\#Right}{^}
@@ -50,17 +50,17 @@ PHROFS   : {PLOVER:SUGGESTIONS}
 ```yaml
 SR-RS         : {\#Escape}{^}{MODE:RESET} # Suppress the next space after escape
 SR*RS         : {\#Control_L(bracketleft)}{^}{MODE:RESET} # Alternate escape
-S-P           : {^ ^}{MODE:RESET}
+S-P           : {MODE:RESET}{^ ^}
 S*P           : {^ ^}
 KA*PS         : {MODE:CAPS}
 TAO*EULT      : {MODE:TITLE}
 HRO*ERS       : {MODE:LOWER}
-KAPL/*EL      : {MODE:CAMEL}
-KAEPL         : {MODE:CAMEL}
-KA*EPL        : {MODE:TITLE}{MODE:SET_SPACE:}
-SKWRO*EUPB    : {MODE:SET_SPACE:}
-STPHA*EUBG    : {MODE:SNAKE}
-PH*UPB        : {MODE:SET_SPACE:💲}
+KAPL/*EL      : {^ ^}{MODE:CAMEL} # This mode deletes normal spaces and needs a space at the start
+KAEPL         : {^ ^}{MODE:CAMEL} # This mode deletes normal spaces and needs a space at the start
+KA*EPL        : {^ ^}{MODE:TITLE}{MODE:SET_SPACE:} # This mode deletes normal spaces and needs a space at the start
+SKWRO*EUPB    : {^ ^}{MODE:SET_SPACE:} # This mode deletes normal spaces and needs a space at the start
+STPHA*EUBG    : {^ ^}{MODE:SNAKE} # This mode deletes normal spaces and needs a space at the start
+PH*UPB        : {^ ^}{MODE:SET_SPACE:💲} # This mode deletes normal spaces and needs a space at the start
 STKPWR/PRAPL  : {PLOVER:PRIORITY_DICT:programming.md}
 STKPWR/WORBG : {PLOVER:PRIORITY_DICT:work.md}
 ```

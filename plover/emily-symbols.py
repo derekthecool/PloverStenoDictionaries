@@ -42,7 +42,9 @@ symbols = {
         "RP"     : ["/"  , "⇒" , "⇔" , "÷"]  ,
         "LG"     : [":"  , "∋" , "∵" , "∴"]  ,
         "RB"     : [";"  , "∀" , "∃" , "∄"]  ,
-        "PBLG"   : ["="  , "≡" , "≈" , "≠"]  ,
+
+        # The = sign benefits from a mode reset for coding purposes. If typing a variable in a special casing like snake, camel, or bumpy camel a reset really helps
+        "PBLG"   : ["{MODE:RESET}="  , "≡" , "≈" , "≠"]  ,
         "FPB"    : ["?"  , "¿" , "∝" , "‽"]  ,
         "FRPBLG" : ["@"  , "⊕" , "⊗" , "∅"]  ,
         "FB"     : ["\\" , "Δ" , "√" , "∞"]  ,
