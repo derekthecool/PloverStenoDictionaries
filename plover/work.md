@@ -78,4 +78,5 @@ AOEU/AOEU: IMEI
 AOEU/AOEUS: ICCID
 SOEUPL: sim # Replaces sodium
 SOEUPL/SOEUPL: ICCID # Replaces sodium
+TA*PBD : AT command
 ```

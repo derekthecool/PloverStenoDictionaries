@@ -17,17 +17,17 @@ R-RB        : {MODE:RESET}{\#Shift_L(Return)}{^} # Good for teams and discord fo
 R*R         : {^\\n}{^}{-|} # Single new line with making next word capitalized
 SKWRA*URBGS : {MODE:RESET}{\#Shift_L(Return Return)}{^}{-|} # Good for teams and discord for multiline messages
 SKWRAURBGS  : {MODE:RESET}{^\\n\\n^}{-|}
-STPH-B      : {\#Down}{^}
-STPH-BG     : {\#Control_L(Right)}{^}
-STPH-G      : {\#Right}{^}
-STPH-P      : {\#Up}{^}
-STPH-R      : {\#Left}{^}
-STPH-RB     : {\#Control_L(Left)}{^}
 TA*B        : {\#Tab}{^}
 TA*BT       : {\#Alt_L(Tab Tab)}
 TK*EL       : {\#Delete}
 TPEFBG      : {\#Escape}
 SKWR        : {^^} # Another way besides.TK-LS
+KW-R        : {\#Left}{^} # Replaces "inquire" use KWEUR instead
+KW-RB       : {\#Control_L(Left)}{^} # Replaces "--" use Emily-symbols
+KW-B        : {\#Down}{^} # Replaces "," not unique no issue
+KW-G        : {\#Right}{^} # Replaces "requesting" use KW/-G instead
+KW*BG       : {\#Control_L(Right)}{^} # Does not replace anything
+KW-P        : {\#Up}{^} # Does not relace anything
 ```
 
 ## Plover Control
@@ -121,10 +121,4 @@ TPHUPL/WORD/0     : "{:number_word_conversion:0:2}"
 TPHUPL/WORD/1     : "{:number_word_conversion:1:2}"
 TPHUPL/WORD/2     : "{:number_word_conversion:2:2}"
 TPHUPL/WORD/ROEPL : "{:number_format_roman:0:0}"
-```
-
-## [plover_emoji](https://github.com/morinted/plover_emoji) Plugin Commands
-
-```yaml
-PHOEPBLG : "{:emoji}"
 ```

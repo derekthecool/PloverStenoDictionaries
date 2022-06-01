@@ -45,6 +45,12 @@ KEUG    : config # Overwrites: can Iing
 K*EUG   : {^}Config # Overwrites: Qiing
 ```
 
+## Units
+
+```yaml
+H*ERTS : Hz
+```
+
 ## Common File Names
 
 ```yaml
