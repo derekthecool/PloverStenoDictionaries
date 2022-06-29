@@ -21,14 +21,22 @@ Here is my [Dereks_Plover_guide](Dereks_Plover_guide) to working with Plover
 
 ## Python Dictionaries
 
-I am using the 2 following python dictionaries from EPLHREU (emily)
+I am using the 2 following python dictionaries from EPLHREU (emily). I use both
+of these heavily used by me for programming and controlling my computer.
 
 1. [emily-symbols](https://github.com/EPLHREU/emily-symbols)
 2. [emily-modifiers](https://github.com/EPLHREU/emily-modifiers)
 
+I've made several mods to the symbols file. The changes I've made include the
+following:
+
+- Edits to spacing
+- Adding entries for custom items I want
+
 ## Plover Plugins Used
 
 - [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
+  extremely amazing plugin that allows markdown dictionaries
 - [plover_python_dictionary](https://github.com/benoit-pierre/plover_python_dictionary) needed for emily-modifiers & emily-symbols
 - [plover_plugins_manager](https://github.com/benoit_pierre/plover_plugins_manager) required for any plugins
 - [plover_fancy_text](https://github.com/psethwick/plover_fancytext)
@@ -51,4 +59,4 @@ Here is my [Stenography layer](https://configure.zsa.io/moonlander/layouts/mz7LN
 ## Typey Type Progress
 
 I am storing my [Typey Type Progress](https://didoesdigital.com/typey-type/progress)
-json file here.
+json file [here](./plover/typey_type/typeytype_progress.json).

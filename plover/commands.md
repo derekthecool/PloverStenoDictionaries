@@ -1,8 +1,5 @@
 # Plover Commands
 
-This Markdown file is a Plover stenography dictionary. This requires the use of
-[plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary).
-
 ## Basic Commands
 
 ```yaml

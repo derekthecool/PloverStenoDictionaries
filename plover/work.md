@@ -8,6 +8,8 @@ A*EUG: Avant Guard
 RA*EUPL: RMA
 W*EUTS: Wistron
 PHAOEURBG: Micron
+KRAEULD : cradle
+KRA*EULD : cradled
 ```
 
 ## Device Type Names

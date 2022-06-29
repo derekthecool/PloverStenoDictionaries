@@ -34,6 +34,8 @@ PW*T: BTW
 
 #### Top reasons why Plover stenography is great!
 
+Quick responses for reasons I use stenography and Plover.
+
 ```yaml
 STOEUPB/1: Stenography is a dreamland for power users! You control your computer with ease.
 STOEUPB/2: Stenography is more ergonomic than a normal keyboard and you never need to look at your hands while typing.
@@ -41,6 +43,8 @@ STOEUPB/3: Stenography allows users to reach high speeds of 200 WPM+ without str
 ```
 
 #### Reasons I use Neovim
+
+Quick responses for reasons I use Neovim.
 
 ```yaml
 SREUPL/1: Neovim is a powerful and extensible text editor that is free and open source (Apache 2.0)
@@ -59,16 +63,16 @@ AEU       : {=[AEIOUaeiou]/an/a}  # From Plover example, puts "an" if next word 
 ## Names
 
 ```yaml
-STKPWHR         : Derek
-HRO*EBG         : Lomax # Sounds like "Loax"
-STKPWHR/STKPWHR : Derek Lomax
+STKPWHR                 : Derek
+HRO*EBG                 : Lomax # Sounds like "Loax"
+STKPWHR/STKPWHR         : Derek Lomax
 STKPWHR/STKPWHR/STKPWHR : derekthecool
-STKPWHR*        : Cassie
-KAS             : Cass
-AD/TKEU           : Addie
-AD/HRAOEUPB        : Adaline
-PHOEUG          : {^}Magoo
-HRA*EUT/OPB       : Layton
+STKPWHR*                : Cassie
+KAS                     : Cass
+AD/TKEU                 : Addie
+AD/HRAOEUPB             : Adaline
+PHOEUG                  : {^}Magoo
+HRA*EUT/OPB             : Layton
 ```
 
 ## Email

@@ -1,11 +1,5 @@
 # Programming Dictionary
 
-SKW-T: \' # single quote character
-KR-GS: \" # double quote character
-PW-RB: \\ # backslash
-HAERB: \# # hash character on the right hand side
-'#-T': 9 # you should not escape the # in strokes
-
 ## Frequently Used Words
 
 ```yaml
@@ -26,6 +20,7 @@ RAOES: release
 HREUBGS : Linux
 PHAPB/SKWRA*R : Manjaro
 TPOEUD : Fedora # Replaces "for identification"
+SOEUD : {^}sudo
 ```
 
 ## Technical Jargon
@@ -43,6 +38,13 @@ PHABG : mac
 PHABGD : mac address
 KEUG    : config # Overwrites: can Iing
 K*EUG   : {^}Config # Overwrites: Qiing
+HROEUPBG : lat/long
+```
+
+## Numbers
+
+```yaml
+H*EBGS : {^}0x{^}
 ```
 
 ## Units
@@ -63,6 +65,7 @@ KHOG: CHANGELOG.md
 ```yaml
 SKWR-FPB: json # over writes uppercase version of JSON
 KWRAUPL: yaml
+KR*S: cs # Was CSS
 ```
 
 ## C Programming
@@ -74,11 +77,12 @@ STR/HREPB          :  {^}strlen({^}
 STR/KOPB           :  {^}strncpy({^}
 STR/KPH-P          :  {^}strcmp({^}
 STR/TOBG           :  {^}strtok({^}
-PHEPL/SET          :  {^}memset({^}
-TP*R               :  {^}for(int i=0;i<{^}
-TP*R/TP*R          :  {^};i++)\\n
 ST-D/RO*ER         :  stderr
+STKER              :  stderr
 ST-D/O*UT          :  stdout
+STKOUT             :  stdout
+STKEUPB            :  stdin
+ST-D/EUPB          :  stdin
 *ED                :  {^};\\n{^}  # end line with semicolon and new line
 #*ED               :  {^};{^}  # end line with semicolon
 *EDZ               :  {^});\\n{^} # end line with closing parentheses and semicolon and new line
@@ -105,7 +109,6 @@ EFL                :  {^}\\}\\nelse if({^}
 E8S                :  {^}else\\n\\{\\n
 -PBD               :  {^})\\n\\{\\n
 -PBD/-PBD          :  {^})\\n
-TPR-R              :  {=1234/some/none}
 ```
 
 ## C Sharp
@@ -123,6 +126,7 @@ TKOT/TPHET/TPHU : dotnet new
 TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
 TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
 TPRAOEFP        : {^}foreach(var{^ ^}
+AF/HROEPB/KWRA  : Avalonia
 ```
 
 ## Lua
@@ -136,14 +140,9 @@ HRAOU: lua
 ### General
 
 ```yaml
-EBG                :  echo{^ ^}
-KR*D               :  cd{^ ^}
-R-PL               :  rm{^ ^}
-PH-BG/TKEUR        :  mkdir{^ ^}
 T*ERPL             :  terminal
 KHRAO*EU           :  CLI
 PW-RB              :  PowerShell
-PHUBGS             :  tmux
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
 PROEUT             :  proto
@@ -152,6 +151,9 @@ H-F                :  {^}{\#Control(c)}{^}
 ```
 
 ### Getting Help
+
+This makes using the terminal cheat tool very easy. See
+[cht.sh](https://cht.sh/)
 
 ```yaml
 KHAO*ET                  :  {^}cht.sh {^ ^} # Run script on Linux
@@ -169,33 +171,45 @@ A/HRABG: Alacritty
 
 ### Linux Shell Scripting
 
+#### Main terminal commands
+
 ```yaml
-TP*EU    : {^}fi
-AO*EF    : env
-AO*EF/AO*EF    : {^}$env:{^}
-HO*EPL    : {^}~/{^}
-HO*EPL/HO*EPL    : {^}$HOME/{^}
-HO*EPL/HO*EPL/HO*EPL  : {^}192.168.{^}
-AUBG/AUBG : {^}awk \'\\{print $1\\}\'{^ ^}
-AUBG/AUBG/AUBG : {^}awk \'/search/ \\{print $1\\}\'{^}
-HR-PT : {^}lftp
-KR*D  : {^}cd
-PHO*FBG : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
-PHOFBG : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
+EBG         : {^}echo {^ ^}
+KR*D        : {^}cd {^ ^}
+PH*F        : {^}mv {^ ^}
+R-PL        : {^}rm {^ ^}
+PH-BG/TKEUR : {^}mkdir {^ ^}
+TP*EU       : {^}fi{^ ^}
+HR-PT       : {^}lftp {^ ^}
+```
+
+#### Command macros
+
+```yaml
+AO*EF                : env
+AO*EF/AO*EF          : {^}$env                                                       : {^}
+HO*EPL               : {^}~/{^}
+HO*EPL/HO*EPL        : {^}$HOME/{^}
+HO*EPL/HO*EPL/HO*EPL : {^}192.168.{^}
+AUBG/AUBG            : {^}awk \'\\{print $1\\}\'{^ ^}
+AUBG/AUBG/AUBG       : {^}awk \'/search/ \\{print $1\\}\'{^}
+PHO*FBG              : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
+PHOFBG               : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 ```
 
 ### Windows Shell Scripting
 
 ```yaml
-AUPT : {^}APPDATA{^}
+AUPT  : {^}APPDATA{^}
 A*UPT : {^}LOCALAPPDATA{^}
 ```
 
 ## tmux
 
 ```yaml
--FP : {^}{\#Control_R(u)}{^}
--PL : {^}{\#Control_R(d)}{^}
+PHUBGS  : tmux
+PH*UBGS : {^}{\#Control_R(a)}{^} # tmux prefix
+KW*EU   : {^}{\#Control_R(a)}j{^} # Open my wiki in new tmux window
 ```
 
 ## Vim
@@ -203,23 +217,25 @@ A*UPT : {^}LOCALAPPDATA{^}
 ### Operators
 
 ```yaml
-KWO*RD   :  {^ciw^}
-KR*EU    :  {^ci^}
-KWR*EU   :  {^yi^}
-SR*EU    :  {^vi^}
-TK*EU    :  {^di^}
-KRA*     :  {^ca^}  # Overwrites California
-KWRA*    :  {^ya^}  # Overwrites suffix 'ia'
-SRA*     :  {^va^}  # Overwrites Virginia
-TKA*     :  {^da^}
-TKPW-PL  :  {^gc^}  # Line wise comment operator. GM doesn't really mean anything.
-TKPW*PL  :  {^gb^}  # Block wise comment operator. GM doesn't really mean anything.
+KWO*RD  : {^ciw^}
+KR*EU   : {^ci^}
+KWR*EU  : {^yi^}
+SR*EU   : {^vi^}
+TK*EU   : {^di^}
+KRA*    : {^ca^}  # Overwrites California
+KWRA*   : {^ya^}  # Overwrites suffix 'ia'
+SRA*    : {^va^}  # Overwrites Virginia
+TKA*    : {^da^}
+TKPW-PL : {^gc^}  # Line wise comment operator. GM doesn't really mean anything.
+TKPW*PL : {^gb^}  # Block wise comment operator. GM doesn't really mean anything.
 ```
 
 ### Commands
 
 ```yaml
 PHAOEUFP       :  "{#Escape}{^zzz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # This command is meant to save my file in vim and reload Plover
+-FP            :  {^}{\#Control_R(u)}{^} # easy control + u for up scrollOEUFPj
+-PL            :  {^}{\#Control_R(d)}{^} # easy control + d for down scroll
 K-PL           :  {^gcc^} # Comment current line in line wise style
 K*PL           :  {^gbc^} # Comment current line in block wise style
 TKHRAO*ET      :  ^dd^ # Delete line
