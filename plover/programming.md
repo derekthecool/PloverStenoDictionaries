@@ -58,6 +58,7 @@ H*ERTS : Hz
 ```yaml
 RA*ED: README.md
 KHOG: CHANGELOG.md
+TPH*EUT/TPH*EUT : {^}init.lua
 ```
 
 ## File Extensions
@@ -123,6 +124,7 @@ TPAUR           : =>
 O/STR*EUPBG     : {^}.ToString()
 TKOT/TPHET      : dotnet
 TKOT/TPHET/TPHU : dotnet new
+TKRUPB : dotnet run\\n
 TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
 TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
 TPRAOEFP        : {^}foreach(var{^ ^}
@@ -141,6 +143,7 @@ HRAOU: lua
 
 ```yaml
 T*ERPL             :  terminal
+KWOEUBG            :  {^}qmk
 KHRAO*EU           :  CLI
 PW-RB              :  PowerShell
 PROE/TOE/SAOE      :  protoc
@@ -233,7 +236,7 @@ TKPW*PL : {^gb^}  # Block wise comment operator. GM doesn't really mean anything
 ### Commands
 
 ```yaml
-PHAOEUFP       :  "{#Escape}{^zzz^}{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # This command is meant to save my file in vim and reload Plover
+PHAOEUFP       :  "{#Escape}{^zzz^}{PLOVER:SET_CONFIG:}"  # This command is will save my file in vim and reload Plover
 -FP            :  {^}{\#Control_R(u)}{^} # easy control + u for up scrollOEUFPj
 -PL            :  {^}{\#Control_R(d)}{^} # easy control + d for down scroll
 K-PL           :  {^gcc^} # Comment current line in line wise style
@@ -244,6 +247,7 @@ PR*EPL         :  {\#Escape}:%smagic/
 STPA           :  {\#Escape}{^zzz^} # Mapped in vim to :update<CR>
 STPHA          :  {\#Escape}{^ZZ^}
 KW*EUT         :  {\#Escape}:q\\n{^}
+KW*EUTS        :  {\#Escape}:wqa\\n{^}
 TPH*EUPL       :  nvim{^}
 TPH*EUPL/RAED  :  {^}nvim README.md
 TPHOEUPL       :  neovim # sounds like 'noim'
@@ -252,6 +256,15 @@ SR*EUPL        :  victim # Swap with vim as I use this less
 HRAO*ERD       :  {^}<leader>{^}
 KR-R           :  {^}<CR>{^}
 HRAOUF         :  {^}luafile %{^}
+```
+
+### Special Commands To Trigger Snippets FAST
+
+```yaml
+23* : IF
+*EFLS : ELSEIF
+*ELS : ELSE
+23*R : FOR
 ```
 
 ### Personal Mappings That Need To Be Fast
@@ -274,6 +287,7 @@ TPAO*EUL           :  {^},fF{^} # File search
 TKPWAO*EUL         :  {^},fG{^} # (Guiles) File search for git files
 PW*UFR             :  {^},fb{^} # Search buffers
 TKPWR*EP           :  {^},fg{^} # Grep files command
+HOEUP              :  {^},fh{^} # Grep files command
 TK*EUFR            :  {^},gd{^} # Call plugin DiffViewOpen
 TKPW*EUT           :  {^},gg{^} # Call plugin neogit
 ```

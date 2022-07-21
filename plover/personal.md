@@ -13,6 +13,8 @@ HRAOEURBG: library # misstroke for library, nobody wants librarying
 PHRAOD: payload # misstoke for blood
 KPAOUGS: execution # Replaces excusing with I'll never use
 KPAEUP: escape
+KWROUFRPB: youch
+KWROUFP: youch
 ```
 
 ## Phrases
@@ -20,6 +22,7 @@ KPAEUP: escape
 ```yaml
 SKWAOERD: it is really weird # Out of order (is + it + weird (WAOERD))
 ST*: it is # Reverse of ST (is it)
+WRARPBD : work around
 ```
 
 ## Slang
