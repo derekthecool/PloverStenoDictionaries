@@ -29,6 +29,8 @@ PW*EL/-L: BelleLTE
 
 ```yaml
 TPO*ET: Fota
+TPO*ET/TPO*ET: BXFota
+TPO*ET/TPO*ET/TPO*ET: MXFota
 R*EFP: resp
 ```
 

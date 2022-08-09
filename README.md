@@ -22,7 +22,7 @@ Here is my [Dereks_Plover_guide](Dereks_Plover_guide) to working with Plover
 ## Python Dictionaries
 
 I am using the 2 following python dictionaries from EPLHREU (emily). I use both
-of these heavily used by me for programming and controlling my computer.
+of these heavily for programming and controlling my computer.
 
 1. [emily-symbols](https://github.com/EPLHREU/emily-symbols)
 2. [emily-modifiers](https://github.com/EPLHREU/emily-modifiers)

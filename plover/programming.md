@@ -251,6 +251,11 @@ KW*EUTS        :  {\#Escape}:wqa\\n{^}
 TPH*EUPL       :  nvim{^}
 TPH*EUPL/RAED  :  {^}nvim README.md
 TPHOEUPL       :  neovim # sounds like 'noim'
+TPHO*EUPL      :  {^}nvim
+TPHO*EUPL/TPHO*EUPL      :  {^}nvim --cmd \"set rtp+=.\"
+KPH-D          : {^}{\#Escape}:{^}
+KPH-DZ         : {^}{\#Escape}:lua{^ ^}
+KPH-DZ/KPH-DZ         : {^}{\#Escape}:luafile %\\n{^}
 SREUPL         :  vim    # Swap with victim as I use this more
 SR*EUPL        :  victim # Swap with vim as I use this less
 HRAO*ERD       :  {^}<leader>{^}
@@ -265,6 +270,9 @@ HRAOUF         :  {^}luafile %{^}
 *EFLS : ELSEIF
 *ELS : ELSE
 23*R : FOR
+2*E69: TEST
+12KR50*EUB: DESCRIBE
+3R*EU7B9: PRINT
 ```
 
 ### Personal Mappings That Need To Be Fast
@@ -290,6 +298,26 @@ TKPWR*EP           :  {^},fg{^} # Grep files command
 HOEUP              :  {^},fh{^} # Grep files command
 TK*EUFR            :  {^},gd{^} # Call plugin DiffViewOpen
 TKPW*EUT           :  {^},gg{^} # Call plugin neogit
+PHRUP          :  {^},aa{^} # PackerSync
+TR*EUT         :  {^},ab{^} # :TSPlaygroundToggle<CR>')
+HRO*EDZ         :  {^},ac{^} # Reload my entire neovim config
+PHR*EPB       : {^},dP{^} # Run plenary tests for neovim plugins
+```
+
+### Neovim API
+
+#### Meant To Trigger Snippet
+
+```yaml
+KPH*D: VIM.CMD{^}
+TPHO*EFT: VIM.NOTIFY{^}
+```
+
+#### Not Meant To Trigger Snippet
+
+```yaml
+SRAO*EUP : vim.api.{^}
+TP*PB : vim.fn.{^}
 ```
 
 ### Other Vim Programs

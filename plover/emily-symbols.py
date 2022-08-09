@@ -22,7 +22,7 @@ symbols = {
         "FRBG"  : ["{#AudioPlay}" , "{#AudioPrev}"        , "{#AudioNext}"        , "{#AudioStop}"] ,
         "FRB"   : ["{#AudioMute}" , "{#AudioLowerVolume}" , "{#AudioRaiseVolume}" , "{#Eject}"]     ,
         ""      : [""             , "{*!}"                , "{*?}"                , "{#Space}"]     ,
-        "FL"    : ["{*-|}"        , "{*<}"                , "{<}"                 , "{*>}"]         ,
+        # "FL"    : ["{*-|}"        , "{*<}"                , "{<}"                 , "{*>}"]         ,
 
         # typable symbols
         "FR"     : ["!"  , "¬" , "↦" , "¡"]  ,
@@ -43,8 +43,15 @@ symbols = {
         "LG"     : [":"  , "∋" , "∵" , "∴"]  ,
         "RB"     : [";"  , "∀" , "∃" , "∄"]  ,
 
+        # Helpful directional emojis
+        ## Use for vim snippet mappings
+        "FL"     : ["☝"  , "👈" , "👉" , "👇"]  ,
+        "RL"     : ["⏫"  ,"◀️" , "▶️" , "⏬"]  ,
+        ## Use for vim quick fix list bindings
+        "FPBL"   : ["↑"  , "←" , "→" , "↓"]  ,
+
         # The = sign benefits from a mode reset for coding purposes. If typing a variable in a special casing like snake, camel, or bumpy camel a reset really helps
-        "PBLG"   : ["{MODE:RESET}="  , "≡" , "≈" , "≠"]  ,
+        "PBLG"   : ["{MODE:RESET}={^}"  , "≡" , "≈" , "≠"]  ,
         "FPB"    : ["?"  , "¿" , "∝" , "‽"]  ,
         "FRPBLG" : ["@"  , "⊕" , "⊗" , "∅"]  ,
         "FB"     : ["\\" , "Δ" , "√" , "∞"]  ,
@@ -53,7 +60,6 @@ symbols = {
         "P"      : ["`"  , "⊂" , "⊃" , "π"]  ,
         "PB"     : ["|"  , "⊤" , "⊥" , "¦"]  ,
         "FPBG"   : ["~"  , "⊆" , "⊇" , "˜"]  ,
-        "FPBL"   : ["↑"  , "←" , "→" , "↓"]  ,
 
         # Text modes
         "RBLG": [
