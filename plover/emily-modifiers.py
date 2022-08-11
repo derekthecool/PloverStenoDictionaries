@@ -193,7 +193,7 @@ def lookup(chord):
     if "F" in modKeys:
         mods.append("Control_L")
     if "P" in modKeys:
-        mods.append("Alt_R")
+        mods.append("Alt_L")
     if "R" in modKeys:
         mods.append("Super_L")
 
