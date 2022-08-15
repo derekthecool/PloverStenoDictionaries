@@ -71,6 +71,7 @@ KPA*L   : {:case:upper_first_word}
 HRO*ER  : {:case:lower_first_char}
 HRO*ERD : {:retro_case:lower_first_char}
 #       : =repeat_last_stroke # Quick command to run the last stroke again
+AO      : =repeat_last_stroke # Quick command to run the last stroke again (easier to repeat because of stronger fingers)
 #*      : {*}  # Retroactively toggle the asterisk. The long format command has errors {=retrospective_toggle_asterisk}
 AFPS    : {*?} # Retroactively insert a space. Writing the phrase "worth" + "while" makes the translation of worthwhile, running this command will split the phrase into two parts. The long format command has errors {=retrospective_insert_space}
 TK-FPS  : {*!} # Retroactively delete a space. Writing any two words can be jammed back together using this stroke. The long format command has errors {=retrospective_delete_space}
