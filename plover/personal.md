@@ -70,9 +70,10 @@ STKPWHR                 : Derek
 HRO*EBG                 : Lomax # Sounds like "Loax"
 STKPWHR/STKPWHR         : Derek Lomax
 STKPWHR/STKPWHR/STKPWHR : derekthecool
-STKPWHR*                : Cassie
+STKPWHR*                : Lomax
 KAS                     : Cass
 AD/TKEU                 : Addie
+AD/KWREU                : Addie
 AD/HRAOEUPB             : Adaline
 PHOEUG                  : {^}Magoo
 HRA*EUT/OPB             : Layton

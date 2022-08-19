@@ -127,6 +127,7 @@ TKOT/TPHET/TPHU : dotnet new
 TKRUPB : dotnet run\\n
 TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
 TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
+TKOFP : dotnet watch run
 TPRAOEFP        : {^}foreach(var{^ ^}
 AF/HROEPB/KWRA  : Avalonia
 ```
@@ -135,6 +136,16 @@ AF/HROEPB/KWRA  : Avalonia
 
 ```yaml
 HRAOU: lua
+```
+
+## Go
+
+### Hugo
+
+```yaml
+HAO*UG : hugo
+HAO*UG/HAO*UG : {^}hugo server -D
+HAO*UG/HAO*UG/HAO*UG : hugo server --bind $(hostname -I | tr -d ' ') --baseURL=http://$(hostname -I | tr -d ' ') -D
 ```
 
 ## Terminal

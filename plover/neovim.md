@@ -49,13 +49,13 @@ HRAOUF         :  {^}luafile %{^}
 ## Special Commands To Trigger Snippets FAST
 
 ```yaml
-23* : IF
-*EFLS : ELSEIF
-*ELS : ELSE
-23*R : FOR
-2*E69: TEST
-12KR50*EUB: DESCRIBE
-3R*EU7B9: PRINT
+#TP*       : IF{^}
+*EFLS      : ELSEIF{^}
+*ELS       : ELSE{^}
+#TP-R      : FOR{^}
+#T*EFT     : TEST{^}
+#STKRAOEUB : DESCRIBE{^}
+#PR*EUPBT  : PRINT{^}
 ```
 
 ## Personal Mappings That Need To Be Fast
