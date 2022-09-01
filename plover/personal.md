@@ -86,6 +86,12 @@ AOE/PHA*EUL: derekthecool@gmail.com
 AOE/PHA*EUL/PHA*EUL: dlomax@freeus.com
 ```
 
+## My Websites
+
+```yaml
+PHEU/SAO*EUT : https://dereklomax.com
+```
+
 ## Date/Time
 
 See [emily-symbols.py](./emily-symbols.py) for more of my time items.

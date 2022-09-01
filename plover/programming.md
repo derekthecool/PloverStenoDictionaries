@@ -115,21 +115,20 @@ E8S                :  {^}else\\n\\{\\n
 ## C Sharp
 
 ```yaml
-SHA*RP          : csharp
-SPROPBLG        : {^}.csproj{^}
-KA*UPBT : const
-HRAO*EPBG       : Linq
-SHA*RP/SHA*RP   : C\#
-TPAUR           : =>
-O/STR*EUPBG     : {^}.ToString()
-TKOT/TPHET      : dotnet
-TKOT/TPHET/TPHU : dotnet new
-TKRUPB : dotnet run\\n
+SHA*RP                : csharp
+SPROPBLG              : {^}.csproj{^}
+KA*UPBT               : const
+HRAO*EPBG             : Linq
+SHA*RP/SHA*RP         : C\#
+TPAUR                 : {^ ^}=>{^ ^}
+O/STR*EUPBG           : {^}.ToString()
+TKOT/TPHET            : dotnet
+TKOT/TPHET/TPHU       : dotnet new
+TKRUPB                : dotnet run\\n
 TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
 TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
-TKOFP : dotnet watch run
-TPRAOEFP        : {^}foreach(var{^ ^}
-AF/HROEPB/KWRA  : Avalonia
+TKOFP                 : dotnet watch run
+AF/HROEPB/KWRA        : Avalonia
 ```
 
 ## Lua

@@ -1,5 +1,11 @@
 # Neovim Dictionary
 
+## Vim Vocabulary
+
+```yaml
+TREUT : treesitter # Amazing smart parsing tool
+```
+
 ## Operators
 
 ```yaml
@@ -25,7 +31,8 @@ PHAOEUFP       :  "{#Escape}{^zzz^}{PLOVER:SET_CONFIG:}"  # This command is will
 K-PL           :  {^gcc^} # Comment current line in line wise style
 K*PL           :  {^gbc^} # Comment current line in block wise style
 TKHRAO*ET      :  ^dd^ # Delete line
-PR*EPL         :  {\#Escape}:%smagic/
+PR*EPL         :  {^}{\#Escape}:%smagic/{^}
+PRO*EUPL       :  {^}:smagic/{^}
 #SR-RS         :  {^}{\#Control_R(backslash)}{\#Control_R(n)}{^}
 STPA           :  {\#Escape}{^zzz^} # Mapped in vim to :update<CR>
 STPHA          :  {\#Escape}{^ZZ^}
@@ -37,8 +44,10 @@ TPHOEUPL       :  neovim # sounds like 'noim'
 TPHO*EUPL      :  {^}nvim
 TPHO*EUPL/TPHO*EUPL      :  {^}nvim --cmd \"set rtp+=.\"
 KPH-D          : {^}{\#Escape}:{^}
+KPHOEUD        : {^}:{^}
 KPH-DZ         : {^}{\#Escape}:lua{^ ^}
-KPH-DZ/KPH-DZ         : {^}{\#Escape}:luafile %\\n{^}
+KPHOEUDZ       : {^}:lua{^ ^}
+KPH-DZ/KPH-DZ  : {^}{\#Escape}:luafile %\\n{^}
 SREUPL         :  vim    # Swap with victim as I use this more
 SR*EUPL        :  victim # Swap with vim as I use this less
 HRAO*ERD       :  {^}<leader>{^}
@@ -46,15 +55,17 @@ KR-R           :  {^}<CR>{^}
 HRAOUF         :  {^}luafile %{^}
 ```
 
-## Special Commands To Trigger Snippets FAST
+## Special Commands To Trigger Autosnippets -- Essential For Fast Programming
 
 ```yaml
 #TP*       : IF{^}
-*EFLS      : ELSEIF{^}
-*ELS       : ELSE{^}
-#TP-R      : FOR{^}
+#*EFLS      : ELS_EI_F{^} # this one is weird because it must not contain the words "else" or "if" or it'll trigger over snippets
+#*ELS       : ELSE{^}
+#TP*R      : FOR{^}
+#TPRAO*EFP : FOREACH{^}
+#TP*UBGS   : FUNCTION{^}
 #T*EFT     : TEST{^}
-#STKRAOEUB : DESCRIBE{^}
+#STKRAO*EUB : DESCRIBE{^}
 #PR*EUPBT  : PRINT{^}
 ```
 
@@ -66,7 +77,8 @@ TRAO*E             :  {^},fe{^} # File tree toggle
 T*EFT              :  {^},ui{^} # Test
 R*UPB              :  {^},uu{^} # Run
 PW-D               :  {^},u;{^} # Build
-KW*EUBG            :  {^},lb{^} # LSP code action
+KW*EUBG            :  {^},la{^} # LSP code action version 1
+KWO*EUBG            :  {^},lb{^} # LSP code action version 2
 TKPW*URB           :  {^}Pp{^} # Git push (gush)
 TPO*RPLT           :  {^},lf{^} # Format code
 TKPW*URB/TKPW*URB  :  {^}git push\\n
@@ -85,6 +97,8 @@ PHRUP          :  {^},aa{^} # PackerSync
 TR*EUT         :  {^},ab{^} # :TSPlaygroundToggle<CR>')
 HRO*EDZ         :  {^},ac{^} # Reload my entire neovim config
 PHR*EPB       : {^},dP{^} # Run plenary tests for neovim plugins
+WRAO          : {^}]d{^}
+KWAO          : {^}[d{^}
 ```
 
 ## Neovim API
