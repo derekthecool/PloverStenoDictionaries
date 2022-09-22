@@ -1,6 +1,8 @@
 {
   "PHOEPBLG": "{:emoji}",
   "*UPBDZ": "=retro_everything:{MODE:SET_SPACE:_},{MODE:RESET})",
+  "TWR-RBL": "{PLOVER:VLC_seek:+2s}",
+  "SR*BG": "{PLOVER:VLC_pause}",
   "KARPS": "=retro_everything:{MODE:CAPS},{MODE:RESET}",
   "KWO*ES": "=retro_everything:{MODE:SET_SPACE:'},{MODE:RESET}"
 }

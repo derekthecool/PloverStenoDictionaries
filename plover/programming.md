@@ -21,6 +21,7 @@ HREUBGS : Linux
 PHAPB/SKWRA*R : Manjaro
 TPOEUD : Fedora # Replaces "for identification"
 SOEUD : {^}sudo
+W-LS : [wsl](wsl)
 ```
 
 ## Technical Jargon
@@ -67,6 +68,7 @@ TPH*EUT/TPH*EUT : {^}init.lua
 SKWR-FPB: json # over writes uppercase version of JSON
 KWRAUPL: yaml
 KR*S: cs # Was CSS
+PH-D : {^}md{^}
 ```
 
 ## C Programming
@@ -187,20 +189,31 @@ A/HRABG: Alacritty
 #### Main terminal commands
 
 ```yaml
-EBG         : {^}echo {^ ^}
-KR*D        : {^}cd {^ ^}
-PH*F        : {^}mv {^ ^}
-R-PL        : {^}rm {^ ^}
-PH-BG/TKEUR : {^}mkdir {^ ^}
-TP*EU       : {^}fi{^ ^}
-HR-PT       : {^}lftp {^ ^}
+EBG                                                               :  {^}echo {^ ^}
+KR*D/TKPW*EUT                                                     :  {^}cd $(git rev-parse --show-toplevel)\\n{^}
+KR*D                                                              :  {^}cd {^ ^}
+KR*D/KR*D                                                         :  {^}cd ../
+KR*D/KR*D/KR*D                                                    :  {^}cd ../../
+KR*D/KR*D/KR*D/KR*D                                               :  {^}cd ../../../
+KR*D/KR*D/KR*D/KR*D/KR*D                                          :  {^}cd ../../../../
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                                     :  {^}cd ../../../../../
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                                :  {^}cd ../../../../../../
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                           :  {^}cd ../../../../../../../
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                      :  {^}cd ../../../../../../../../
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                 :  {^}cd ../../../../../../../../../
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D            :  {^}cd ../../../../../../../../../../
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D       :  {^}cd ../../../../../../../../../../../
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D  :  {^}cd ../../../../../../../../../../../../
+PH*F                                                              :  {^}mv {^ ^}
+R-PL                                                              :  {^}rm {^ ^}
+PH-BG/TKEUR                                                       :  {^}mkdir {^ ^}
+TP*EU                                                             :  {^}fi{^ ^}
+HR-PT                                                             :  {^}lftp {^ ^}
 ```
 
 #### Command macros
 
 ```yaml
-AO*EF                : env
-AO*EF/AO*EF          : {^}$env                                                       : {^}
 HO*EPL               : {^}~/{^}
 HO*EPL/HO*EPL        : {^}$HOME/{^}
 HO*EPL/HO*EPL/HO*EPL : {^}192.168.{^}
@@ -210,11 +223,16 @@ PHO*FBG              : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
 PHOFBG               : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 ```
 
-### Windows Shell Scripting
+### PowerShell/Pwsh Scripting
 
 ```yaml
-AUPT  : {^}APPDATA{^}
-A*UPT : {^}LOCALAPPDATA{^}
+AUPT                 :  {^}APPDATA{^}
+A*UPT                :  {^}LOCALAPPDATA{^}
+AO*EF                :  env
+AOEF                 :  {^}$env:{^}
+AOEF/AOEF            :  {^}$env:APPDATA{^}
+AOEF/AOEF/AOEF       :  {^}$env:LOCALAPPDATA{^}
+AOEF/AOEF/AOEF/AOEF  :  {^}$env:USERPROFILE{^}
 ```
 
 ## tmux
@@ -228,6 +246,7 @@ KW*EU   : {^}{\#Control_R(a)}j{^} # Open my wiki in new tmux window
 ## Git
 
 ```yaml
+TKPW*EUT/HO*EPL             :  {^}cd $(git rev-parse --show-toplevel)\\n{^}
 TKPWUB                      :  GitHub
 TKPWUB/TKPWUB               :  https://github.com/{^}
 TKPWUB/TKPWUB/TKPWUB        :  "git@github.com:{^}"

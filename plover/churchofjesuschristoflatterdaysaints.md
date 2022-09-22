@@ -9,3 +9,10 @@ TPHEU/TPAOEU : Nephi
 PHO*RPL : Mormon
 PHROEPB : Moroni
 ```
+
+## Added by Plover
+
+```yaml
+TK*BG: D&C
+PHOE/SAO*EU: Mosiah
+```

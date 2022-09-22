@@ -26,15 +26,18 @@ TKPW*PL : {^gb^}  # Block wise comment operator. GM doesn't really mean anything
 
 ```yaml
 PHAOEUFP       :  "{#Escape}{^zzz^}{PLOVER:SET_CONFIG:}"  # This command is will save my file in vim and reload Plover
+TKPW-G : {^}gg{^}
+TK-D   : {^}dd{^}
+TKHRAO*ET      :  ^dd^ # Delete line
 -FP            :  {^}{\#Control_R(u)}{^} # easy control + u for up scrollOEUFPj
 -PL            :  {^}{\#Control_R(d)}{^} # easy control + d for down scroll
 K-PL           :  {^gcc^} # Comment current line in line wise style
 K*PL           :  {^gbc^} # Comment current line in block wise style
-TKHRAO*ET      :  ^dd^ # Delete line
 PR*EPL         :  {^}{\#Escape}:%smagic/{^}
 PRO*EUPL       :  {^}:smagic/{^}
 #SR-RS         :  {^}{\#Control_R(backslash)}{\#Control_R(n)}{^}
 STPA           :  {\#Escape}{^zzz^} # Mapped in vim to :update<CR>
+STPA/STPA      :  {^}{\#Escape}:w\\n{^} # Twice for a forced write to single file
 STPHA          :  {\#Escape}{^ZZ^}
 KW*EUT         :  {\#Escape}:q\\n{^}
 KW*EUTS        :  {\#Escape}:wqa\\n{^}
@@ -42,7 +45,8 @@ TPH*EUPL       :  nvim{^}
 TPH*EUPL/RAED  :  {^}nvim README.md
 TPHOEUPL       :  neovim # sounds like 'noim'
 TPHO*EUPL      :  {^}nvim
-TPHO*EUPL/TPHO*EUPL      :  {^}nvim --cmd \"set rtp+=.\"
+TPHO*EUPL/TPHO*EUPL      :  {^}nvim --cmd \"set rtp+=$(pwd)\"
+TPH*EUPL/TPH*EUPL       :  {^}nvim --cmd \"set rtp+=$(pwd)\"
 KPH-D          : {^}{\#Escape}:{^}
 KPHOEUD        : {^}:{^}
 KPH-DZ         : {^}{\#Escape}:lua{^ ^}
@@ -67,6 +71,7 @@ HRAOUF         :  {^}luafile %{^}
 #T*EFT     : TEST{^}
 #STKRAO*EUB : DESCRIBE{^}
 #PR*EUPBT  : PRINT{^}
+#TPO*RPLT  : FORMAT{^}
 ```
 
 ## Personal Mappings That Need To Be Fast
@@ -97,8 +102,23 @@ PHRUP          :  {^},aa{^} # PackerSync
 TR*EUT         :  {^},ab{^} # :TSPlaygroundToggle<CR>')
 HRO*EDZ         :  {^},ac{^} # Reload my entire neovim config
 PHR*EPB       : {^},dP{^} # Run plenary tests for neovim plugins
-WRAO          : {^}]d{^}
-KWAO          : {^}[d{^}
+WRAO          : {^}]d{^} # Forward to next diagnostic
+KWAO          : {^}[d{^} # Backward to previous diagnostic
+SKO*EP        : {^},ff{^} # Open telescope general prompt
+TP*UZ        : {^},fz{^} # Open telescope fuzzy find current buffer
+KPHA*PBD      : {^},fc{^} # Telescope open command history
+```
+
+## Language Server Protocol Commands
+
+```yaml
+TKPW-D : {^}gd{^} # gd -- go to definition
+TKPW*D : {^}gD{^} # gD -- go to declaration
+TKPWEU : {^}gi{^} # gi -- go to implementation
+TKPW-R : {^}gr{^} # gr -- go to references
+TKPW*R : {^}gR{^} # gR -- replace symbol
+TKPW-PB : {^}gn{^} # gn -- go to next diagnostic
+TKPW-P : {^}gp{^} # gp -- go to previous diagnostic
 ```
 
 ## Neovim API
@@ -253,4 +273,18 @@ SWR*       : {^}{>}z{^}
 SWR*P      : {^}{-|}z{^}
 SWR*RBGS   : {>}{&z}
 SWR*FPLT   : {-|}{&z}
+```
+
+## Added by Plover
+
+```yaml
+PW*UF: {^}buf{^}
+TPA*EUPL: filename
+TPHAO*EBG: {^ ^}~={^ ^}
+TPHAO*EBLG: {^ ^}~= nil{^}
+PW*UFPB: bufnr
+WAL/PWEU: Wallaby
+TPHAOEBG: {^ ^}!={^ ^}
+TPHAOEBLG: {^ ^} != null{^}
+TPHAEUS: namespace
 ```
