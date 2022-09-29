@@ -42,7 +42,7 @@ PHROFL   : "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands lik
 PHROFS   : {PLOVER:SUGGESTIONS}
 ```
 
-## Plover Modes
+## Plover Normal Formatting Modes
 
 ```yaml
 SR-RS         : {\#Escape}{^}{MODE:RESET} # Suppress the next space after escape
@@ -52,14 +52,18 @@ S*P           : {^ ^}
 KA*PS         : {MODE:CAPS}
 TAO*EULT      : {MODE:TITLE}
 HRO*ERS       : {MODE:LOWER}
-KAPL/*EL      : {^ ^}{MODE:CAMEL} # This mode deletes normal spaces and needs a space at the start
-KAEPL         : {^ ^}{MODE:CAMEL} # This mode deletes normal spaces and needs a space at the start
-KA*EPL        : {^ ^}{MODE:TITLE}{MODE:SET_SPACE:} # This mode deletes normal spaces and needs a space at the start
-SKWRO*EUPB    : {^ ^}{MODE:SET_SPACE:} # This mode deletes normal spaces and needs a space at the start
-STPHA*EUBG    : {^ ^}{MODE:SNAKE} # This mode deletes normal spaces and needs a space at the start
-PH*UPB        : {^ ^}{MODE:SET_SPACE:💲} # This mode deletes normal spaces and needs a space at the start
 STKPWR/PRAPL  : {PLOVER:PRIORITY_DICT:programming.md}
 STKPWR/WORBG : {PLOVER:PRIORITY_DICT:work.md}
+```
+
+## Plover Programming Formatting Modes
+
+```yaml
+KAEPL         : {^ ^}{MODE:CAMEL} # camelCaseTextLikeThis
+KA*EPL        : {MODE:TITLE}{^ ^}{-|}{MODE:SET_SPACE:} # CamelCaseTextLikeThis
+KA*EPLS       : {MODE:TITLE}{-|}{MODE:SET_SPACE:}. # Camel case right after a period, useful for csharp myVariable.ToString()
+SKWRO*EUPB    : {^ ^}{MODE:SET_SPACE:} # joinswithoutanyspacinglikethis
+STPHA*EUBG    : {^ ^}{MODE:SNAKE} # joins_by_underscores_like_this
 ```
 
 ## Plover Spacing

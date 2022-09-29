@@ -66,6 +66,7 @@ HRAOUF         :  {^}luafile %{^}
 #*EFLS      : ELS_EI_F{^} # this one is weird because it must not contain the words "else" or "if" or it'll trigger over snippets
 #*ELS       : ELSE{^}
 #TP*R      : FOR{^}
+#WHAO*EUL  : WHILE{^}
 #TPRAO*EFP : FOREACH{^}
 #TP*UBGS   : FUNCTION{^}
 #T*EFT     : TEST{^}
@@ -101,6 +102,7 @@ TKPW*EUT           :  {^},gg{^} # Call plugin neogit
 PHRUP          :  {^},aa{^} # PackerSync
 TR*EUT         :  {^},ab{^} # :TSPlaygroundToggle<CR>')
 HRO*EDZ         :  {^},ac{^} # Reload my entire neovim config
+TPHO*ET         :  {^},ad{^} # Show recent notifications
 PHR*EPB       : {^},dP{^} # Run plenary tests for neovim plugins
 WRAO          : {^}]d{^} # Forward to next diagnostic
 KWAO          : {^}[d{^} # Backward to previous diagnostic

@@ -107,3 +107,9 @@ KR-Z: crazy
 ```
 
 %% vim:textwidth=500
+
+## Added by Plover
+
+```yaml
+KEUBL: configurable
+```
