@@ -73,6 +73,7 @@ HRAOUF         :  {^}luafile %{^}
 #STKRAO*EUB : DESCRIBE{^}
 #PR*EUPBT  : PRINT{^}
 #TPO*RPLT  : FORMAT{^}
+#TA*FBG    : TASK{^}
 ```
 
 ## Personal Mappings That Need To Be Fast
@@ -109,6 +110,7 @@ KWAO          : {^}[d{^} # Backward to previous diagnostic
 SKO*EP        : {^},ff{^} # Open telescope general prompt
 TP*UZ        : {^},fz{^} # Open telescope fuzzy find current buffer
 KPHA*PBD      : {^},fc{^} # Telescope open command history
+TA*EUP : {^},nt{^} # Toggle tapey-tape-plugin
 ```
 
 ## Language Server Protocol Commands
