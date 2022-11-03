@@ -112,4 +112,5 @@ KR-Z: crazy
 
 ```yaml
 KEUBL: configurable
+TKAOEUS: device
 ```

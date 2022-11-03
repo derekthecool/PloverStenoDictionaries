@@ -74,6 +74,10 @@ HRAOUF         :  {^}luafile %{^}
 #PR*EUPBT  : PRINT{^}
 #TPO*RPLT  : FORMAT{^}
 #TA*FBG    : TASK{^}
+#TRAO*EU   : TRY{^}
+#KA*UL      : {^}{MODE:RESET}CALL{^}  # For expanding function calls
+#KHRA*S     : CLASS{^}
+KAUPB/#STR*URBGT : CONSTRUCTOR{^}
 ```
 
 ## Personal Mappings That Need To Be Fast
@@ -111,6 +115,15 @@ SKO*EP        : {^},ff{^} # Open telescope general prompt
 TP*UZ        : {^},fz{^} # Open telescope fuzzy find current buffer
 KPHA*PBD      : {^},fc{^} # Telescope open command history
 TA*EUP : {^},nt{^} # Toggle tapey-tape-plugin
+```
+
+## Treesitter Mappings
+
+```yaml
+T-PL : {^},tnms{^}
+T-FP : {^},tpms{^}
+T*PL : {^},tnme{^}
+T*FP : {^},tpme{^}
 ```
 
 ## Language Server Protocol Commands

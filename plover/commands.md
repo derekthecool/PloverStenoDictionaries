@@ -60,7 +60,7 @@ STKPWR/WORBG : {PLOVER:PRIORITY_DICT:work.md}
 
 ```yaml
 KAEPL         : {^ ^}{MODE:CAMEL} # camelCaseTextLikeThis
-KA*EPL        : {MODE:TITLE}{^ ^}{-|}{MODE:SET_SPACE:} # CamelCaseTextLikeThis
+KA*EPL        : {MODE:TITLE}{-|}{MODE:SET_SPACE:} # CamelCaseTextLikeThis
 KA*EPLS       : {MODE:TITLE}{-|}{MODE:SET_SPACE:}. # Camel case right after a period, useful for csharp myVariable.ToString()
 SKWRO*EUPB    : {^ ^}{MODE:SET_SPACE:} # joinswithoutanyspacinglikethis
 STPHA*EUBG    : {^ ^}{MODE:SNAKE} # joins_by_underscores_like_this

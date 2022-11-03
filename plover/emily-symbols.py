@@ -154,6 +154,14 @@ def lookup(chord):
     if 'T' in repetitions:
         repeat = repeat + 2
 
+    if starter == uniqueStarters[1] and "R" not in pattern and "FPL" not in pattern:
+        aoVariant = 0
+        if 'A' in attachments:
+            aoVariant += 1
+        if 'O' in attachments:
+            aoVariant += 2
+        return "{^}" + f",t{variant}{aoVariant}{repeat}" + "{^}"
+
     if pattern not in symbols[starter]:
         raise KeyError
 

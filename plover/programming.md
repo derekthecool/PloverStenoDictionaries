@@ -66,9 +66,12 @@ TPH*EUT/TPH*EUT : {^}init.lua
 
 ```yaml
 SKWR-FPB: json # over writes uppercase version of JSON
-KWRAUPL: yaml
-KR*S: cs # Was CSS
+KWRAUPL: {^}.yaml{^}
+KR*S: {^}.cs{^}
 PH-D : {^}md{^}
+PH*D : {^}md{^}
+TK-L : {^}.dll{^}
+EBGS/EBGS : {^}.exe{^}
 ```
 
 ## C Programming
@@ -114,9 +117,17 @@ E8S                :  {^}else\\n\\{\\n
 -PBD/-PBD          :  {^})\\n
 ```
 
+## Databases
+
+```yaml
+PHEU/SKW-L : MySQL
+SKW*L : sql
+```
+
 ## C Sharp
 
 ```yaml
+PR-PLS                : {^}Program.cs
 SHA*RP                : csharp
 SPROPBLG              : {^}.csproj{^}
 KA*UPBT               : const
