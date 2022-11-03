@@ -1,3 +1,12 @@
 [submodule "plover-mouse"]
 	path = plover-mouse
 	url = https://github.com/derekthecool/plover-mouse
+[submodule "plover/jeff-numbers"]
+	path = plover/jeff-numbers
+	url = git@github.com:derekthecool/jeff-numbers.git
+[submodule "plover/jeff-phrasing"]
+	path = plover/jeff-phrasing
+	url = git@github.com:derekthecool/jeff-phrasing.git
+[submodule "plover/jeff-visual-stroke"]
+	path = plover/jeff-visual-stroke
+	url = git@github.com:derekthecool/jeff-visual-stroke.git
