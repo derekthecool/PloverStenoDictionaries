@@ -78,6 +78,7 @@ HRAOUF         :  {^}luafile %{^}
 #KA*UL      : {^}{MODE:RESET}CALL{^}  # For expanding function calls
 #KHRA*S     : CLASS{^}
 KAUPB/#STR*URBGT : CONSTRUCTOR{^}
+#KA*UPB/#KA*UPB : CONSTRUCTOR{^}
 ```
 
 ## Personal Mappings That Need To Be Fast

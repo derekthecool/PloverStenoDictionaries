@@ -27,3 +27,9 @@ REPGS: redemption
 HRAO*EF: Lehi
 HAFT: hast
 ```
+
+## Added by Plover
+
+```yaml
+TKEL: {^}xj{^}
+```

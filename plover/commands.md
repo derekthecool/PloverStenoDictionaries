@@ -79,6 +79,7 @@ AO      : =repeat_last_stroke # Quick command to run the last stroke again (easi
 #*      : {*}  # Retroactively toggle the asterisk. The long format command has errors {=retrospective_toggle_asterisk}
 AFPS    : {*?} # Retroactively insert a space. Writing the phrase "worth" + "while" makes the translation of worthwhile, running this command will split the phrase into two parts. The long format command has errors {=retrospective_insert_space}
 TK-FPS  : {*!} # Retroactively delete a space. Writing any two words can be jammed back together using this stroke. The long format command has errors {=retrospective_delete_space}
+*       : =undo
 ```
 
 ## [plover_fancy_text](https://github.com/psethwick/plover_fancytext) Plugin Commands
@@ -114,13 +115,4 @@ Don't use the - in words that do not have a vowel.
 23*9/AOU     : "{:fancytext_set:uwu}"
 23*9/AO*U     : "{:fancytext_set:UwU}"
 23*9/STKPWAL : "{:fancytext_set:zalgo}"
-```
-
-## [plover_number_conversion](https://github.com/Volensia/plover_number_format) Plugin Commands
-
-```yaml
-TPHUPL/WORD/0     : "{:number_word_conversion:0:2}"
-TPHUPL/WORD/1     : "{:number_word_conversion:1:2}"
-TPHUPL/WORD/2     : "{:number_word_conversion:2:2}"
-TPHUPL/WORD/ROEPL : "{:number_format_roman:0:0}"
 ```
