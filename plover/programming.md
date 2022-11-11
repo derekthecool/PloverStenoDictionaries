@@ -299,3 +299,33 @@ TKHRAOES  : hardware release
 PHA*      : mA # Milliamp
 PHAO*EU   : uA # Microamp
 ```
+
+## Clash Of Code
+
+[Clash of code](https://www.codingame.com/multiplayer/clashofcode) is an online
+multiplayer coding game.
+
+From there own description
+
+> Clash of Code is a game to improve your coding efficiency by solving short
+> programming problems with other people, at the same time. Players share their
+> solution at the end of a game to help other players improve their coding skills.
+
+They provide a pretty good web editor complete three editor modes
+
+1. Default mode which is akin to VSCode
+2. Vim mode
+3. Emacs mode
+
+In the past I've been okay with using their vim mode. But in my journey to make
+things even more comfortable I've made my own special vim mode.
+
+My special vim mode includes me using my own personal vim setup then copying the
+text to the web editor and running it.
+I've broken the commands needed to do this into two steps. Possibly using the
+Plover delay plugin could help me get down to one stoke but two is fine for now.
+
+```yaml
+KHRA*RB : {\#Alt(a)}{\#Escape}:%y+\\n # Select my first monitor is input keys to copy my entire buffer
+KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Control(a)}{\#Control(v)}{\#Control(Shift(return))}{\#Alt(a)} # Select second monitor and replace old text with new and run the tests
+```
