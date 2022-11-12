@@ -2,13 +2,14 @@
 !*/*.json
 
 # Log files from plugins
-plover/clippy.txt
-plover/tapey_tape.txt
+# Windows version
+clippy.txt
+tapey_tape.txt
 
 # No need to save .log files
-*/*.log
+*.log
 
 .cache/
 
-# Don't track plugins
-/plover/plugins/
+# Don't track plugins directory
+plugins/

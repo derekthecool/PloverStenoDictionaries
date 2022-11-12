@@ -1,0 +1,5 @@
+{
+  "line_format": "%b |%S| %D %t %s",
+  "default": "%b |%S| %D %s",
+  "altered": "%b |%S| %D %t %s"
+}
