@@ -327,5 +327,6 @@ Plover delay plugin could help me get down to one stoke but two is fine for now.
 
 ```yaml
 KHRA*RB : {\#Alt(a)}{\#Escape}:%y+\\n # Select my first monitor is input keys to copy my entire buffer
-KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Control(a)}{\#Control(v)}{\#Control(Shift(return))}{\#Alt(a)} # Select second monitor and replace old text with new and run the tests
+KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Control(a)}{\#Control(v)}
+KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second monitor and replace old text with new and run the tests
 ```
