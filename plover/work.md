@@ -10,6 +10,8 @@ W*EUTS: Wistron
 PHAOEURBG: Micron
 KRAEULD : cradle
 KRA*EULD : cradled
+HRAOEUF/PREBGT : Life Protect
+PHED/K-L/TKPWARD/KWRAPB : Medical Guardian
 ```
 
 ## Device Type Names
@@ -19,7 +21,7 @@ KWOEBG: Quokka
 PW*EL/PH: BelleM
 PW*EL/W: BelleW
 PW*EL/EBGS: BelleX
-PW*EL/-PL: Belle+LTE
+PW*EL/-L/-L: Belle+LTE
 PW*EL/-L: BelleLTE
 ```
 

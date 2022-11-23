@@ -1,1 +1,2 @@
 https://github.com/antistic/plover_markdown_dictionary.git
+https://github.com/tschulte/plover_auto_reconnect_machine.git

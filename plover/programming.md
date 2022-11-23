@@ -124,17 +124,24 @@ PHEU/SKW-L : MySQL
 SKW*L : sql
 ```
 
-## C Sharp
+## C#
 
 ```yaml
 PR-PLS                : {^}Program.cs
 SHA*RP                : csharp
 SPROPBLG              : {^}.csproj{^}
 KA*UPBT               : const
+KOPBLS                : console
 HRAO*EPBG             : Linq
 SHA*RP/SHA*RP         : C\#
-TPAUR                 : {^ ^}=>{^ ^}
+TPAUR                 : {^ ^}=>{^ ^} # fat arrow
 O/STR*EUPBG           : {^}.ToString()
+TPH*ET                : dotnet
+TPH*ET/TPHU           : dotnet new
+TPH*ET/RUPB           : dotnet run\\n
+TPH*ET/PWEULD         : dotnet build\\n
+TPH*ET/KOPBLS         : dotnet new console --framework net6.0
+TPH*ET/KHRAS          : dotnet new classlib --framework net6.0
 TKOT/TPHET            : dotnet
 TKOT/TPHET/TPHU       : dotnet new
 TKRUPB                : dotnet run\\n
@@ -142,6 +149,12 @@ TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
 TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
 TKOFP                 : dotnet watch run
 AF/HROEPB/KWRA        : Avalonia
+```
+
+## F#
+
+```yaml
+SAO*EBG : Seq.{^}
 ```
 
 ## Lua

@@ -1,4 +1,6 @@
 {
+  "SKW": "{PLOVER:mouse_click_image:13%,25%}",
+
   "#SKWH-F": "{PLOVER:mouse_set:13%,25%}",
   "#SKWHEF": "{PLOVER:mouse_set:38%,25%}",
   "#SKWHUF": "{PLOVER:mouse_set:63%,25%}",
@@ -33,14 +35,14 @@
   "SKW-F": "{PLOVER:mouse_click}",
   "SKW-L": "{PLOVER:mouse_click:right}",
 
-  "SKWUR": "{PLOVER:mouse_move:-1,0}",
-  "SKWUP": "{PLOVER:mouse_move:0,-1}",
-  "SKWUB": "{PLOVER:mouse_move:0,1}",
-  "SKWUG": "{PLOVER:mouse_move:1,0}",
-  "SKWURP": "{PLOVER:mouse_move:-1,-1}",
-  "SKWURB": "{PLOVER:mouse_move:-1,1}",
-  "SKWUPG": "{PLOVER:mouse_move:1,-1}",
-  "SKWUBG": "{PLOVER:mouse_move:1,1}",
+  "SKWUR": "{PLOVER:mouse_move:-25,0}",
+  "SKWUP": "{PLOVER:mouse_move:0,-25}",
+  "SKWUB": "{PLOVER:mouse_move:0,25}",
+  "SKWUG": "{PLOVER:mouse_move:25,0}",
+  "SKWURP": "{PLOVER:mouse_move:-25,-25}",
+  "SKWURB": "{PLOVER:mouse_move:-25,25}",
+  "SKWUPG": "{PLOVER:mouse_move:25,-25}",
+  "SKWUBG": "{PLOVER:mouse_move:25,25}",
 
   "SKW-R": "{PLOVER:mouse_move:-1%,0}",
   "SKW-P": "{PLOVER:mouse_move:0,-1%}",
@@ -69,10 +71,10 @@
   "SKWEUPG": "{PLOVER:mouse_move:25%,-25%}",
   "SKWEUBG": "{PLOVER:mouse_move:25%,25%}",
 
-  "SKW-PBG": "{PLOVER:mouse_scroll:-2,0}",
-  "SKW-RBG": "{PLOVER:mouse_scroll:0,-2}",
-  "SKW-RPG": "{PLOVER:mouse_scroll:0,2}",
-  "SKW-RPB": "{PLOVER:mouse_scroll:2,0}",
+  "SKW-PBG": "{PLOVER:mouse_scroll:-75,0}",
+  "SKW-RBG": "{PLOVER:mouse_scroll:0,-75}",
+  "SKW-RPG": "{PLOVER:mouse_scroll:0,75}",
+  "SKW-RPB": "{PLOVER:mouse_scroll:75,0}",
 
   "SKWEPBG": "{PLOVER:mouse_scroll:-5,0}",
   "SKWERBG": "{PLOVER:mouse_scroll:0,-5}",
@@ -84,8 +86,8 @@
   "SKWEURPG": "{PLOVER:mouse_scroll:0,10}",
   "SKWEURPB": "{PLOVER:mouse_scroll:10,0}",
 
-  "SKWUPBG": "{PLOVER:mouse_scroll:-1,0}",
-  "SKWURBG": "{PLOVER:mouse_scroll:0,-1}",
-  "SKWURPG": "{PLOVER:mouse_scroll:0,1}",
-  "SKWURPB": "{PLOVER:mouse_scroll:1,0}"
+  "SKWUPBG": "{PLOVER:mouse_scroll:-200,0}",
+  "SKWURBG": "{PLOVER:mouse_scroll:0,-200}",
+  "SKWURPG": "{PLOVER:mouse_scroll:0,200}",
+  "SKWURPB": "{PLOVER:mouse_scroll:200,0}"
 }
