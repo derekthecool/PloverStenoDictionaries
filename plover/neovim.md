@@ -298,11 +298,5 @@ SWR*FPLT   : {-|}{&z}
 ```yaml
 PW*UF: {^}buf{^}
 TPA*EUPL: filename
-TPHAO*EBG: {^ ^}~={^ ^}
-TPHAO*EBLG: {^ ^}~= nil{^}
 PW*UFPB: bufnr
-WAL/PWEU: Wallaby
-TPHAOEBG: {^ ^}!={^ ^}
-TPHAOEBLG: {^ ^} != null{^}
-TPHAEUS: namespace
 ```

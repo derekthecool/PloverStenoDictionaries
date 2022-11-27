@@ -4,6 +4,7 @@
 
 ```yaml
 TPRAOES: Freeus
+WAL/PWEU: Wallaby
 A*EUG: Avant Guard
 RA*EUPL: RMA
 W*EUTS: Wistron

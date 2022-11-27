@@ -42,6 +42,12 @@ K*EUG   : {^}Config # Overwrites: Qiing
 HROEUPBG : lat/long
 ```
 
+## Programming Terms
+
+```yaml
+TAOUPL : tuple
+```
+
 ## Numbers
 
 ```yaml
@@ -64,14 +70,27 @@ TPH*EUT/TPH*EUT : {^}init.lua
 
 ## File Extensions
 
+This list contains pairs of file extensions. The first is a without a period,
+the second does have a period. I use the `#` key to add the period, this may
+cause some conflicts with my number dictionary.
+
 ```yaml
 SKWR-FPB: json # over writes uppercase version of JSON
-KWRAUPL: {^}.yaml{^}
-KR*S: {^}.cs{^}
-PH-D : {^}md{^}
+#SKWR-FPB: {^}.json{^}
+KWRA*PL: {^}yaml{^}
+#KWRA*PL: {^}.yaml{^}
+KR*S: {^}cs{^}
+#KR*S: {^}.cs{^}
+TP*S : {^}fs{^}
+#TP*S : {^}.fs{^}
+TP*BGS : {^}fsx{^}
+#TP*BGS : {^}.fsx{^}
 PH*D : {^}md{^}
-TK-L : {^}.dll{^}
-EBGS/EBGS : {^}.exe{^}
+#PH*D : {^}.md{^}
+TK*L : {^}dll{^}
+#TK*L : {^}.dll{^}
+KAO*UBL : {^}exe{^}
+#KAO*UBL : {^}.exe{^}
 ```
 
 ## C Programming
@@ -129,11 +148,14 @@ SKW*L : sql
 ```yaml
 PR-PLS                : {^}Program.cs
 SHA*RP                : csharp
+SHA*RP/SHA*RP         : C\#
 SPROPBLG              : {^}.csproj{^}
 KA*UPBT               : const
+TPHAOEBG: {^ ^}!={^ ^}
+TPHAEUS: namespace
+TPHAOEBLG: {^ ^} != null{^}
 KOPBLS                : console
 HRAO*EPBG             : Linq
-SHA*RP/SHA*RP         : C\#
 TPAUR                 : {^ ^}=>{^ ^} # fat arrow
 O/STR*EUPBG           : {^}.ToString()
 TPH*ET                : dotnet
@@ -154,13 +176,20 @@ AF/HROEPB/KWRA        : Avalonia
 ## F#
 
 ```yaml
+TPA*RP  : fsharp
+TPA*RP/TPA*RP  : F\#
 SAO*EBG : Seq.{^}
+TP*TS : fst # keyword for first item in a tuple
+S*PBD : snd # keyword for second item in a tuple
+TPHAOEFBG : {^ ^}<>{^ ^} # "neeq" not equal for fsharp which is very weird looking (add the f to the sound for fsharp)
 ```
 
 ## Lua
 
 ```yaml
 HRAOU: lua
+TPHAO*EBG: {^ ^}~={^ ^}
+TPHAO*EBLG: {^ ^}~= nil{^}
 ```
 
 ## Go
