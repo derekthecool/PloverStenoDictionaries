@@ -12,6 +12,7 @@ KAOUBL: executable
 SEUS/HROG: syslog
 SHROG: syslog
 RAOES: release
+TPHEUT: init
 ```
 
 ## Linux
@@ -143,6 +144,37 @@ PHEU/SKW-L : MySQL
 SKW*L : sql
 ```
 
+## Dotnet
+
+There are 3 main languages here which all share some similar items.
+
+- PowerShell
+- Csharp
+- Fsharp
+
+```yaml
+AFP : asp
+AFP/TPHET : asp.net
+AFP/TKOT/TPHET : asp.net
+```
+
+### Dotnet Cli Commands
+
+```yaml
+TPH*ET                : dotnet
+TPH*ET/TPHU           : dotnet new
+TPH*ET/RUPB           : dotnet run\\n
+TPH*ET/PWEULD         : dotnet build\\n
+TPH*ET/KOPBLS         : dotnet new console --framework net6.0
+TPH*ET/KHRAS          : dotnet new classlib --framework net6.0
+TKOT/TPHET            : dotnet
+TKOT/TPHET/TPHU       : dotnet new
+TKRUPB                : dotnet run\\n
+TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
+TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
+TKOFP                 : dotnet watch run
+```
+
 ## C#
 
 ```yaml
@@ -158,18 +190,6 @@ KOPBLS                : console
 HRAO*EPBG             : Linq
 TPAUR                 : {^ ^}=>{^ ^} # fat arrow
 O/STR*EUPBG           : {^}.ToString()
-TPH*ET                : dotnet
-TPH*ET/TPHU           : dotnet new
-TPH*ET/RUPB           : dotnet run\\n
-TPH*ET/PWEULD         : dotnet build\\n
-TPH*ET/KOPBLS         : dotnet new console --framework net6.0
-TPH*ET/KHRAS          : dotnet new classlib --framework net6.0
-TKOT/TPHET            : dotnet
-TKOT/TPHET/TPHU       : dotnet new
-TKRUPB                : dotnet run\\n
-TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
-TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
-TKOFP                 : dotnet watch run
 AF/HROEPB/KWRA        : Avalonia
 ```
 
@@ -340,6 +360,7 @@ SHRAO*ES  : software release
 TKHRAOES  : hardware release
 PHA*      : mA # Milliamp
 PHAO*EU   : uA # Microamp
+SPOET     : SpO2
 ```
 
 ## Clash Of Code
