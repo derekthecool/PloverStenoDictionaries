@@ -15,6 +15,8 @@ KPAOUGS: execution # Replaces excusing with I'll never use
 KPAEUP: escape
 KWROUFRPB: youch
 KWROUFP: youch
+TPHREU : fully # Replaces {^}fully
+TPHR*EU : {^}fully # Use the star for the suffix version
 ```
 
 ## Phrases
@@ -97,7 +99,7 @@ PHEU/SAO*EUT : https://dereklomax.com
 See [emily-symbols.py](./emily-symbols.py) for more of my time items.
 
 ```yaml
-KWRAO*ER : {^}2022{^}
+KWRAO*ER : {^}{:time:%Y}{^} # Current year
 ```
 
 ## Briefs

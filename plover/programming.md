@@ -230,7 +230,7 @@ HAO*UG/HAO*UG/HAO*UG : hugo server --bind $(hostname -I | tr -d ' ') --baseURL=h
 T*ERPL             :  terminal
 KWOEUBG            :  {^}qmk
 KHRAO*EU           :  CLI
-PW-RB              :  PowerShell
+PW-RB              :  powershell
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
 PROEUT             :  proto
@@ -361,6 +361,9 @@ TKHRAOES  : hardware release
 PHA*      : mA # Milliamp
 PHAO*EU   : uA # Microamp
 SPOET     : SpO2
+SPAO*EU   : spi
+AOEUBG/AOEUBG : I2C
+AOEUBG/AOEUBG/AOEUBG : IIC
 ```
 
 ## Clash Of Code
