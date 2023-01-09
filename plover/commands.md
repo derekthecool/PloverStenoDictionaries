@@ -2,6 +2,7 @@
 
 ## Basic Commands
 
+
 ```yaml
 PW-FP       : {\#BackSpace}
 PW*FP       : {\#Control(BackSpace)} # Delete backward by word

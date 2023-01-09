@@ -33,7 +33,7 @@ PW*EL/-L: BelleLTE
 ```yaml
 TPO*ET: Fota
 TPO*ET/TPO*ET: BXFota
-TPO*ET/TPO*ET/TPO*ET: MXFota
+TPO*ET/TPO*ET/TPO*ET: BWFota
 R*EFP: resp
 ```
 
@@ -41,7 +41,7 @@ R*EFP: resp
 
 ```yaml
 WAL/TAOL: WallabyTool
-PW*EL/EBGS/TKAOEL/TKAOL: BelleX_DealerTool
+PW*EL/EBGS/TKAOERL/TAOL: BelleX_DealerTool
 PW*EL/EBGS/SEFR: BelleX_Server
 PW*P/KP*P/TPO*ET: BXFota
 PW*/KP*/TPO*ET: BXFota

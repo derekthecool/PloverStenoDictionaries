@@ -17,6 +17,15 @@ KWROUFRPB: youch
 KWROUFP: youch
 TPHREU : fully # Replaces {^}fully
 TPHR*EU : {^}fully # Use the star for the suffix version
+PAORD : password # replaces board
+```
+
+## Bird Watching
+
+```yaml
+KES/TRAL : Kestral
+RAP/TOR : raptor
+RAP/TER : raptor
 ```
 
 ## Phrases

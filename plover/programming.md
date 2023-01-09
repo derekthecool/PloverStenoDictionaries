@@ -13,6 +13,7 @@ SEUS/HROG: syslog
 SHROG: syslog
 RAOES: release
 TPHEUT: init
+TPEG: ffmpeg
 ```
 
 ## Linux
@@ -364,6 +365,7 @@ SPOET     : SpO2
 SPAO*EU   : spi
 AOEUBG/AOEUBG : I2C
 AOEUBG/AOEUBG/AOEUBG : IIC
+TK*B: dB
 ```
 
 ## Clash Of Code
