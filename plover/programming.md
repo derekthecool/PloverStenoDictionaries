@@ -136,6 +136,15 @@ EFL                :  {^}\\}\\nelse if({^}
 E8S                :  {^}else\\n\\{\\n
 -PBD               :  {^})\\n\\{\\n
 -PBD/-PBD          :  {^})\\n
+PHAEUPBS           :  {^}main.c{^}
+```
+
+### Microcontroller Specific
+
+#### ESP32
+
+```yaml
+23EUS : {^}ESP32{^}
 ```
 
 ## Databases
@@ -157,6 +166,13 @@ There are 3 main languages here which all share some similar items.
 AFP : asp
 AFP/TPHET : asp.net
 AFP/TKOT/TPHET : asp.net
+```
+
+### Dotnet
+
+```yaml
+TPHAOUGT : nuget
+TPHU/TKPWET : nuget
 ```
 
 ### Dotnet Cli Commands
@@ -283,6 +299,11 @@ R-PL                                                              :  {^}rm {^ ^}
 PH-BG/TKEUR                                                       :  {^}mkdir {^ ^}
 TP*EU                                                             :  {^}fi{^ ^}
 HR-PT                                                             :  {^}lftp {^ ^}
+S-PL/KR-LT : systemctl
+S-PL/KR-LT/ST*TS : systemctl status
+S-PL/KR-LT/TPHAEUBL : systemctl enable
+S-PL/KR-LT/START : systemctl start
+S-PL/KR-LT/STOP : systemctl stop
 ```
 
 #### Command macros
@@ -322,6 +343,7 @@ KW*EU   : {^}{\#Control_R(a)}j{^} # Open my wiki in new tmux window
 ```yaml
 TKPW*EUT/HO*EPL             :  {^}cd $(git rev-parse --show-toplevel)\\n{^}
 TKPWUB                      :  GitHub
+AZ/SHUR                     :  Azure
 TKPWUB/TKPWUB               :  https://github.com/{^}
 TKPWUB/TKPWUB/TKPWUB        :  "git@github.com:{^}"
 TKPWHRAB                    :  GitLab
@@ -364,6 +386,11 @@ PHAO*EU   : uA # Microamp
 SPOET     : SpO2
 SPAO*EU   : spi
 AOEUBG/AOEUBG : I2C
+ROEUT : resistor
+KOEUP : capacitor
+TKOEUR : inductor
+SKR-L : SCL
+STKA : SDA
 AOEUBG/AOEUBG/AOEUBG : IIC
 TK*B: dB
 ```

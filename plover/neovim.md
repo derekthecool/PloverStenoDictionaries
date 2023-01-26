@@ -105,7 +105,7 @@ TKPWR*EP           :  {^},fg{^} # Grep files command
 HOEUP              :  {^},fh{^} # Grep files command
 TK*EUFR            :  {^},gd{^} # Call plugin DiffViewOpen
 TKPW*EUT           :  {^},gg{^} # Call plugin neogit
-PHRUP          :  {^},aa{^} # PackerSync
+HRA*EZ             :  {^},aa{^} # Lazy (package manager)
 TR*EUT         :  {^},ab{^} # :TSPlaygroundToggle<CR>')
 HRO*EDZ         :  {^},ac{^} # Reload my entire neovim config
 TPHO*ET         :  {^},ad{^} # Show recent notifications
