@@ -137,6 +137,7 @@ E8S                :  {^}else\\n\\{\\n
 -PBD               :  {^})\\n\\{\\n
 -PBD/-PBD          :  {^})\\n
 PHAEUPBS           :  {^}main.c{^}
+PRAG/PHA           :  {^}\#pragma once
 ```
 
 ### Microcontroller Specific
@@ -190,6 +191,12 @@ TKRUPB                : dotnet run\\n
 TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
 TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
 TKOFP                 : dotnet watch run
+```
+
+### Dotnet Functions
+
+```yaml
+RAED/HRAOEUPB : ReadLine
 ```
 
 ## C#
@@ -272,6 +279,7 @@ T*ERB/T*ERB              :  https://termbin.com/{^}
 
 ```yaml
 A/HRABG: Alacritty
+PROBGS : Proxmox
 ```
 
 ### Linux Shell Scripting
@@ -304,6 +312,7 @@ S-PL/KR-LT/ST*TS : systemctl status
 S-PL/KR-LT/TPHAEUBL : systemctl enable
 S-PL/KR-LT/START : systemctl start
 S-PL/KR-LT/STOP : systemctl stop
+KPHR-R : {^}xplr # Awesome terminal file manager
 ```
 
 #### Command macros
@@ -341,6 +350,7 @@ KW*EU   : {^}{\#Control_R(a)}j{^} # Open my wiki in new tmux window
 ## Git
 
 ```yaml
+TKPWEUT/PWAEUR/RE/PO        :  git bare repo
 TKPW*EUT/HO*EPL             :  {^}cd $(git rev-parse --show-toplevel)\\n{^}
 TKPWUB                      :  GitHub
 AZ/SHUR                     :  Azure
@@ -393,6 +403,7 @@ SKR-L : SCL
 STKA : SDA
 AOEUBG/AOEUBG/AOEUBG : IIC
 TK*B: dB
+A*FPLT/TK*FPLT/KR*FPLT : ADC
 ```
 
 ## Clash Of Code

@@ -18,6 +18,7 @@ KWROUFP: youch
 TPHREU : fully # Replaces {^}fully
 TPHR*EU : {^}fully # Use the star for the suffix version
 PAORD : password # replaces board
+AO*EUD : {^}ide # suffix, replaces ID
 ```
 
 ## Bird Watching
