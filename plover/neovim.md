@@ -72,6 +72,7 @@ HRAOUF         :  {^}luafile %{^}
 #T*EFT     : TEST{^}
 #STKRAO*EUB : DESCRIBE{^}
 #PR*EUPBT  : PRINT{^}
+KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #TPO*RPLT  : FORMAT{^}
 #TA*FBG    : TASK{^}
 #TRAO*EU   : TRY{^}
@@ -121,10 +122,10 @@ TA*EUP : {^},nt{^} # Toggle tapey-tape-plugin
 ## Treesitter Mappings
 
 ```yaml
-T-PL : {^},tnms{^}
-T-FP : {^},tpms{^}
-T*PL : {^},tnme{^}
-T*FP : {^},tpme{^}
+T-PL : {^},tnfs{^}
+T-FP : {^},tpfs{^}
+T*PL : {^},tnfe{^}
+T*FP : {^},tpfe{^}
 ```
 
 ## Language Server Protocol Commands

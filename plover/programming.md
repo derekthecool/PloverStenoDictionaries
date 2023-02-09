@@ -60,6 +60,9 @@ H*EBGS : {^}0x{^}
 
 ```yaml
 H*ERTS : Hz
+HERTS : Mz
+PHERTS : MHz
+TKPWRERTS : GHz
 ```
 
 ## Common File Names
@@ -146,6 +149,7 @@ PRAG/PHA           :  {^}\#pragma once
 
 ```yaml
 23EUS : {^}ESP32{^}
+*EUFD : {^}idf.py
 ```
 
 ## Databases
@@ -404,6 +408,7 @@ STKA : SDA
 AOEUBG/AOEUBG/AOEUBG : IIC
 TK*B: dB
 A*FPLT/TK*FPLT/KR*FPLT : ADC
+AOEU/OE : IO
 ```
 
 ## Clash Of Code
