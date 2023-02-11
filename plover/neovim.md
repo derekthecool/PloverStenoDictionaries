@@ -32,6 +32,7 @@ TKHRAO*ET      :  ^dd^ # Delete line
 -FP            :  {^}{\#Control_R(u)}{^} # easy control + u for up scrollOEUFPj
 -PL            :  {^}{\#Control_R(d)}{^} # easy control + d for down scroll
 K-PL           :  {^gcc^} # Comment current line in line wise style
+K-PLT          :  {^gcip^} # Comment current block in a line wise style
 K*PL           :  {^gbc^} # Comment current line in block wise style
 PR*EPL         :  {^}{\#Escape}:%smagic/{^}
 PRO*EUPL       :  {^}:smagic/{^}
@@ -103,6 +104,7 @@ TPAO*EUL           :  {^},fF{^} # File search
 TKPWAO*EUL         :  {^},fG{^} # (Guiles) File search for git files
 PW*UFR             :  {^},fb{^} # Search buffers
 TKPWR*EP           :  {^},fg{^} # Grep files command
+TKPWR*EPS          :  {^},fs{^} # Grep string under cursor
 HOEUP              :  {^},fh{^} # Grep files command
 TK*EUFR            :  {^},gd{^} # Call plugin DiffViewOpen
 TKPW*EUT           :  {^},gg{^} # Call plugin neogit

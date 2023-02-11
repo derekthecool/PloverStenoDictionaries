@@ -14,6 +14,7 @@ SHROG: syslog
 RAOES: release
 TPHEUT: init
 TPEG: ffmpeg
+RA*EU : array
 ```
 
 ## Linux
