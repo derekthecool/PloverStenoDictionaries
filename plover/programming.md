@@ -248,7 +248,7 @@ TPHAO*EBLG: {^ ^}~= nil{^}
 ```yaml
 HAO*UG : hugo
 HAO*UG/HAO*UG : {^}hugo server -D
-HAO*UG/HAO*UG/HAO*UG : hugo server --bind $(hostname -I | tr -d ' ') --baseURL=http://$(hostname -I | tr -d ' ') -D
+HAO*UG/HAO*UG/HAO*UG : hugo server --bind $(hostname -I | tr -d \' \') --baseURL=http://$(hostname -I | tr -d \' \') -D
 ```
 
 ## Terminal
@@ -441,4 +441,11 @@ Plover delay plugin could help me get down to one stoke but two is fine for now.
 KHRA*RB : {\#Alt(a)}{\#Escape}:%y+\\n # Select my first monitor is input keys to copy my entire buffer
 KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Control(a)}{\#Control(v)}
 KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second monitor and replace old text with new and run the tests
+```
+
+## Added by Plover
+
+```yaml
+PABG/PHAPB: pacman
+TKOEUBG: docker
 ```
