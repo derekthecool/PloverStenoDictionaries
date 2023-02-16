@@ -15,6 +15,8 @@ RAOES: release
 TPHEUT: init
 TPEG: ffmpeg
 RA*EU : array
+ARG : arg
+TKOEURBG : docker
 ```
 
 ## Linux
@@ -295,23 +297,25 @@ PROBGS : Proxmox
 EBG                                                               :  {^}echo {^ ^}
 KR*D/TKPW*EUT                                                     :  {^}cd $(git rev-parse --show-toplevel)\\n{^}
 KR*D                                                              :  {^}cd {^ ^}
-KR*D/KR*D                                                         :  {^}cd ../
-KR*D/KR*D/KR*D                                                    :  {^}cd ../../
-KR*D/KR*D/KR*D/KR*D                                               :  {^}cd ../../../
-KR*D/KR*D/KR*D/KR*D/KR*D                                          :  {^}cd ../../../../
-KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                                     :  {^}cd ../../../../../
-KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                                :  {^}cd ../../../../../../
-KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                           :  {^}cd ../../../../../../../
-KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                      :  {^}cd ../../../../../../../../
-KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                 :  {^}cd ../../../../../../../../../
-KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D            :  {^}cd ../../../../../../../../../../
-KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D       :  {^}cd ../../../../../../../../../../../
-KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D  :  {^}cd ../../../../../../../../../../../../
+KR*D/KR*D                                                         :  {^}cd ../{^}
+KR*D/KR*D/KR*D                                                    :  {^}cd ../../{^}
+KR*D/KR*D/KR*D/KR*D                                               :  {^}cd ../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D                                          :  {^}cd ../../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                                     :  {^}cd ../../../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                                :  {^}cd ../../../../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                           :  {^}cd ../../../../../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                      :  {^}cd ../../../../../../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                 :  {^}cd ../../../../../../../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D            :  {^}cd ../../../../../../../../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D       :  {^}cd ../../../../../../../../../../../{^}
+KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D  :  {^}cd ../../../../../../../../../../../../{^}
 PH*F                                                              :  {^}mv {^ ^}
 R-PL                                                              :  {^}rm {^ ^}
+R-PL/R-PL                                                         :  {^}rm -rf{^ ^}
 PH-BG/TKEUR                                                       :  {^}mkdir {^ ^}
 TP*EU                                                             :  {^}fi{^ ^}
 HR-PT                                                             :  {^}lftp {^ ^}
+TP-PLT                                                            :  {^}lftp {^ ^} # TP-PT (FTP) + L = TP-PLT = lftp
 S-PL/KR-LT : systemctl
 S-PL/KR-LT/ST*TS : systemctl status
 S-PL/KR-LT/TPHAEUBL : systemctl enable
@@ -446,6 +450,6 @@ KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second m
 ## Added by Plover
 
 ```yaml
-PABG/PHAPB: pacman
-TKOEUBG: docker
+HROEFT: localhost
+PW*RB: pwsh
 ```
