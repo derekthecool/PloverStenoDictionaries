@@ -452,4 +452,11 @@ KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second m
 ```yaml
 HROEFT: localhost
 PW*RB: pwsh
+APT/APT: {^}sudo apt update && sudo apt upgrade -y
+A*PT/A*PT: {^}apt update && apt upgrade -y
+APT/APT/APT: {^}sudo apt upgrade -y
+A*PT/A*PT/A*PT: {^}apt upgrade -y
+APT/APT/APT/APT: {^}sudo apt update
+A*PT/A*PT/A*PT/A*PT: {^}apt update
+AO*URS: {^}usr
 ```
