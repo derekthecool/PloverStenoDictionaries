@@ -22,6 +22,14 @@ TKPW-PL : {^gc^}  # Line wise comment operator. GM doesn't really mean anything.
 TKPW*PL : {^gb^}  # Block wise comment operator. GM doesn't really mean anything.
 ```
 
+## Text Objects
+
+```yaml
+SA : {^}sa{^}
+S-R : {^}sr{^}
+S-D : {^}sd{^}
+```
+
 ## Commands
 
 ```yaml
@@ -88,6 +96,7 @@ KAUPB/#STR*URBGT : CONSTRUCTOR{^}
 ```yaml
 KH*EBGD            :  {^},vl{^} # Mark down check box
 TRAO*E             :  {^},fe{^} # File tree toggle
+TRAO*ES            :  {^},ft{^} # Telescope file browser
 T*EFT              :  {^},ui{^} # Test
 R*UPB              :  {^},uu{^} # Run
 PW-D               :  {^},u;{^} # Build
@@ -119,6 +128,13 @@ SKO*EP        : {^},ff{^} # Open telescope general prompt
 TP*UZ        : {^},fz{^} # Open telescope fuzzy find current buffer
 KPHA*PBD      : {^},fc{^} # Telescope open command history
 TA*EUP : {^},nt{^} # Toggle tapey-tape-plugin
+TR*EUPL : {^},mt{^} # MiniTrailspace.trim()
+TR*EUPLS : {^},mT{^} # MiniTrailspace.trim.last_lines()
+TKPW*EUTS : {^},fS{^} # Telescope git status search
+SR*EUPL : {^},fv{^} # Telescope nvim config directory
+SR*EUPLS : {^},fV{^} # Telescope live grep nvim config directory
+PHRO*F : {^},fp{^} # Telescope Plover dictionary directory
+PHRO*FS : {^},fP{^} # Telescope live grep Plover dictionary directory
 ```
 
 ## Treesitter Mappings

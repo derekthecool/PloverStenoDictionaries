@@ -16,7 +16,15 @@ TPHEUT: init
 TPEG: ffmpeg
 RA*EU : array
 ARG : arg
-TKOEURBG : docker
+```
+
+## Docker
+
+```yaml
+TKOEURBG : {^}docker{^ ^}
+TKOEUBG : {^}docker{^ ^}
+TKAO*EUL : Dockerfile
+KPO*ES : compose.yaml # The official recommended docker compose file name. Not docker-compose-yaml, docker-compose.yml, or compose.yml
 ```
 
 ## Linux
@@ -158,7 +166,10 @@ PRAG/PHA           :  {^}\#pragma once
 ## Databases
 
 ```yaml
-PHEU/SKW-L : MySQL
+PHEU/SKW-L : mysql
+PHEU/SKW*L : MySQL
+PH-S/SKW-L : mssql
+PH-S/SKW*L : MSSQL
 SKW*L : sql
 ```
 
@@ -459,4 +470,6 @@ A*PT/A*PT/A*PT: {^}apt upgrade -y
 APT/APT/APT/APT: {^}sudo apt update
 A*PT/A*PT/A*PT/A*PT: {^}apt update
 AO*URS: {^}usr
+KWRAPL: {^}yaml
+RAOUF: remove
 ```
