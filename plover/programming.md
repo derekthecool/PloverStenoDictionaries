@@ -302,6 +302,15 @@ PROBGS : Proxmox
 
 ### Linux Shell Scripting
 
+#### Common Directory Names
+
+```yaml
+PH-PBT : /mnt/{^}
+ETS : /etc/{^}
+URS : /usr/{^}
+TPH-P : /tmp/{^}
+```
+
 #### Main terminal commands
 
 ```yaml
