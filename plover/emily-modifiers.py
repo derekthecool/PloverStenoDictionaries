@@ -6,7 +6,7 @@ uniqueEnders = ["LTZ"]
 
 LONGEST_KEY = 1
 
-# fingerspelling dictionary entries for relevant theories 
+# fingerspelling dictionary entries for relevant theories
 spelling = {
         "A"     : "a",
         "PW"    : "b",
@@ -36,7 +36,7 @@ spelling = {
         "KP"    : "x",
         "KWR"   : "y",
         "STKPW" : "z",
-        "STKPWHR" : "z", # magnum 
+        "STKPWHR" : "z", # magnum
         }
 
 # same as emily-symbols format, but modified for use on the left hand
@@ -103,7 +103,7 @@ def lookup(chord):
 
     if ender not in uniqueEnders:
         raise KeyError
- 
+
     if pattern == "":
         # just modifiers pressed on their own, used a lot in windows apparently
         character = ""
@@ -126,7 +126,7 @@ def lookup(chord):
             if 'O' in variants:
                 variant = variant + 2
 
-            # get the entry 
+            # get the entry
             entry = symbols[pattern]
             if type(entry) == list:
                 extract = entry[variant]
@@ -175,7 +175,7 @@ def lookup(chord):
                 # finger spelling input
                 entry = shape + number + vowel2
 
-                # check for entry in dictionary 
+                # check for entry in dictionary
                 if entry not in spelling:
                     raise KeyError
                 character = spelling[entry]

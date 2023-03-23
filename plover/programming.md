@@ -21,10 +21,10 @@ ARG : arg
 ## Docker
 
 ```yaml
-TKOEURBG : {^}docker{^ ^}
-TKOEUBG : {^}docker{^ ^}
+TKOEURBG : docker{^ ^}
+TKOEUBG : docker{^ ^}
 TKAO*EUL : Dockerfile
-KPO*ES : compose.yaml # The official recommended docker compose file name. Not docker-compose-yaml, docker-compose.yml, or compose.yml
+KPO*ES : compose.yaml # The official recommended docker compose file name. Not docker-compose.yaml, docker-compose.yml, or compose.yml
 ```
 
 ## Linux
@@ -34,7 +34,7 @@ HREUBGS : Linux
 PHAPB/SKWRA*R : Manjaro
 TPOEUD : Fedora # Replaces "for identification"
 SOEUD : {^}sudo
-W-LS : [wsl](wsl)
+W-LS : wsl
 ```
 
 ## Technical Jargon
@@ -134,8 +134,6 @@ TPH*UL             :  "\\{'\\0'\\}" # Print {'\0'}, this needs to be quoted
 TPH*UL/TPH*UL      :  "'\\0'"       # Print '\0', this needs to be quoted
 KHR*U/ST*D         :  {^}\#include <stdio.h>\\n\#include <stdlib.h>\\n
 KHR*U/STR*EUPBG    :  {^}\#include <string.h>\\n
-EUPBT/PHAEUPB      :  {^}int main()\\n\\{\\n
-EUPBT/PHAEUPB/ARG  :  {^}int main(int argc, char *argv[])\\n\\{\\n
 PR*EUF             :  {^}printf(\"{^}
 TPR*EUF            :  {^}fprintf(stderr, \"{^}
 KHROET             :  {^}\",{^ ^}  # Klote... Closing quote with comma
@@ -146,10 +144,6 @@ EFPBD              :  {^}\#endif\\n
 *EFPBD             :  {^}\#endif
 TK*UF              :  {^}\#define
 *EUF               :  {^}if ({^}
-EFL                :  {^}\\}\\nelse if({^}
-E8S                :  {^}else\\n\\{\\n
--PBD               :  {^})\\n\\{\\n
--PBD/-PBD          :  {^})\\n
 PHAEUPBS           :  {^}main.c{^}
 PRAG/PHA           :  {^}\#pragma once
 ```
@@ -314,6 +308,18 @@ TPH-P : /tmp/{^}
 #### Main terminal commands
 
 ```yaml
+HOEFT/TPHAEUPL : hostname
+HAEUPL : hostname
+HOEFT/TPHAEUPL/KR-LT : hostnamectl
+HAEUPL/KR-LT : hostnamectl
+KHOD : chmod +x{^ ^}
+KPHOD : chmod +x{^ ^}
+HR*S : ls
+HR*S/HR*S : ls -la
+HR*Z : ls\\n
+TAR : tar xzvf
+TAR/TAR : tar czvf
+TAR/TAR/TAR : tar
 EBG                                                               :  {^}echo {^ ^}
 KR*D/TKPW*EUT                                                     :  {^}cd $(git rev-parse --show-toplevel)\\n{^}
 KR*D                                                              :  {^}cd {^ ^}
@@ -344,6 +350,22 @@ S-PL/KR-LT/STOP : systemctl stop
 KPHR-R : {^}xplr # Awesome terminal file manager
 ```
 
+#### [Wezterm](https://wezfurlong.org/wezterm/)
+
+Wezterm is an amazing terminal emulator.
+
+My configuration `WeztermStimpack` is [here](https://github.com/derekthecool/WeztermStimpack).
+
+The two long commands are an easy way to download the latest stable release
+AppImage and install to `/usr/bin` and make the file executable as well.
+
+```yaml
+WERPL : wezterm
+WERPL/TKOUPBLD : curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} wget \\{\\} -O /usr/bin/wezterm && chmod +x /usr/bin/wezterm && wezterm --version
+TKPWET/WERPL : curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} wget \\{\\} -O /usr/bin/wezterm && chmod +x /usr/bin/wezterm && wezterm --version
+TKPWET/WERPL/SOEUD : curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} sudo wget \\{\\} -O /usr/bin/wezterm && sudo chmod +x /usr/bin/wezterm && wezterm --version
+```
+
 #### Command macros
 
 ```yaml
@@ -359,13 +381,16 @@ PHOFBG               : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"
 ### PowerShell/Pwsh Scripting
 
 ```yaml
-AUPT                 :  {^}APPDATA{^}
-A*UPT                :  {^}LOCALAPPDATA{^}
-AO*EF                :  env
-AOEF                 :  {^}$env:{^}
-AOEF/AOEF            :  {^}$env:APPDATA{^}
-AOEF/AOEF/AOEF       :  {^}$env:LOCALAPPDATA{^}
-AOEF/AOEF/AOEF/AOEF  :  {^}$env:USERPROFILE{^}
+R*PL                : {^}Remove-Item{^ ^}
+R*PL/R*PL           : {^}Remove-Item -Recurse{^ ^}
+AUPT                : {^}APPDATA{^}
+A*UPT               : {^}LOCALAPPDATA{^}
+AO*EF               : env
+AOEF                : {^}$env:{^}
+AOEF/AOEF           : {^}$env:APPDATA{^}
+AOEF/AOEF/AOEF      : {^}$env:LOCALAPPDATA{^}
+AOEF/AOEF/AOEF/AOEF : {^}$env:USERPROFILE{^}
+PW*RB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
 ```
 
 ## tmux
