@@ -16,6 +16,8 @@ TPHEUT: init
 TPEG: ffmpeg
 RA*EU : array
 ARG : arg
+WAEUS : workspace
+WAEURS : workspacer
 ```
 
 ## Docker

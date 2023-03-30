@@ -82,6 +82,7 @@ HRAOUF         :  {^}luafile %{^}
 #STKRAO*EUB : DESCRIBE{^}
 #PR*EUPBT  : PRINT{^}
 KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
+#KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #TPO*RPLT  : FORMAT{^}
 #TA*FBG    : TASK{^}
 #TRAO*EU   : TRY{^}
@@ -135,6 +136,8 @@ SR*EUPL : {^},fv{^} # Telescope nvim config directory
 SR*EUPLS : {^},fV{^} # Telescope live grep nvim config directory
 PHRO*F : {^},fp{^} # Telescope Plover dictionary directory
 PHRO*FS : {^},fP{^} # Telescope live grep Plover dictionary directory
+P-PL : {^},gj{^}
+P-FP : {^},gk{^}
 ```
 
 ## Treesitter Mappings
