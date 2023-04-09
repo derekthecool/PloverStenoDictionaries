@@ -48,6 +48,7 @@ PRO*EUPL       :  {^}:smagic/{^}
 STPA           :  {\#Escape}{^zzz^} # Mapped in vim to :update<CR>
 STPA/STPA      :  {^}{\#Escape}:w\\n{^} # Twice for a forced write to single file
 STPHA          :  {\#Escape}{^ZZ^}
+KW*EUTD        :  {\#Escape}:wq\\n{^}
 KW*EUT         :  {\#Escape}:q\\n{^}
 KW*EUTS        :  {\#Escape}:wqa\\n{^}
 TPH*EUPL       :  nvim{^}
@@ -90,6 +91,7 @@ KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #inclu
 #KHRA*S     : CLASS{^}
 KAUPB/#STR*URBGT : CONSTRUCTOR{^}
 #KA*UPB/#KA*UPB : CONSTRUCTOR{^}
+#S*ERT : ASSERT{^}
 ```
 
 ## Personal Mappings That Need To Be Fast
@@ -138,6 +140,8 @@ PHRO*F : {^},fp{^} # Telescope Plover dictionary directory
 PHRO*FS : {^},fP{^} # Telescope live grep Plover dictionary directory
 P-PL : {^},gj{^}
 P-FP : {^},gk{^}
+TO*G : {^},nB{^}
+TO*EUPL : {^},fT{^}
 ```
 
 ## Treesitter Mappings

@@ -350,6 +350,7 @@ S-PL/KR-LT/TPHAEUBL : systemctl enable
 S-PL/KR-LT/START : systemctl start
 S-PL/KR-LT/STOP : systemctl stop
 KPHR-R : {^}xplr # Awesome terminal file manager
+ABD : adb
 ```
 
 #### [Wezterm](https://wezfurlong.org/wezterm/)

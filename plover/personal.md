@@ -19,6 +19,7 @@ TPHREU : fully # Replaces {^}fully
 TPHR*EU : {^}fully # Use the star for the suffix version
 PAORD : password # replaces board
 AO*EUD : {^}ide # suffix, replaces ID
+STKPWEUL : {^}zilla # Very important suffix for typing filezilla or stenozilla
 ```
 
 ## Bird Watching
@@ -124,4 +125,5 @@ KR-Z: crazy
 KEUBL: configurable
 TKAOEUS: device
 SPERPT: separator
+KWRO*E: uh oh
 ```
