@@ -105,6 +105,8 @@ LONGEST_KEY = 1
 
 # Lookup function: return the translation for <key> (a tuple of strokes)
 # or raise KeyError if no translation is available/possible.
+
+
 def lookup(key):
     assert len(key) <= LONGEST_KEY
 
@@ -114,12 +116,15 @@ def lookup(key):
         raise KeyError
 
     if chord == "STR":
-        return f'{datetime.datetime.now()}'
+        return f"{datetime.datetime.now()}"
     if chord == "STK":
-        phrases = ['hello','bye']
+        phrases = ["hello", "bye"]
         return random.choice(phrases)
+
 
 # Optional: return an array of stroke tuples that would translate back
 # to <text> (an empty array if not possible).
+
+
 def reverse_lookup(text):
     return []

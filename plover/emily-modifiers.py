@@ -8,75 +8,74 @@ LONGEST_KEY = 1
 
 # fingerspelling dictionary entries for relevant theories
 spelling = {
-        "A"     : "a",
-        "PW"    : "b",
-        "KR"    : "c",
-        "TK"    : "d",
-        "E"     : "e",
-        "TP"    : "f",
-        "TKPW"  : "g",
-        "H"     : "h",
-        "EU"    : "i",
-        "AOEU"    : "i", # magnum
-        "SKWR"  : "j",
-        "SKWRAEU" : "j", # magnum
-        "K"     : "k",
-        "HR"    : "l",
-        "PH"    : "m",
-        "TPH"   : "n",
-        "O"     : "o",
-        "P"     : "p",
-        "KW"    : "q",
-        "R"     : "r",
-        "S"     : "s",
-        "T"     : "t",
-        "U"     : "u",
-        "SR"    : "v",
-        "W"     : "w",
-        "KP"    : "x",
-        "KWR"   : "y",
-        "STKPW" : "z",
-        "STKPWHR" : "z", # magnum
-        }
+    "A": "a",
+    "PW": "b",
+    "KR": "c",
+    "TK": "d",
+    "E": "e",
+    "TP": "f",
+    "TKPW": "g",
+    "H": "h",
+    "EU": "i",
+    "AOEU": "i",  # magnum
+    "SKWR": "j",
+    "SKWRAEU": "j",  # magnum
+    "K": "k",
+    "HR": "l",
+    "PH": "m",
+    "TPH": "n",
+    "O": "o",
+    "P": "p",
+    "KW": "q",
+    "R": "r",
+    "S": "s",
+    "T": "t",
+    "U": "u",
+    "SR": "v",
+    "W": "w",
+    "KP": "x",
+    "KWR": "y",
+    "STKPW": "z",
+    "STKPWHR": "z",  # magnum
+}
 
 # same as emily-symbols format, but modified for use on the left hand
 symbols = {
-        "TR"    : ["tab", "delete", "backspace", "escape"],
-        "KPWR"  : ["up", "left", "right", "down"],
-        "KPWHR" : ["page_up", "home", "end", "page_down"],
-        ""      : ["", "tab", "return", "space"],
+    "TR": ["tab", "delete", "backspace", "escape"],
+    "KPWR": ["up", "left", "right", "down"],
+    "KPWHR": ["page_up", "home", "end", "page_down"],
+    "": ["", "tab", "return", "space"],
+    # typable symbols
+    "HR": ["exclam", "", "notsign", "exclamdown"],
+    "PH": ["quotedbl", "", "", ""],
+    "TKHR": ["numbersign", "registered", "copyright", ""],
+    "KPWH": ["dollar", "euro", "yen", "sterling"],
+    "PWHR": ["percent", "", "", ""],
+    "SKP": ["ampersand", "", "", ""],
+    "H": ["apostrophe", "", "", ""],
+    "TPH": ["parenleft", "less", "bracketleft", "braceleft"],
+    "KWR": ["parenright", "greater", "bracketright", "braceright"],
+    "T": ["asterisk", "section", "", "multiply"],
+    "K": ["plus", "paragraph", "", "plusminus"],
+    "W": ["comma", "", "", ""],
+    "TP": ["minus", "", "", ""],
+    "R": ["period", "periodcentered", "", ""],
+    "WH": ["slash", "", "", "division"],
+    "TK": ["colon", "", "", ""],
+    "WR": ["semicolon", "", "", ""],
+    "TKPW": ["equal", "", "", ""],
+    "TPW": ["question", "", "questiondown", ""],
+    "TKPWHR": ["at", "", "", ""],
+    "PR": ["backslash", "", "", ""],
+    "KPR": ["asciicircum", "guillemotleft", "guillemotright", "degree"],
+    "KW": ["underscore", "", "", "mu"],
+    "P": ["grave", "", "", ""],
+    "PW": ["bar", "", "", "brokenbar"],
+    "TPWR": ["asciitilde", "", "", ""],
+}
 
-        # typable symbols
-        "HR"     : ["exclam", "", "notsign", "exclamdown"],
-        "PH"     : ["quotedbl", "", "", ""],
-        "TKHR"   : ["numbersign", "registered", "copyright", ""],
-        "KPWH"   : ["dollar", "euro", "yen", "sterling"],
-        "PWHR"   : ["percent", "", "", ""],
-        "SKP"    : ["ampersand", "", "", ""],
-        "H"      : ["apostrophe", "", "", ""],
-        "TPH"    : ["parenleft", "less", "bracketleft", "braceleft"],
-        "KWR"    : ["parenright", "greater", "bracketright", "braceright"],
-        "T"      : ["asterisk", "section", "", "multiply"],
-        "K"      : ["plus", "paragraph", "", "plusminus"],
-        "W"      : ["comma", "", "", ""],
-        "TP"     : ["minus", "", "", ""],
-        "R"      : ["period", "periodcentered", "", ""],
-        "WH"     : ["slash", "", "", "division"],
-        "TK"     : ["colon", "", "", ""],
-        "WR"     : ["semicolon", "", "", ""],
-        "TKPW"   : ["equal", "", "", ""],
-        "TPW"    : ["question", "", "questiondown", ""],
-        "TKPWHR" : ["at", "", "", ""],
-        "PR"     : ["backslash", "", "", ""],
-        "KPR"    : ["asciicircum", "guillemotleft", "guillemotright", "degree"],
-        "KW"     : ["underscore", "", "", "mu"],
-        "P"      : ["grave", "", "", ""],
-        "PW"     : ["bar", "", "", "brokenbar"],
-        "TPWR"   : ["asciitilde", "", "", ""]
-        }
 
 def lookup(chord):
-
     # extract the chord for easy use
     stroke = chord[0]
 
@@ -86,7 +85,9 @@ def lookup(chord):
     assert len(chord) <= LONGEST_KEY
 
     # extract relevant parts of the stroke
-    firstMatch = re.fullmatch(r'([#STKPWHR]*)([AO]*)([*-]*)([EU]*)([FRPB]*)([LGTSDZ]*)', stroke)
+    firstMatch = re.fullmatch(
+        r"([#STKPWHR]*)([AO]*)([*-]*)([EU]*)([FRPB]*)([LGTSDZ]*)", stroke
+    )
 
     # error out if there are no matches found
     if firstMatch is None:
@@ -112,7 +113,7 @@ def lookup(chord):
         if "*" in seperator:
             # symbol input
             # extract the part of the symbol input
-            secondMatch = re.fullmatch(r'([STKPWHR]*)([AO]*)([EU]*)', pattern)
+            secondMatch = re.fullmatch(r"([STKPWHR]*)([AO]*)([EU]*)", pattern)
             # into variables
             (pattern, variants, vowel2) = secondMatch.groups()
             # if the pattern is not recognised, error out
@@ -121,9 +122,9 @@ def lookup(chord):
 
             # calculate the variant count
             variant = 0
-            if 'A' in variants:
+            if "A" in variants:
                 variant = variant + 1
-            if 'O' in variants:
+            if "O" in variants:
                 variant = variant + 2
 
             # get the entry
@@ -140,12 +141,11 @@ def lookup(chord):
         else:
             # numbers or letters
             # extract relevant parts of the stroke
-            secondMatch = re.fullmatch(r'([STKPWHR]*)([AO]*)([-EU]*)', pattern)
+            secondMatch = re.fullmatch(r"([STKPWHR]*)([AO]*)([-EU]*)", pattern)
             (shape, number, vowel2) = secondMatch.groups()
 
             # AO is unused in finger spelling, thus used to disginguish numerical input
             if number == "AO" and vowel2 == "":
-
                 # left-hand bottom row counts in binary for numbers 0-9
                 count = 0
                 if "R" in shape:
