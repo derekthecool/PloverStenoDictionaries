@@ -50,6 +50,7 @@ PH*BG/PH*BG : LWT
 PH*BG/PH*BG/PH*BG : QoS
 TAOEP : TCP
 TAOEP/TAOEP : TCP/IP
+TAOEP/TK*UPL : tcpdump
 PHABG : mac
 PHABGD : mac address
 KEUG    : config # Overwrites: can Iing

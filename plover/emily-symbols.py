@@ -63,6 +63,11 @@ symbols = {
         "FPBG"   : ["~"  , "⊆" , "⊇" , "˜"]  ,
         "RG"     : ["=>", "<-", "->", "<="],
 
+        # Commands for use with comment-nvim for easy line comments
+        # Using the directal inputs you can easily start I comment at eol,
+        # above, or below
+        "RLG"    : ["gcO", "", "gcA", "gco"],
+
         # Text modes
         "RBLG": [
             "{MODE:TITLE}",
