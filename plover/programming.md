@@ -20,13 +20,27 @@ WAEUS : workspace
 WAEURS : workspacer
 ```
 
-## Docker
+## Containerization Applications
 
 ```yaml
-TKOEURBG : docker{^ ^}
-TKOEUBG : docker{^ ^}
+TK-BG : docker{^ ^}
+P-D/UP : docker-compose up --build
+P-D/*UP : docker compose up --build
+P-D/TKOUPB : docker-compose down
+P-D/TKO*UPB : docker compose down
+TK-BG/P : docker ps\\n{^}
+TK-BG/P-S : docker ps\\n{^}
+TK-BG/RUPB : docker run -it{^ ^}
 TKAO*EUL : Dockerfile
 KPO*ES : compose.yaml # The official recommended docker compose file name. Not docker-compose.yaml, docker-compose.yml, or compose.yml
+P-D : podman{^ ^}
+P-D/UP : podman-compose up --build
+P-D/*UP : podman compose up --build
+P-D/TKOUPB : podman-compose down
+P-D/TKO*UPB : podman compose down
+P-D/P : podman ps\\n{^}
+P-D/P-S : podman ps\\n{^}
+P-D/RUPB : podman run -it{^ ^}
 ```
 
 ## Linux

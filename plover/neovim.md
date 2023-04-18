@@ -91,6 +91,8 @@ KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #inclu
 #KHRA*S     : CLASS{^}
 KAUPB/#STR*URBGT : CONSTRUCTOR{^}
 #KA*UPB/#KA*UPB : CONSTRUCTOR{^}
+KRURBGT : constructor # easier normal spelling
+#KR*URBGT : CONSTRUCTOR{^}
 #S*ERT : ASSERT{^}
 ```
 
