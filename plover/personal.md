@@ -20,6 +20,8 @@ TPHR*EU : {^}fully # Use the star for the suffix version
 PAORD : password # replaces board
 AO*EUD : {^}ide # suffix, replaces ID
 STKPWEUL : {^}zilla # Very important suffix for typing filezilla or stenozilla
+PHRAT/PUS : platypus
+THER/PHEUPB : theremin
 ```
 
 ## Bird Watching

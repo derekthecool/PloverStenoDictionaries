@@ -24,10 +24,10 @@ WAEURS : workspacer
 
 ```yaml
 TK-BG : docker{^ ^}
-P-D/UP : docker-compose up --build
-P-D/*UP : docker compose up --build
-P-D/TKOUPB : docker-compose down
-P-D/TKO*UPB : docker compose down
+TK-BG/UP : docker-compose up --build
+TK-BG/*UP : docker compose up --build
+TK-BG/TKOUPB : docker-compose down
+TK-BG/TKO*UPB : docker compose down
 TK-BG/P : docker ps\\n{^}
 TK-BG/P-S : docker ps\\n{^}
 TK-BG/RUPB : docker run -it{^ ^}
@@ -58,7 +58,6 @@ W-LS : wsl
 ```yaml
 AOU/ART: UART
 KPAP: pcap
-PHAO*U: MCU
 PH*BG : MQTT
 PH*BG/PH*BG : LWT
 PH*BG/PH*BG/PH*BG : QoS
@@ -313,6 +312,14 @@ PROBGS : Proxmox
 
 ### Linux Shell Scripting
 
+#### Bash Scripting
+
+```yaml
+SHEB : \#!/usr/bin/env bash
+SHEB/SHEB : \#!/bin/bash
+SHEB/SHEB/SHEB : \#!/bin/sh
+```
+
 #### Common Directory Names
 
 ```yaml
@@ -325,6 +332,8 @@ TPH-P : /tmp/{^}
 #### Main terminal commands
 
 ```yaml
+SR*ERGS : --version\\n{^}
+H*EP : --help\\n{^}
 HOEFT/TPHAEUPL : hostname
 HAEUPL : hostname
 HOEFT/TPHAEUPL/KR-LT : hostnamectl
@@ -477,6 +486,9 @@ AOEUBG/AOEUBG/AOEUBG : IIC
 TK*B: dB
 A*FPLT/TK*FPLT/KR*FPLT : ADC
 AOEU/OE : IO
+AO*ERPBT : ethernet
+PHAO*U: MCU
+KPHRORL : microcontroller
 ```
 
 ## Clash Of Code
@@ -508,6 +520,13 @@ Plover delay plugin could help me get down to one stoke but two is fine for now.
 KHRA*RB : {\#Alt(a)}{\#Escape}:%y+\\n # Select my first monitor is input keys to copy my entire buffer
 KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Control(a)}{\#Control(v)}
 KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second monitor and replace old text with new and run the tests
+```
+
+## Terminal Presentations
+
+```yaml
+HRAOEPL : lookatme
+STOP/STOP : <!--stop-->
 ```
 
 ## Added by Plover

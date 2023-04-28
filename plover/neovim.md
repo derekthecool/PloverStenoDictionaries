@@ -94,6 +94,10 @@ KAUPB/#STR*URBGT : CONSTRUCTOR{^}
 KRURBGT : constructor # easier normal spelling
 #KR*URBGT : CONSTRUCTOR{^}
 #S*ERT : ASSERT{^}
+TA*EUBL : TABLE{^}
+-RB : FIRST{^}
+-RG : SECOND{^}
+-RS : THIRD{^}
 ```
 
 ## Personal Mappings That Need To Be Fast
@@ -144,6 +148,7 @@ P-PL : {^},gj{^}
 P-FP : {^},gk{^}
 TO*G : {^},nB{^}
 TO*EUPL : {^},fT{^}
+HRAO*EUPBS : {^},ll{^}
 ```
 
 ## Treesitter Mappings
