@@ -334,6 +334,7 @@ TPH-P : /tmp/{^}
 ```yaml
 SR*ERGS : --version\\n{^}
 H*EP : --help\\n{^}
+TP/KEUG : {^}ifconfig{^ ^}
 HOEFT/TPHAEUPL : hostname
 HAEUPL : hostname
 HOEFT/TPHAEUPL/KR-LT : hostnamectl
@@ -375,6 +376,7 @@ S-PL/KR-LT/START : systemctl start
 S-PL/KR-LT/STOP : systemctl stop
 KPHR-R : {^}xplr # Awesome terminal file manager
 ABD : adb
+ABD/ABD : adb devices\\n{^}
 ```
 
 #### [Wezterm](https://wezfurlong.org/wezterm/)
