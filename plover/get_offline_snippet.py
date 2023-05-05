@@ -19,6 +19,21 @@ elif platform == "linux":
 online_snippet_dictionary = {
     # lua
     "HRAOU": "clash-of-code.lua",
+
+    # C#
+    "SHA*RP": "clash-of-code.cs",
+
+    # C++
+    "KPR-P": "clash-of-code.cpp",
+
+    # F#
+    "TPA*RP": "clash-of-code.fs",
+
+    # bash
+    "PWARB": "clash-of-code.sh",
+
+    # bash
+    "KR*": "clash-of-code.c",
 }
 
 
