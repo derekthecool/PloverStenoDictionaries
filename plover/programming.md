@@ -123,6 +123,11 @@ TK*L : {^}dll{^}
 #TK*L : {^}.dll{^}
 KAO*UBL : {^}exe{^}
 #KAO*UBL : {^}.exe{^}
+SPROPBLG              : {^}.csproj{^}
+TPROPBLG              : {^}.fsproj{^}
+P-S/1 : {^}.ps1
+KPR-P : {^}cpp
+KPR*P : {^}.cpp
 ```
 
 ## C Programming
@@ -233,7 +238,6 @@ RAED/HRAOEUPB : ReadLine
 PR-PLS                : {^}Program.cs
 SHA*RP                : csharp
 SHA*RP/SHA*RP         : C\#
-SPROPBLG              : {^}.csproj{^}
 KA*UPBT               : const
 TPHAOEBG: {^ ^}!={^ ^}
 TPHAEUS: namespace
@@ -311,6 +315,79 @@ PROBGS : Proxmox
 ```
 
 ### Linux Shell Scripting
+
+#### Command-line Options Alphabet
+
+It is extremely common to use command-line options. Such as `grep -P -u`
+or maybe `bash -c`.
+
+Using my normal approach with emily's symbols these kind of things often take
+three strokes. For example:
+
+1. `SKWHAPL` for ` -`
+2. `P*` for `p`
+3. `S-P` to insert a space after (my normal alphabet uses glue endings)
+
+So it is advantageous to create a custom alphabet for this. I use the terminal
+for everything on my computer so this is mission critical!
+
+```yaml
+A*FPLTD : {^ ^}-A
+A*RBGSZ : {^ ^}-a
+PW*FPLTD : {^ ^}-B
+PW*RBGSZ : {^ ^}-b
+KR*FPLTD : {^ ^}-C
+KR*RBGSZ : {^ ^}-c
+TK*FPLTD : {^ ^}-D
+TK*RBGSZ : {^ ^}-d
+*EFPLTD : {^ ^}-E
+*ERBGSZ : {^ ^}-e
+TP*FPLTD : {^ ^}-F
+TP*RBGSZ : {^ ^}-f
+TKPW*FPLTD : {^ ^}-G
+TKPW*RBGSZ : {^ ^}-g
+H*FPLTD : {^ ^}-H
+H*RBGSZ : {^ ^}-h
+*EUFPLTD : {^ ^}-I
+*EURBGSZ : {^ ^}-i
+SKWR*FPLTD : {^ ^}-J
+SKWR*RBGSZ : {^ ^}-j
+K*FPLTD : {^ ^}-K
+K*RBGSZ : {^ ^}-k
+HR*FPLTD : {^ ^}-L
+HR*RBGSZ : {^ ^}-l
+PH*FPLTD : {^ ^}-M
+PH*RBGSZ : {^ ^}-m
+TPH*FPLTD : {^ ^}-N
+TPH*RBGSZ : {^ ^}-n
+O*FPLTD : {^ ^}-O
+O*RBGSZ : {^ ^}-o
+P*FPLTD : {^ ^}-P
+P*RBGSZ : {^ ^}-p
+KW*FPLTD : {^ ^}-Q
+KW*RBGSZ : {^ ^}-q
+R*FPLTD : {^ ^}-R
+R*RBGSZ : {^ ^}-r
+S*FPLTD : {^ ^}-S
+S*RBGSZ : {^ ^}-s
+T*FPLTD : {^ ^}-T
+T*RBGSZ : {^ ^}-t
+*UFPLTD : {^ ^}-U
+*URBGSZ : {^ ^}-u
+SR*FPLTD : {^ ^}-V
+SR*RBGSZ : {^ ^}-v
+W*FPLTD : {^ ^}-W
+W*RBGSZ : {^ ^}-w
+KP*FPLTD : {^ ^}-X
+KP*RBGSZ : {^ ^}-x
+KWR*FPLTD : {^ ^}-Y
+KWR*RBGSZ : {^ ^}-y
+STKPW*FPLTD : {^ ^}-Z
+STKPW*RBGSZ : {^ ^}-z
+```
+
+bash -A -B -C -D -E -F -G -H -I -J -K -L -M -N -O -P -Q -R -S -T -U -V -W -X -Y -Z
+grep -a -b -c -d -e -f -g -h -i -j -k -l -m -n -o -p -q -r -s -t -u -v -w -x -y -z
 
 #### Bash Scripting
 
