@@ -3,7 +3,6 @@
 ## Frequently Used Words
 
 ```yaml
-RAO*T: reboot # This word should be one stroke!
 RAOEBT: reboot
 KRORPL: cross platform
 ARGS: args
@@ -23,6 +22,7 @@ WAEURS : workspacer
 ## Containerization Applications
 
 ```yaml
+TKPW*ET/TK-BG : curl -sSL https://get.docker.com/ | sh # Easy script to install docker and docker compose
 TK-BG : docker{^ ^}
 TK-BG/UP : docker-compose up --build
 TK-BG/*UP : docker compose up --build
@@ -174,7 +174,7 @@ PRAG/PHA           :  {^}\#pragma once
 #### ESP32
 
 ```yaml
-23EUS : {^}ESP32{^}
+23EUS : ESP32
 *EUFD : {^}idf.py
 ```
 
@@ -496,7 +496,8 @@ AOEF                : {^}$env:{^}
 AOEF/AOEF           : {^}$env:APPDATA{^}
 AOEF/AOEF/AOEF      : {^}$env:LOCALAPPDATA{^}
 AOEF/AOEF/AOEF/AOEF : {^}$env:USERPROFILE{^}
-PW*RB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
+RAO*T               : $env:r/\\t{^}
+P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
 ```
 
 ## tmux

@@ -87,4 +87,15 @@ AOEU/AOEUS: ICCID
 SOEUPL: sim # Replaces sodium
 SOEUPL/SOEUPL: ICCID # Replaces sodium
 TA*PBD : AT command
+SEUPL : sim # overwrites similar, use SHRAR instead
+```
+
+### AT Cell Module Commands
+
+```yaml
+A*T : {^}AT+{^}
+A*T/KOPBT : {^}AT+CGDCONT?{^}
+A*T/KREG : {^}AT+CREG?{^}
+A*T/KRAOEG : {^}AT+CEREG?{^}
+A*T/AOEU/AOEUS : {^}AT+ICCID{^}
 ```

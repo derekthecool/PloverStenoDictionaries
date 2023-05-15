@@ -125,7 +125,9 @@ TKPWR*EP           :  {^},fg{^} # Grep files command
 TKPWR*EPS          :  {^},fs{^} # Grep string under cursor
 HOEUP              :  {^},fh{^} # Grep files command
 TK*EUFR            :  {^},gd{^} # Call plugin DiffViewOpen
-TKPW*EUT           :  {^},gg{^} # Call plugin neogit
+TKPW*EUT           :  {^},g1{^} # Call primary git plugin in neovim
+TKPWO*EUT           :  {^},g2{^} # Call next git plugin in neovim
+TKPWA*EUT           :  {^},g3{^} # Call next git plugin in neovim
 HRA*EZ             :  {^},aa{^} # Lazy (package manager)
 TR*EUT         :  {^},ab{^} # :TSPlaygroundToggle<CR>')
 HRO*EDZ         :  {^},ac{^} # Reload my entire neovim config
