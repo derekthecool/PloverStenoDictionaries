@@ -167,6 +167,7 @@ TK*UF              :  {^}\#define
 *EUF               :  {^}if ({^}
 PHAEUPBS           :  {^}main.c{^}
 PRAG/PHA           :  {^}\#pragma once
+S*RS : src
 ```
 
 ### Microcontroller Specific

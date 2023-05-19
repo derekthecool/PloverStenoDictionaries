@@ -82,6 +82,7 @@ HRAOUF         :  {^}luafile %{^}
 #T*EFT     : TEST{^}
 #STKRAO*EUB : DESCRIBE{^}
 #PR*EUPBT  : PRINT{^}
+#PR*EUPBTS  : ERRORPRINT{^}
 KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #TPO*RPLT  : FORMAT{^}

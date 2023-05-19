@@ -24,6 +24,7 @@ PW*EL/W: BelleW
 PW*EL/EBGS: BelleX
 PW*EL/-L/-L: Belle+LTE
 PW*EL/-L: BelleLTE
+PW*EL/S-FBG: BelleSVX
 ```
 
 ## Software
