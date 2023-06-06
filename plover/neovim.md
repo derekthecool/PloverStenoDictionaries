@@ -30,6 +30,15 @@ S-R : {^}sr{^}
 S-D : {^}sd{^}
 ```
 
+## Copy Commands
+
+```yaml
+KWR*S : {^}yy{^} # Normal line copy, nothing crazy
+KWR*Z : {^}\"Tyy{^} # Special line copy with appending to register T
+KWR*D : {^}qtq{^} # Clear register T for a clean start
+KWR*L : {^}\"tp{^} # Paste contents of the T register
+```
+
 ## Commands
 
 ```yaml
@@ -152,6 +161,8 @@ P-FP : {^},gk{^}
 TO*G : {^},nB{^}
 TO*EUPL : {^},fT{^}
 HRAO*EUPBS : {^},ll{^}
+TKPWUGT : {^}g?p{^}
+TKPWUGS : {^}g?v{^}
 ```
 
 ## Treesitter Mappings
@@ -187,6 +198,7 @@ TPHO*EFT: VIM.NOTIFY{^}
 
 ```yaml
 SRAO*EUP : vim.api.{^}
+SREUPBT : vim.print(
 TP*PB : vim.fn.{^}
 KPH*D: vim.cmd{^}
 ```

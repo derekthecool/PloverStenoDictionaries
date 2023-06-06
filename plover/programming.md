@@ -489,7 +489,7 @@ PHOFBG               : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"
 
 ```yaml
 R*PL                : {^}Remove-Item{^ ^}
-R*PL/R*PL           : {^}Remove-Item -Recurse{^ ^}
+R*PL/R*PL           : {^}Remove-Item -Recurse -Force {^ ^}
 AUPT                : {^}APPDATA{^}
 A*UPT               : {^}LOCALAPPDATA{^}
 AO*EF               : env
