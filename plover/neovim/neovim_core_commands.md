@@ -39,18 +39,40 @@ KWR*D : {^}qtq{^} # Clear register T for a clean start
 KWR*L : {^}\"tp{^} # Paste contents of the T register
 ```
 
+## G Commands
+
+Any command that starts with `g` or `G` or `:g`.
+There are so many they deserve their own category.
+
+```yaml
+TKPW-G : {^}gg{^} # Top of page
+TKPW-T : {^}gt{^} # Next tab
+TKPW*T : {^}gT{^} # Previous tab
+K-PL           :  {^gcc^} # Comment current line in line wise style
+K-PLT          :  {^gcip^} # Comment current block in a line wise style
+K*PL           :  {^gbc^} # Comment current line in block wise style
+```
+
+### Language Server Protocol Commands
+
+```yaml
+TKPW-D : {^}gd{^} # gd -- go to definition
+TKPW*D : {^}gD{^} # gD -- go to declaration
+TKPWEU : {^}gi{^} # gi -- go to implementation
+TKPW-R : {^}gr{^} # gr -- go to references
+TKPW*R : {^}gR{^} # gR -- replace symbol
+TKPW-PB : {^}gn{^} # gn -- go to next diagnostic
+TKPW-P : {^}gp{^} # gp -- go to previous diagnostic
+```
+
 ## Commands
 
 ```yaml
 PHAOEUFP       :  "{#Escape}{^zzz^}{PLOVER:SET_CONFIG:}"  # This command is will save my file in vim and reload Plover
-TKPW-G : {^}gg{^}
 TK-D   : {^}dd{^}
 TKHRAO*ET      :  ^dd^ # Delete line
 -FP            :  {^}{\#Control_R(u)}{^} # easy control + u for up scrollOEUFPj
 -PL            :  {^}{\#Control_R(d)}{^} # easy control + d for down scroll
-K-PL           :  {^gcc^} # Comment current line in line wise style
-K-PLT          :  {^gcip^} # Comment current block in a line wise style
-K*PL           :  {^gbc^} # Comment current line in block wise style
 PR*EPL         :  {^}{\#Escape}:%smagic/{^}
 PRO*EUPL       :  {^}:smagic/{^}
 #SR-RS         :  {^}{\#Control_R(backslash)}{\#Control_R(n)}{^}
@@ -158,11 +180,9 @@ PHRO*F : {^},fp{^} # Telescope Plover dictionary directory
 PHRO*FS : {^},fP{^} # Telescope live grep Plover dictionary directory
 P-PL : {^},gj{^}
 P-FP : {^},gk{^}
-TO*G : {^},nB{^}
-TO*EUPL : {^},fT{^}
-HRAO*EUPBS : {^},ll{^}
-TKPWUGT : {^}g?p{^}
-TKPWUGS : {^}g?v{^}
+HRAO*EUPBS : {^},ll{^} # LSPlines plugin toggle
+TKPWUGT : {^}g?p{^} # Debug print plugin current line
+TKPWUGS : {^}g?v{^} # Debug print plugin current variable
 ```
 
 ## Treesitter Mappings
@@ -172,18 +192,6 @@ T-PL : {^},tnfs{^}
 T-FP : {^},tpfs{^}
 T*PL : {^},tnfe{^}
 T*FP : {^},tpfe{^}
-```
-
-## Language Server Protocol Commands
-
-```yaml
-TKPW-D : {^}gd{^} # gd -- go to definition
-TKPW*D : {^}gD{^} # gD -- go to declaration
-TKPWEU : {^}gi{^} # gi -- go to implementation
-TKPW-R : {^}gr{^} # gr -- go to references
-TKPW*R : {^}gR{^} # gR -- replace symbol
-TKPW-PB : {^}gn{^} # gn -- go to next diagnostic
-TKPW-P : {^}gp{^} # gp -- go to previous diagnostic
 ```
 
 ## Neovim API
