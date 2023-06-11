@@ -85,3 +85,10 @@ T-FP : {^},tpfs{^}
 T*PL : {^},tnfe{^}
 T*FP : {^},tpfe{^}
 ```
+
+## Luasnip
+
+```yaml
+HROEUP : luasnip
+HRAOU/STPHEUP : luasnip
+```
