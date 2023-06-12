@@ -12,5 +12,5 @@ LONGEST_KEY = 1
 
 
 def lookup(chord):
-    # if not re.match(r".*[LGTSDZ]+$", chord[0]):
-    return "{null}"
+    if not re.match(r".*[LGTSDZ]+$", chord[0]):
+        return "{null}"
