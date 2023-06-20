@@ -34,7 +34,7 @@ T*EFT              :  {^},ui{^} # Test
 R*UPB              :  {^},uu{^} # Run
 PW-D               :  {^},u;{^} # Build
 KW*EUBG            :  {^},la{^} # LSP code action version 1
-KWO*EUBG            :  {^},lb{^} # LSP code action version 2
+KWO*EUBG           :  {^},lb{^} # LSP code action version 2
 TKPW*URB           :  {^}Pp{^} # Git push (gush)
 TPO*RPLT           :  {^},lf{^} # Format code
 TKPW*URB/TKPW*URB  :  {^}git push\\n
@@ -63,8 +63,6 @@ SKO*EP        : {^},ff{^} # Open telescope general prompt
 TP*UZ        : {^},fz{^} # Open telescope fuzzy find current buffer
 KPHA*PBD      : {^},fc{^} # Telescope open command history
 TA*EUP : {^},nt{^} # Toggle tapey-tape-plugin
-TR*EUPL : {^},mt{^} # MiniTrailspace.trim()
-TR*EUPLS : {^},mT{^} # MiniTrailspace.trim.last_lines()
 TKPW*EUTS : {^},fS{^} # Telescope git status search
 SR*EUPL : {^},fv{^} # Telescope nvim config directory
 SR*EUPLS : {^},fV{^} # Telescope live grep nvim config directory
@@ -89,6 +87,16 @@ T*FP : {^},tpfe{^}
 ## Luasnip
 
 ```yaml
-HROEUP : luasnip
+HROEUP        : luasnip
+HR*EUP        : luasnip
 HRAOU/STPHEUP : luasnip
+```
+
+## Mini.nvim
+
+```yaml
+TR*EUPL             : {^},mt{^}         # MiniTrailspace.trim()
+TR*EUPLS            : {^},mT{^}         # MiniTrailspace.trim.last_lines()
+TPO*RPLTD           : {^}gaip:{^}       # MiniTrailspace.trim.last_lines()
+TPO*RPLTD/TPO*RPLTD : {^}gaip:gaip\#{^} # MiniTrailspace.trim.last_lines()
 ```

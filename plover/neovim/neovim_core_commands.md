@@ -3,10 +3,10 @@
 ## Vim Vocabulary
 
 ```yaml
-TREUT : treesitter # Amazing smart parsing tool
-SREUPL         :  vim    # Swap with victim as I use this more
-SR*EUPL        :  victim # Swap with vim as I use this less
-TPHOEUPL       :  neovim # sounds like 'noim'
+TREUT          : treesitter # Amazing smart parsing tool
+SREUPL         : vim        # Swap with victim as I use this more
+SR*EUPL        : victim     # Swap with vim as I use this less
+TPHOEUPL       : neovim     # sounds like 'noim'
 ```
 
 ### Other Vim Inspired Programs
@@ -21,11 +21,11 @@ SRAOEP : Vieb # How the website says it is pronounced
 ## Quick Command-line Neovim Commands
 
 ```yaml
-TPH*EUPL       :  nvim{^}
-TPHO*EUPL      :  {^}nvim
-TPH*EUPL/RAED  :  {^}nvim README.md
+TPH*EUPL                 :  nvim{^}
+TPHO*EUPL                :  {^}nvim
+TPH*EUPL/RAED            :  {^}nvim README.md
 TPHO*EUPL/TPHO*EUPL      :  {^}nvim --cmd \"set rtp+=$(pwd)\"
-TPH*EUPL/TPH*EUPL       :  {^}nvim --cmd \"set rtp+=$(pwd)\"
+TPH*EUPL/TPH*EUPL        :  {^}nvim --cmd \"set rtp+=$(pwd)\"
 ```
 
 ## Operators
@@ -47,7 +47,7 @@ TKPW*PL : {^gb^}  # Block wise comment operator. GM doesn't really mean anything
 ## Text Objects
 
 ```yaml
-SA : {^}sa{^}
+SA  : {^}sa{^}
 S-R : {^}sr{^}
 S-D : {^}sd{^}
 ```
@@ -55,10 +55,10 @@ S-D : {^}sd{^}
 ## Copy Commands
 
 ```yaml
-KWR*S : {^}yy{^} # Normal line copy, nothing crazy
+KWR*S : {^}yy{^}    # Normal line copy, nothing crazy
 KWR*Z : {^}\"Tyy{^} # Special line copy with appending to register T
-KWR*D : {^}qtq{^} # Clear register T for a clean start
-KWR*L : {^}\"tp{^} # Paste contents of the T register
+KWR*D : {^}qtq{^}   # Clear register T for a clean start
+KWR*L : {^}\"tp{^}  # Paste contents of the T register
 ```
 
 ## G Commands
@@ -79,13 +79,13 @@ TKPW*T : {^}gT{^} # Previous tab
 ### Language Server Protocol Commands
 
 ```yaml
-TKPW-D : {^}gd{^} # gd -- go to definition
-TKPW*D : {^}gD{^} # gD -- go to declaration
-TKPWEU : {^}gi{^} # gi -- go to implementation
-TKPW-R : {^}gr{^} # gr -- go to references
-TKPW*R : {^}gR{^} # gR -- replace symbol
-TKPW-PB : {^}gn{^} # gn -- go to next diagnostic
-TKPW-P : {^}gp{^} # gp -- go to previous diagnostic
+TKPW-D  : {^}gd{^}  # gd -- go to definition
+TKPW*D  : {^}gD{^}  # gD -- go to declaration
+TKPWEU  : {^}gi{^}  # gi -- go to implementation
+TKPW-R  : {^}gr{^}  # gr -- go to references
+TKPW*R  : {^}gR{^}  # gR -- replace symbol
+TKPW-PB : {^}gn{^}  # gn -- go to next diagnostic
+TKPW-P  : {^}gp{^}  # gp -- go to previous diagnostic
 ```
 
 ## Commands
@@ -118,33 +118,34 @@ HRAOUF         :  {^}luafile %{^}
 ## Special Commands To Trigger Autosnippets -- Essential For Fast Programming
 
 ```yaml
-#TP*       : IF{^}
-#*EFLS      : ELS_EI_F{^} # this one is weird because it must not contain the words "else" or "if" or it'll trigger over snippets
-#*ELS       : ELSE{^}
-#TP*R      : FOR{^}
-#WHAO*EUL  : WHILE{^}
-#TPRAO*EFP : FOREACH{^}
-#TP*UBGS   : FUNCTION{^}
-#T*EFT     : TEST{^}
-#STKRAO*EUB : DESCRIBE{^}
-#PR*EUPBT  : PRINT{^}
-#PR*EUPBTS  : ERRORPRINT{^}
-KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
-#KHR*U     : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
-#TPO*RPLT  : FORMAT{^}
-#TA*FBG    : TASK{^}
-#TRAO*EU   : TRY{^}
-#KA*UL      : {^}{MODE:RESET}CALL{^}  # For expanding function calls
-#KHRA*S     : CLASS{^}
+#TP*             : IF{^}
+#*EFLS           : ELS_EI_F{^} # this one is weird because it must not contain the words "else" or "if" or it'll trigger over snippets
+#*ELS            : ELSE{^}
+#TP*R            : FOR{^}
+#WHAO*EUL        : WHILE{^}
+#TPRAO*EFP       : FOREACH{^}
+#TP*UBGS         : FUNCTION{^}
+#T*EFT           : TEST{^}
+#STKRAO*EUB      : DESCRIBE{^}
+#PR*EUPBT        : PRINT{^}
+#PR*EUPBTS       : ERRORPRINT{^}
+KHR*U            : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
+#KHR*U           : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
+#TK*PB           : DEFINE{^}
+#TPO*RPLT        : FORMAT{^}
+#TA*FBG          : TASK{^}
+#TRAO*EU         : TRY{^}
+#KA*UL           : {^}{MODE:RESET}CALL{^}  # For expanding function calls
+#KHRA*S          : CLASS{^}
 KAUPB/#STR*URBGT : CONSTRUCTOR{^}
-#KA*UPB/#KA*UPB : CONSTRUCTOR{^}
-KRURBGT : constructor # easier normal spelling
-#KR*URBGT : CONSTRUCTOR{^}
-#S*ERT : ASSERT{^}
-TA*EUBL : TABLE{^}
--RB : FIRST{^}
--RG : SECOND{^}
--RS : THIRD{^}
+#KA*UPB/#KA*UPB  : CONSTRUCTOR{^}
+KRURBGT          : constructor # easier normal spelling
+#KR*URBGT        : CONSTRUCTOR{^}
+#S*ERT           : ASSERT{^}
+TA*EUBL          : TABLE{^}
+-RB              : FIRST{^}
+-RG              : SECOND{^}
+-RS              : THIRD{^}
 ```
 
 ## Neovim API
@@ -159,7 +160,7 @@ TPHO*EFT: VIM.NOTIFY{^}
 
 ```yaml
 SRAO*EUP : vim.api.{^}
-SREUPBT : vim.print(
-TP*PB : vim.fn.{^}
-KPH*D: vim.cmd{^}
+SREUPBT  : vim.print(
+TP*PB    : vim.fn.{^}
+KPH*D    : vim.cmd{^}
 ```

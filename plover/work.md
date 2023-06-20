@@ -44,7 +44,7 @@ TPRAOES/AP : freeus_app
 ```yaml
 WAL/TAOL: WallabyTool
 PW*EL/EBGS/TKAOERL/TAOL: BelleX_DealerTool
-PW*EL/EBGS/SEFR: BelleX_Server
+PW*EL/EBGS/S-FR: BelleX_Server
 PW*P/KP*P/TPO*ET: BXFota
 PW*/KP*/TPO*ET: BXFota
 STKPWAOPL: Zoom
