@@ -574,6 +574,13 @@ PHAO*U: MCU
 KPHRORL : microcontroller
 ```
 
+## Exercism
+
+```yaml
+KPEUFPL : exercism
+SKEUFPL : exercism
+```
+
 ## Clash Of Code
 
 [Clash of code](https://www.codingame.com/multiplayer/clashofcode) is an online
@@ -610,6 +617,27 @@ KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second m
 ```yaml
 HRAOEPL : lookatme
 STOP/STOP : <!--stop-->
+```
+
+## Web/Protocol
+
+```yaml
+TP-PT : FTP
+TP-PT/TP-PT : ftp
+TP-PT/TP-PT/TP-PT : ftp://
+TP-PT/TP-PT/TP-PT/TP-PT : File Transfer Protocol (FTP)
+STP-PT : SFTP
+STP-PT/STP-PT : sftp
+STP-PT/STP-PT/STP-PT : sftp://
+STP-PT/STP-PT/STP-PT/STP-PT : Secure File Transfer Protocol (SFTP)
+HAO*EPT : HTTP
+HAO*EPT/HAO*EPT : http
+HAO*EPT/HAO*EPT/HAO*EPT : http://
+HAO*EPT/HAO*EPT/HAO*EPT/HAO*EPT : Hypertext Transfer Protocol (HTTP)
+HAO*EPTS : HTTPS
+HAO*EPTS/HAO*EPTS : https
+HAO*EPTS/HAO*EPTS/HAO*EPTS : https://
+HAO*EPTS/HAO*EPTS/HAO*EPTS/HAO*EPTS : Hypertext Transfer Protocol (HTTPS)
 ```
 
 ## Added by Plover

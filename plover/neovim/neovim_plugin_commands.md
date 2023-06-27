@@ -35,11 +35,7 @@ R*UPB              :  {^},uu{^} # Run
 PW-D               :  {^},u;{^} # Build
 KW*EUBG            :  {^},la{^} # LSP code action version 1
 KWO*EUBG           :  {^},lb{^} # LSP code action version 2
-TKPW*URB           :  {^}Pp{^} # Git push (gush)
 TPO*RPLT           :  {^},lf{^} # Format code
-TKPW*URB/TKPW*URB  :  {^}git push\\n
-TKPW*UL            :  {^}pp{^} # Git pull (gull)
-TKPW*UL/TKPW*UL    :  {^}git pull\\n
 PHRA*US            :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
 HRA*US             :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
 TPAO*EUL           :  {^},fF{^} # File search
@@ -48,12 +44,7 @@ PW*UFR             :  {^},fb{^} # Search buffers
 TKPWR*EP           :  {^},fg{^} # Grep files command
 TKPWR*EPS          :  {^},fs{^} # Grep string under cursor
 HOEUP              :  {^},fh{^} # Grep files command
-TK*EUFR            :  {^},gd{^} # Call plugin DiffViewOpen
-TKPW*EUT           :  {^},g1{^} # Call primary git plugin in neovim
-TKPWO*EUT           :  {^},g2{^} # Call next git plugin in neovim
-TKPWA*EUT           :  {^},g3{^} # Call next git plugin in neovim
 HRA*EZ             :  {^},aa{^} # Lazy (package manager)
-TR*EUT         :  {^},ab{^} # :TSPlaygroundToggle<CR>')
 HRO*EDZ         :  {^},ac{^} # Reload my entire neovim config
 TPHO*ET         :  {^},ad{^} # Show recent notifications
 PHR*EPB       : {^},dP{^} # Run plenary tests for neovim plugins
@@ -75,16 +66,22 @@ TKPWUGT : {^}g?p{^} # Debug print plugin current line
 TKPWUGS : {^}g?v{^} # Debug print plugin current variable
 ```
 
-## Treesitter Mappings
+## [nvim-Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+
+[Treesitter](https://github.com/tree-sitter/tree-sitter) is a incremental text parser library.
 
 ```yaml
-T-PL : {^},tnfs{^}
-T-FP : {^},tpfs{^}
-T*PL : {^},tnfe{^}
-T*FP : {^},tpfe{^}
+TREUT  : treesitter # Amazing smart parsing tool
+TR*EUT : {^},ab{^} # Open a live tree view of the current file, test queries, etc.
+T-PL   : {^},tnfs{^}
+T-FP   : {^},tpfs{^}
+T*PL   : {^},tnfe{^}
+T*FP   : {^},tpfe{^}
 ```
 
-## Luasnip
+## [Luasnip](https://github.com/L3MON4D3/LuaSnip)
+
+Ultra powerful snippet plugin written in lua by
 
 ```yaml
 HROEUP        : luasnip
@@ -99,4 +96,25 @@ TR*EUPL             : {^},mt{^}         # MiniTrailspace.trim()
 TR*EUPLS            : {^},mT{^}         # MiniTrailspace.trim.last_lines()
 TPO*RPLTD           : {^}gaip:{^}       # MiniTrailspace.trim.last_lines()
 TPO*RPLTD/TPO*RPLTD : {^}gaip:gaip\#{^} # MiniTrailspace.trim.last_lines()
+```
+
+## Git Plugins
+
+### All
+
+```yaml
+TKPW*URB           :  {^},gP{^} # Git push (gush)
+TKPW*URB/TKPW*URB  :  {^}git push\\n
+TKPW*UL            :  {^},gp{^} # Git pull (gull)
+TKPW*UL/TKPW*UL    :  {^}git pull\\n
+TKPW*EUT           :  {^},g1{^} # Call primary git plugin in neovim
+TKPWO*EUT           :  {^},g2{^} # Call next git plugin in neovim
+TKPWA*EUT           :  {^},g3{^} # Call next git plugin in neovim
+```
+
+### DiffView.nvim
+
+```yaml
+TK*EUF            :  {^},gd{^} # Call my special function to toggle diff view
+TK*EUFR           :  {^}{\#Escape}:DiffviewFileHistory %{^} # Call my special function to toggle diff view
 ```

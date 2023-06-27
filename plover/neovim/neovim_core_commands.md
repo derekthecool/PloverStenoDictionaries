@@ -3,7 +3,6 @@
 ## Vim Vocabulary
 
 ```yaml
-TREUT          : treesitter # Amazing smart parsing tool
 SREUPL         : vim        # Swap with victim as I use this more
 SR*EUPL        : victim     # Swap with vim as I use this less
 TPHOEUPL       : neovim     # sounds like 'noim'
