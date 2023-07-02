@@ -92,6 +92,16 @@ H*ERTS : Hz
 HERTS : Mz
 PHERTS : MHz
 TKPWRERTS : GHz
+K-B : KB
+KEUB : KiB
+PH-B : MB
+PHEUB : MiB
+TKPW-B : GB
+TKPWEUB : GiB
+T-B : TB
+TEUB : TiB
+P-B : PB
+PEUB : PiB
 ```
 
 ## Common File Names
@@ -638,6 +648,13 @@ HAO*EPTS : HTTPS
 HAO*EPTS/HAO*EPTS : https
 HAO*EPTS/HAO*EPTS/HAO*EPTS : https://
 HAO*EPTS/HAO*EPTS/HAO*EPTS/HAO*EPTS : Hypertext Transfer Protocol (HTTPS)
+```
+
+## Wireshark
+
+```yaml
+WAOEUR/SHARBG : wireshark
+WARBG : wireshark
 ```
 
 ## Added by Plover
