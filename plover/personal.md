@@ -38,6 +38,7 @@ RAP/TER : raptor
 SKWAOERD: it is really weird # Out of order (is + it + weird (WAOERD))
 ST*: it is # Reverse of ST (is it)
 WRARPBD : work around
+TWEUL : it will # Replaces twill which I'll never use
 ```
 
 ## Slang

@@ -1,5 +1,15 @@
 # Freeus Work Briefs
 
+## Businesses And Services
+
+```yaml
+STKPWAOPL: Zoom
+TREL/OE: Trello
+KAO*EL: Keil
+TWEUL/KWROE: Twilio
+RABG/SPAEUS: Rackspace
+```
+
 ## Freeus Business Jargon
 
 ```yaml
@@ -47,11 +57,7 @@ PW*EL/EBGS/TKAOERL/TAOL: BelleX_DealerTool
 PW*EL/EBGS/S-FR: BelleX_Server
 PW*P/KP*P/TPO*ET: BXFota
 PW*/KP*/TPO*ET: BXFota
-STKPWAOPL: Zoom
-TREL/OE: Trello
-KAO*EL: Keil
 KWAOU/EBGS/-D: QXDM
-TWEUL/KWROE: Twilio
 ```
 
 ### BelleX
