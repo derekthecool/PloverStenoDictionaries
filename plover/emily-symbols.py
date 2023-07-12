@@ -78,6 +78,17 @@ symbols = {
             "{PLOVER:ADD_TRANSLATION}",
             "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}",
         ],
+        # Tmux shortcuts, default prefix key of <c-b>
+        "RPBLG": [
+            # Solo prefix
+            "{#Control(b)}",
+            # Next window
+            "{#Control(b)p}",
+            # Previous window
+            "{#Control(b)n}",
+            # Open copy mode
+            "{#Control(b)}[{^}",
+        ],
     },
     uniqueStarters[1]: {  # custom
         # add your own strokes here (or above, or wherever else you like)!
