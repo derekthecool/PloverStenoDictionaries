@@ -114,7 +114,12 @@ KR-R           :  {^}<CR>{^}
 HRAOUF         :  {^}luafile %{^}
 ```
 
-## Special Commands To Trigger Autosnippets -- Essential For Fast Programming
+## Special Commands To Trigger Autosnippets
+
+These are meant to trigger autosnippets, meaning that as soon as this exact text
+is typed/written/stenoed the snippet will activate.
+
+### Core Programming Items
 
 ```yaml
 #TP*             : IF{^}
@@ -124,8 +129,6 @@ HRAOUF         :  {^}luafile %{^}
 #WHAO*EUL        : WHILE{^}
 #TPRAO*EFP       : FOREACH{^}
 #TP*UBGS         : FUNCTION{^}
-#T*EFT           : TEST{^}
-#STKRAO*EUB      : DESCRIBE{^}
 #PR*EUPBT        : PRINT{^}
 #PR*EUPBTS       : ERRORPRINT{^}
 KHR*U            : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
@@ -140,8 +143,22 @@ KAUPB/#STR*URBGT : CONSTRUCTOR{^}
 #KA*UPB/#KA*UPB  : CONSTRUCTOR{^}
 KRURBGT          : constructor # easier normal spelling
 #KR*URBGT        : CONSTRUCTOR{^}
-#S*ERT           : ASSERT{^}
 TA*EUBL          : TABLE{^}
+```
+
+### Testing
+
+This is for both writing tests and running them.
+
+```yaml
+#S*ERT           : ASSERT{^}
+#T*EFT           : TEST{^}
+#STKRAO*EUB      : DESCRIBE{^}
+```
+
+### Helpers
+
+```yaml
 -RB              : FIRST{^}
 -RG              : SECOND{^}
 -RS              : THIRD{^}

@@ -21,6 +21,12 @@ WAEURS : workspacer
 
 ## Containerization Applications
 
+Quick commands for container programs docker and podman.
+
+Wow, getting `\t` to print correctly in the `ps` command below was hard. Check
+it out for reference. I used this [guide](https://stackoverflow.com/questions/50667371/docker-ps-output-formatting-list-only-names-of-running-containers)
+for the better `ps` printing.
+
 ```yaml
 TKPW*ET/TK-BG : curl -sSL https://get.docker.com/ | sh # Easy script to install docker and docker compose
 TK-BG : docker{^ ^}
@@ -28,8 +34,8 @@ TK-BG/UP : docker-compose up --build
 TK-BG/*UP : docker compose up --build
 TK-BG/TKOUPB : docker-compose down
 TK-BG/TKO*UPB : docker compose down
-TK-BG/P : docker ps\\n{^}
-TK-BG/P-S : docker ps\\n{^}
+TK-BG/P : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
+TK-BG/P-S : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 TK-BG/RUPB : docker run -it{^ ^}
 TK-BGZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requires starting container with interactive mode (-it)
 TKAO*EUL : Dockerfile
@@ -39,8 +45,8 @@ P-D/UP : podman-compose up --build
 P-D/*UP : podman compose up --build
 P-D/TKOUPB : podman-compose down
 P-D/TKO*UPB : podman compose down
-P-D/P : podman ps\\n{^}
-P-D/P-S : podman ps\\n{^}
+P-D/P : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
+P-D/P-S : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 P-D/RUPB : podman run -it{^ ^}
 P-DZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requires starting container with interactive mode (-it)
 ```
@@ -58,13 +64,13 @@ W-LS : wsl
 ## Technical Jargon
 
 ```yaml
-AOU/ART: UART
+AOU/ART: uart
 KPAP: pcap
-PH*BG : MQTT
-PH*BG/PH*BG : LWT
+PH*BG : mqtt
+PH*BG/PH*BG : lwt
 PH*BG/PH*BG/PH*BG : QoS
-TAOEP : TCP
-TAOEP/TAOEP : TCP/IP
+TAOEP : tcp
+TAOEP/TAOEP : tcp/ip
 TAOEP/TK*UPL : tcpdump
 PHABG : mac
 PHABGD : mac address
@@ -459,6 +465,7 @@ PH*F                                                              :  {^}mv {^ ^}
 R-PL                                                              :  {^}rm {^ ^}
 R-PL/R-PL                                                         :  {^}rm -rf{^ ^}
 PH-BG/TKEUR                                                       :  {^}mkdir {^ ^}
+KEUR                                                              :  {^}mkdir {^ ^}
 TP*EU                                                             :  {^}fi{^ ^}
 HR-PT                                                             :  {^}lftp {^ ^}
 TP-PLT                                                            :  {^}lftp {^ ^} # TP-PT (FTP) + L = TP-PLT = lftp
@@ -557,12 +564,14 @@ RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
 
 ```yaml
 "TKPWEUPLT": "{^git commit --message=\"\"^}{#LEFT}{-|}"                                                                           # GIt coMMiT (message)
+"TKPWEUPLTD": "{^git commit --all --message=\"\"^}{#LEFT}{-|}"                                                                    # GIt coMMiT (all, message)
 "TKPWEUP": "{^git push\\n}"                                                                                                          # GIt Push
 "TKPWEUPL": "{^git pull\\n}"                                                                                                         # GIt PuLL [override]
+"TKPW*EUPL": "{^git pull --rebase}"                                                                                               # GIt PuLL (rebase) [override]
 "TKPW*EUTD": "{^git add .}"                                                                                                       # GIT aDD (current pathspec)
 "TKPWEUTS": "{^git status --short\\n}"                                                                                              # GIT Status (short)
 "TKPWEUTD": "{^git add}"                                                                                                          # GIT aDD
-"TKPWEUT/TKPEUG/HR*EUS": "{^git config --list}"                                                                                   # GIT CONFIG LIST
+"TKPWEUT/KEUG/HR*EUS": "{^git config --list}"                                                                                   # GIT CONFIG LIST
 "TKPWEUT/TPH*EUT": "{^git init}"                                                                                                  # GIT iNIT
 "TKPWEUTD": "{^git add}"                                                                                                          # GIT aDD
 "TKPW*EUFRB": "{^git stash}"                                                                                                      # GIt StaSH
@@ -575,6 +584,17 @@ RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
 "TKPW*EULG": "{^git log --oneline --decorate --all --graph}"                                                                      # GIt LoG
 "TKPWEUT/HRO*G": "{^git log --oneline --decorate --all --graph}"                                                                  # GIT LOG (oneline decorate all graph)
 "TKPWEUT/HROG": "{^git log}"                                                                                                      # GIT LOG
+```
+
+Dot files git commands
+
+```yaml
+"TK*EUPLT": "{^dot commit --message=\"\"^}{#LEFT}{-|}"
+"TK*EUPLTD": "{^dot commit --all --message=\"\"^}{#LEFT}{-|}"
+"TK*EUP": "{^dot push}"                                                                                                          # GIt Push
+"TK*EUPL": "{^dot pull}"                                                                                                         # GIt PuLL [override]
+"TK*EUTS": "{^dot status}"                                                                                              # GIT Status (short)
+"TK*EUL": "{^dot log --oneline --decorate --all --graph}"                                                                       # GIt Log
 ```
 
 ```PaulsGit
@@ -817,6 +837,7 @@ HAO*EPTS/HAO*EPTS/HAO*EPTS/HAO*EPTS : Hypertext Transfer Protocol (HTTPS)
 ```yaml
 WAOEUR/SHARBG : wireshark
 WARBG : wireshark
+TARBG : termshark
 ```
 
 ## Added by Plover

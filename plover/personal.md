@@ -129,4 +129,11 @@ KEUBL: configurable
 TKAOEUS: device
 SPERPT: separator
 KWRO*E: uh oh
+TEUS: it is
+PWRUPT: abrupt
+PWRUPLT: abruptly
+HAEPS: happiness
+HROEURT: loiter
+HROEURGT: loitering
+PWOEUPB: binary
 ```
