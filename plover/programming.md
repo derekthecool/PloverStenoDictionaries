@@ -152,13 +152,9 @@ KO*FPB : {^}conf
 
 ## C Programming
 
+### General
+
 ```yaml
-STR                :  {^}str
-STR/KOP            :  {^}strcpy({^}
-STR/HREPB          :  {^}strlen({^}
-STR/KOPB           :  {^}strncpy({^}
-STR/KPH-P          :  {^}strcmp({^}
-STR/TOBG           :  {^}strtok({^}
 ST-D/RO*ER         :  stderr
 STKER              :  stderr
 ST-D/O*UT          :  stdout
@@ -173,8 +169,6 @@ PHAO*EBG           :  -=
 PHRAO*EBG          :  +=
 TPH*UL             :  "\\{'\\0'\\}" # Print {'\0'}, this needs to be quoted
 TPH*UL/TPH*UL      :  "'\\0'"       # Print '\0', this needs to be quoted
-KHR*U/ST*D         :  {^}\#include <stdio.h>\\n\#include <stdlib.h>\\n
-KHR*U/STR*EUPBG    :  {^}\#include <string.h>\\n
 PR*EUF             :  {^}printf(\"{^}
 TPR*EUF            :  {^}fprintf(stderr, \"{^}
 KHROET             :  {^}\",{^ ^}  # Klote... Closing quote with comma
@@ -188,6 +182,28 @@ TK*UF              :  {^}\#define
 PHAEUPBS           :  {^}main.c{^}
 PRAG/PHA           :  {^}\#pragma once
 S*RS : src
+```
+
+### string.h
+
+```yaml
+KHR*U/STR*EUPBG    :  {^}\#include <string.h>\\n
+STR                :  {^}str
+STR/KOP            :  {^}strcpy({^}
+STR/HREPB          :  {^}strlen({^}
+STR/KOPB           :  {^}strncpy({^}
+STR/KPH-P          :  {^}strcmp({^}
+STR/TOBG           :  {^}strtok({^}
+PHEPL              : mem{^} # Replaces "member", more important as mem
+PHEPL/KO*EP        : memcpy
+```
+
+### stdlib.h
+
+```yaml
+PHOEUBG : malloc
+ROEUBG : realloc
+KROEUBG : calloc
 ```
 
 ### Microcontroller Specific
@@ -519,6 +535,11 @@ AOEF                : {^}$env:{^}
 AOEF/AOEF           : {^}$env:APPDATA{^}
 AOEF/AOEF/AOEF      : {^}$env:LOCALAPPDATA{^}
 AOEF/AOEF/AOEF/AOEF : {^}$env:USERPROFILE{^}
+KR-LG : "C:{#Backslash}{^}"
+TK-LG : "D:{#Backslash}{^}"
+AOELG : "E:{#Backslash}{^}"
+TP-LG : "F:{#Backslash}{^}"
+TKPW-LG : "G:{#Backslash}{^}"
 RAO*T               : $env:r/\\t{^}
 P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
 ```
@@ -565,6 +586,8 @@ RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
 ```yaml
 "TKPWEUPLT": "{^git commit --message=\"\"^}{#LEFT}{-|}"                                                                           # GIt coMMiT (message)
 "TKPWEUPLTD": "{^git commit --all --message=\"\"^}{#LEFT}{-|}"                                                                    # GIt coMMiT (all, message)
+"TKPW*EUPLT": "{^git commit --amend}"                                                                                             # GIt coMMiT (amend)
+"TKPW*EUPLTD": "{^git commit --amend --no-edit}"                                                                                  # GIt coMMiT (amend) no-eDit
 "TKPWEUP": "{^git push\\n}"                                                                                                          # GIt Push
 "TKPWEUPL": "{^git pull\\n}"                                                                                                         # GIt PuLL [override]
 "TKPW*EUPL": "{^git pull --rebase}"                                                                                               # GIt PuLL (rebase) [override]
@@ -613,8 +636,6 @@ Dot files git commands
 "TKPW*EUPL/STPRAOEPL/PHAEUPB": "{^git pull --rebase upstream main}"                                                               # GIT PULL (rebase) uPSTREAM MAIN
 "TKPW*EUPL/STPRAOEPL/PHAFRT": "{^git pull --rebase upstream master}"                                                              # GIT PULL (rebase) uPSTREAM MASTER
 "TKPW*EUPL/STPRAOEPL/PWRAFRPB": "{^git pull --rebase upstream $(git symbolic-ref HEAD --short)}"                                  # GIT PULL (rebase) uPSTREAM (current BRANCH name)
-"TKPW*EUPLT": "{^git commit --amend}"                                                                                             # GIt coMMiT (amend)
-"TKPW*EUPLTD": "{^git commit --amend --no-edit}"                                                                                  # GIt coMMiT (amend) no-eDit
 "TKPW*EURBS": "{^git rebase --interactive}"                                                                                       # Git ReBaSe (interactive)
 "TKPW*EURPL": "{^git rm --force}"                                                                                                 # GIt RM (force)
 "TKPW*EURPLT": "{^git remote --verbose}"                                                                                          # GIt ReMoTe (verbose)
@@ -800,7 +821,7 @@ Plover delay plugin could help me get down to one stoke but two is fine for now.
 
 ```yaml
 KHRA*RB : {\#Alt(a)}{\#Escape}:%y+\\n # Select my first monitor is input keys to copy my entire buffer
-KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Escape}ggdGi{\#Control(v)}
+KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Control(a)}{\#Control(v)}
 KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second monitor and replace old text with new and run the tests
 ```
 
@@ -838,6 +859,15 @@ HAO*EPTS/HAO*EPTS/HAO*EPTS/HAO*EPTS : Hypertext Transfer Protocol (HTTPS)
 WAOEUR/SHARBG : wireshark
 WARBG : wireshark
 TARBG : termshark
+```
+## Reverse Engineering
+
+### Radare2
+
+```yaml
+2R : r2
+2R/2R : radare2
+2R/PWEUPB : rabin2
 ```
 
 ## Added by Plover

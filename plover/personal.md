@@ -136,4 +136,9 @@ HAEPS: happiness
 HROEURT: loiter
 HROEURGT: loitering
 PWOEUPB: binary
+TPAOEURBGS: Firefox
+KHRAOUD: conclude
+SAEUF: save
+SAF: safe
+13-S: ps1
 ```

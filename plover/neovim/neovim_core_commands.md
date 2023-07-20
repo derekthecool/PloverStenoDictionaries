@@ -144,6 +144,11 @@ KAUPB/#STR*URBGT : CONSTRUCTOR{^}
 KRURBGT          : constructor # easier normal spelling
 #KR*URBGT        : CONSTRUCTOR{^}
 TA*EUBL          : TABLE{^}
+TPHAOUPL         : enum
+#TPHAO*UPL       : ENUM{^}
+TPHAOUPLGS       : enumeration
+TPHAOUPLT        : enumerate
+#SW*EUFP         : SWITCH{^}
 ```
 
 ### Testing
@@ -162,6 +167,7 @@ This is for both writing tests and running them.
 -RB              : FIRST{^}
 -RG              : SECOND{^}
 -RS              : THIRD{^}
+TO*EUD           : TODO{^}
 ```
 
 ## Neovim API
