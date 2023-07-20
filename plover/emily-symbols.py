@@ -89,6 +89,12 @@ symbols = {
             # Open copy mode
             "{#Control(b)}[{^}",
         ],
+        "FRBL": [
+            "✔️",
+            "✅",
+            "❌",
+            "⛔",
+        ],
     },
     uniqueStarters[1]: {  # custom
         # add your own strokes here (or above, or wherever else you like)!
