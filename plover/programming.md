@@ -353,6 +353,95 @@ PROBGS : Proxmox
 
 ### Linux Shell Scripting
 
+#### Backslash Alphabet
+
+This collection of bashslashed letters is very helpful for these reasons:
+
+- Writing newline chars such as `\r` or `\n`
+- Writing regular expressions for pattern groups like `\w`, `\s`, `\d`, and
+  their uppercase inverted countparts
+
+Words/translations that I'll be replacing with this alphabet:
+
+- a: apps,As
+- b: BPs, bps
+- c: cps,Cs
+- d: depends,Ds
+- e: especially,Es - especially cannot be remapped because it is too important
+- f: fps,Fs
+- g: GPS, global positioning system - both of these can't be remapped they are too important as well
+- h: HPs,Hs
+- i: IPs,Is
+- j: s,Js
+- k: companies,Ks
+- l: ...,Ls
+- m: PHPs,Ms
+- n: /tmp/s, Ns
+- o: Ops,Os
+- p: .s, Ps
+- q: (up arrow + s), Qs
+- r: reasons,Rs
+- s: , ,
+- t: it happens,Ts
+- u: ups,Us
+- v: VPs,Vs
+- w: WordPresses,Ws
+- x: XPs,Xs
+- y: s,Ys
+- z: s,Zs
+
+```yaml
+A*PS : {^\\A^}
+APS : {^\\a^}
+PW*PS : {^\\B^}
+PWPS : {^\\b^}
+KR*PS : {^\\C^}
+KRPS : {^\\c^}
+TK*PS : {^\\D^}
+TK-PS : {^\\d^}
+*EPS : {^\\E^}
+TP*PS : {^\\F^}
+TP-PS : {^\\f^}
+H*PS : {^\\H^}
+H-PS : {^\\h^}
+*EUPS : {^\\I^}
+-EUPS : {^\\i^}
+SKWR*PS : {^\\J^}
+SKWRPS : {^\\j^}
+K*PS : {^\\K^}
+K-PS : {^\\k^}
+HR*PS : {^\\L^}
+HR-PS : {^\\l^}
+PH*PS : {^\\M^}
+PH-PS : {^\\m^}
+TPH*PS : {^\\N^}
+TPH-PS : {^}{\#Backslash}n{^} # Special to Plover, need to use this version instead
+O*PS : {^\\O^}
+O-PS : {^\\o^}
+P*PS : {^\\P^}
+P-PS : {^\\p^}
+KW*PS : {^\\Q^}
+KW-PS : {^\\q^}
+R*PS : {^\\R^}
+R-PS : {^}{\#Backslash}r{^} # Special to Plover, need to use this version instead
+S*PS : {^\\S^}
+S-PS : {^\\s^}
+T*PS : {^\\T^}
+T-PS : {^}{\#Backslash}t{^} # Special to Plover, need to use this version instead
+*UPS : {^\\U^}
+-UPS : {^\\u^}
+SR*PS : {^\\V^}
+SR-PS : {^\\v^}
+W*PS : {^\\W^}
+W-PS : {^\\w^}
+KP*PS : {^\\X^}
+KP-PS : {^\\x^}
+KWR*PS : {^\\Y^}
+KWR-PS : {^\\y^}
+STKPW*PS : {^\\Z^}
+STKPW-PS : {^\\z^}
+```
+
 #### Command-line Options Alphabet
 
 It is extremely common to use command-line options. Such as `grep -P -u`
