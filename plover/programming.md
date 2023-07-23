@@ -1,5 +1,11 @@
 # Programming Dictionary
 
+## Common To Most Languages
+
+```yaml
+PHRAOEBG : +=
+```
+
 ## Frequently Used Words
 
 ```yaml
@@ -949,6 +955,7 @@ WAOEUR/SHARBG : wireshark
 WARBG : wireshark
 TARBG : termshark
 ```
+
 ## Reverse Engineering
 
 ### Radare2
