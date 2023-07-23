@@ -95,6 +95,12 @@ symbols = {
             "❌",
             "⛔",
         ],
+        "PG": [
+            "\\n",
+            "`n",
+            "`r",
+            "\\r",
+        ],
     },
     uniqueStarters[1]: {  # custom
         # add your own strokes here (or above, or wherever else you like)!
