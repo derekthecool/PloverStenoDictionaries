@@ -221,6 +221,14 @@ KROEUBG : calloc
 *EUFD : {^}idf.py
 ```
 
+#### FreeRTOS
+
+```yaml
+TROS : RTOS
+TROS/TROS : real time operating system
+TPROS : FreeRTOS
+```
+
 ## Databases
 
 ```yaml

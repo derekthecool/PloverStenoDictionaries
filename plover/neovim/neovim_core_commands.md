@@ -1,6 +1,20 @@
 # Neovim Dictionary
 
-## Vim Vocabulary
+## Snippet Triggers
+
+This is the most important category for easy programming.
+
+The primary snippet actions include:
+
+- Triggering a non-autosnippet
+- Jumping to next and previous snippet nodes
+
+The secondary snippet actions include:
+
+- Jumping to next and previous choice nodes
+- Opening choice node fuzzy selection tool
+
+##     Vim Vocabulary
 
 ```yaml
 SREUPL         : vim        # Swap with victim as I use this more
