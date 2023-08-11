@@ -95,6 +95,13 @@ PHOEUG                  : {^}Magoo
 HRA*EUT/OPB             : Layton
 ```
 
+## Places
+
+```yaml
+HRA*EUT : Layton
+HRAEU/TOPB : Layton
+```
+
 ## Email
 
 ```yaml

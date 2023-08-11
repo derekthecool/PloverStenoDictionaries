@@ -24,6 +24,12 @@ K-PLT          :  {^gcip^} # Comment current block in a line wise style
 K*PL           :  {^gbc^} # Comment current line in block wise style
 ```
 
+## My Plugins
+
+```yaml
+TOG : {^,nB^}
+```
+
 ## Personal Mappings That Need To Be Fast
 
 ```yaml

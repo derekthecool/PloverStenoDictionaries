@@ -175,6 +175,7 @@ PHAO*EBG           :  -=
 PHRAO*EBG          :  +=
 TPH*UL             :  "\\{'\\0'\\}" # Print {'\0'}, this needs to be quoted
 TPH*UL/TPH*UL      :  "'\\0'"       # Print '\0', this needs to be quoted
+TPHOEUL            :  NULL
 PR*EUF             :  {^}printf(\"{^}
 TPR*EUF            :  {^}fprintf(stderr, \"{^}
 KHROET             :  {^}\",{^ ^}  # Klote... Closing quote with comma
@@ -275,6 +276,7 @@ TKRUPB                : dotnet run\\n
 TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
 TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
 TKOFP                 : dotnet watch run
+TPH*ET/SHRAOUGS/AD    : dotnet sln add
 ```
 
 ### Dotnet Functions
@@ -340,6 +342,7 @@ KHRAO*EU           :  CLI
 PW-RB              :  powershell
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
+PRUF               :  protobuf
 PROEUT             :  proto
 TKPWO*             :  {./^}
 H-F                :  {^}{\#Control(c)}{^}
@@ -687,11 +690,13 @@ RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
 ```
 
 ```yaml
+TKPW*EUFT : {^}git fetch upstream
 "TKPWEUPLT": "{^git commit --message=\"\"^}{#LEFT}{-|}"                                                                           # GIt coMMiT (message)
 "TKPWEUPLTD": "{^git commit --all --message=\"\"^}{#LEFT}{-|}"                                                                    # GIt coMMiT (all, message)
 "TKPW*EUPLT": "{^git commit --amend}"                                                                                             # GIt coMMiT (amend)
 "TKPW*EUPLTD": "{^git commit --amend --no-edit}"                                                                                  # GIt coMMiT (amend) no-eDit
 "TKPWEUP": "{^git push\\n}"                                                                                                          # GIt Push
+"TKPWEUT/PURB/PWRAFRPB": "{^git push --force origin $(git symbolic-ref HEAD --short)}"                                   # GIT PUSH (force) ORIGIN (current BRANCH name)
 "TKPWEUPL": "{^git pull\\n}"                                                                                                         # GIt PuLL [override]
 "TKPW*EUPL": "{^git pull --rebase}"                                                                                               # GIt PuLL (rebase) [override]
 "TKPW*EUTD": "{^git add .}"                                                                                                       # GIT aDD (current pathspec)
