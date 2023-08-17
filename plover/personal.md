@@ -22,6 +22,7 @@ AO*EUD : {^}ide # suffix, replaces ID
 STKPWEUL : {^}zilla # Very important suffix for typing filezilla or stenozilla
 PHRAT/PUS : platypus
 THER/PHEUPB : theremin
+HROUT : layout
 ```
 
 ## Bird Watching
@@ -149,4 +150,5 @@ SAEUF: save
 SAF: safe
 13-S: ps1
 A*RPBG: angry
+PHA*EUL: email
 ```

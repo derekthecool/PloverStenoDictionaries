@@ -9,9 +9,13 @@ items.
 KHUFPBL : Church of Jesus Christ of Latter Day Saints
 TK*BG: D&C
 HRORD: Lord
+HRORDZ : "Lord's"
+HRO*RDZ : lords
 TKPWOD: God
 SABG/REPLT: sacrament
-PROEFT: prophet
+PROFT: prophet # Swap priority
+PRO*FT: profit # Swap priority
+PROF/SAOEUD : prophesied
 RE/HREUPBLG: religion
 R*EUPBLG: religion
 R*EUPBLG/US: religious
@@ -27,7 +31,6 @@ SA*EUFRS: saviors
 SA*EUFR : savior
 POEFS: apostles
 POFS: apostles
-TPA*ER: Father
 ```
 
 ## Scripture Words
@@ -52,13 +55,14 @@ PHO*RPL         : Mormon
 PHORPL          : Mormon
 PHROEPB         : Moroni
 PHOE/SAO*EU     : Mosiah
-HRAOE/HAOEU     : Lehi
 HRAEU/PHAPB     : Laman
 HRAEUPL/AOEUTS  : Laman
 HREPL/AOUL      : Lemuel
 SED/KAOEU/KWRA  : Zedekiah
 SKWRAOUD/A      : Judah
 TKPAS           : and it came to pass
+HRAOE/HAOEU     : Lehi
+HRE/HAOEU     : Lehi
 HRAO*EF         : Lehi
 ```
 
@@ -68,11 +72,43 @@ HRAO*EF         : Lehi
 SPWRAEUGS: celebration
 H*E: He
 R*EBGT: resurrect
-SKWR*S/PH*EPB: in the name of Jesus Christ, amen
-SKWR*S/PHEPB: in the name of Jesus Christ, amen
-ELD: Elder
+SKWR*S/PH*EPB: {^}. In the name of Jesus Christ, amen.{-|}
+SKWR*S/PHEPB: {^}. In the name of Jesus Christ, amen.{-|}
+ELD: Elder{-|}
+PREZ: President{-|}
+ST-R: Sister{-|}
 TPAO*EUD: testified
 TO*EPLT: atonement
 SO*RPL: Zoram
 H-G: Holy Ghost
+H*G: Holy Spirit
+SKREURPT: scripture
+TKES/PRET: desperate
+TKAERB: dear brothers and sisters,
+PWAPT: baptize
+RAO*EUFPS: righteousness
+PWROEUS: brothers and sisters
+SRA*EL: Israel
+KOEFD: covid-19
+PH*EUGS: missionaries
+TKPWHREL: gospel
+SPERPBL: supernal
+PAULS: apostle
+TPA*ER: Father
+SREUPB: heaven
+SREUPBL: heavenly
+SREUFPBL : Heavenly Father
+SREUFPBL/SREUFPBL : Father in heaven
+TKPW*EUFT : giveth
+AOEU/REUPBG: Eyring
+O*EBGS: Oaks
+TKHRAEUR: declare
+SA*EUT: Satan
+STKAOEUPL: disciple
+HOE/KAPB: hosanna
+KPR*ES: express
+PH-PB: amen
+PH-PB/PH-PB: in the name of Jesus Christ, amen.{-|}
+TAFPLT: attachment
+TPHO*B: no problem
 ```
