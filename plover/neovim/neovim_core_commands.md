@@ -141,14 +141,14 @@ is typed/written/stenoed the snippet will activate.
 #*ELS            : ELSE{^}
 #TP*R            : FOR{^}
 #WHAO*EUL        : WHILE{^}
-#TPRAO*EFP       : FOREACH{^}
+#TPRAO*EFP       : FREACH{^} # FOREACH conflicts with FOR
 #TP*UBGS         : FUNCTION{^}
 #PR*EUPBT        : PRINT{^}
 #PR*EUPBTS       : ERRORPRINT{^}
 KHR*U            : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #KHR*U           : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #TK*PB           : DEFINE{^}
-#TPO*RPLT        : FORMAT{^}
+#TPO*RPLT        : FRMAT{^} # FORMAT conflicts with FOR
 #TA*FBG          : TASK{^}
 #TRAO*EU         : TRY{^}
 #KA*UL           : {^}{MODE:RESET}CALL{^}  # For expanding function calls
