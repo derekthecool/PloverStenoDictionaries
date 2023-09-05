@@ -126,6 +126,7 @@ KPH-DZ/KPH-DZ  : {^}{\#Escape}:luafile %\\n{^}
 HRAO*ERD       :  {^}<leader>{^}
 KR-R           :  {^}<CR>{^}
 HRAOUF         :  {^}luafile %{^}
+HRAO*UF  : {^}{\#Escape}:luafile %\\n{^}
 ```
 
 ## Special Commands To Trigger Autosnippets
@@ -178,9 +179,9 @@ This is for both writing tests and running them.
 ### Helpers
 
 ```yaml
--RB              : FIRST{^}
--RG              : SECOND{^}
--RS              : THIRD{^}
+#-R              : FIRST{^}
+#-B              : SECOND{^}
+#-G              : THIRD{^}
 TO*EUD           : TODO{^}
 ```
 

@@ -124,3 +124,14 @@ TKPWA*EUT           :  {^},g3{^} # Call next git plugin in neovim
 TK*EUF            :  {^},gd{^} # Call my special function to toggle diff view
 TK*EUFR           :  {^}{\#Escape}:DiffviewFileHistory %{^} # Call my special function to toggle diff view
 ```
+
+### [Luapad](https://github.com/rafcamlet/nvim-luapad)
+
+This plugin has helped me so much with building skill with both lua and name
+configuration. It works as an inline repl, showing the code results as virtual
+text.
+
+```yaml
+HRAOUPD : {^},dV{^} # LuaPaD: used to run some of my saved files in my neovim configuration that I call the "playground", where I test neovim APIs
+HRAO*UPD : {^}{\#Escape}:Luapad\\n{^} # Open luapad in scratch buffer with realtime evaluation
+```

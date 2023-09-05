@@ -34,6 +34,7 @@ it out for reference. I used this [guide](https://stackoverflow.com/questions/50
 for the better `ps` printing.
 
 ```yaml
+KAEURPB : container # Overwrites Karen
 TKPW*ET/TK-BG : curl -sSL https://get.docker.com/ | sh # Easy script to install docker and docker compose
 TK-BG : docker{^ ^}
 TK-BG/UP : docker-compose up --build
@@ -189,6 +190,10 @@ TK*UF              :  {^}\#define
 PHAEUPBS           :  {^}main.c{^}
 PRAG/PHA           :  {^}\#pragma once
 S*RS : src
+STKEUPBT           : STDINT{^} # Meant to trigger a snippet for uint8_t and family
+STK*EUPBT          : USTDINT{^} # Meant to trigger a snippet for uint8_t and family
+TOEUF : typedef
+TAOEUP/TKEF : typedef
 ```
 
 ### string.h
@@ -354,9 +359,9 @@ This makes using the terminal cheat tool very easy. See
 [cht.sh](https://cht.sh/)
 
 ```yaml
-KHAO*ET                  :  {^}cht.sh {^ ^} # Run script on Linux
-KHAO*ET/KHAO*ET          :  {^}curl cht.sh/{^}{MODE:SET_SPACE:+} # Again Linux but using curl
-KHAO*ET/KHAO*ET/KHAO*ET  :  {^}(Invoke-WebRequest cht.sh/).Content{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{^}{MODE:SET_SPACE:+} # For use on windows, need to use Invoke-WebRequest instead of the alias curl to work on all PowerShell versions
+KHAO*ET                  :  {^}curl cht.sh/{^}{MODE:SET_SPACE:+} # Again Linux but using curl
+KHAO*ET/KHAO*ET          :  {^}(Invoke-WebRequest cht.sh/).Content{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{^}{MODE:SET_SPACE:+} # For use on windows, need to use Invoke-WebRequest instead of the alias curl to work on all PowerShell versions
+KHAO*ET/KHAO*ET/KHAO*ET  :  {^}cht.sh {^ ^} # Run script on Linux (must be
 T*ERB                    :  {^}nc termbin.com 9999
 T*ERB/T*ERB              :  https://termbin.com/{^}
 ```
@@ -583,6 +588,7 @@ KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D                 :  {^}cd ../..
 KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D            :  {^}cd ../../../../../../../../../../{^}
 KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D       :  {^}cd ../../../../../../../../../../../{^}
 KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D  :  {^}cd ../../../../../../../../../../../../{^}
+KR-P                                                              :  {^}cp {^ ^}
 PH*F                                                              :  {^}mv {^ ^}
 R-PL                                                              :  {^}rm {^ ^}
 R-PL/R-PL                                                         :  {^}rm -rf{^ ^}

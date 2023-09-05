@@ -111,4 +111,16 @@ PH-PB: amen
 PH-PB/PH-PB: in the name of Jesus Christ, amen.{-|}
 TAFPLT: attachment
 TPHO*B: no problem
+TKPWODZ: "God's"
+TKPWO*D: god
+P*EPBT: repent
+"*UPBS": understood
+PR*EPBT: repentance
+PWHOELD: behold
+TPA*EULT: faithful
+OEFRBG: overcome
+EUPLGTS: implementation
+PWEUP: bishop
+PWEUBG: bishopric
+TPHAEU/PHAPB: Naaman
 ```

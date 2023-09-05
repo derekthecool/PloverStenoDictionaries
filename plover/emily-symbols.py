@@ -110,7 +110,12 @@ symbols = {
         # Needs plover_current_time plugin
         # https://github.com/EPLHREU/plover-current-time
         # TODO use my own time functions instead of plover-current-time
-        "R": ["{:time:%Y-%m-%d}", "{:time:%H-%M-%S}", "", "{:time:%Y-%m-%d}{^}_{^}"],
+        "R": [
+            "{:time:%Y-%m-%d}",
+            "{:time:%H-%M-%S}",
+            "cd {:time:%Y-%m-%d}{^}*{^}\t{^}",
+            "{:time:%Y-%m-%d}{^}_{^}",
+        ],
     },
 }
 
