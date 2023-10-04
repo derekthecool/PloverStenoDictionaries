@@ -14,7 +14,7 @@ The secondary snippet actions include:
 - Jumping to next and previous choice nodes
 - Opening choice node fuzzy selection tool
 
-##     Vim Vocabulary
+## Vim Vocabulary
 
 ```yaml
 SREUPL         : vim        # Swap with victim as I use this more
@@ -35,6 +35,7 @@ SRAOEP : Vieb # How the website says it is pronounced
 
 ```yaml
 TPH*EUPL                 :  nvim{^}
+TW                       : {^}nvim{^ ^} # Very quick method
 TPHO*EUPL                :  {^}nvim
 TPH*EUPL/RAED            :  {^}nvim README.md
 TPHO*EUPL/TPHO*EUPL      :  {^}nvim --cmd \"set rtp+=$(pwd)\"
@@ -60,9 +61,11 @@ TKPW*PL : {^gb^}  # Block wise comment operator. GM doesn't really mean anything
 ## Text Objects
 
 ```yaml
-SA  : {^}sa{^}
-S-R : {^}sr{^}
-S-D : {^}sd{^}
+SA   : {^}sa{^}
+S-R  : {^}sr{^}
+S-D  : {^}sd{^}
+W*EU : {^}iw{^}
+WA*  : {^}aw{^}
 ```
 
 ## Copy Commands
@@ -87,6 +90,8 @@ line.
 TKPW-G : {^}gg{^} # Top of page
 TKPW-T : {^}gt{^} # Next tab
 TKPW*T : {^}gT{^} # Previous tab
+TKPWU  : {^}gu{^}  # Prepare to lowercase change some text
+TKPW*U : {^}gU{^}  # Prepare to uppercase change some text
 ```
 
 ### Language Server Protocol Commands

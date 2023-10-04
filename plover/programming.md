@@ -76,6 +76,7 @@ KPAP: pcap
 PH*BG : mqtt
 PH*BG/PH*BG : lwt
 PH*BG/PH*BG/PH*BG : QoS
+KWOS : qos
 TAOEP : tcp
 TAOEP/TAOEP : tcp/ip
 TAOEP/TK*UPL : tcpdump
@@ -194,6 +195,8 @@ STKEUPBT           : STDINT{^} # Meant to trigger a snippet for uint8_t and fami
 STK*EUPBT          : USTDINT{^} # Meant to trigger a snippet for uint8_t and family
 TOEUF : typedef
 TAOEUP/TKEF : typedef
+SOF : sizeof
+#SO*F : {^}SIZEOF # Meant to trigger a snippet for sizeof
 ```
 
 ### string.h
@@ -558,6 +561,10 @@ TPH-P : /tmp/{^}
 
 ```yaml
 S*ED : sed
+S*ED/S*ED : "sed 's/'{#Left}"
+TKA*EUT : "date '+%F'"
+TKA*EUT/TKA*EUT : "date '+%T'"
+TKA*EUT/TKA*EUT/TKA*EUT : "date '+%F %T'"
 SR*ERGS : --version\\n{^}
 H*EP : --help\\n{^}
 TP/KEUG : {^}ifconfig{^ ^}

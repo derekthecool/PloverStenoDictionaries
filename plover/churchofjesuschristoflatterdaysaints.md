@@ -123,4 +123,5 @@ EUPLGTS: implementation
 PWEUP: bishop
 PWEUBG: bishopric
 TPHAEU/PHAPB: Naaman
+SKRAO*EUB: subscribe
 ```
