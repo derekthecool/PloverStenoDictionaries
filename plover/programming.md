@@ -612,6 +612,7 @@ S-PL/KR-LT/STOP : systemctl stop
 KPHR-R : {^}xplr # Awesome terminal file manager
 ABD : adb
 ABD/ABD : adb devices\\n{^}
+STKPW-P : {^}7z{^ ^}
 ```
 
 #### [Wezterm](https://wezfurlong.org/wezterm/)

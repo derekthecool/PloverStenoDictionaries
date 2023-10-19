@@ -114,8 +114,6 @@ TK-D   : {^}dd{^}
 TKHRAO*ET      :  ^dd^ # Delete line
 -FP            :  {^}{\#Control_R(u)}{^} # easy control + u for up scroll
 -PL            :  {^}{\#Control_R(d)}{^} # easy control + d for down scroll
-PR*EPL         :  {^}{\#Escape}:%smagic/{^}
-PRO*EUPL       :  {^}:smagic/{^}
 #SR-RS         :  {^}{\#Control_R(backslash)}{\#Control_R(n)}{^}
 STPA           :  {\#Escape}{^zzz^} # Mapped in vim to :update<CR>
 STPA/STPA      :  {^}{\#Escape}:w\\n{^} # Twice for a forced write to single file
@@ -132,6 +130,14 @@ HRAO*ERD       :  {^}<leader>{^}
 KR-R           :  {^}<CR>{^}
 HRAOUF         :  {^}luafile %{^}
 HRAO*UF  : {^}{\#Escape}:luafile %\\n{^}
+```
+
+### Searching And Replacing Commands
+
+```yaml
+PR*EPL         :  {^}{\#Escape}:%smagic/{^}
+PRO*EUPL       :  {^}:smagic/{^}
+HRAO*UD        :  {^}:luado return line
 ```
 
 ## Special Commands To Trigger Autosnippets

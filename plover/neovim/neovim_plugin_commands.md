@@ -24,6 +24,17 @@ K-PLT          :  {^gcip^} # Comment current block in a line wise style
 K*PL           :  {^gbc^} # Comment current line in block wise style
 ```
 
+I've mapped more of the comment commands this plugin can do using the Emily's
+symbols python file. These are the mappings (note that it is a python code
+block, the markdown dictionary plugin only works with an empty syntax or yaml)
+
+```python
+# Commands for use with comment-nvim for easy line comments
+# Using the directal inputs you can easily start I comment at eol,
+# above, or below
+"RLG": ["gcO", "", "gcA", "gco"],
+```
+
 ## My Plugins
 
 ```yaml
@@ -36,9 +47,9 @@ TOG : {^,nB^}
 KH*EBGD            :  {^},vl{^} # Mark down check box
 TRAO*E             :  {^},fe{^} # File tree toggle
 TRAO*ES            :  {^},ft{^} # Telescope file browser
-T*EFT              :  {^},ui{^} # Test
-R*UPB              :  {^},uu{^} # Run
-PW-D               :  {^},u;{^} # Build
+T*EFT              :  {^}`ui{^} # Test, note the ` instead of , this keeps it more usable in insert mode without delays
+R*UPB              :  {^}`uu{^} # Run
+PW-D               :  {^}`u;{^} # Build
 KW*EUBG            :  {^},la{^} # LSP code action version 1
 KWO*EUBG           :  {^},lb{^} # LSP code action version 2
 TPO*RPLT           :  {^},lf{^} # Format code
