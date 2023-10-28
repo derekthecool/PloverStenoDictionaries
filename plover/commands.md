@@ -67,6 +67,7 @@ SKWRO*EUPB    : {^ ^}{MODE:SET_SPACE:}             # joinswithoutanyspacingliket
 TKA*RB        : {MODE:SET_SPACE:-}                 # join-words-with-a-dash I like this for writing file names
 STPHA*EUBG    : {MODE:SNAKE}                       # awesome_for_programming_in_lua_and_python
 STPHA*EUBGD   : {MODE:CAPS}{MODE:SNAKE}            # GREAT_FOR_MAKING_C_MACROS
+KHRAO*UDZ     : {MODE:CAPS}{MODE:SNAKE}            # GREAT_FOR_MAKING_C_MACROS
 ```
 
 ## Plover Spacing

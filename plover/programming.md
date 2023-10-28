@@ -287,12 +287,6 @@ TKOFP                 : dotnet watch run
 TPH*ET/SHRAOUGS/AD    : dotnet sln add
 ```
 
-### Dotnet Functions
-
-```yaml
-RAED/HRAOEUPB : ReadLine
-```
-
 ## C#
 
 ```yaml
@@ -677,6 +671,7 @@ KW*EU   : {^}{\#Control_R(a)}j{^} # Open my wiki in new tmux window
 ```yaml
 TKPWEUT/PWAEUR/RE/PO        :  git bare repo
 TKPW*EUT/HO*EPL             :  {^}cd $(git rev-parse --show-toplevel)\\n{^}
+KR*D/TKPWEUT                :  {^}cd $(git rev-parse --show-toplevel)\\n{^}
 TKPWUB                      :  GitHub
 AZ/SHUR                     :  Azure
 TKPWUB/TKPWUB               :  https://github.com/{^}
