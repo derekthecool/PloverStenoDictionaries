@@ -37,8 +37,14 @@ for the better `ps` printing.
 KAEURPB : container # Overwrites Karen
 TKPW*ET/TK-BG : curl -sSL https://get.docker.com/ | sh # Easy script to install docker and docker compose
 TK-BG : docker{^ ^}
-TK-BG/UP : docker-compose up --build
-TK-BG/*UP : docker compose up --build
+TK-BG/UP : docker-compose up -d
+TK-BG/*UP : docker compose up -d
+TK-BG/UP/UP : docker-compose up -d --build
+TK-BG/*UP/*UP : docker compose up -d --build
+TK-BG/HROGS : docker-compose logs -f
+TK-BG/HRO*GS : docker compose logs -f
+TK-BG/PWEULD : docker-compose build
+TK-BG/PW*EULD : docker compose build
 TK-BG/TKOUPB : docker-compose down
 TK-BG/TKO*UPB : docker compose down
 TK-BG/P : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
@@ -48,10 +54,16 @@ TK-BGZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requ
 TKAO*EUL : Dockerfile
 KPO*ES : compose.yaml # The official recommended docker compose file name. Not docker-compose.yaml, docker-compose.yml, or compose.yml
 P-D : podman{^ ^}
-P-D/UP : podman-compose up --build
-P-D/*UP : podman compose up --build
+P-D/UP : podman-compose up -d
+P-D/*UP : podman compose up -d
+P-D/UP/UP : podman-compose up -d --build
+P-D/*UP/*UP : podman compose up -d --build
 P-D/TKOUPB : podman-compose down
 P-D/TKO*UPB : podman compose down
+P-D/HROGS : podman-compose logs -f
+P-D/HRO*GS : podman compose logs -f
+P-D/PWEULD : podman-compose build
+P-D/PW*EULD : podman compose build
 P-D/P : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 P-D/P-S : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 P-D/RUPB : podman run -it{^ ^}
@@ -1002,4 +1014,5 @@ A*PT/A*PT/A*PT/A*PT: {^}apt update
 AO*URS: {^}usr
 KWRAPL: {^}yaml
 RAOUF: remove
+KPERPB: extern
 ```

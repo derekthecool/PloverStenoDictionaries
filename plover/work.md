@@ -68,13 +68,18 @@ OET/RORPT: OTAReport
 OET/RORP: OTAReport
 ```
 
-### BelleM
+### FreeusAdapter Project
 
 ```yaml
 TPRAPT: FreeusAdapter
 TPRAPT/KR*: FreeusAdapter.c
 TPAEU/REP: FArepack
 TPAEU/KPHAPBD: FAcommand
+PHAOEURBG/PH*BG: STMQT
+PHAOEURBG/SOS: STSOS
+PHAOEURBG/WAOEUF: STWIF
+PHAOEURBG/RUPB: STRTO
+PHAOEURBG/KWEUBG: STQSS
 ```
 
 ## Hardware
