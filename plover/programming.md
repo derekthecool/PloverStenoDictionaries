@@ -619,6 +619,8 @@ KPHR-R : {^}xplr # Awesome terminal file manager
 ABD : adb
 ABD/ABD : adb devices\\n{^}
 STKPW-P : {^}7z{^ ^}
+KP-D : xxd
+KP-D/KP-D : xxd -r -p
 ```
 
 #### [Wezterm](https://wezfurlong.org/wezterm/)
@@ -952,7 +954,18 @@ Plover delay plugin could help me get down to one stoke but two is fine for now.
 KHRA*RB : {\#Alt(a)}{\#Escape}:%y+\\n # Select my first monitor is input keys to copy my entire buffer
 KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Control(a)}{\#Control(v)}
 KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second monitor and replace old text with new and run the tests
+KHRA*RBS : {\#Alt(a)}{\#Escape}:%y+\\n{PLOVER:DELAY:0.4}{\#Alt(o)}{\#Control(a)}{\#Control(v)}{PLOVER:DELAY:0.4}{\#Control(Shift(return))}{\#Alt(a)}
+KHRA*RBD : {\#Alt(2)}{\#Escape}:%y+\\n{PLOVER:DELAY:0.4}{\#Alt(1)}{\#Control(a)}{\#Control(v)}{PLOVER:DELAY:3.0}{\#Control(Shift(return))}{\#Alt(2)}
+STKPWHR-S: {PLOVER:DELAY:0.1}D{PLOVER:DELAY:0.1}e{PLOVER:DELAY:0.1}r{PLOVER:DELAY:0.1}e{PLOVER:DELAY:0.1}k
 ```
+
+In order to use this plugin in Plover you need to create a dictionary entry of the form:
+{
+"example_stroke": "{PLOVER:DELAY:0.1}"
+}
+DELAY can be replaced with SLEEP or WAIT.
+The amount is measured in seconds.
+In some new Plover version {:command:delay:0.1} would also work.
 
 ## Terminal Presentations
 
