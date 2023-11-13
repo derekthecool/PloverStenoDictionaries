@@ -258,6 +258,8 @@ PHEU/SKW*L : MySQL
 PH-S/SKW-L : mssql
 PH-S/SKW*L : MSSQL
 SKW*L : sql
+SKWAOEULT : sqlite
+SKWAOEULT/SKWAOEULT : sqlite3
 ```
 
 ## Dotnet
@@ -297,6 +299,16 @@ TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
 TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
 TKOFP                 : dotnet watch run
 TPH*ET/SHRAOUGS/AD    : dotnet sln add
+```
+
+### Dotnet Tool Commands
+
+#### Entity Framework
+
+```yaml
+TPH*ET/EF : dotnet ef
+TPH*ET/TAOL/STAL/EF : dotnet tool install --global dotnet-ef
+TPH*ET/EF/AUPTD : dotnet ef database update
 ```
 
 ## C#
@@ -386,7 +398,7 @@ PROBGS : Proxmox
 
 #### Backslash Alphabet
 
-This collection of bashslashed letters is very helpful for these reasons:
+This collection of backslashed letters is very helpful for these reasons:
 
 - Writing newline chars such as `\r` or `\n`
 - Writing regular expressions for pattern groups like `\w`, `\s`, `\d`, and
@@ -552,6 +564,7 @@ grep -a -b -c -d -e -f -g -h -i -j -k -l -m -n -o -p -q -r -s -t -u -v -w -x -y 
 SHEB : \#!/usr/bin/env bash
 SHEB/SHEB : \#!/bin/bash
 SHEB/SHEB/SHEB : \#!/bin/sh
+PWARB/TP-R : "for i in {1..10}; do echo $i; done"
 ```
 
 #### Common Directory Names
@@ -1028,4 +1041,5 @@ AO*URS: {^}usr
 KWRAPL: {^}yaml
 RAOUF: remove
 KPERPB: extern
+SHOUPB: shutdown
 ```
