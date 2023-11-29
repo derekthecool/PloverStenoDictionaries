@@ -36,6 +36,7 @@ SRAOEP : Vieb # How the website says it is pronounced
 ```yaml
 TPH*EUPL                 :  nvim{^}
 TW                       : {^}nvim{^ ^} # Very quick method
+TW-S                     : {^}nvim $(fzf)
 TPHO*EUPL                :  {^}nvim
 TPH*EUPL/RAED            :  {^}nvim README.md
 TPHO*EUPL/TPHO*EUPL      :  {^}nvim --cmd \"set rtp+=$(pwd)\"
@@ -130,6 +131,7 @@ HRAO*ERD       :  {^}<leader>{^}
 KR-R           :  {^}<CR>{^}
 HRAOUF         :  {^}luafile %{^}
 HRAO*UF  : {^}{\#Escape}:luafile %\\n{^}
+SKWR*URPL : {^},fd{^}
 ```
 
 ### Searching And Replacing Commands
@@ -171,7 +173,8 @@ KRURBGT          : constructor # easier normal spelling
 #KR*URBGT        : CONSTRUCTOR{^}
 TA*EUBL          : TABLE{^}
 TPHAOUPL         : enum
-#TPHAO*UPL       : ENUM{^}
+#TPHAO*UPL       : ENUM{^} # Noom
+#TPH*UPL         : ENUM{^} # Num
 TPHAOUPLGS       : enumeration
 TPHAOUPLT        : enumerate
 #SW*EUFP         : SWITCH{^}

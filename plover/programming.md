@@ -3,7 +3,8 @@
 ## Common To Most Languages
 
 ```yaml
-PHRAOEBG : +=
+PHRAO*EBG : {^ ^}+={^ ^}
+PHAO*EBG : {^ ^}-={^ ^}
 ```
 
 ## Frequently Used Words
@@ -41,8 +42,8 @@ TK-BG/UP : docker-compose up -d
 TK-BG/*UP : docker compose up -d
 TK-BG/UP/UP : docker-compose up -d --build
 TK-BG/*UP/*UP : docker compose up -d --build
-TK-BG/HROGS : docker-compose logs -f
-TK-BG/HRO*GS : docker compose logs -f
+TK-BG/HROGS : docker-compose logs -f -t
+TK-BG/HRO*GS : docker compose logs -f -t
 TK-BG/PWEULD : docker-compose build
 TK-BG/PW*EULD : docker compose build
 TK-BG/TKOUPB : docker-compose down
@@ -50,6 +51,7 @@ TK-BG/TKO*UPB : docker compose down
 TK-BG/P : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 TK-BG/P-S : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 TK-BG/RUPB : docker run -it{^ ^}
+TK-BG/R*UPB : docker run -it --rm{^ ^}
 TK-BGZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requires starting container with interactive mode (-it)
 TKAO*EUL : Dockerfile
 KPO*ES : compose.yaml # The official recommended docker compose file name. Not docker-compose.yaml, docker-compose.yml, or compose.yml
@@ -60,13 +62,14 @@ P-D/UP/UP : podman-compose up -d --build
 P-D/*UP/*UP : podman compose up -d --build
 P-D/TKOUPB : podman-compose down
 P-D/TKO*UPB : podman compose down
-P-D/HROGS : podman-compose logs -f
-P-D/HRO*GS : podman compose logs -f
+P-D/HROGS : podman-compose logs -f -t
+P-D/HRO*GS : podman compose logs -f -t
 P-D/PWEULD : podman-compose build
 P-D/PW*EULD : podman compose build
 P-D/P : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 P-D/P-S : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 P-D/RUPB : podman run -it{^ ^}
+P-D/R*UPB : podman run -it --rm{^ ^}
 P-DZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requires starting container with interactive mode (-it)
 ```
 
@@ -185,8 +188,6 @@ ST-D/EUPB          :  stdin
 #*ED               :  {^};{^}  # end line with semicolon
 *EDZ               :  {^});\\n{^} # end line with closing parentheses and semicolon and new line
 #*EDZ              :  {^});{^} # end line with closing parentheses and semicolon
-PHAO*EBG           :  -=
-PHRAO*EBG          :  +=
 TPH*UL             :  "\\{'\\0'\\}" # Print {'\0'}, this needs to be quoted
 TPH*UL/TPH*UL      :  "'\\0'"       # Print '\0', this needs to be quoted
 TPHOEUL            :  NULL
@@ -683,6 +684,7 @@ TP-LG : "F:{#Backslash}{^}"
 TKPW-LG : "G:{#Backslash}{^}"
 RAO*T               : $env:r/\\t{^}
 P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
+WEUPB/TKPWET : winget
 ```
 
 ## tmux
@@ -1042,4 +1044,11 @@ KWRAPL: {^}yaml
 RAOUF: remove
 KPERPB: extern
 SHOUPB: shutdown
+```
+
+## Nix and NixOS
+
+```yaml
+TPHEUBGS/SHEL : nix-shell
+TPHEUBGS/PWEULD : nix-build
 ```

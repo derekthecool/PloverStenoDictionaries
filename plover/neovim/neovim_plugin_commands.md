@@ -146,3 +146,63 @@ text.
 HRAOUPD : {^},dV{^} # LuaPaD: used to run some of my saved files in my neovim configuration that I call the "playground", where I test neovim APIs
 HRAO*UPD : {^}{\#Escape}:Luapad\\n{^} # Open luapad in scratch buffer with realtime evaluation
 ```
+
+### Pairs Plugins
+
+I used to use vim unimpaired by TPope, but now I use Mini.Pairs.
+And there are some mappings that are built into neovim such as
+`]c` for jumping to the next diff and I want to include any such maps here as
+well.
+
+```yaml
+#AFS      : {^]a^}
+#A*FS     : {^[a^}
+#PWFS     : {^]b^}
+#PW*FS    : {^[b^}
+#KRFS     : {^]c^}
+#KR*FS    : {^[c^}
+#TK-FS    : {^]d^}
+#TK*FS    : {^[d^}
+#-EFS     : {^]e^}
+#*EFS     : {^[e^}
+#TP-FS    : {^]f^}
+#TP*FS    : {^[f^}
+#H-FS     : {^]h^}
+#H*FS     : {^[h^}
+#-EUFS    : {^]i^}
+#*EUFS    : {^[i^}
+#SKWRFS   : {^]j^}
+#SKWR*FS  : {^[j^}
+#K-FS     : {^]k^}
+#K*FS     : {^[k^}
+#HR-FS    : {^]l^}
+#HR*FS    : {^[l^}
+#PH-FS    : {^]m^}
+#PH*FS    : {^[m^}
+#TPH-FS   : {^]n^}
+#TPH*FS   : {^[n^}
+#O-FS     : {^]o^}
+#O*FS     : {^[o^}
+#P-FS     : {^]p^}
+#P*FS     : {^[p^}
+#KW-FS    : {^]q^}
+#KW*FS    : {^[q^}
+#R-FS     : {^]r^}
+#R*FS     : {^[r^}
+#S-FS     : {^]s^}
+#S*FS     : {^[s^}
+#T-FS     : {^]t^}
+#T*FS     : {^[t^}
+#-UFS     : {^]u^}
+#*UFS     : {^[u^}
+#SR-FS    : {^]v^}
+#SR*FS    : {^[v^}
+#W-FS     : {^]w^}
+#W*FS     : {^[w^}
+#KP-FS    : {^]x^}
+#KP*FS    : {^[x^}
+#KWR-FS   : {^]y^}
+#KWR*FS   : {^[y^}
+#STKPW-FS : {^]z^}
+#STKPW*FS : {^[z^}
+```
