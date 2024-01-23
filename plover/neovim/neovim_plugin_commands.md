@@ -48,7 +48,9 @@ KH*EBGD            :  {^},vl{^} # Mark down check box
 TRAO*E             :  {^},fe{^} # File tree toggle
 TRAO*ES            :  {^},ft{^} # Telescope file browser
 T*EFT              :  {^}`ui{^} # Test, note the ` instead of , this keeps it more usable in insert mode without delays
+T-FT               :  {^}`ui{^} # Test shorter alternative
 R*UPB              :  {^}`uu{^} # Run
+R-B                :  {^}`uu{^} # Run shorter alternative
 PW-D               :  {^}`u;{^} # Build
 KW*EUBG            :  {^},la{^} # LSP code action version 1
 KWO*EUBG           :  {^},lb{^} # LSP code action version 2

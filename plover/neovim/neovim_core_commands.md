@@ -17,9 +17,9 @@ The secondary snippet actions include:
 ## Vim Vocabulary
 
 ```yaml
-SREUPL         : vim        # Swap with victim as I use this more
-SR*EUPL        : victim     # Swap with vim as I use this less
-TPHOEUPL       : neovim     # sounds like 'noim'
+SREUPL: vim # Swap with victim as I use this more
+SR*EUPL: victim # Swap with vim as I use this less
+TPHOEUPL: neovim # sounds like 'noim'
 ```
 
 ### Other Vim Inspired Programs
@@ -27,8 +27,8 @@ TPHOEUPL       : neovim     # sounds like 'noim'
 - [Vieb](https://vieb.dev/)
 
 ```yaml
-SRAOEB : Vieb # How the word reads
-SRAOEP : Vieb # How the website says it is pronounced
+SRAOEB: Vieb # How the word reads
+SRAOEP: Vieb # How the website says it is pronounced
 ```
 
 ## Quick Command-line Neovim Commands
@@ -38,25 +38,27 @@ TPH*EUPL                 :  nvim{^}
 TW                       : {^}nvim{^ ^} # Very quick method
 TW-S                     : {^}nvim $(fzf)
 TPHO*EUPL                :  {^}nvim
+TW-R                     :  {^}nvim README.md
 TPH*EUPL/RAED            :  {^}nvim README.md
 TPHO*EUPL/TPHO*EUPL      :  {^}nvim --cmd \"set rtp+=$(pwd)\"
 TPH*EUPL/TPH*EUPL        :  {^}nvim --cmd \"set rtp+=$(pwd)\"
+TPH*EUPL/TEFT            :  '{^}nvim --headless -c "PlenaryBustedDirectory ."'
 ```
 
 ## Operators
 
 ```yaml
-KWO*RD  : {^ciw^}
-KR*EU   : {^ci^}
-KWR*EU  : {^yi^}
-SR*EU   : {^vi^}
-TK*EU   : {^di^}
-KRA*    : {^ca^}  # Overwrites California
-KWRA*   : {^ya^}  # Overwrites suffix 'ia'
-SRA*    : {^va^}  # Overwrites Virginia
-TKA*    : {^da^}
-TKPW-PL : {^gc^}  # Line wise comment operator. GM doesn't really mean anything.
-TKPW*PL : {^gb^}  # Block wise comment operator. GM doesn't really mean anything.
+KWO*RD: { ^ciw^ }
+KR*EU: { ^ci^ }
+KWR*EU: { ^yi^ }
+SR*EU: { ^vi^ }
+TK*EU: { ^di^ }
+KRA*: { ^ca^ } # Overwrites California
+KWRA*: { ^ya^ } # Overwrites suffix 'ia'
+SRA*: { ^va^ } # Overwrites Virginia
+TKA*: { ^da^ }
+TKPW-PL: { ^gc^ } # Line wise comment operator. GM doesn't really mean anything.
+TKPW*PL: { ^gb^ } # Block wise comment operator. GM doesn't really mean anything.
 ```
 
 ## Text Objects
@@ -159,7 +161,7 @@ is typed/written/stenoed the snippet will activate.
 #TP*UBGS         : FUNCTION{^}
 #PR*EUPBT        : PRINT{^}
 #PR*EUPBTS       : ERRORPRINT{^}
-KHR*U            : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
+KHR*U: INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #KHR*U           : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #TK*PB           : DEFINE{^}
 #TPO*RPLT        : FRMAT{^} # FORMAT conflicts with FOR
@@ -167,17 +169,27 @@ KHR*U            : INCLUDE{^} # Most languages have some kind of include such as
 #TRAO*EU         : TRY{^}
 #KA*UL           : {^}{MODE:RESET}CALL{^}  # For expanding function calls
 #KHRA*S          : CLASS{^}
-KAUPB/#STR*URBGT : CONSTRUCTOR{^}
+KAUPB/#STR*URBGT: CONSTRUCTOR{^}
 #KA*UPB/#KA*UPB  : CONSTRUCTOR{^}
-KRURBGT          : constructor # easier normal spelling
+KRURBGT: constructor # easier normal spelling
 #KR*URBGT        : CONSTRUCTOR{^}
-TA*EUBL          : TABLE{^}
-TPHAOUPL         : enum
+TA*EUBL: TABLE{^}
+TPHAOUPL: enum
 #TPHAO*UPL       : ENUM{^} # Noom
 #TPH*UPL         : ENUM{^} # Num
-TPHAOUPLGS       : enumeration
-TPHAOUPLT        : enumerate
+TPHAOUPLGS: enumeration
+TPHAOUPLT: enumerate
 #SW*EUFP         : SWITCH{^}
+```
+
+### Regex
+
+This is such a important category it needs it's own block.
+
+```yaml
+#RA*FP : REGMATCH # Single regex match
+#RA*FPS : ALLREGMATCH # All regex matches
+#RA*EUS : REGREPLACE # Regex replace
 ```
 
 ### Testing
@@ -196,7 +208,7 @@ This is for both writing tests and running them.
 #-R              : FIRST{^}
 #-B              : SECOND{^}
 #-G              : THIRD{^}
-TO*EUD           : TODO{^}
+TO*EUD: TODO{^}
 ```
 
 ## Neovim API
@@ -210,8 +222,8 @@ TPHO*EFT: VIM.NOTIFY{^}
 ### Not Meant To Trigger Snippet
 
 ```yaml
-SRAO*EUP : vim.api.{^}
-SREUPBT  : vim.print(
-TP*PB    : vim.fn.{^}
-KPH*D    : vim.cmd{^}
+SRAO*EUP: vim.api.{^}
+SREUPBT: vim.print(
+TP*PB: vim.fn.{^}
+KPH*D: vim.cmd{^}
 ```

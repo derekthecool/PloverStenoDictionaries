@@ -111,3 +111,9 @@ A*T/KREG : {^}AT+CREG?{^}
 A*T/KRAOEG : {^}AT+CEREG?{^}
 A*T/AOEU/AOEUS : {^}AT+ICCID{^}
 ```
+
+## Added by Plover
+
+```yaml
+SR-Z: Verizon
+```

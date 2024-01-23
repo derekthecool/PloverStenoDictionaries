@@ -39,7 +39,7 @@ PHR*UP   : {PLOVER:LOOKUP}
 PHROFG   : {PLOVER:CONFIGURE}
 PHROFBGS : {PLOVER:FOCUS}
 PHROBGT  : {PLOVER:QUIT}
-PHROFL   : "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}"  # Commands like this require quote wrapping like this
+PHROFL   : "{PLOVER:SET_CONFIG:'translation_frame_opacity':100}" # Commands like this require quote wrapping like this
 PHROFS   : {PLOVER:SUGGESTIONS}
 ```
 

@@ -460,6 +460,7 @@ PH*PS : {^\\M^}
 PH-PS : {^\\m^}
 TPH*PS : {^\\N^}
 TPH-PS : {^}{\#Backslash}n{^} # Special to Plover, need to use this version instead
+#TPH*PS : {^`n^}
 O*PS : {^\\O^}
 O-PS : {^\\o^}
 P*PS : {^\\P^}
@@ -468,6 +469,7 @@ KW*PS : {^\\Q^}
 KW-PS : {^\\q^}
 R*PS : {^\\R^}
 R-PS : {^}{\#Backslash}r{^} # Special to Plover, need to use this version instead
+#R*PS : {^`r^}
 S*PS : {^\\S^}
 S-PS : {^\\s^}
 T*PS : {^\\T^}
@@ -663,6 +665,7 @@ AUBG/AUBG            : {^}awk \'\\{print $1\\}\'{^ ^}
 AUBG/AUBG/AUBG       : {^}awk \'/search/ \\{print $1\\}\'{^}
 PHO*FBG              : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
 PHOFBG               : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
+TO*P                 : htop
 ```
 
 ### PowerShell/Pwsh Scripting
@@ -685,6 +688,8 @@ TKPW-LG : "G:{#Backslash}{^}"
 RAO*T               : $env:r/\\t{^}
 P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
 WEUPB/TKPWET : winget
+TPROB : ForEach-Object \\{{$_
+WOB : Where-Object \\{{$_
 ```
 
 ## tmux
@@ -1051,4 +1056,12 @@ SHOUPB: shutdown
 ```yaml
 TPHEUBGS/SHEL : nix-shell
 TPHEUBGS/PWEULD : nix-build
+```
+
+## Added by Plover
+
+```yaml
+SPR-PB: VPN
+S*EUD: obsidian
+KOT: kotlin
 ```

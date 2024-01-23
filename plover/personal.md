@@ -153,4 +153,5 @@ SAF: safe
 A*RPBG: angry
 PHA*EUL: email
 SRO*E: zero
+ROEUF: review
 ```
