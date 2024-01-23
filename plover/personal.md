@@ -28,9 +28,9 @@ HROUT : layout
 ## Bird Watching
 
 ```yaml
-KES/TRAL : Kestral
-RAP/TOR : raptor
-RAP/TER : raptor
+KES/TRAL: Kestral
+RAP/TOR: raptor
+RAP/TER: raptor
 ```
 
 ## Phrases
@@ -38,8 +38,8 @@ RAP/TER : raptor
 ```yaml
 SKWAOERD: it is really weird # Out of order (is + it + weird (WAOERD))
 ST*: it is # Reverse of ST (is it)
-WRARPBD : work around
-TWEUL : it will # Replaces twill which I'll never use
+WRARPBD: work around
+TWEUL: it will # Replaces twill which I'll never use
 ```
 
 ## Slang
@@ -99,8 +99,8 @@ HRA*EUT/OPB             : Layton
 ## Places
 
 ```yaml
-HRA*EUT : Layton
-HRAEU/TOPB : Layton
+HRA*EUT: Layton
+HRAEU/TOPB: Layton
 ```
 
 ## Email
@@ -113,7 +113,7 @@ AOE/PHA*EUL/PHA*EUL: dlomax@freeus.com
 ## My Websites
 
 ```yaml
-PHEU/SAO*EUT : https://dereklomax.com
+PHEU/SAO*EUT: https://dereklomax.com
 ```
 
 ## Date/Time

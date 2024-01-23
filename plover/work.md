@@ -19,10 +19,10 @@ A*EUG: Avant Guard
 RA*EUPL: RMA
 W*EUTS: Wistron
 PHAOEURBG: Micron
-KRAEULD : cradle
-KRA*EULD : cradled
-HRAOEUF/PREBGT : Life Protect
-PHED/K-L/TKPWARD/KWRAPB : Medical Guardian
+KRAEULD: cradle
+KRA*EULD: cradled
+HRAOEUF/PREBGT: Life Protect
+PHED/K-L/TKPWARD/KWRAPB: Medical Guardian
 ```
 
 ## Device Type Names
@@ -46,7 +46,7 @@ TPO*ET: Fota
 TPO*ET/TPO*ET: BXFota
 TPO*ET/TPO*ET/TPO*ET: BWFota
 R*EFP: resp
-TPRAOES/AP : freeus_app
+TPRAOES/AP: freeus_app
 ```
 
 ### Programs
@@ -98,8 +98,8 @@ AOEU/AOEU: IMEI
 AOEU/AOEUS: ICCID
 SOEUPL: sim # Replaces sodium
 SOEUPL/SOEUPL: ICCID # Replaces sodium
-TA*PBD : AT command
-SEUPL : sim # overwrites similar, use SHRAR instead
+TA*PBD: AT command
+SEUPL: sim # overwrites similar, use SHRAR instead
 ```
 
 ### AT Cell Module Commands

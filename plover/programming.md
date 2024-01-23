@@ -20,10 +20,10 @@ SHROG: syslog
 RAOES: release
 TPHEUT: init
 TPEG: ffmpeg
-RA*EU : array
-ARG : arg
-WAEUS : workspace
-WAEURS : workspacer
+RA*EU: array
+ARG: arg
+WAEUS: workspace
+WAEURS: workspacer
 ```
 
 ## Containerization Applications
@@ -105,7 +105,7 @@ HROEUPBG : lat/long
 ## Programming Terms
 
 ```yaml
-TAOUPL : tuple
+TAOUPL: tuple
 ```
 
 ## Numbers
@@ -117,20 +117,20 @@ H*EBGS : {^}0x{^}
 ## Units
 
 ```yaml
-H*ERTS : Hz
-HERTS : Mz
-PHERTS : MHz
-TKPWRERTS : GHz
-K-B : KB
-KEUB : KiB
-PH-B : MB
-PHEUB : MiB
-TKPW-B : GB
-TKPWEUB : GiB
-T-B : TB
-TEUB : TiB
-P-B : PB
-PEUB : PiB
+H*ERTS: Hz
+HERTS: Mz
+PHERTS: MHz
+TKPWRERTS: GHz
+K-B: KB
+KEUB: KiB
+PH-B: MB
+PHEUB: MiB
+TKPW-B: GB
+TKPWEUB: GiB
+T-B: TB
+TEUB: TiB
+P-B: PB
+PEUB: PiB
 ```
 
 ## Common File Names
@@ -229,9 +229,9 @@ PHEPL/KO*EP        : memcpy
 ### stdlib.h
 
 ```yaml
-PHOEUBG : malloc
-ROEUBG : realloc
-KROEUBG : calloc
+PHOEUBG: malloc
+ROEUBG: realloc
+KROEUBG: calloc
 ```
 
 ### Microcontroller Specific
@@ -246,21 +246,21 @@ KROEUBG : calloc
 #### FreeRTOS
 
 ```yaml
-TROS : RTOS
-TROS/TROS : real time operating system
-TPROS : FreeRTOS
+TROS: RTOS
+TROS/TROS: real time operating system
+TPROS: FreeRTOS
 ```
 
 ## Databases
 
 ```yaml
-PHEU/SKW-L : mysql
-PHEU/SKW*L : MySQL
-PH-S/SKW-L : mssql
-PH-S/SKW*L : MSSQL
-SKW*L : sql
-SKWAOEULT : sqlite
-SKWAOEULT/SKWAOEULT : sqlite3
+PHEU/SKW-L: mysql
+PHEU/SKW*L: MySQL
+PH-S/SKW-L: mssql
+PH-S/SKW*L: MSSQL
+SKW*L: sql
+SKWAOEULT: sqlite
+SKWAOEULT/SKWAOEULT: sqlite3
 ```
 
 ## Dotnet
@@ -272,34 +272,34 @@ There are 3 main languages here which all share some similar items.
 - Fsharp
 
 ```yaml
-AFP : asp
-AFP/TPHET : asp.net
-AFP/TKOT/TPHET : asp.net
+AFP: asp
+AFP/TPHET: asp.net
+AFP/TKOT/TPHET: asp.net
 ```
 
 ### Dotnet
 
 ```yaml
-TPHAOUGT : nuget
-TPHU/TKPWET : nuget
+TPHAOUGT: nuget
+TPHU/TKPWET: nuget
 ```
 
 ### Dotnet Cli Commands
 
 ```yaml
-TPH*ET                : dotnet
-TPH*ET/TPHU           : dotnet new
-TPH*ET/RUPB           : dotnet run\\n
-TPH*ET/PWEULD         : dotnet build\\n
-TPH*ET/KOPBLS         : dotnet new console --framework net6.0
-TPH*ET/KHRAS          : dotnet new classlib --framework net6.0
-TKOT/TPHET            : dotnet
-TKOT/TPHET/TPHU       : dotnet new
-TKRUPB                : dotnet run\\n
-TKOT/TPHET/TPHU/KOPBS : dotnet new console --framework net6.0
-TKOT/TPHET/TPHU/HREUB : dotnet new classlib --framework net6.0
-TKOFP                 : dotnet watch run
-TPH*ET/SHRAOUGS/AD    : dotnet sln add
+TPH*ET: dotnet
+TPH*ET/TPHU: dotnet new
+TPH*ET/RUPB: dotnet run\\n
+TPH*ET/PWEULD: dotnet build\\n
+TPH*ET/KOPBLS: dotnet new console --framework net6.0
+TPH*ET/KHRAS: dotnet new classlib --framework net6.0
+TKOT/TPHET: dotnet
+TKOT/TPHET/TPHU: dotnet new
+TKRUPB: dotnet run\\n
+TKOT/TPHET/TPHU/KOPBS: dotnet new console --framework net6.0
+TKOT/TPHET/TPHU/HREUB: dotnet new classlib --framework net6.0
+TKOFP: dotnet watch run
+TPH*ET/SHRAOUGS/AD: dotnet sln add
 ```
 
 ### Dotnet Tool Commands
@@ -307,9 +307,9 @@ TPH*ET/SHRAOUGS/AD    : dotnet sln add
 #### Entity Framework
 
 ```yaml
-TPH*ET/EF : dotnet ef
-TPH*ET/TAOL/STAL/EF : dotnet tool install --global dotnet-ef
-TPH*ET/EF/AUPTD : dotnet ef database update
+TPH*ET/EF: dotnet ef
+TPH*ET/TAOL/STAL/EF: dotnet tool install --global dotnet-ef
+TPH*ET/EF/AUPTD: dotnet ef database update
 ```
 
 ## C#
@@ -392,7 +392,7 @@ T*ERB/T*ERB              :  https://termbin.com/{^}
 
 ```yaml
 A/HRABG: Alacritty
-PROBGS : Proxmox
+PROBGS: Proxmox
 ```
 
 ### Linux Shell Scripting
@@ -564,19 +564,19 @@ grep -a -b -c -d -e -f -g -h -i -j -k -l -m -n -o -p -q -r -s -t -u -v -w -x -y 
 #### Bash Scripting
 
 ```yaml
-SHEB : \#!/usr/bin/env bash
-SHEB/SHEB : \#!/bin/bash
-SHEB/SHEB/SHEB : \#!/bin/sh
-PWARB/TP-R : "for i in {1..10}; do echo $i; done"
+SHEB: \#!/usr/bin/env bash
+SHEB/SHEB: \#!/bin/bash
+SHEB/SHEB/SHEB: \#!/bin/sh
+PWARB/TP-R: "for i in {1..10}; do echo $i; done"
 ```
 
 #### Common Directory Names
 
 ```yaml
-PH-PBT : /mnt/{^}
-ETS : /etc/{^}
-URS : /usr/{^}
-TPH-P : /tmp/{^}
+PH-PBT: /mnt/{^}
+ETS: /etc/{^}
+URS: /usr/{^}
+TPH-P: /tmp/{^}
 ```
 
 #### Main terminal commands
@@ -649,10 +649,10 @@ The two long commands are an easy way to download the latest stable release
 AppImage and install to `/usr/bin` and make the file executable as well.
 
 ```yaml
-WERPL : wezterm
-WERPL/TKOUPBLD : curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} wget \\{\\} -O /usr/bin/wezterm && chmod +x /usr/bin/wezterm && wezterm --version
-TKPWET/WERPL : curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} wget \\{\\} -O /usr/bin/wezterm && chmod +x /usr/bin/wezterm && wezterm --version
-TKPWET/WERPL/SOEUD : curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} sudo wget \\{\\} -O /usr/bin/wezterm && sudo chmod +x /usr/bin/wezterm && wezterm --version
+WERPL: wezterm
+WERPL/TKOUPBLD: curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} wget \\{\\} -O /usr/bin/wezterm && chmod +x /usr/bin/wezterm && wezterm --version
+TKPWET/WERPL: curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} wget \\{\\} -O /usr/bin/wezterm && chmod +x /usr/bin/wezterm && wezterm --version
+TKPWET/WERPL/SOEUD: curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} sudo wget \\{\\} -O /usr/bin/wezterm && sudo chmod +x /usr/bin/wezterm && wezterm --version
 ```
 
 #### Command macros
@@ -763,12 +763,12 @@ TKPW*EUFT : {^}git fetch upstream
 Dot files git commands
 
 ```yaml
-"TK*EUPLT": "{^dot commit --message=\"\"^}{#LEFT}{-|}"
-"TK*EUPLTD": "{^dot commit --all --message=\"\"^}{#LEFT}{-|}"
-"TK*EUP": "{^dot push}"                                                                                                          # GIt Push
-"TK*EUPL": "{^dot pull}"                                                                                                         # GIt PuLL [override]
-"TK*EUTS": "{^dot status}"                                                                                              # GIT Status (short)
-"TK*EUL": "{^dot log --oneline --decorate --all --graph}"                                                                       # GIt Log
+"TK*EUPLT": '{^dot commit --message=""^}{#LEFT}{-|}'
+"TK*EUPLTD": '{^dot commit --all --message=""^}{#LEFT}{-|}'
+"TK*EUP": "{^dot push}" # GIt Push
+"TK*EUPL": "{^dot pull}" # GIt PuLL [override]
+"TK*EUTS": "{^dot status}" # GIT Status (short)
+"TK*EUL": "{^dot log --oneline --decorate --all --graph}" # GIt Log
 ```
 
 ```PaulsGit
@@ -892,33 +892,33 @@ Dot files git commands
 ## Hardware Software Firmware Items
 
 ```yaml
-TPRAEUR   : firmware
-SWAEUR    : software
-TKRAEUR   : hardware
-S*UP      : software update
-TP*UP     : firmware update
-TKR*UP    : hardware update
-TPHRAO*ES : firmware release
-SHRAO*ES  : software release
-TKHRAOES  : hardware release
-PHA*      : mA # Milliamp
-PHAO*EU   : uA # Microamp
-SPOET     : SpO2
-SPAO*EU   : spi
-AOEUBG/AOEUBG : I2C
-ROEUT : resistor
-KOEUP : capacitor
-TKOEUR : inductor
-SKR-L : SCL
-STKA : SDA
-AOEUBG/AOEUBG/AOEUBG : IIC
+TPRAEUR: firmware
+SWAEUR: software
+TKRAEUR: hardware
+S*UP: software update
+TP*UP: firmware update
+TKR*UP: hardware update
+TPHRAO*ES: firmware release
+SHRAO*ES: software release
+TKHRAOES: hardware release
+PHA*: mA # Milliamp
+PHAO*EU: uA # Microamp
+SPOET: SpO2
+SPAO*EU: spi
+AOEUBG/AOEUBG: I2C
+ROEUT: resistor
+KOEUP: capacitor
+TKOEUR: inductor
+SKR-L: SCL
+STKA: SDA
+AOEUBG/AOEUBG/AOEUBG: IIC
 TK*B: dB
-A*FPLT/TK*FPLT/KR*FPLT : ADC
-AOEU/OE : IO
-AO*ERPBT : ethernet
+A*FPLT/TK*FPLT/KR*FPLT: ADC
+AOEU/OE: IO
+AO*ERPBT: ethernet
 PHAO*U: MCU
-KPHRORL : microcontroller
-TKAEUPL : daemon
+KPHRORL: microcontroller
+TKAEUPL: daemon
 ```
 
 ## [Exercism](https://exercism.org/)
@@ -933,16 +933,16 @@ use any of your custom snippets.
 They have 67 programming languages as of 2023-07-10.
 
 ```yaml
-KPEUFPL : exercism
-SKEUFPL : exercism
+KPEUFPL: exercism
+SKEUFPL: exercism
 ```
 
 ## [Leetcode](https://leetcode.com/)
 
 ```yaml
-HRAOET : leet
-HRAOET/KOED : leetcode
-HRAOETD : leetcode
+HRAOET: leet
+HRAOET/KOED: leetcode
+HRAOETD: leetcode
 ```
 
 ## Clash Of Code
@@ -990,37 +990,37 @@ In some new Plover version {:command:delay:0.1} would also work.
 ## Terminal Presentations
 
 ```yaml
-HRAOEPL : lookatme
-STOP/STOP : <!--stop-->
+HRAOEPL: lookatme
+STOP/STOP: <!--stop-->
 ```
 
 ## Web/Protocol
 
 ```yaml
-TP-PT : FTP
-TP-PT/TP-PT : ftp
-TP-PT/TP-PT/TP-PT : ftp://
-TP-PT/TP-PT/TP-PT/TP-PT : File Transfer Protocol (FTP)
-STP-PT : SFTP
-STP-PT/STP-PT : sftp
-STP-PT/STP-PT/STP-PT : sftp://
-STP-PT/STP-PT/STP-PT/STP-PT : Secure File Transfer Protocol (SFTP)
-HAO*EPT : HTTP
-HAO*EPT/HAO*EPT : http
-HAO*EPT/HAO*EPT/HAO*EPT : http://
-HAO*EPT/HAO*EPT/HAO*EPT/HAO*EPT : Hypertext Transfer Protocol (HTTP)
-HAO*EPTS : HTTPS
-HAO*EPTS/HAO*EPTS : https
-HAO*EPTS/HAO*EPTS/HAO*EPTS : https://
-HAO*EPTS/HAO*EPTS/HAO*EPTS/HAO*EPTS : Hypertext Transfer Protocol (HTTPS)
+TP-PT: FTP
+TP-PT/TP-PT: ftp
+TP-PT/TP-PT/TP-PT: ftp://
+TP-PT/TP-PT/TP-PT/TP-PT: File Transfer Protocol (FTP)
+STP-PT: SFTP
+STP-PT/STP-PT: sftp
+STP-PT/STP-PT/STP-PT: sftp://
+STP-PT/STP-PT/STP-PT/STP-PT: Secure File Transfer Protocol (SFTP)
+HAO*EPT: HTTP
+HAO*EPT/HAO*EPT: http
+HAO*EPT/HAO*EPT/HAO*EPT: http://
+HAO*EPT/HAO*EPT/HAO*EPT/HAO*EPT: Hypertext Transfer Protocol (HTTP)
+HAO*EPTS: HTTPS
+HAO*EPTS/HAO*EPTS: https
+HAO*EPTS/HAO*EPTS/HAO*EPTS: https://
+HAO*EPTS/HAO*EPTS/HAO*EPTS/HAO*EPTS: Hypertext Transfer Protocol (HTTPS)
 ```
 
 ## Wireshark
 
 ```yaml
-WAOEUR/SHARBG : wireshark
-WARBG : wireshark
-TARBG : termshark
+WAOEUR/SHARBG: wireshark
+WARBG: wireshark
+TARBG: termshark
 ```
 
 ## Reverse Engineering
@@ -1028,9 +1028,9 @@ TARBG : termshark
 ### Radare2
 
 ```yaml
-2R : r2
-2R/2R : radare2
-2R/PWEUPB : rabin2
+2R: r2
+2R/2R: radare2
+2R/PWEUPB: rabin2
 ```
 
 ## Added by Plover
@@ -1054,8 +1054,8 @@ SHOUPB: shutdown
 ## Nix and NixOS
 
 ```yaml
-TPHEUBGS/SHEL : nix-shell
-TPHEUBGS/PWEULD : nix-build
+TPHEUBGS/SHEL: nix-shell
+TPHEUBGS/PWEULD: nix-build
 ```
 
 ## Added by Plover
