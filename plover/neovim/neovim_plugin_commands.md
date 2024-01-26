@@ -19,9 +19,9 @@ See [neovim_core_commands](./neovim_core_commands.md#G Commands)
 for similar mappings for neovim core commands like `gg`.
 
 ```yaml
-K-PL: { ^gcc^ } # Comment current line in line wise style
-K-PLT: { ^gcip^ } # Comment current block in a line wise style
-K*PL: { ^gbc^ } # Comment current line in block wise style
+K-PL: "{^gcc^}" # Comment current line in line wise style
+K-PLT: "{^gcip^}" # Comment current block in a line wise style
+K*PL: "{^gbc^}" # Comment current line in block wise style
 ```
 
 I've mapped more of the comment commands this plugin can do using the Emily's
@@ -38,7 +38,7 @@ block, the markdown dictionary plugin only works with an empty syntax or yaml)
 ## My Plugins
 
 ```yaml
-TOG: { ^, nB^ }
+TOG: "{^,nB^}" # Boolean toggle
 ```
 
 ## Personal Mappings That Need To Be Fast

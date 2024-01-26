@@ -48,17 +48,17 @@ TPH*EUPL/TEFT            :  '{^}nvim --headless -c "PlenaryBustedDirectory ."'
 ## Operators
 
 ```yaml
-KWO*RD: { ^ciw^ }
-KR*EU: { ^ci^ }
-KWR*EU: { ^yi^ }
-SR*EU: { ^vi^ }
-TK*EU: { ^di^ }
-KRA*: { ^ca^ } # Overwrites California
-KWRA*: { ^ya^ } # Overwrites suffix 'ia'
-SRA*: { ^va^ } # Overwrites Virginia
-TKA*: { ^da^ }
-TKPW-PL: { ^gc^ } # Line wise comment operator. GM doesn't really mean anything.
-TKPW*PL: { ^gb^ } # Block wise comment operator. GM doesn't really mean anything.
+KWO*RD: "{^ciw^}"
+KR*EU: "{^ci^}"
+KWR*EU: "{^yi^}"
+SR*EU: "{^vi^}"
+TK*EU: "{^di^}"
+KRA*: "{^ca^}" # Overwrites California
+KWRA*: "{^ya^}" # Overwrites suffix 'ia'
+SRA*: "{^va^}" # Overwrites Virginia
+TKA*: "{^da^}"
+TKPW-PL: "{^gc^}" # Line wise comment operator. GM doesn't really mean anything.
+TKPW*PL: "{^gb^}" # Block wise comment operator. GM doesn't really mean anything.
 ```
 
 ## Text Objects

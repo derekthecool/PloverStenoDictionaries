@@ -567,7 +567,7 @@ grep -a -b -c -d -e -f -g -h -i -j -k -l -m -n -o -p -q -r -s -t -u -v -w -x -y 
 SHEB: \#!/usr/bin/env bash
 SHEB/SHEB: \#!/bin/bash
 SHEB/SHEB/SHEB: \#!/bin/sh
-PWARB/TP-R: "for i in {1..10}; do echo $i; done"
+PWARB/TP-R: 'for i in {1..10}; do echo $i; done'
 ```
 
 #### Common Directory Names
@@ -763,12 +763,12 @@ TKPW*EUFT : {^}git fetch upstream
 Dot files git commands
 
 ```yaml
-"TK*EUPLT": '{^dot commit --message=""^}{#LEFT}{-|}'
-"TK*EUPLTD": '{^dot commit --all --message=""^}{#LEFT}{-|}'
-"TK*EUP": "{^dot push}" # GIt Push
-"TK*EUPL": "{^dot pull}" # GIt PuLL [override]
-"TK*EUTS": "{^dot status}" # GIT Status (short)
-"TK*EUL": "{^dot log --oneline --decorate --all --graph}" # GIt Log
+'TK*EUPLT': '{^dot commit --message=""^}{#LEFT}{-|}'
+'TK*EUPLTD': '{^dot commit --all --message=""^}{#LEFT}{-|}'
+'TK*EUP': '{^dot push}' # GIt Push
+'TK*EUPL': '{^dot pull}' # GIt PuLL [override]
+'TK*EUTS': '{^dot status}' # GIT Status (short)
+'TK*EUL': '{^dot log --oneline --decorate --all --graph}' # GIt Log
 ```
 
 ```PaulsGit
@@ -1056,6 +1056,13 @@ SHOUPB: shutdown
 ```yaml
 TPHEUBGS/SHEL: nix-shell
 TPHEUBGS/PWEULD: nix-build
+```
+
+## Flutter
+
+```yaml
+TPHRUT: flutter
+TPHRUPB: flutter run
 ```
 
 ## Added by Plover
