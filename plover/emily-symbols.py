@@ -108,8 +108,8 @@ symbols = {
         "FPL": ["()", "[]", "<>", "\{\}"],
 
                         # Powershell helpers
-        "FPB": ["ForEach-Object \{\}{#Left}", "¿", "∝", "‽"],
-        "FRPB": ["Where-Object \{\}{#Left}", "¿", "∝", "‽"],
+        "FPB": ["ForEach-Object \{\}{#Left}", "¿", "∝", "| ForEach-Object \{\}{#Left}"],
+        "FRPB": ["Where-Object \{\}{#Left}", "¿", "∝", "| Where-Object \{\}{#Left}"],
 
         # Date and time commands
         # Needs plover_current_time plugin
