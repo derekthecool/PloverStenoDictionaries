@@ -32,7 +32,7 @@ symbols = {
         "FR": ["!", "¬", "↦", "¡"],
         "FP": ['"', "“", "”", "„"],
         "FRLG": ["#", "©", "®", "™"],
-        "RPBL": ["$", "¥", "€", "£"],
+        "RPBL": ["$", "¥", "€", "$_"], # The last one here is for the powershell pipe $_ variable
         "FRPB": ["%", "‰", "‱", "φ"],
         "FBG": ["&", "∩", "∧", "∈"],
         "F": ["'", "‘", "’", "‚"],
@@ -106,6 +106,11 @@ symbols = {
         # add your own strokes here (or above, or wherever else you like)!
         # Pairs of brackets
         "FPL": ["()", "[]", "<>", "\{\}"],
+
+                        # Powershell helpers
+        "FPB": ["ForEach-Object \{\}{#Left}", "¿", "∝", "‽"],
+        "FRPB": ["Where-Object \{\}{#Left}", "¿", "∝", "‽"],
+
         # Date and time commands
         # Needs plover_current_time plugin
         # https://github.com/EPLHREU/plover-current-time
@@ -186,13 +191,15 @@ def lookup(chord):
     if "T" in repetitions:
         repeat = repeat + 2
 
-    if starter == uniqueStarters[1] and "R" not in pattern and "FPL" not in pattern:
-        aoVariant = 0
-        if "A" in attachments:
-            aoVariant += 1
-        if "O" in attachments:
-            aoVariant += 2
-        return "{^}" + f",t{variant}{aoVariant}{repeat}" + "{^}"
+    # TODO: (Derek Lomax) 2/20/2024 11:06:06 AM, Mad scientist me created is
+    # this and future me can't understand what I was trying to do here.
+    # if starter == uniqueStarters[1] and "R" not in pattern and "FPL" not in pattern:
+    #     aoVariant = 0
+    #     if "A" in attachments:
+    #         aoVariant += 1
+    #     if "O" in attachments:
+    #         aoVariant += 2
+    #     return "{^}" + f",t{variant}{aoVariant}{repeat}" + "{^}"
 
     if pattern not in symbols[starter]:
         raise KeyError

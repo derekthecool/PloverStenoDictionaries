@@ -889,6 +889,12 @@ Dot files git commands
 "TKPWOP": "{^git stash pop}"                                                                                                      # Git stash pOP
 ```
 
+## [gh](https://cli.github.com/)
+
+```yaml
+TKPWH: gh
+```
+
 ## Hardware Software Firmware Items
 
 ```yaml
@@ -1071,4 +1077,7 @@ TPHRUPB: flutter run
 SPR-PB: VPN
 S*EUD: obsidian
 KOT: kotlin
+UTS: UTC
+KRO*PL: COM
+SHREBGT/STREUPBG: "Select-String '"
 ```

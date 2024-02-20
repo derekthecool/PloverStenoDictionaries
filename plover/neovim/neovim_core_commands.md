@@ -159,6 +159,7 @@ is typed/written/stenoed the snippet will activate.
 #WHAO*EUL        : WHILE{^}
 #TPRAO*EFP       : FREACH{^} # FOREACH conflicts with FOR
 #TP*UBGS         : FUNCTION{^}
+#HRA*PLD         : LAMBDA{^}
 #PR*EUPBT        : PRINT{^}
 #PR*EUPBTS       : ERRORPRINT{^}
 KHR*U: INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.

@@ -1,5 +1,32 @@
 # Personal Dictionary
 
+## Words to Ignore
+
+This is a word list to ignore to get me to stop using Plover default main.json
+way of writing main words and to get me to use [Jeff's phrasing](./jeff-phrasing/README.md)
+
+Since this dictionary is always very near the top of the dictionary stack it's
+the perfect place for this.
+
+```yaml
+EU: '{null}' # I
+U: '{null}' # you
+E: '{null}' # he
+HE: '{null}' # he
+SHAOE: '{null}' # she
+SHAO*E: '{null}' # she
+SHE: '{null}' # she
+(UPDATED) T: 'Derek' #  it
+TEUS: '{null}' # it is
+EUT: '{null}' # it
+THE: '{null}' # they
+TH: '{null}' # this
+THA: '{null}' # that
+WE: '{null}' # we
+WAOE: '{null}' # we
+THR: '{null}' # there
+```
+
 ## General Words
 
 ```yaml
@@ -83,11 +110,11 @@ AEU       : {=[AEIOUaeiou]/an/a}  # From Plover example, puts "an" if next word 
 ## Names
 
 ```yaml
-STKPWHR                 : Derek
-HRO*EBG                 : Lomax # Sounds like "Loax"
-STKPWHR/STKPWHR         : Derek Lomax
-STKPWHR/STKPWHR/STKPWHR : derekthecool
+T                 : Derek
+T/T         : Derek Lomax
+T/T/T : derekthecool
 STKPWHR*                : Lomax
+HRO*EBG                 : Lomax # Sounds like "Loax"
 KAS                     : Cass
 AD/TKEU                 : Addie
 AD/KWREU                : Addie
@@ -137,7 +164,6 @@ KEUBL: configurable
 TKAOEUS: device
 SPERPT: separator
 KWRO*E: uh oh
-TEUS: it is
 PWRUPT: abrupt
 PWRUPLT: abruptly
 HAEPS: happiness
@@ -154,4 +180,5 @@ A*RPBG: angry
 PHA*EUL: email
 SRO*E: zero
 ROEUF: review
+TK*EFGS: destination
 ```
