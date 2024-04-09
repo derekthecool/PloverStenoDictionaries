@@ -200,7 +200,10 @@ This is for both writing tests and running them.
 ```yaml
 #S*ERT           : ASSERT{^}
 #T*EFT           : TEST{^}
-#STKRAO*EUB      : DESCRIBE{^}
+#T*EFRT          : FILE_TEST{^} # For creating starter test files
+#STKRAO*EUB      : DESCRIBE{^} # For creating lua test groups
+#T*EFTD : {^},tT{^}
+#T*EFTS : {^},ts{^}
 ```
 
 ### Helpers

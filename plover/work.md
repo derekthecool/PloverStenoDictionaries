@@ -33,7 +33,10 @@ PW*EL/PH: BelleM
 PW*EL/W: BelleW
 PW*EL/EBGS: BelleX
 PW*EL/-L/-L: Belle+LTE
-PW*EL/-L: BelleLTE
+PW*EL/-LT/-LT: Belle+LTE
+PW*EL/-LT: BelleLTE
+PW*EL/-L: BelleL
+PW*EL/-S: BelleS
 PW*EL/S-FBG: BelleSVX
 ```
 
@@ -110,6 +113,13 @@ A*T/KOPBT : {^}AT+CGDCONT?{^}
 A*T/KREG : {^}AT+CREG?{^}
 A*T/KRAOEG : {^}AT+CEREG?{^}
 A*T/AOEU/AOEUS : {^}AT+ICCID{^}
+```
+
+### Important IP Addresses
+
+```yaml
+TKAOEUS/PWROERBG: {^}192.168.100.35
+TKAOEUS/PWRO*ERBG: {^}174.143.42.75
 ```
 
 ## Added by Plover

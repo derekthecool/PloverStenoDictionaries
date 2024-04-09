@@ -742,12 +742,13 @@ TKPW*EUFT : {^}git fetch upstream
 "TKPWEUT/PURB/PWRAFRPB": "{^git push --force origin $(git symbolic-ref HEAD --short)}"                                   # GIT PUSH (force) ORIGIN (current BRANCH name)
 "TKPWEUPL": "{^git pull\\n}"                                                                                                         # GIt PuLL [override]
 "TKPW*EUPL": "{^git pull --rebase}"                                                                                               # GIt PuLL (rebase) [override]
-"TKPW*EUTD": "{^git add .}"                                                                                                       # GIT aDD (current pathspec)
+TKPW*EUTD/TKRAOEU: {^git add --verbose . --dry-run}                                                                                                       # GIT aDD (current pathspec)
+"TKPW*EUTD": "{^git add --verbose .}"                                                                                                       # GIT aDD (current pathspec)
 "TKPWEUTS": "{^git status --short\\n}"                                                                                              # GIT Status (short)
-"TKPWEUTD": "{^git add}"                                                                                                          # GIT aDD
+"TKPWEUTD": "{^git add --verbose}"                                                                                                          # GIT aDD
 "TKPWEUT/KEUG/HR*EUS": "{^git config --list}"                                                                                   # GIT CONFIG LIST
 "TKPWEUT/TPH*EUT": "{^git init}"                                                                                                  # GIT iNIT
-"TKPWEUTD": "{^git add}"                                                                                                          # GIT aDD
+"TKPWEUTD": "{^git add --verbose **}{#LEFT}{^}"                                                                                                          # GIT aDD
 "TKPW*EUFRB": "{^git stash}"                                                                                                      # GIt StaSH
 "TKPWO*P": "{^git stash pop}"                                                                                                     # Git stash pOP
 "TKPWOP": "{^git stash pop}"                                                                                                      # Git stash pOP
@@ -758,6 +759,7 @@ TKPW*EUFT : {^}git fetch upstream
 "TKPW*EULG": "{^git log --oneline --decorate --all --graph}"                                                                      # GIt LoG
 "TKPWEUT/HRO*G": "{^git log --oneline --decorate --all --graph}"                                                                  # GIT LOG (oneline decorate all graph)
 "TKPWEUT/HROG": "{^git log}"                                                                                                      # GIT LOG
+STA*RS: "{^}**{#LEFT}{^}"
 ```
 
 Dot files git commands
@@ -1080,4 +1082,10 @@ KOT: kotlin
 UTS: UTC
 KRO*PL: COM
 SHREBGT/STREUPBG: "Select-String '"
+TKAE/PHOPB: daemon
+TPH*EUG: nginx
+TO*PL: toml
+P*D: pwd
+H*ED: HEAD
+PHOUPB: markdown
 ```

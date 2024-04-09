@@ -181,4 +181,8 @@ PHA*EUL: email
 SRO*E: zero
 ROEUF: review
 TK*EFGS: destination
+PRO*BGS: proxy
+W-B: dereklomax.com
+W*B: lomaxsimplesoftware.com
+PABG/PHAPB: pacman
 ```
