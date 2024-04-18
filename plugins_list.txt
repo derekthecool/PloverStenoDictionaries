@@ -1,5 +1,5 @@
 plover-markdown-dictionary
-plover-spectra-lexar
+plover-spectra-lexer
 plover-emoji
 plover-fancytext
 plover-python-dictionary

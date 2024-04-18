@@ -3,7 +3,7 @@ function Test-PloverPath {
         [Parameter(Mandatory = $true)]
         [string]$Path
     )
-    return Test-Path $Path -PathType Leaf -and (Get-Item $Path).Attributes.ToString().Split(',').Contains('Archive')
+    return Test-Path $Path -PathType Leaf
 }
 
 function Read-PluginInstallFile {
@@ -41,17 +41,20 @@ function Install-PloverPlugins {
     if (-not (Test-PloverPath -Path $PloverAppImagePath)) {
         Write-Host 'Plover path provided either does not exist or is not executable'
         Write-Host 'Exiting!'
-        exit 1
+        return 1
     }
 
-    $PluginInstallFile = ./LinuxPloverPluginsToInstall.txt
+    $PluginInstallFile = "$PSScriptRoot/plugins_list.txt"
 
     try {
         $plugins = Read-PluginInstallFile -FilePath $PluginInstallFile
     } catch {
         Write-Host $_.Exception.Message
-        exit 2
+        return 2
     }
+
+    Write-Host "plugins to install:"
+    $plugins -split '`n'
 
     $install = Read-Host 'Do you want to install the plugins listed? [y/n]'
 
@@ -59,8 +62,8 @@ function Install-PloverPlugins {
         Write-Host 'Installing all plugins'
         Install-Plugins -PloverAppImagePath $PloverAppImagePath -Plugins $plugins
     } else {
-        Write-Host "Interpreting option '$install' as no...exiting"
-        exit 3
+        Write-Host "Interpreting option '$install' as no...returning"
+        return 3
     }
 }
 
