@@ -184,10 +184,6 @@ ST-D/O*UT          :  stdout
 STKOUT             :  stdout
 STKEUPB            :  stdin
 ST-D/EUPB          :  stdin
-*ED                :  {^};\\n{^}  # end line with semicolon and new line
-#*ED               :  {^};{^}  # end line with semicolon
-*EDZ               :  {^});\\n{^} # end line with closing parentheses and semicolon and new line
-#*EDZ              :  {^});{^} # end line with closing parentheses and semicolon
 TPH*UL             :  "\\{'\\0'\\}" # Print {'\0'}, this needs to be quoted
 TPH*UL/TPH*UL      :  "'\\0'"       # Print '\0', this needs to be quoted
 TPHOEUL            :  NULL
@@ -267,7 +263,7 @@ SKWAOEULT/SKWAOEULT: sqlite3
 
 There are 3 main languages here which all share some similar items.
 
-- PowerShell
+- PowerShell (full powershell dictionary located [here](./PowerShell.md))
 - Csharp
 - Fsharp
 
@@ -366,7 +362,6 @@ HAO*UG/HAO*UG/HAO*UG : hugo server --bind $(hostname -I | tr -d \' \') --baseURL
 T*ERPL             :  terminal
 KWOEUBG            :  {^}qmk
 KHRAO*EU           :  CLI
-PW-RB              :  powershell
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
 PRUF               :  protobuf
@@ -666,30 +661,6 @@ AUBG/AUBG/AUBG       : {^}awk \'/search/ \\{print $1\\}\'{^}
 PHO*FBG              : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
 PHOFBG               : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
 TO*P                 : htop
-```
-
-### PowerShell/Pwsh Scripting
-
-```yaml
-R*PL                : {^}Remove-Item{^ ^}
-R*PL/R*PL           : {^}Remove-Item -Recurse -Force {^ ^}
-AUPT                : {^}APPDATA{^}
-A*UPT               : {^}LOCALAPPDATA{^}
-AO*EF               : env
-AOEF                : {^}$env:{^}
-AOEF/AOEF           : {^}$env:APPDATA{^}
-AOEF/AOEF/AOEF      : {^}$env:LOCALAPPDATA{^}
-AOEF/AOEF/AOEF/AOEF : {^}$env:USERPROFILE{^}
-KR-LG : "C:{#Backslash}{^}"
-TK-LG : "D:{#Backslash}{^}"
-AOELG : "E:{#Backslash}{^}"
-TP-LG : "F:{#Backslash}{^}"
-TKPW-LG : "G:{#Backslash}{^}"
-RAO*T               : $env:r/\\t{^}
-P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
-WEUPB/TKPWET : winget
-TPROB : ForEach-Object \\{{$_
-WOB : Where-Object \\{{$_
 ```
 
 ## tmux

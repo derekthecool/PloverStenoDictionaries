@@ -128,4 +128,5 @@ SKRAO*EUB: subscribe
 TPHAUPB/SRO*E: non-zero
 TAT: AT&T
 K-FT: const
+TKUFRT: durst
 ```

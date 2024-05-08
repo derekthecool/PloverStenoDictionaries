@@ -50,6 +50,8 @@ STKPWEUL : {^}zilla # Very important suffix for typing filezilla or stenozilla
 PHRAT/PUS : platypus
 THER/PHEUPB : theremin
 HROUT : layout
+HREUS : alias
+SROEBG : invoke
 ```
 
 ## Bird Watching
@@ -186,4 +188,5 @@ W-B: dereklomax.com
 W*B: lomaxsimplesoftware.com
 PABG/PHAPB: pacman
 SROES: verbose
+AZ: az
 ```
