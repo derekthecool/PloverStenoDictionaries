@@ -122,8 +122,16 @@ TKAOEUS/PWROERBG: {^}192.168.100.35
 TKAOEUS/PWRO*ERBG: {^}174.143.42.75
 ```
 
+### Automations
+
+```yaml
+PHAOEURBG/PHAOEURBG/PHAOEURBG : {^}cfe{PLOVER:DELAY:1.5}{\#Tab}{\#Tab}rf{PLOVER:DELAY:1.2}{\#Tab}cp{PLOVER:DELAY:1.2}{\#Tab}am{PLOVER:DELAY:1.2}{\#Tab}pm{PLOVER:DELAY:1.2}{\#Tab}{\#Tab}
+```
+
+PHAOEURBG/PHAOEURBG/PHAOEURBG : {^}cfe{\#Tab}{PLOVER:DELAY:1.5}{\#Tab}{PLOVER:DELAY:1.2}rf{\#Tab}{PLOVER:DELAY:1.2}cp{\#Tab}{PLOVER:DELAY:1.2}am{\#Tab}{PLOVER:DELAY:1.2}pm{\#Tab}{PLOVER:DELAY:1.2}{\#Tab}
 ## Added by Plover
 
 ```yaml
 SR-Z: Verizon
+TEL/EUT: Telit
 ```

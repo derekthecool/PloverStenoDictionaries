@@ -41,17 +41,39 @@ block, the markdown dictionary plugin only works with an empty syntax or yaml)
 TOG: "{^,nB^}" # Boolean toggle
 ```
 
+## Personal mappings That Need To Be Ultra Fast
+
+Often useds in my .nvim.lua project files
+
+### Running
+
+```yaml
+R-B                :  {^}`r1{^} # Run action 1
+R-G                :  {^}`r2{^} # Run action 2
+R-S                :  {^}`r3{^} # Run action 3
+```
+
+### Building
+
+```yaml
+R-P               :  {^}`b1{^} # Build action 1
+R-L               :  {^}`b2{^} # Build action 2
+R-T               :  {^}`b3{^} # Build action 3
+```
+
+### Testing
+
+```yaml
+T*EFT              :  {^}`ui{^} # Test, note the ` instead of , this keeps it more usable in insert mode without delays
+T-FT               :  {^}`ui{^} # Test shorter alternative
+```
+
 ## Personal Mappings That Need To Be Fast
 
 ```yaml
 KH*EBGD            :  {^},vl{^} # Mark down check box
 TRAO*E             :  {^},fe{^} # File tree toggle
 TRAO*ES            :  {^},ft{^} # Telescope file browser
-T*EFT              :  {^}`ui{^} # Test, note the ` instead of , this keeps it more usable in insert mode without delays
-T-FT               :  {^}`ui{^} # Test shorter alternative
-R*UPB              :  {^}`uu{^} # Run
-R-B                :  {^}`uu{^} # Run shorter alternative
-PW-D               :  {^}`u;{^} # Build
 KW*EUBG            :  {^},la{^} # LSP code action version 1
 KWO*EUBG           :  {^},lb{^} # LSP code action version 2
 TPO*RPLT           :  {^},lf{^} # Format code
@@ -147,6 +169,12 @@ text.
 ```yaml
 HRAOUPD : {^},dV{^} # LuaPaD: used to run some of my saved files in my neovim configuration that I call the "playground", where I test neovim APIs
 HRAO*UPD : {^}{\#Escape}:Luapad\\n{^} # Open luapad in scratch buffer with realtime evaluation
+```
+
+### dadbod.vim
+
+```yaml
+PWO*D : {^}{\#Escape}:DBUIToggle\\n{^}
 ```
 
 ### Pairs Plugins

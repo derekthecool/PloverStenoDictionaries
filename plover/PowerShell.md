@@ -21,13 +21,21 @@ TPROB : ForEach-Object \\{{$_
 TPROB/TPROB : %\\{{$_
 WOB : Where-Object \\{{$_
 WOB/WOB : ?\\{{$_
-SHROB : Select-Object \\{{$_
+SHROB : Select-Object -{^}{-|}
 TKPWROB : Group-Object \\{{$_
 PHO*B : Measure-Object
 SOB : Sort-Object \\{{$_
+-RPBL : $_
+-RPBLS : $_.{^}
 ```
 
-### PowerShell/Pwsh Scripting
+### Other Powershell Items
+
+```yaml
+SKREUPT/RAOT : $PSScriptRoot
+```
+
+### PowerShell/Pwsh Cmdlets
 
 ```yaml
 R*PL                : {^}Remove-Item{^ ^}

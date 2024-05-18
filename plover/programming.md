@@ -716,7 +716,7 @@ TKPW*EUFT : {^}git fetch upstream
 TKPW*EUTD/TKRAOEU: {^git add --verbose . --dry-run}                                                                                                       # GIT aDD (current pathspec)
 "TKPW*EUTD": "{^git add --verbose .}"                                                                                                       # GIT aDD (current pathspec)
 "TKPWEUTS": "{^git status --short\\n}"                                                                                              # GIT Status (short)
-"TKPWEUTD": "{^git add --verbose}"                                                                                                          # GIT aDD
+(UPDATED) "TKPWEUTD": "{^git add --verbose **}{#LEFT}{^}"                                                                                                          # GIT aDD
 "TKPWEUT/KEUG/HR*EUS": "{^git config --list}"                                                                                   # GIT CONFIG LIST
 "TKPWEUT/TPH*EUT": "{^git init}"                                                                                                  # GIT iNIT
 "TKPWEUTD": "{^git add --verbose **}{#LEFT}{^}"                                                                                                          # GIT aDD
@@ -1059,4 +1059,5 @@ TO*PL: toml
 P*D: pwd
 H*ED: HEAD
 PHOUPB: markdown
+TK*EFBG: desc
 ```

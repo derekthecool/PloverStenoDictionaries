@@ -189,4 +189,5 @@ W*B: lomaxsimplesoftware.com
 PABG/PHAPB: pacman
 SROES: verbose
 AZ: az
+KPAPBD: expand
 ```
