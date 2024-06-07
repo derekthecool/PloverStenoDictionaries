@@ -27,15 +27,17 @@ PHO*B : Measure-Object
 SOB : Sort-Object \\{{$_
 -RPBL : $_
 -RPBLS : $_.{^}
+SPWEL : $(){\#Left}{^} # Easy subshell. Used for doing things like this echo "$(ls)"
+KOFB : [PSCustomObject]@\\{\\}{\#Left}{^}
 ```
 
-### Other Powershell Items
+## Other Powershell Items
 
 ```yaml
 SKREUPT/RAOT : $PSScriptRoot
 ```
 
-### PowerShell/Pwsh Cmdlets
+## PowerShell/Pwsh Cmdlets
 
 ```yaml
 R*PL                : {^}Remove-Item{^ ^}
@@ -53,6 +55,16 @@ TP-LG : "F:{#Backslash}{^}"
 TKPW-LG : "G:{#Backslash}{^}"
 P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
 WEUPB/TKPWET : winget
+```
+
+## Main Verb Helpers
+
+TODO: (Derek Lomax) 5/22/2024 3:26:15 PM, finish adding the rest of important verbs here
+
+```yaml
+TKPW*ET : Get-{^}{-|}
+S*ET : Set-{^}{-|}
+SRO*EBG : Invoke-{^}{-|}
 ```
 
 ## Main Commands
@@ -108,6 +120,7 @@ TKPWET/ROEUR : Get-Error
 TKPWET/AOEPBT : Get-Event
 TKPWET/TPAOEUL : Get-FileHash
 TKPWET/TPORPLT : Get-FormatData
+AUPTD/TPORPLT : Update-FormatData
 TKPWET/HEP : Get-Help
 TKPWET/HEUFT/REU : Get-History
 TKPWET/HOEFT : Get-Host
@@ -134,6 +147,7 @@ TKPWRAOUP/OBT : Group-Object
 EUPL/PORT/HREUS : Import-Alias
 EUPL/PORT/SKR-F : Import-Csv
 EUPL/PORT/PHAOULD : Import-Module
+STPHAUL/PHAOULD : Install-Module
 EUPB/SROEBG/KPHAPBD : Invoke-Command
 SROEBG/KPHAPBD : Invoke-Command
 EUPB/SROEBG/KPR*EGS : Invoke-Expression
@@ -216,4 +230,51 @@ WRAOEUT/PROG : Write-Progress
 WRAOEUT/SRER/PWOES : Write-Verbose
 WRAOEUT/SROES : Write-Verbose
 WRAOEUT/WARPBG : Write-Warning
+```
+
+## Commands From Powershell Gallery Modules
+
+### [Pester](https://pester.dev/docs/quick-start)
+
+Awesome powershell testing framework
+
+```yaml
+SR*EFT : Invoke-Pester
+SROEBG/PEFT : Invoke-Pester
+```
+
+### [PSScriptTools](https://github.com/jdhitsolutions/PSScriptTools)
+
+#### ConvertFrom-Text
+
+This command struct me with awe. It is the pipable regex function I've always
+dreamed of.
+It uses named regex capture groups to extract rich objects from text.
+
+Basic usage is like this:
+
+```powershell
+1 .. 5 | %{Get-Random | Out-String } | ConvertFrom-Text '(?<FirstNumber>\d).*(?<LastNumber>\d)'
+
+FirstNumber LastNumber
+----------- ----------
+6           9
+1           0
+1           4
+1           3
+5           8
+```
+
+```yaml
+TPR/TEGT : ConvertFrom-Text
+```
+
+## Added by Plover
+
+```yaml
+TKPWEP: Get-Help
+TPH-PBG: npx
+SRERT: convert
+SR*ERT: Convert
+TP-Z: fzf
 ```
