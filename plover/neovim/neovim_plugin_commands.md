@@ -177,6 +177,30 @@ HRAO*UPD : {^}{\#Escape}:Luapad\\n{^} # Open luapad in scratch buffer with realt
 PWO*D : {^}{\#Escape}:DBUIToggle\\n{^}
 ```
 
+### [Harpoon](Harpoon)
+
+```yaml
+-FPL   : {^}{\#Escape},ha{^} # Add to harpoon
+*L     : {^}{\#Escape},hb{^} # Next harpoon item
+*F     : {^}{\#Escape},hc{^} # Previous harpoon item
+*P     : {^}{\#Escape},hp{^} # Pick harpoon item
+*R     : {^}{\#Escape},h1{^} # Go to harpoon item 1 (similar binary number picker to Emily's modifiers)
+*B     : {^}{\#Escape},h2{^} # Go to harpoon item 2
+*RB    : {^}{\#Escape},h3{^} # Go to harpoon item 3
+*G     : {^}{\#Escape},h4{^} # Go to harpoon item 4
+*RG    : {^}{\#Escape},h5{^} # Go to harpoon item 5
+*BG    : {^}{\#Escape},h6{^} # Go to harpoon item 6
+*RBG   : {^}{\#Escape},h7{^} # Go to harpoon item 7
+*S     : {^}{\#Escape},h8{^} # Go to harpoon item 8
+*RS    : {^}{\#Escape},h9{^} # Go to harpoon item 9
+*BS    : {^}{\#Escape},hA{^} # Go to harpoon item A
+*RBS   : {^}{\#Escape},hA{^} # Go to harpoon item B
+*GS    : {^}{\#Escape},hA{^} # Go to harpoon item C
+*RGS   : {^}{\#Escape},hA{^} # Go to harpoon item D
+*BGS   : {^}{\#Escape},hA{^} # Go to harpoon item E
+*RBGS  : {^}{\#Escape},hA{^} # Go to harpoon item F
+```
+
 ### Pairs Plugins
 
 I used to use vim unimpaired by TPope, but now I use Mini.Pairs.
