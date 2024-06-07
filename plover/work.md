@@ -45,7 +45,7 @@ PW*EL/S-FBG: BelleSVX
 ### General
 
 ```yaml
-TPO*ET: Fota
+TPO*ET: fota
 TPO*ET/TPO*ET: BXFota
 TPO*ET/TPO*ET/TPO*ET: BWFota
 R*EFP: resp

@@ -171,6 +171,8 @@ KPR-P : {^}cpp
 KPR*P : {^}.cpp
 KO*FPB : {^}conf
 #KO*FPB : {^}.conf
+KPH*L : {^}xml
+#KPH*L : {^}.xml
 ```
 
 ## C Programming
@@ -249,12 +251,48 @@ TPROS: FreeRTOS
 
 ## Databases
 
+### General
+
 ```yaml
+SKW*L: sql
+SKW-L: sql
+```
+
+### MySQL
+
+```yaml
+PHAOEUFBG : mysql # one stroke
 PHEU/SKW-L: mysql
 PHEU/SKW*L: MySQL
+```
+
+### Maria DB
+
+```yaml
+PHARB : mariadb
+PHAR/TK-B : mariadb
+PHAR/KWRA/TK*/PW* : mariadb
+```
+
+### Postgresql
+
+```yaml
+TKPWRES : postgresql
+```
+
+### Microsoft Sql Server
+
+```yaml
+SKWEFR: sql server
+SKWEFR/SKWEFR: sqlserver
+SKWEFR/SKWEFR/SKWEFR: sqlserver
 PH-S/SKW-L: mssql
 PH-S/SKW*L: MSSQL
-SKW*L: sql
+```
+
+### Sqlite
+
+```yaml
 SKWAOEULT: sqlite
 SKWAOEULT/SKWAOEULT: sqlite3
 ```
@@ -323,6 +361,7 @@ HRAO*EPBG             : Linq
 TPAUR                 : {^ ^}=>{^ ^} # fat arrow
 O/STR*EUPBG           : {^}.ToString()
 AF/HROEPB/KWRA        : Avalonia
+RAED/OEPBL : readonly
 ```
 
 ## F#
@@ -1060,4 +1099,5 @@ P*D: pwd
 H*ED: HEAD
 PHOUPB: markdown
 TK*EFBG: desc
+SRAR/KHAR: varchar
 ```
