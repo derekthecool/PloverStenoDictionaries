@@ -98,6 +98,8 @@ O/KPOEPL : ConvertTo-Xml
 KO*EP/AOEUPLT : Copy-Item
 *EPBT/SEGS : Enter-PSSession
 KPEUT/SEGS : Exit-PSSession
+EBGS/PAPBD/AR/KAOEUF : Expand-Archive
+KPAPBD/KRAOEUF : Expand-Archive
 EBGS/PORT/HREUS : Export-Alias
 EBGS/PORT/SKR-F : Export-Csv
 EBGS/PORT/TPORPLT/TKAET : Export-FormatData

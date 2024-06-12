@@ -184,6 +184,7 @@ PWO*D : {^}{\#Escape}:DBUIToggle\\n{^}
 *L     : {^}{\#Escape},hb{^} # Next harpoon item
 *F     : {^}{\#Escape},hc{^} # Previous harpoon item
 *P     : {^}{\#Escape},hp{^} # Pick harpoon item
+*FPL   : {^}{\#Escape},hP{^} # Pick harpoon item (editable)
 *R     : {^}{\#Escape},h1{^} # Go to harpoon item 1 (similar binary number picker to Emily's modifiers)
 *B     : {^}{\#Escape},h2{^} # Go to harpoon item 2
 *RB    : {^}{\#Escape},h3{^} # Go to harpoon item 3
