@@ -7,6 +7,32 @@ Powershell commands love using Verb-Noun type commands.
 
 This dictionary will help writing powershell commands even faster.
 
+## Powershell File Extensions
+
+| File Type                         | Extension | Description                                                       |
+| --------------------------------- | --------- | ----------------------------------------------------------------- |
+| PowerShell Script File            | `.ps1`    | Contains PowerShell commands and scripts.                         |
+| PowerShell Module Manifest File   | `.psd1`   | Contains metadata about a PowerShell module.                      |
+| PowerShell Module File            | `.psm1`   | Contains the functions and code that make up a PowerShell module. |
+| PowerShell Data File              | `.psd1`   | Used for localization and other data purposes.                    |
+| PowerShell Workflow File          | `.psw1`   | Contains PowerShell workflow definitions.                         |
+| PowerShell Cmdlet Definition File | `.cdxml`  | XML-based cmdlet definitions.                                     |
+| PowerShell Types File             | `.ps1xml` | Type extension definitions for PowerShell.                        |
+| PowerShell Format File            | `.ps1xml` | Formatting definitions for displaying objects.                    |
+| PowerShell Configuration File     | `.pssc`   | Configuration for Just Enough Administration (JEA).               |
+| PowerShell Role Capability File   | `.psrc`   | Defines role capabilities for JEA.                                |
+
+Most important ones to have quick commands for
+
+```yaml
+#1P-S: ps1
+#1P*S: {^}.ps1
+#1P-PL: psm1
+#1P*PL: {^}.psm1
+#1P-D: psd1
+#1P*D: {^}.psd1
+```
+
 ## Powershell Terms That Are Not Commands
 
 ```yaml

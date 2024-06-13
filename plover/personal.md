@@ -177,7 +177,6 @@ TPRO*BGS: Firefox
 KHRAOUD: conclude
 SAEUF: save
 SAF: safe
-13-S: ps1
 A*RPBG: angry
 PHA*EUL: email
 SRO*E: zero

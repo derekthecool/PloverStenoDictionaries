@@ -166,7 +166,6 @@ KAO*UBL : {^}exe{^}
 #KAO*UBL : {^}.exe{^}
 SPROPBLG              : {^}.csproj{^}
 TPROPBLG              : {^}.fsproj{^}
-P-S/1 : {^}.ps1
 KPR-P : {^}cpp
 KPR*P : {^}.cpp
 KO*FPB : {^}conf
