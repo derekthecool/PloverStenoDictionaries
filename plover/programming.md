@@ -5,6 +5,7 @@
 ```yaml
 PHRAO*EBG : {^ ^}+={^ ^}
 PHAO*EBG : {^ ^}-={^ ^}
+TKPWRAO*EBLG : {^ ^}>={^ ^}
 ```
 
 ## Frequently Used Words
@@ -24,6 +25,16 @@ RA*EU: array
 ARG: arg
 WAEUS: workspace
 WAEURS: workspacer
+```
+
+## Package Managers
+
+### Windows
+
+#### [scoop](https://scoop.sh/)
+
+```yaml
+TKPW*ET/SKAOP : Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
 ## Containerization Applications
@@ -263,6 +274,7 @@ SKW-L: sql
 PHAOEUFBG : mysql # one stroke
 PHEU/SKW-L: mysql
 PHEU/SKW*L: MySQL
+PHAOEUFBG/TKPWRAPBT : GRANT ALTER, ALTER ROUTINE, CREATE, CREATE ROUTINE, CREATE TEMPORARY TABLES, CREATE VIEW, DELETE, DROP, EVENT, EXECUTE, INDEX, INSERT, LOCK TABLES, REFERENCES, SELECT, SHOW VIEW, TRIGGER, UPDATE
 ```
 
 ### Maria DB
@@ -399,7 +411,8 @@ HAO*UG/HAO*UG/HAO*UG : hugo server --bind $(hostname -I | tr -d \' \') --baseURL
 ```yaml
 T*ERPL             :  terminal
 KWOEUBG            :  {^}qmk
-KHRAO*EU           :  CLI
+KHRAO*EU           :  cli
+KHRAOEU           :  cli
 PROE/TOE/SAOE      :  protoc
 PROE/TOE/PWUF      :  protobuf
 PRUF               :  protobuf
@@ -415,7 +428,7 @@ This makes using the terminal cheat tool very easy. See
 
 ```yaml
 KHAO*ET                  :  {^}curl cht.sh/{^}{MODE:SET_SPACE:+} # Again Linux but using curl
-KHAO*ET/KHAO*ET          :  {^}(Invoke-WebRequest cht.sh/).Content{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{\#Left}{^}{MODE:SET_SPACE:+} # For use on windows, need to use Invoke-WebRequest instead of the alias curl to work on all PowerShell versions
+KHAO*ET/KHAO*ET          :  {^}irm cht.sh/{^}{MODE:SET_SPACE:+} # Run powershell Invoke-RestMethod
 KHAO*ET/KHAO*ET/KHAO*ET  :  {^}cht.sh {^ ^} # Run script on Linux (must be
 T*ERB                    :  {^}nc termbin.com 9999
 T*ERB/T*ERB              :  https://termbin.com/{^}
@@ -754,7 +767,6 @@ TKPW*EUFT : {^}git fetch upstream
 TKPW*EUTD/TKRAOEU: {^git add --verbose . --dry-run}                                                                                                       # GIT aDD (current pathspec)
 "TKPW*EUTD": "{^git add --verbose .}"                                                                                                       # GIT aDD (current pathspec)
 "TKPWEUTS": "{^git status --short\\n}"                                                                                              # GIT Status (short)
-(UPDATED) "TKPWEUTD": "{^git add --verbose **}{#LEFT}{^}"                                                                                                          # GIT aDD
 "TKPWEUT/KEUG/HR*EUS": "{^git config --list}"                                                                                   # GIT CONFIG LIST
 "TKPWEUT/TPH*EUT": "{^git init}"                                                                                                  # GIT iNIT
 "TKPWEUTD": "{^git add --verbose **}{#LEFT}{^}"                                                                                                          # GIT aDD
@@ -780,6 +792,8 @@ Dot files git commands
 'TK*EUPL': '{^dot pull}' # GIt PuLL [override]
 'TK*EUTS': '{^dot status}' # GIT Status (short)
 'TK*EUL': '{^dot log --oneline --decorate --all --graph}' # GIt Log
+"TKEUTD": "{^dot add --verbose **}{#LEFT}{^}"                                                                                                          # GIT aDD
+"TK*EUTD": "{^dot add --verbose .}"                                                                                                       # GIT aDD (current pathspec)
 ```
 
 ```PaulsGit
@@ -1100,4 +1114,6 @@ PHOUPB: markdown
 TK*EFBG: desc
 SRAR/KHAR: varchar
 PAO*EU: py
+TKPWEBGS: regex
+SHR-PB: sln
 ```

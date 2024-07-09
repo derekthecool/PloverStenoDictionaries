@@ -305,4 +305,6 @@ TPH-PBG: npx
 SRERT: convert
 SR*ERT: Convert
 TP-Z: fzf
+TKPWEBGS/TKPWEBGS: regular expression
+TKPWEBGS/TKPWEBGS/TKPWEBGS: System.Text.RegularExpressions
 ```
