@@ -8,6 +8,7 @@ TREL/OE: Trello
 KAO*EL: Keil
 TWEUL/KWROE: Twilio
 RABG/SPAEUS: Rackspace
+TKPWAO*LG: google
 ```
 
 ## Freeus Business Jargon
@@ -103,6 +104,7 @@ SOEUPL: sim # Replaces sodium
 SOEUPL/SOEUPL: ICCID # Replaces sodium
 TA*PBD: AT command
 SEUPL: sim # overwrites similar, use SHRAR instead
+SRO*EUP: voip
 ```
 
 ### AT Cell Module Commands

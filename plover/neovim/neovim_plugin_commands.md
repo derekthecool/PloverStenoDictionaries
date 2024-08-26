@@ -157,7 +157,9 @@ TKPWA*EUT           :  {^},g3{^} # Call next git plugin in neovim
 
 ```yaml
 TK*EUF            :  {^},gd{^} # Call my special function to toggle diff view
-TK*EUFR           :  {^}{\#Escape}:DiffviewFileHistory %{^} # Call my special function to toggle diff view
+TK*EUFR           :  {^}{\#Escape}:DiffviewFileHistory %{^} # Diff file history for currently opened file
+TK*EUFPL          :  {^}{\#Escape}:DiffviewOpen{^ ^} # Better starter for diff view open
+TK*EUFPLT         :  {^}{\#Escape}:DiffviewClose \\n
 ```
 
 ### [Luapad](https://github.com/rafcamlet/nvim-luapad)
