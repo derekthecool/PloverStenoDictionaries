@@ -7,6 +7,12 @@ Powershell commands love using Verb-Noun type commands.
 
 This dictionary will help writing powershell commands even faster.
 
+## Quickly Reload My Dotfiles Powershell Module
+
+```yaml
+TKO*TS : Import-Module -Force -Name Dots\\n
+```
+
 ## Powershell File Extensions
 
 | File Type                         | Extension | Description                                                       |
