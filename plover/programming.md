@@ -94,6 +94,29 @@ SOEUD : {^}sudo
 W-LS : wsl
 ```
 
+## Package Managers
+
+### apt
+
+Used by Ubuntu and many more
+
+```yaml
+APT/APT: {^}sudo apt update && sudo apt upgrade -y
+A*PT/A*PT: {^}apt update && apt upgrade -y
+APT/APT/APT: {^}sudo apt upgrade -y
+A*PT/A*PT/A*PT: {^}apt upgrade -y
+APT/APT/APT/APT: {^}sudo apt update
+A*PT/A*PT/A*PT/A*PT: {^}apt update
+```
+
+### apk
+
+Used by alpine Linux
+
+```yaml
+AFBG : apk
+```
+
 ## Technical Jargon
 
 ```yaml
@@ -1069,12 +1092,6 @@ TARBG: termshark
 ```yaml
 HROEFT: localhost
 PW*RB: pwsh
-APT/APT: {^}sudo apt update && sudo apt upgrade -y
-A*PT/A*PT: {^}apt update && apt upgrade -y
-APT/APT/APT: {^}sudo apt upgrade -y
-A*PT/A*PT/A*PT: {^}apt upgrade -y
-APT/APT/APT/APT: {^}sudo apt update
-A*PT/A*PT/A*PT/A*PT: {^}apt update
 AO*URS: {^}usr
 KWRAPL: {^}yaml
 RAOUF: remove
