@@ -19,6 +19,7 @@ TKPWUB/TKPWUB               :  https://github.com/{^}
 TKPWUB/TKPWUB/TKPWUB        :  "git@github.com:{^}"
 ST*TS                       :  status
 TKPWEUT/TKEUF               :  git diff
+TKPW*EUF                    :  git diff
 TKPWA*P                     :  add .
 TKPWEUT/ST*TS               :  git status
 TKPWEUT/TKPWEUT             :  git status\\n{^}
@@ -39,44 +40,43 @@ RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
 
 ```yaml
 TKPW*EUFT : {^}git fetch upstream
-"TKPWEUPLT": "{^git commit --message=\"\"^}{#LEFT}{-|}"                                                                           # GIt coMMiT (message)
-"TKPWEUPLTD": "{^git commit --all --message=\"\"^}{#LEFT}{-|}"                                                                    # GIt coMMiT (all, message)
-"TKPW*EUPLT": "{^git commit --amend}"                                                                                             # GIt coMMiT (amend)
-"TKPW*EUPLTD": "{^git commit --amend --no-edit}"                                                                                  # GIt coMMiT (amend) no-eDit
-"TKPWEUP": "{^git push\\n}"                                                                                                          # GIt Push
-"TKPWEUT/PURB/PWRAFRPB": "{^git push --force origin $(git symbolic-ref HEAD --short)}"                                   # GIT PUSH (force) ORIGIN (current BRANCH name)
-"TKPWEUPL": "{^git pull\\n}"                                                                                                         # GIt PuLL [override]
-"TKPW*EUPL": "{^git pull --rebase}"                                                                                               # GIt PuLL (rebase) [override]
-TKPW*EUTD/TKRAOEU: {^git add --verbose . --dry-run}                                                                                                       # GIT aDD (current pathspec)
-"TKPW*EUTD": "{^git add --verbose .}"                                                                                                       # GIT aDD (current pathspec)
-"TKPWEUTS": "{^git status --short\\n}"                                                                                              # GIT Status (short)
-"TKPWEUT/KEUG/HR*EUS": "{^git config --list}"                                                                                   # GIT CONFIG LIST
-"TKPWEUT/TPH*EUT": "{^git init}"                                                                                                  # GIT iNIT
-"TKPWEUTD": "{^git add --verbose **}{#LEFT}{^}"                                                                                                          # GIT aDD
-"TKPW*EUFRB": "{^git stash}"                                                                                                      # GIt StaSH
-"TKPWO*P": "{^git stash pop}"                                                                                                     # Git stash pOP
-"TKPWOP": "{^git stash pop}"                                                                                                      # Git stash pOP
-"TKPWEUT/STARB": "{^git stash}"                                                                                                   # GIT STASH
-"TKPWEUT/STARB/POP": "{^git stash pop}"                                                                                           # GIT STASH POP
-"TKPWEUT/STARB/PURB": "{^git stash push}"                                                                                         # GIT STASH PUSH
-"TKPW*EUL": "{^git log --oneline --decorate --all --graph}"                                                                       # GIt Log
-"TKPW*EULG": "{^git log --oneline --decorate --all --graph}"                                                                      # GIt LoG
-"TKPWEUT/HRO*G": "{^git log --oneline --decorate --all --graph}"                                                                  # GIT LOG (oneline decorate all graph)
-"TKPWEUT/HROG": "{^git log}"                                                                                                      # GIT LOG
-STA*RS: "{^}**{#LEFT}{^}"
+TKPW*EUPLT: {^}git commit --amend
+TKPW*EUPLTD: {^}git commit --amend --no-edit
+TKPWEUP: {^git push\\n}
+TKPWEUT/PURB/PWRAFRPB: {^}git push --force origin $(git symbolic-ref HEAD --short)
+TKPWEUPL: {^}git pull\\n
+TKPW*EUPL: {^}git pull --rebase
+TRAO*EU : --dry-run
+TKPW*EUTD/TKRAOEU: {^}git add --verbose . --dry-run
+TKPW*EUTD: {^}git add --verbose .
+TKPWEUTS: {^git status --short\\n}
+TKPWEUT/KEUG/HR*EUS: {^}git config --list
+TKPWEUT/TPH*EUT: {^}git init
+TKPWEUTD: {^}git add --verbose **{#LEFT}{^}
+TKPW*EUFRB: {^}git stash
+TKPWO*P: {^}git stash pop
+TKPWOP: {^}git stash pop
+TKPWEUT/STARB: {^}git stash
+TKPWEUT/STARB/POP: {^}git stash pop
+TKPWEUT/STARB/PURB: {^}git stash push
+TKPW*EUL: {^}git log --oneline --decorate --all --graph
+TKPW*EULG: {^git log --oneline --decorate --all --graph
+TKPWEUT/HRO*G: {^git log --oneline --decorate --all --graph
+TKPWEUT/HROG: {^}git log
+STA*RS: {^}**{#LEFT}{^}
 ```
 
 Dot files git commands
 
 ```yaml
-'TK*EUPLT': '{^dot commit --message=""^}{#LEFT}{-|}'
-'TK*EUPLTD': '{^dot commit --all --message=""^}{#LEFT}{-|}'
-'TK*EUP': '{^dot push}' # GIt Push
-'TK*EUPL': '{^dot pull}' # GIt PuLL [override]
-'TK*EUTS': '{^dot status}' # GIT Status (short)
-'TK*EUL': '{^dot log --oneline --decorate --all --graph}' # GIt Log
-"TKEUTD": "{^dot add --verbose **}{#LEFT}{^}"                                                                                                          # GIT aDD
-"TK*EUTD": "{^dot add --verbose .}"                                                                                                       # GIT aDD (current pathspec)
+TK*EUPLT: {^}dot commit --message={#LEFT}{-|}{^}
+TK*EUPLTD: {^}dot commit --all --message={#LEFT}{-|}{^}
+TK*EUP: {^}dot push
+TK*EUPL: {^}dot pull
+TK*EUTS: {^}dot status
+TK*EUL: {^}dot log --oneline --decorate --all --graph
+TKEUTD: {^}dot add --verbose **}{#LEFT}{^}
+TK*EUTD: {^}dot add --verbose .
 ```
 
 Commands from Paul Fioravanti's dictionary
@@ -215,6 +215,12 @@ KR*Z/KR*Z : cz bump
 ## [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 
 ```yaml
+TKPWEUPLT : git commit --message=\"fix
+TKPWEUPLT/TKPWEUPLT : git commit --message=\"feat
+TKPWEUPLT/TKPWEUPLT/TKPWEUPLT : git commit --message=\"build
+TKPWEUPLTD : git commit --all --message=\"fix
+TKPWEUPLTD/TKPWEUPLTD : git commit --all --message=\"feat
+TKPWEUPLTD/TKPWEUPLTD/TKPWEUPLTD : git commit --all --message=\"build
 SR*EPBL: fix
 SR*EPBL/SR*EPBL: feat
 SR*EPBL/SR*EPBL/SR*EPBL: build
