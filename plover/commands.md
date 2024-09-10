@@ -48,7 +48,6 @@ PHROFS: "{PLOVER:SUGGESTIONS}"
 SR-RS         : {\#Escape}{^}{MODE:RESET} # Suppress the next space after escape
 SR*RS         : {\#Control_L(bracketleft)}{^}{MODE:RESET} # Alternate escape
 S-P           : {MODE:RESET}{^ ^}
-S*P           : {^ ^}
 KA*PS         : {MODE:CAPS}
 TAO*EULT      : {MODE:TITLE}{-|} # title case, make certain the first word after is titled as well
 HRO*ERS       : {MODE:LOWER}
