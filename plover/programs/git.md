@@ -28,6 +28,8 @@ TKPWEUT/TKEUF/H-PBZ/KAERBD  :  git diff --cached
 TKPWEUT/KPHEUT/H-PBS/SR*    :  git commit -v
 TKPWEUT/KHEBG/O*UT          :  git checkout
 TKPWEUT/KHEBGT/PW*          :  git checkout -b{^ ^}
+KH*EBGT : git checkout {^ ^}
+KH*EBGT/KH*EBGT : git checkout -b{^ ^}{MODE:SNAKE} # Fancy checkout new branch with snake case
 TKPWEUT/PHERPBLG            :  git merge
 TKEUF                       :  diff
 TKEUF/H-PBZ/KAERBD          :  diff --cached
@@ -52,7 +54,7 @@ TKPW*EUTD: {^}git add --verbose .
 TKPWEUTS: {^git status --short\\n}
 TKPWEUT/KEUG/HR*EUS: {^}git config --list
 TKPWEUT/TPH*EUT: {^}git init
-TKPWEUTD: {^}git add --verbose **{#LEFT}{^}
+TKPWEUTD: {^}git add --verbose **{\#LEFT}
 TKPW*EUFRB: {^}git stash
 TKPWO*P: {^}git stash pop
 TKPWOP: {^}git stash pop
@@ -63,19 +65,19 @@ TKPW*EUL: {^}git log --oneline --decorate --all --graph
 TKPW*EULG: {^git log --oneline --decorate --all --graph
 TKPWEUT/HRO*G: {^git log --oneline --decorate --all --graph
 TKPWEUT/HROG: {^}git log
-STA*RS: {^}**{#LEFT}{^}
+STA*RS: {^}**{\#LEFT}{^}
 ```
 
 Dot files git commands
 
 ```yaml
-TK*EUPLT: {^}dot commit --message={#LEFT}{-|}{^}
-TK*EUPLTD: {^}dot commit --all --message={#LEFT}{-|}{^}
+TK*EUPLT: {^}dot commit --message=\"{\#LEFT}{-|}{^}
+TK*EUPLTD: {^}dot commit --all --message=\"{\#LEFT}{-|}{^}
 TK*EUP: {^}dot push
 TK*EUPL: {^}dot pull
 TK*EUTS: {^}dot status
 TK*EUL: {^}dot log --oneline --decorate --all --graph
-TKEUTD: {^}dot add --verbose **}{#LEFT}{^}
+TKEUTD: {^}dot add --verbose **}{\#LEFT}{^}
 TK*EUTD: {^}dot add --verbose .
 ```
 
