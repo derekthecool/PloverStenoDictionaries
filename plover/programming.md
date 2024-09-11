@@ -934,4 +934,6 @@ SRAR/KHAR: varchar
 PAO*EU: py
 TKPWEBGS: regex
 SHR-PB: sln
+PH-P: mpv
+PH-P/PH-P: mpv --shuffle{^ ^}
 ```
