@@ -94,10 +94,209 @@ WEUPB/TKPWET : winget
 TODO: (Derek Lomax) 5/22/2024 3:26:15 PM, finish adding the rest of important verbs here
 
 ```yaml
-TKPW*ET : Get-{^}{-|}
-S*ET : Set-{^}{-|}
-SRO*EBG : Invoke-{^}{-|}
+TKPW*ET : Get-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+S*ET : Set-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+SRO*EBG : Invoke-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+KHRAO*ER : Clear-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+KHRO*ES : Close-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+TPH*U : New-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+AUPTD/AUPTD : Update-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
 ```
+
+Copy
+Enter
+Exit
+Find
+Format
+Get
+Hide
+Join
+Lock
+Move
+Open
+Push
+Pop
+Redo
+Remove
+Rename
+Reset
+Resize
+Search
+Select
+Set
+Show
+Skip
+Split
+Step
+Switch
+Undo
+Unlock
+Watch
+Connect
+Disconnect
+Read
+Receive
+Send
+Write
+Backup
+Checkpoint
+Compare
+Compress
+Convert
+ConvertFrom
+ConvertTo
+Dismount
+Edit
+Expand
+Export
+Group
+Import
+Initialize
+Limit
+Merge
+Mount
+Out
+Publish
+Restore
+Save
+Sync
+Unpublish
+Debug
+Measure
+Ping
+Repair
+Resolve
+Test
+Trace
+Approve
+Assert
+Build
+Complete
+Confirm
+Deny
+Deploy
+Disable
+Enable
+Install
+Invoke
+Register
+Request
+Restart
+Resume
+Start
+Stop
+Submit
+Uninstall
+Unregister
+Wait
+Use
+Block
+Grant
+Protect
+Revoke
+
+Full list of powershell approved verbs
+
+- Add
+- Clear
+- Close
+- Copy
+- Enter
+- Exit
+- Find
+- Format
+- Get
+- Hide
+- Join
+- Lock
+- Move
+- New
+- Open
+- Optimize
+- Push
+- Pop
+- Redo
+- Remove
+- Rename
+- Reset
+- Resize
+- Search
+- Select
+- Set
+- Show
+- Skip
+- Split
+- Step
+- Switch
+- Undo
+- Unlock
+- Watch
+- Connect
+- Disconnect
+- Read
+- Receive
+- Send
+- Write
+- Backup
+- Checkpoint
+- Compare
+- Compress
+- Convert
+- ConvertFrom
+- ConvertTo
+- Dismount
+- Edit
+- Expand
+- Export
+- Group
+- Import
+- Initialize
+- Limit
+- Merge
+- Mount
+- Out
+- Publish
+- Restore
+- Save
+- Sync
+- Unpublish
+- Update
+- Debug
+- Measure
+- Ping
+- Repair
+- Resolve
+- Test
+- Trace
+- Approve
+- Assert
+- Build
+- Complete
+- Confirm
+- Deny
+- Deploy
+- Disable
+- Enable
+- Install
+- Invoke
+- Register
+- Request
+- Restart
+- Resume
+- Start
+- Stop
+- Submit
+- Suspend
+- Uninstall
+- Unregister
+- Wait
+- Use
+- Block
+- Grant
+- Protect
+- Revoke
+- Unblock
+- Unprotect
 
 ## Main Commands
 
@@ -313,4 +512,6 @@ SR*ERT: Convert
 TP-Z: fzf
 TKPWEBGS/TKPWEBGS: regular expression
 TKPWEBGS/TKPWEBGS/TKPWEBGS: System.Text.RegularExpressions
+TKPWEPL: Get-Member
+STKPWUR: Azure
 ```
