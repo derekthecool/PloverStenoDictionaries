@@ -62,8 +62,8 @@ TKPWEUT/STARB: {^}git stash
 TKPWEUT/STARB/POP: {^}git stash pop
 TKPWEUT/STARB/PURB: {^}git stash push
 TKPW*EUL: {^}git log --oneline --decorate --all --graph
-TKPW*EULG: {^git log --oneline --decorate --all --graph
-TKPWEUT/HRO*G: {^git log --oneline --decorate --all --graph
+TKPW*EULG: {^}git log --oneline --decorate --all --graph
+TKPWEUT/HRO*G: {^}git log --oneline --decorate --all --graph
 TKPWEUT/HROG: {^}git log
 STA*RS: {^}**{\#LEFT}{^}
 ```
