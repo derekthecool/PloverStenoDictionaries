@@ -465,6 +465,12 @@ WRAOEUT/SROES : Write-Verbose
 WRAOEUT/WARPBG : Write-Warning
 ```
 
+## Nuget Package Manager Commands
+
+```yaml
+TPAOEUPBD/PAPBLG : Find-Package
+```
+
 ## Commands From Powershell Gallery Modules
 
 ### [Pester](https://pester.dev/docs/quick-start)
@@ -514,4 +520,5 @@ TKPWEBGS/TKPWEBGS: regular expression
 TKPWEBGS/TKPWEBGS/TKPWEBGS: System.Text.RegularExpressions
 TKPWEPL: Get-Member
 STKPWUR: Azure
+URL: url
 ```

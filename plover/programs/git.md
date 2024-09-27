@@ -45,6 +45,8 @@ TKPW*EUFT : {^}git fetch upstream
 TKPW*EUPLT: {^}git commit --amend
 TKPW*EUPLTD: {^}git commit --amend --no-edit
 TKPWEUP: {^git push\\n}
+TKPWEUT/PURB/PURB: {^}git push -u origin --all
+TKPWEUT/PURB/O*RPBLG: {^}git push -u origin --all
 TKPWEUT/PURB/PWRAFRPB: {^}git push --force origin $(git symbolic-ref HEAD --short)
 TKPWEUPL: {^}git pull\\n
 TKPW*EUPL: {^}git pull --rebase

@@ -936,4 +936,5 @@ TKPWEBGS: regex
 SHR-PB: sln
 PH-P: mpv
 PH-P/PH-P: mpv --shuffle{^ ^}
+"*URL": uri
 ```

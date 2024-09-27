@@ -136,4 +136,5 @@ PHAOEURBG/PHAOEURBG/PHAOEURBG : {^}cfe{\#Tab}{PLOVER:DELAY:1.5}{\#Tab}{PLOVER:DE
 ```yaml
 SR-Z: Verizon
 TEL/EUT: Telit
+TW*EUL: twilio
 ```
