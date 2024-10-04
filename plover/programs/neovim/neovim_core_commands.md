@@ -116,6 +116,8 @@ PHAOEUFP       :  "{#Escape}{^zzz^}{PLOVER:SET_CONFIG:}"  # This command is will
 TK-D   : {^}dd{^}
 TKHRAO*ET      :  ^dd^ # Delete line
 -FP            :  {^}{\#Control_R(u)}{^} # easy control + u for up scroll
+*FP            :  {^},Tu{^} # Variation for terminal scrolling
+*PL            :  {^},Td{^} # Variation for terminal scrolling
 -PL            :  {^}{\#Control_R(d)}{^} # easy control + d for down scroll
 #SR-RS         :  {^}{\#Control_R(backslash)}{\#Control_R(n)}{^}
 STPA           :  {\#Escape}{^zzz^} # Mapped in vim to :update<CR>
