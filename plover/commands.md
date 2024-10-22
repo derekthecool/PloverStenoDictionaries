@@ -68,6 +68,15 @@ STPHA*EUBGD   : {MODE:CAPS}{MODE:SNAKE}            # GREAT_FOR_MAKING_C_MACROS
 KHRAO*UDZ     : {MODE:CAPS}{MODE:SNAKE}            # GREAT_FOR_MAKING_C_MACROS
 ```
 
+### [Retro Everything For Similar Programming Modes](https://github.com/elkowar/plover_retro_everything)
+
+```yaml
+KARPS: =retro_everything:{MODE:CAPS},{MODE:RESET}
+*UPBDZ: =retro_everything:{MODE:SET_SPACE:_},{MODE:RESET}
+STPHA*EURBGD: =retro_everything:{MODE:SNAKE},{MODE:CAPS},{MODE:RESET}
+KOEUPL: =retro_everything:{MODE:CAMEL},{MODE:RESET}
+```
+
 ## Plover Spacing
 
 ```yaml
