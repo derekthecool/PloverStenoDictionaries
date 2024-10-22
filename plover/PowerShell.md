@@ -522,4 +522,6 @@ TKPWEPL: Get-Member
 STKPWUR: Azure
 URL: url
 KPOEPLT: component
+STK*BG: SDK
+STK-BG/KEUG: sdkconfig
 ```

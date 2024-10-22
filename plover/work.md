@@ -137,4 +137,7 @@ PHAOEURBG/PHAOEURBG/PHAOEURBG : {^}cfe{\#Tab}{PLOVER:DELAY:1.5}{\#Tab}{PLOVER:DE
 SR-Z: Verizon
 TEL/EUT: Telit
 TW*EUL: twilio
+"*EFP": esp
+TPRAOES/PW-RB: FreeusPowershell
+SPHOED: {^}set_mcu_mode
 ```

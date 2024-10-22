@@ -937,4 +937,7 @@ SHR-PB: sln
 PH-P: mpv
 PH-P/PH-P: mpv --shuffle{^ ^}
 "*URL": uri
+STK-BG: sdk
+TKPWRAEULD: gradle
+KWRART: UART
 ```

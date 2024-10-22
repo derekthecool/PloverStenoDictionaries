@@ -47,7 +47,7 @@ TKPW*EUPLTD: {^}git commit --amend --no-edit
 TKPWEUP: {^git push\\n}
 TKPWEUT/PURB/PURB: {^}git push -u origin --all
 TKPWEUT/PURB/O*RPBLG: {^}git push -u origin --all
-TKPWEUT/PURB/PWRAFRPB: {^}git push --force origin $(git symbolic-ref HEAD --short)
+TKPWEUT/PURB/PWRAFRPB: {^}git push --set-upstream origin $(git symbolic-ref HEAD --short)
 TKPWEUPL: {^}git pull\\n
 TKPW*EUPL: {^}git pull --rebase
 TRAO*EU : --dry-run
@@ -56,7 +56,7 @@ TKPW*EUTD: {^}git add --verbose .
 TKPWEUTS: {^git status --short\\n}
 TKPWEUT/KEUG/HR*EUS: {^}git config --list
 TKPWEUT/TPH*EUT: {^}git init
-TKPWEUTD: {^}git add --verbose **{\#LEFT}
+TKPWEUTD: {^}git add --verbose **{\#LEFT}{^}
 TKPW*EUFRB: {^}git stash
 TKPWO*P: {^}git stash pop
 TKPWOP: {^}git stash pop
@@ -73,8 +73,8 @@ STA*RS: {^}**{\#LEFT}{^}
 Dot files git commands
 
 ```yaml
-TK*EUPLT: {^}dot commit --message=\"{\#LEFT}{-|}{^}
-TK*EUPLTD: {^}dot commit --all --message=\"{\#LEFT}{-|}{^}
+TK*EUPLT: {^}dot commit --message=\"{^}
+TK*EUPLTD: {^}dot commit --all --message=\"{^}
 TK*EUP: {^}dot push
 TK*EUPL: {^}dot pull
 TK*EUTS: {^}dot status
