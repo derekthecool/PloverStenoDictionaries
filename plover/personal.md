@@ -121,7 +121,7 @@ KAS                     : Cass
 AD/TKEU                 : Addie
 AD/KWREU                : Addie
 AD/HRAOEUPB             : Adaline
-PHOEUG                  : {^}Magoo
+PHOEUG                  : {^}Magoo{^}{-|}
 HRA*EUT/OPB             : Layton
 ```
 
@@ -193,4 +193,6 @@ PH*EUGT: mitigate
 PHEUGT: mitigate
 TPHAOELS: Neilson
 TPHAOEL/SOPB: Neilson
+T-FS: tsp
+T-FB: tbsp
 ```

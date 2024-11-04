@@ -218,13 +218,16 @@ KR*Z/KR*Z : cz bump
 
 ## [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 
+Powershell module CrossPlatformDotFiles repository function helpers to help
+build the commit message.
+
 ```yaml
-TKPWEUPLT : git commit --message=\"fix
-TKPWEUPLT/TKPWEUPLT : git commit --message=\"feat
-TKPWEUPLT/TKPWEUPLT/TKPWEUPLT : git commit --message=\"build
-TKPWEUPLTD : git commit --all --message=\"fix
-TKPWEUPLTD/TKPWEUPLTD : git commit --all --message=\"feat
-TKPWEUPLTD/TKPWEUPLTD/TKPWEUPLTD : git commit --all --message=\"build
+TKPWEUPLT : git commit --message=\"$(Select-ConventionalCommitValue){^}
+TKPWEUPLTD : git commit --all --message=\"$(Select-ConventionalCommitValue){^}
+SKO*EPD: {^}($(Select-ConventionalCommitFileScope)):{^ ^}
+```
+
+```yaml
 SR*EPBL: fix
 SR*EPBL/SR*EPBL: feat
 SR*EPBL/SR*EPBL/SR*EPBL: build

@@ -940,4 +940,5 @@ PH-P/PH-P: mpv --shuffle{^ ^}
 STK-BG: sdk
 TKPWRAEULD: gradle
 KWRART: UART
+P*EFT: pytest
 ```

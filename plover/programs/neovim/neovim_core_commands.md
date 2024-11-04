@@ -167,7 +167,7 @@ is typed/written/stenoed the snippet will activate.
 KHR*U: INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #KHR*U           : INCLUDE{^} # Most languages have some kind of include such as #include, using, open, import etc.
 #TK*PB           : DEFINE{^}
-#TPO*RPLT        : FRMAT{^} # FORMAT conflicts with FOR
+#TPO*RPLT        : FRMAT{^} # FORMAT conflicts with FOR, 'string format' is also used and is sometimes more memorable
 #TA*FBG          : TASK{^}
 #TRAO*EU         : TRY{^}
 #KA*UL           : {^}{MODE:RESET}CALL{^}  # For expanding function calls
