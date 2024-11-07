@@ -183,6 +183,7 @@ TPHAOUPL: enum
 TPHAOUPLGS: enumeration
 TPHAOUPLT: enumerate
 #SW*EUFP         : SWITCH{^}
+#T*ERPB : TERNARY{^}
 ```
 
 ### Regex

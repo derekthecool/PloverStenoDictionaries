@@ -225,8 +225,6 @@ TPHOEUL            :  NULL
 PR*EUF             :  {^}printf(\"{^}
 TPR*EUF            :  {^}fprintf(stderr, \"{^}
 KHROET             :  {^}\",{^ ^}  # Klote... Closing quote with comma
-KPHAEUBG           :  cmake
-KPHAEUBG/KPHAEUBG  :  CMakeLists.txt
 TP/TP              :  {^}\#if
 EFPBD              :  {^}\#endif\\n
 *EFPBD             :  {^}\#endif
@@ -241,6 +239,21 @@ TOEUF : typedef
 TAOEUP/TKEF : typedef
 SOF : sizeof
 #SO*F : {^}SIZEOF # Meant to trigger a snippet for sizeof
+T*ERPB : ternary
+```
+
+### Cmake
+
+```yaml
+KPHAEUBG           :  cmake
+KPHAEUBG/KPHAEUBG  :  CMakeLists.txt
+```
+
+#### Common Command Line Cmake Options
+
+```yaml
+KPHAEUBG/EBG : -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+KPHAEUBG/KPAOEUL : -DCMAKE_EXPORT_COMPILE_COMMANDS=1
 ```
 
 ### string.h
@@ -272,6 +285,7 @@ KROEUBG: calloc
 ```yaml
 23EUS : ESP32
 *EUFD : {^}idf.py
+*EUFD/KEUG: {^}idf.py menuconfig
 ```
 
 #### FreeRTOS

@@ -58,6 +58,7 @@ TKPWEUT/KEUG/HR*EUS: {^}git config --list
 TKPWEUT/TPH*EUT: {^}git init
 TKPWEUTD: {^}git add --verbose **{\#LEFT}{^}
 TKPW*EUFRB: {^}git stash
+TKPWA*RB: {^}git stash
 TKPWO*P: {^}git stash pop
 TKPWOP: {^}git stash pop
 TKPWEUT/STARB: {^}git stash
