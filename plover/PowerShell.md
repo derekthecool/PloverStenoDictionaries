@@ -355,6 +355,7 @@ TKPWET/TPAOEUL : Get-FileHash
 TKPWET/TPORPLT : Get-FormatData
 AUPTD/TPORPLT : Update-FormatData
 TKPWET/HEP : Get-Help
+TKPWEP: Get-Help
 TKPWET/HEUFT/REU : Get-History
 TKPWET/HOEFT : Get-Host
 TKPWET/AOEUPLT : Get-Item
@@ -362,6 +363,7 @@ TKPWET/AOEUPLT/PROPT : Get-ItemProperty
 TKPWET/SKWROB : Get-Job
 TKPWET/HROEBGS : Get-Location
 TKPWET/PHEB : Get-Member
+TKPWEPL: Get-Member
 TKPWET/PHAOULD : Get-Module
 TKPWET/PROEUS : Get-Process
 TKPWET/TKRAOEUF : Get-PSDrive
@@ -506,22 +508,4 @@ FirstNumber LastNumber
 
 ```yaml
 TPR/TEGT : ConvertFrom-Text
-```
-
-## Added by Plover
-
-```yaml
-TKPWEP: Get-Help
-TPH-PBG: npx
-SRERT: convert
-SR*ERT: Convert
-TP-Z: fzf
-TKPWEBGS/TKPWEBGS: regular expression
-TKPWEBGS/TKPWEBGS/TKPWEBGS: System.Text.RegularExpressions
-TKPWEPL: Get-Member
-STKPWUR: Azure
-URL: url
-KPOEPLT: component
-STK*BG: SDK
-STK-BG/KEUG: sdkconfig
 ```

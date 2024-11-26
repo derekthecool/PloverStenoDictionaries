@@ -296,6 +296,14 @@ TROS/TROS: real time operating system
 TPROS: FreeRTOS
 ```
 
+## Assembly
+
+```yaml
+S*EPL: assembly
+KWREUBG : x86-64
+KWR*EUBG : x86
+```
+
 ## Databases
 
 ### General
@@ -955,4 +963,15 @@ STK-BG: sdk
 TKPWRAEULD: gradle
 KWRART: UART
 P*EFT: pytest
+TPH-PBG: npx
+SRERT: convert
+SR*ERT: Convert
+TP-Z: fzf
+TKPWEBGS/TKPWEBGS: regular expression
+TKPWEBGS/TKPWEBGS/TKPWEBGS: System.Text.RegularExpressions
+STKPWUR: Azure
+URL: url
+KPOEPLT: component
+STK*BG: SDK
+STK-BG/KEUG: sdkconfig
 ```
