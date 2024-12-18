@@ -140,4 +140,5 @@ TW*EUL: twilio
 "*EFP": esp
 TPRAOES/PW-RB: FreeusPowershell
 SPHOED: {^}set_mcu_mode
+KW-BGD: QXDM
 ```

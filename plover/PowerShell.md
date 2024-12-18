@@ -77,6 +77,10 @@ R*PL/R*PL           : {^}Remove-Item -Recurse -Force {^ ^}
 AUPT                : {^}APPDATA{^}
 A*UPT               : {^}LOCALAPPDATA{^}
 AOEF                : {^}$env:{^}
+HR*S/SRAOEUPLT      : {^}Get-ChildItem env:{^}
+HR*S/AOEF           : {^}Get-ChildItem env:{^}
+KHR*EUP : Set-Clipboard
+KHR*EUP/KHR*EUP : Get-Clipboard
 AOEF/AOEF           : {^}$env:APPDATA{^}
 AOEF/AOEF/AOEF      : {^}$env:LOCALAPPDATA{^}
 AOEF/AOEF/AOEF/AOEF : {^}$env:USERPROFILE{^}

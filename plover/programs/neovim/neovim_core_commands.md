@@ -120,6 +120,7 @@ TKHRAO*ET      :  ^dd^ # Delete line
 *PL            :  {^},Td{^} # Variation for terminal scrolling
 -PL            :  {^}{\#Control_R(d)}{^} # easy control + d for down scroll
 #SR-RS         :  {^}{\#Control_R(backslash)}{\#Control_R(n)}{^}
+#SR*RS         :  {\#Control_R(backslash)}{\#Control_R(n)}
 STPA           :  {\#Escape}{^zzz^} # Mapped in vim to :update<CR>
 STPA/STPA      :  {^}{\#Escape}:w\\n{^} # Twice for a forced write to single file
 STPHA          :  {\#Escape}{^ZZ^}

@@ -101,12 +101,10 @@ W-LS : wsl
 Used by Ubuntu and many more
 
 ```yaml
+APT: {^}sudo apt -y
 APT/APT: {^}sudo apt update && sudo apt upgrade -y
+A*PT: {^}apt -y
 A*PT/A*PT: {^}apt update && apt upgrade -y
-APT/APT/APT: {^}sudo apt upgrade -y
-A*PT/A*PT/A*PT: {^}apt upgrade -y
-APT/APT/APT/APT: {^}sudo apt update
-A*PT/A*PT/A*PT/A*PT: {^}apt update
 ```
 
 ### apk
@@ -282,10 +280,22 @@ KROEUBG: calloc
 
 #### ESP32
 
+Main commands
+
 ```yaml
 23EUS : ESP32
 *EUFD : {^}idf.py
 *EUFD/KEUG: {^}idf.py menuconfig
+```
+
+Other lesser used commands. To make it easy let's have them start with
+`idf.py` even though they do not use that. I see `idf.py` as the
+main ESP32 command-line tool so it makes sense to me.
+
+```yaml
+*EUFD/TPAOUS: espefuse.py
+*EUFD/TAOL: esptool.py
+*EUFD/SKUR: espsecure.py
 ```
 
 #### FreeRTOS
@@ -796,6 +806,9 @@ AO*ERPBT: ethernet
 PHAO*U: MCU
 KPHRORL: microcontroller
 TKAEUPL: daemon
+PWAUD: baud
+PWA*UD: 115200 # Common baud rate
+PWA*UD/PWA*UD: 9600 # Common baud rate
 ```
 
 ## [Exercism](https://exercism.org/)
@@ -974,4 +987,5 @@ URL: url
 KPOEPLT: component
 STK*BG: SDK
 STK-BG/KEUG: sdkconfig
+PWHRAORD: bootloader
 ```
