@@ -758,6 +758,9 @@ TKPWET/WERPL/SOEUD: curl -sL https://api.github.com/repos/wez/wezterm/releases/l
 #### Command macros
 
 ```yaml
+H                    : {^}~/{^}
+H/H                  : {^}$HOME/{^}
+H/H/H                : {^}192.168.{^}
 HO*EPL               : {^}~/{^}
 HO*EPL/HO*EPL        : {^}$HOME/{^}
 HO*EPL/HO*EPL/HO*EPL : {^}192.168.{^}

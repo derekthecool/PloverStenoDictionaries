@@ -9,6 +9,7 @@ PW-FPL      : {\#Delete}
 PW*FPL      : {\#Control(Delete)}  # Delete forward by word
 PW-FPL      : {\#Delete}
 R-R         : {MODE:RESET}{^\\n}{^} # Normal enter method
+*F          : {MODE:RESET}{^\\n}{^} # Normal enter method, but easily done with one hand
 #R-R        : {^\\n}{^} # Back up method that does not reset mode
 R-RB        : {MODE:RESET}{\#Shift_L(Return)}{^} # Good for teams and discord for multiline messages
 R*R         : {^\\n}{^}{-|} # Single new line with making next word capitalized
