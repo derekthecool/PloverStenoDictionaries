@@ -61,6 +61,9 @@ SOB : Sort-Object \\{{$_
 -RPBLS : $_.{^}
 SPWEL : $(){\#Left}{^} # Easy subshell. Used for doing things like this echo "$(ls)"
 KOFB : [PSCustomObject]@\\{\\}{\#Left}{^}
+S-S: "Select-String ''{#Left}{^}"
+S-LS: "Select-String ''{#Left}{^}"
+PH-PLD: Import-Module -Force ./\\n
 ```
 
 ## Other Powershell Items

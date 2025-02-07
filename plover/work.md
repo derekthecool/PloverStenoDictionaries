@@ -142,4 +142,5 @@ TPRAOES/PW-RB: FreeusPowershell
 SPHOED: {^}set_mcu_mode
 KW-BGD: QXDM
 -B/-B/U: B2BUA
+"*UTS": UTS
 ```

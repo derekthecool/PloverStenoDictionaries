@@ -26,6 +26,9 @@ KW-B        : {\#Down}{^} # Replaces "," not unique no issue
 KW-G        : {\#Right}{^} # Replaces "requesting" use KW/-G instead
 KW*BG       : {\#Control_L(Right)}{^} # Does not replace anything
 KW-P        : {\#Up}{^} # Does not relace anything
+-RS         : {\#Control_L(c)}{^} # Control + c (for copy)
+-FT         : {\#Control_L(v)}{^} # Control + v (for paste)
+*FT         : {\#Control_L(\#Shift_L(v))}{^} # Control + Shiftrby nearby + v (for special terminal paste or web programs to paste without formatting) (TODO: (Derek Lomax) 1/15/2025 3:02:55 PM, this needs some work
 ```
 
 ## Plover Control

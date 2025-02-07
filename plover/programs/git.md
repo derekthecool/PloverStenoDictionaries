@@ -69,9 +69,15 @@ TKPW*EULG: {^}git log --oneline --decorate --all --graph
 TKPWEUT/HRO*G: {^}git log --oneline --decorate --all --graph
 TKPWEUT/HROG: {^}git log
 STA*RS: {^}**{\#LEFT}{^}
+TKPWEUT/KHEUBG : git cherry-pick
+```
+## Git Worktrees
+
+```yaml
+TKPWRAO*E : git worktree
 ```
 
-Dot files git commands
+## Dot files git commands
 
 ```yaml
 TK*EUPLT: {^}dot commit --message=\"{^}
@@ -84,7 +90,7 @@ TKEUTD: {^}dot add --verbose **}{\#LEFT}{^}
 TK*EUTD: {^}dot add --verbose .
 ```
 
-Commands from Paul Fioravanti's dictionary
+## Commands from Paul Fioravanti's dictionary
 
 ```PaulsGit
 "TKPW*EUD": "{^git diff --ignore-all-space}"                                                                                      # GIt Diff

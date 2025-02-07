@@ -31,7 +31,7 @@ symbols = {
         # typable symbols
         "FR": ["!", "¬", "↦", "¡"],
         "FP": ['"', "“", "”", "„"],
-        "FRLG": ["#", "©", "®", "™"],
+        "FRLG": ["#", "©", "®", "#{MODE:TITLE}"],
         "RPBL": ["$", "¥", "€", "$_"], # The last one here is for the powershell pipe $_ variable
         "FRPB": ["%", "‰", "‱", "φ"],
         "FBG": ["&", "∩", "∧", "∈"],

@@ -195,4 +195,7 @@ TPHAOELS: Neilson
 TPHAOEL/SOPB: Neilson
 T-FS: tsp
 T-FB: tbsp
+PAOEUPBL: pineapple
+STPHA*UL: uninstall
+TKPWA*L: gmail
 ```

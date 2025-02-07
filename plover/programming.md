@@ -719,6 +719,7 @@ KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D       :  {^}cd ../..
 KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D/KR*D  :  {^}cd ../../../../../../../../../../../../{^}
 KR-P                                                              :  {^}cp {^ ^}
 PH*F                                                              :  {^}mv {^ ^}
+PH-F                                                              :  {^}mv {^ ^}
 R-PL                                                              :  {^}rm {^ ^}
 R-PL/R-PL                                                         :  {^}rm -rf{^ ^}
 PH-BG/TKEUR                                                       :  {^}mkdir {^ ^}
@@ -898,14 +899,16 @@ STP-PT: SFTP
 STP-PT/STP-PT: sftp
 STP-PT/STP-PT/STP-PT: sftp://
 STP-PT/STP-PT/STP-PT/STP-PT: Secure File Transfer Protocol (SFTP)
-HAO*EPT: HTTP
-HAO*EPT/HAO*EPT: http
-HAO*EPT/HAO*EPT/HAO*EPT: http://
-HAO*EPT/HAO*EPT/HAO*EPT/HAO*EPT: Hypertext Transfer Protocol (HTTP)
-HAO*EPTS: HTTPS
-HAO*EPTS/HAO*EPTS: https
-HAO*EPTS/HAO*EPTS/HAO*EPTS: https://
-HAO*EPTS/HAO*EPTS/HAO*EPTS/HAO*EPTS: Hypertext Transfer Protocol (HTTPS)
+HAOEPT: http
+HAOEPT/HAOEPT: HTTP
+HAOEPT/HAOEPT/HAOEPT: http://
+HAOEPT/HAOEPT/HAOEPT/HAOEPT: Hypertext Transfer Protocol (HTTP)
+HAO*EPT: http://
+HAOEPTS: https
+HAOEPTS/HAOEPTS: HTTPS
+HAOEPTS/HAOEPTS/HAOEPTS: https://
+HAOEPTS/HAOEPTS/HAOEPTS/HAOEPTS: Hypertext Transfer Protocol (HTTPS)
+HAO*EPS: https://
 ```
 
 ## Wireshark
@@ -960,7 +963,6 @@ S*EUD: obsidian
 KOT: kotlin
 UTS: UTC
 KRO*PL: COM
-SHREBGT/STREUPBG: "Select-String '"
 TKAE/PHOPB: daemon
 TPH*EUG: nginx
 TO*PL: toml
@@ -991,4 +993,6 @@ KPOEPLT: component
 STK*BG: SDK
 STK-BG/KEUG: sdkconfig
 PWHRAORD: bootloader
+23EUS/23EUS: Espressif
+SKR-P: scp
 ```
