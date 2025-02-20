@@ -214,6 +214,7 @@ TK*EUTD: {^}dot add --verbose .
 
 ```yaml
 TKPWH: gh
+PR: pr
 ```
 
 ## [commitizen](https://commitizen-tools.github.io/commitizen/)

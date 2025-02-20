@@ -321,6 +321,8 @@ KWR*EUBG : x86
 ```yaml
 SKW*L: sql
 SKW-L: sql
+TKPWRAO*EU: group by
+TKPWRAO*EU/TKPWRAO*EU: GROUP BY
 ```
 
 ### MySQL
@@ -868,7 +870,7 @@ Plover delay plugin could help me get down to one stoke but two is fine for now.
 KHRA*RB : {\#Alt(a)}{\#Escape}:%y+\\n # Select my first monitor is input keys to copy my entire buffer
 KHRA*RB/KHRA*RB : {\#Alt(o)}{\#Control(a)}{\#Control(v)}
 KHRA*RB/KHRA*RB/KHRA*RB : {\#Control(Shift(return))}{\#Alt(a)} # Select second monitor and replace old text with new and run the tests
-KHRA*RBS : {\#Alt(a)}{\#Escape}:%y+\\n{PLOVER:DELAY:0.4}{\#Alt(o)}{\#Control(a)}{\#Control(v)}{PLOVER:DELAY:0.4}{\#Control(Shift(return))}{\#Alt(a)}
+KHRA*RBS : {\#Escape}:%y+\\n{PLOVER:DELAY:0.4}{\#Alt(a)}{\#Control(a)}{\#Control(v)}{PLOVER:DELAY:0.4}{\#Control(Shift(return))}{\#Alt(a)}
 KHRA*RBD : {\#Alt(2)}{\#Escape}:%y+\\n{PLOVER:DELAY:0.4}{\#Alt(1)}{\#Control(a)}{\#Control(v)}{PLOVER:DELAY:3.0}{\#Control(Shift(return))}{\#Alt(2)}
 STKPWHR-S: {PLOVER:DELAY:0.1}D{PLOVER:DELAY:0.1}e{PLOVER:DELAY:0.1}r{PLOVER:DELAY:0.1}e{PLOVER:DELAY:0.1}k
 ```
