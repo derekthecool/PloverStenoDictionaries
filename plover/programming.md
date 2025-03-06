@@ -34,7 +34,7 @@ WAEURS: workspacer
 #### [scoop](https://scoop.sh/)
 
 ```yaml
-TKPW*ET/SKAOP : Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+TKPW*ET/SKAOP: Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
 ## Containerization Applications
@@ -112,7 +112,7 @@ A*PT/A*PT: {^}apt update && apt upgrade -y
 Used by alpine Linux
 
 ```yaml
-AFBG : apk
+AFBG: apk
 ```
 
 ## Technical Jargon
@@ -243,15 +243,15 @@ T*ERPB : ternary
 ### Cmake
 
 ```yaml
-KPHAEUBG           :  cmake
-KPHAEUBG/KPHAEUBG  :  CMakeLists.txt
+KPHAEUBG: cmake
+KPHAEUBG/KPHAEUBG: CMakeLists.txt
 ```
 
 #### Common Command Line Cmake Options
 
 ```yaml
-KPHAEUBG/EBG : -DCMAKE_EXPORT_COMPILE_COMMANDS=1
-KPHAEUBG/KPAOEUL : -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+KPHAEUBG/EBG: -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+KPHAEUBG/KPAOEUL: -DCMAKE_EXPORT_COMPILE_COMMANDS=1
 ```
 
 ### string.h
@@ -310,8 +310,8 @@ TPROS: FreeRTOS
 
 ```yaml
 S*EPL: assembly
-KWREUBG : x86-64
-KWR*EUBG : x86
+KWREUBG: x86-64
+KWR*EUBG: x86
 ```
 
 ## Databases
@@ -328,32 +328,31 @@ TKPWRAO*EU/TKPWRAO*EU: GROUP BY
 ### MySQL
 
 ```yaml
-PHAOEUFBG : mysql # one stroke
+PHAOEUFBG: mysql # one stroke
 PHEU/SKW-L: mysql
 PHEU/SKW*L: MySQL
-PHAOEUFBG/TKPWRAPBT : GRANT ALTER, ALTER ROUTINE, CREATE, CREATE ROUTINE, CREATE TEMPORARY TABLES, CREATE VIEW, DELETE, DROP, EVENT, EXECUTE, INDEX, INSERT, LOCK TABLES, REFERENCES, SELECT, SHOW VIEW, TRIGGER, UPDATE
+PHAOEUFBG/TKPWRAPBT: GRANT ALTER, ALTER ROUTINE, CREATE, CREATE ROUTINE, CREATE TEMPORARY TABLES, CREATE VIEW, DELETE, DROP, EVENT, EXECUTE, INDEX, INSERT, LOCK TABLES, REFERENCES, SELECT, SHOW VIEW, TRIGGER, UPDATE
 ```
 
 ### Maria DB
 
 ```yaml
-PHARB : mariadb
-PHAR/TK-B : mariadb
-PHAR/KWRA/TK*/PW* : mariadb
+PHARB: mariadb
+PHAR/TK-B: mariadb
+PHAR/KWRA/TK*/PW*: mariadb
 ```
 
 ### Postgresql
 
 ```yaml
-TKPWRES : postgresql
+TKPWRES: postgresql
 ```
 
 ### Microsoft Sql Server
 
 ```yaml
-SKWEFR: sql server
-SKWEFR/SKWEFR: sqlserver
-SKWEFR/SKWEFR/SKWEFR: sqlserver
+SKWEFR: sqlserver
+SKWEFR/SKWEFR: sql server
 PH-S/SKW-L: mssql
 PH-S/SKW*L: MSSQL
 ```
@@ -978,7 +977,7 @@ TKPWEBGS: regex
 SHR-PB: sln
 PH-P: mpv
 PH-P/PH-P: mpv --shuffle{^ ^}
-"*URL": uri
+'*URL': uri
 STK-BG: sdk
 TKPWRAEULD: gradle
 KWRART: UART
@@ -997,4 +996,9 @@ STK-BG/KEUG: sdkconfig
 PWHRAORD: bootloader
 23EUS/23EUS: Espressif
 SKR-P: scp
+ST*ER: register
+TKUT: dut
+TK*FT: dvt
+P*FT: pvt
+'*EFT': evt
 ```

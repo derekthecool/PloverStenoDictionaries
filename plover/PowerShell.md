@@ -516,3 +516,9 @@ FirstNumber LastNumber
 ```yaml
 TPR/TEGT : ConvertFrom-Text
 ```
+
+## Added by Plover
+
+```yaml
+TKPWAPLD: Get-Command
+```
