@@ -25,7 +25,8 @@ function Install-Plugins {
         [string[]]$Plugins
     )
     foreach ($plugin in $Plugins) {
-        $command = "$PloverAppImagePath -s plover_plugins install $plugin"
+        $command = "& '$PloverAppImagePath' -s plover_plugins install $plugin"
+        Write-Host "command: [$command]"
         Invoke-Expression $command
     }
 }
@@ -44,7 +45,7 @@ function Install-PloverPlugins {
         return 1
     }
 
-    $PluginInstallFile = "$PSScriptRoot/plugins_list.txt"
+    $PluginInstallFile = "$PSScriptRoot/../plugins_list.txt"
 
     try {
         $plugins = Read-PluginInstallFile -FilePath $PluginInstallFile
