@@ -143,4 +143,9 @@ SPHOED: {^}set_mcu_mode
 KW-BGD: QXDM
 -B/-B/U: B2BUA
 "*UTS": UTS
+TKPWEFL: log_level
+PWEBG/HREFR: Becklar
+PWEBG/HRAR: Becklar
+TA*P: test_app
+TKA*P: device_app
 ```

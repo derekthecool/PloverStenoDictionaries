@@ -198,4 +198,6 @@ T-FB: tbsp
 PAOEUPBL: pineapple
 STPHA*UL: uninstall
 TKPWA*L: gmail
+TAEU: Atelier
+K*EBGT: disconnect
 ```

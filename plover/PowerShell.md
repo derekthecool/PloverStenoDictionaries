@@ -521,4 +521,5 @@ TPR/TEGT : ConvertFrom-Text
 
 ```yaml
 TKPWAPLD: Get-Command
+TA*T: Test-Path
 ```

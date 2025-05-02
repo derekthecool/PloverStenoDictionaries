@@ -465,6 +465,7 @@ HAO*UG/HAO*UG/HAO*UG : hugo server --bind $(hostname -I | tr -d \' \') --baseURL
 ### General
 
 ```yaml
+R*UPB: {^}{\#Control(Shift(v))}}\\n{^}
 T*ERPL             :  terminal
 KWOEUBG            :  {^}qmk
 KHRAO*EU           :  cli
@@ -1002,4 +1003,5 @@ TK*FT: dvt
 P*FT: pvt
 '*EFT': evt
 A/KOUPBTS: accounts
+KPHAPBD/HRAOEUPB: command line
 ```
