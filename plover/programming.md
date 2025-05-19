@@ -661,9 +661,6 @@ STKPW*FPLTD : {^ ^}-Z
 STKPW*RBGSZ : {^ ^}-z
 ```
 
-bash -A -B -C -D -E -F -G -H -I -J -K -L -M -N -O -P -Q -R -S -T -U -V -W -X -Y -Z
-grep -a -b -c -d -e -f -g -h -i -j -k -l -m -n -o -p -q -r -s -t -u -v -w -x -y -z
-
 #### Bash Scripting
 
 ```yaml
@@ -763,14 +760,13 @@ TKPWET/WERPL/SOEUD: curl -sL https://api.github.com/repos/wez/wezterm/releases/l
 ```yaml
 H                    : {^}~/{^}
 H/H                  : {^}$HOME/{^}
-H/H/H                : {^}192.168.{^}
 HO*EPL               : {^}~/{^}
 HO*EPL/HO*EPL        : {^}$HOME/{^}
-HO*EPL/HO*EPL/HO*EPL : {^}192.168.{^}
+TPH*ERBG             : {^}192.168.{^} # Network for IP
 AUBG/AUBG            : {^}awk \'\\{print $1\\}\'{^ ^}
 AUBG/AUBG/AUBG       : {^}awk \'/search/ \\{print $1\\}\'{^}
-PHO*FBG              : {^}mosquitto_sub -h \"192.168.100.35\" -t \"topic\"
-PHOFBG               : {^}mosquitto_pub -h \"192.168.100.35\" -t \"topic\" -m \"Hi\"
+PHO*FBG              : {^}mosquitto_sub
+PHOFBG               : {^}mosquitto_pub
 TO*P                 : htop
 ```
 
@@ -1004,4 +1000,5 @@ P*FT: pvt
 '*EFT': evt
 A/KOUPBTS: accounts
 KPHAPBD/HRAOEUPB: command line
+TK-L: download
 ```

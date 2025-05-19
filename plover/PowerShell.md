@@ -54,6 +54,7 @@ TPROB/TPROB : %\\{{$_
 WOB : Where-Object \\{{$_
 WOB/WOB : ?\\{{$_
 SHROB : Select-Object -{^}{-|}
+SHROB/SHROB : Select-Object -ExpandProperty
 TKPWROB : Group-Object \\{{$_
 PHO*B : Measure-Object
 SOB : Sort-Object \\{{$_
@@ -64,6 +65,10 @@ KOFB : [PSCustomObject]@\\{\\}{\#Left}{^}
 S-S: "Select-String ''{#Left}{^}"
 S-LS: "Select-String ''{#Left}{^}"
 PH-PLD: Import-Module -Force ./\\n
+TKPWAPLD: Get-Command
+TKPWAPLD/TKPWAPLD: Get-Command -Module
+TKPWA*PLD: Get-Command -Module
+TA*T: Test-Path
 ```
 
 ## Other Powershell Items
@@ -520,6 +525,5 @@ TPR/TEGT : ConvertFrom-Text
 ## Added by Plover
 
 ```yaml
-TKPWAPLD: Get-Command
-TA*T: Test-Path
+KPAPBD/KPAPBD: ExpandProperty
 ```
