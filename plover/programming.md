@@ -697,7 +697,7 @@ HAEUPL/KR-LT : hostnamectl
 KHOD : chmod +x{^ ^}
 KPHOD : chmod +x{^ ^}
 HR*S : ls
-HR*S/HR*S : ls -la
+HR*S/HR*S : ls -Recurse
 HR*Z : ls\\n
 TAR : tar xzvf
 TAR/TAR : tar czvf
@@ -931,6 +931,7 @@ TARBG: termshark
 
 ```yaml
 HROEFT: localhost
+HROEFT/HROEFT: 127.0.0.1
 PW*RB: pwsh
 AO*URS: {^}usr
 KWRAPL: {^}yaml
@@ -1001,4 +1002,9 @@ P*FT: pvt
 A/KOUPBTS: accounts
 KPHAPBD/HRAOEUPB: command line
 TK-L: download
+PHERPBG: merge
+P-R: pr
+P-R/P-R: pull request
+P*R: PR
+P*R/P*R: pull request
 ```

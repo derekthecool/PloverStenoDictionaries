@@ -148,4 +148,6 @@ PWEBG/HREFR: Becklar
 PWEBG/HRAR: Becklar
 TA*P: test_app
 TKA*P: device_app
+TPRA*: errloga.txt
+TPR*B: errlogb.txt
 ```

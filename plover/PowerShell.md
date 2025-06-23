@@ -94,7 +94,7 @@ AOEF/AOEF/AOEF      : {^}$env:LOCALAPPDATA{^}
 AOEF/AOEF/AOEF/AOEF : {^}$env:USERPROFILE{^}
 KR-LG : "C:{#Backslash}{^}"
 TK-LG : "D:{#Backslash}{^}"
-AOELG : "E:{#Backslash}{^}"
+ELG : "E:{#Backslash}{^}"
 TP-LG : "F:{#Backslash}{^}"
 TKPW-LG : "G:{#Backslash}{^}"
 P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
@@ -330,8 +330,7 @@ KWERT/PA*T : Convert-Path
 TPR/SKR-F : ConvertFrom-Csv
 TPR/SKWR-FPB : ConvertFrom-Json
 TPR/SKUR : ConvertFrom-SecureString
-TPR/KPOEPL : ConvertFrom-Xml
-TPR/KPAOEPL : ConvertFrom-Xml
+TPR/KPH-L : ConvertFrom-Xml
 O/SKR-F : ConvertTo-Csv
 O/HAOEPLT : ConvertTo-Html
 O/SKWR-FPB : ConvertTo-Json
@@ -526,4 +525,5 @@ TPR/TEGT : ConvertFrom-Text
 
 ```yaml
 KPAPBD/KPAPBD: ExpandProperty
+TKPWAOEUP: .GetType()
 ```

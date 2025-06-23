@@ -42,6 +42,7 @@ RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
 
 ```yaml
 TKPW*EUFT : {^}git fetch upstream
+TKPWEUT/SET/TPEFP: 'git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"' # git set fetch to help bear repositories work with remotes properly
 TKPW*EUPLT: {^}git commit --amend
 TKPW*EUPLTD: {^}git commit --amend --no-edit
 TKPWEUP: {^git push\\n}
