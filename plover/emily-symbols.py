@@ -32,7 +32,8 @@ symbols = {
         "FR": ["!", "¬", "↦", "¡"],
         "FP": ['"', "“", "”", "„"],
         "FRLG": ["#", "©", "®", "#{MODE:TITLE}"],
-        "RPBL": ["$", "¥", "€", "$_"], # The last one here is for the powershell pipe $_ variable
+        # The last one here is for the powershell pipe $_ variable
+        "RPBL": ["$", "¥", "€", "$_"],
         "FRPB": ["%", "‰", "‱", "φ"],
         "FBG": ["&", "∩", "∧", "∈"],
         "F": ["'", "‘", "’", "‚"],
@@ -105,11 +106,38 @@ symbols = {
     uniqueStarters[1]: {  # custom
         # add your own strokes here (or above, or wherever else you like)!
         # Pairs of brackets
-        "FPL": ["()", "[]", "<>", "\{\}"],
+        # "FPL": ["()", "[]", "<>", "\{\}"],
 
-                        # Powershell helpers
-        "FPB": ["ForEach-Object \{\}{#Left}", "¿", "∝", "| ForEach-Object \{\}{#Left}"],
-        "FRPB": ["Where-Object \{\}{#Left}", "¿", "∝", "| Where-Object \{\}{#Left}"],
+        # Powershell elpers
+        # logic for my placement
+        # absence of E and U is positive logic
+        # E and U is negative logic
+        # E is alternate negative logic
+        # U is alternate positive logic
+
+        # like symbol =
+        "PBLG": ["-eq", "-cne", "-ceq", "-ne"],
+        # "FR": ["-ne", "-ine", "-cne", ""],
+
+        # like symbol ) but thought of as >
+        "RBG": ["-gt", "-le", "-ge", "-lt"],
+        # "FPL": ["-lt", "-le", "-clt", "-cle"],
+
+        "BLG": ["-like", "-cnotlike", "-clike", "-notlike"],
+
+        # just like letter m
+        "PL": ["-match", "-cnotmatch", "-cmatch", "-notmatch"],
+
+        # RP like replace
+        "RP": ["-replace", "", "-creplace", ""],
+
+        # PB like N
+        "PB": ["-in", "-cnotin", "-cin", "-notin"],
+
+        # like symbol @
+        "FRPBLG": ["-contains", "-cnotcontains", "-ccontains", "-notcontains"],
+
+        "F": ["-is", "", "", "-isnot"],
 
         # Date and time commands
         # Needs plover_current_time plugin

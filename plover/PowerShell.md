@@ -55,9 +55,9 @@ WOB : Where-Object \\{{$_
 WOB/WOB : ?\\{{$_
 SHROB : Select-Object -{^}{-|}
 SHROB/SHROB : Select-Object -ExpandProperty
-TKPWROB : Group-Object \\{{$_
+TKPWROB : Group-Object {^}{^ ^}{-|}
 PHO*B : Measure-Object
-SOB : Sort-Object \\{{$_
+SOB : Sort-Object {^}{-|}
 -RPBL : $_
 -RPBLS : $_.{^}
 SPWEL : $(){\#Left}{^} # Easy subshell. Used for doing things like this echo "$(ls)"
@@ -70,6 +70,10 @@ TKPWAPLD/TKPWAPLD: Get-Command -Module
 TKPWA*PLD: Get-Command -Module
 TA*T: Test-Path
 ```
+
+## Logcal Operaters And Others Like `-eq`
+
+See [emily-symbols.py](./emily-symbols.py), there are too many variations
 
 ## Other Powershell Items
 
