@@ -84,6 +84,7 @@ P-PL : {^},gj{^}
 P-FP : {^},gk{^}
 TKPWUGT : {^}g?p{^} # Debug print plugin current line
 TKPWUGS : {^}g?v{^} # Debug print plugin current variable
+-FPLT : {^}{\#Control_L(Slash)}{^} # Toggle terminal
 ```
 
 ## LSP Commands
