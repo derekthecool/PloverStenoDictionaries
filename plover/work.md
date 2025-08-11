@@ -150,4 +150,6 @@ TA*P: test_app
 TKA*P: device_app
 TPRA*: errloga.txt
 TPR*B: errlogb.txt
+O*ET: ota
+O*ET/O*ET: OTA
 ```

@@ -19,9 +19,9 @@ See [neovim_core_commands](./neovim_core_commands.md#G Commands)
 for similar mappings for neovim core commands like `gg`.
 
 ```yaml
-K-PL: "{^gcc^}" # Comment current line in line wise style
-K-PLT: "{^gcip^}" # Comment current block in a line wise style
-K*PL: "{^gbc^}" # Comment current line in block wise style
+K-PL: '{^gcc^}' # Comment current line in line wise style
+K-PLT: '{^gcip^}' # Comment current block in a line wise style
+K*PL: '{^gbc^}' # Comment current line in block wise style
 ```
 
 I've mapped more of the comment commands this plugin can do using the Emily's
@@ -38,7 +38,7 @@ block, the markdown dictionary plugin only works with an empty syntax or yaml)
 ## My Plugins
 
 ```yaml
-TOG: "{^,nB^}" # Boolean toggle
+TOG: '{^,nB^}' # Boolean toggle
 ```
 
 ## Personal mappings That Need To Be Ultra Fast
@@ -72,39 +72,53 @@ T-FT               :  {^}`ui{^} # Test shorter alternative
 
 ```yaml
 KH*EBGD            :  {^},vl{^} # Mark down check box
-TRAO*E             :  {^},fe{^} # File tree toggle
-TRAO*ES            :  {^},ft{^} # Telescope file browser
-KW*EUBG            :  {^},la{^} # LSP code action version 1
-KWO*EUBG           :  {^},lb{^} # LSP code action version 2
-TPO*RPLT           :  {^},lf{^} # Format code
 PHRA*US            :  {^}vip:s/{^}   # 'plahs' for selecting paragraph and start replace
 HRA*US             :  {^}gv:s/{^}    # 'lahs' for selecting previous selection and start replace
-TPAO*EUL           :  {^},fF{^} # File search
-TKPWAO*EUL         :  {^},fG{^} # (Guiles) File search for git files
-PW*UFR             :  {^},fb{^} # Search buffers
-TKPWR*EP           :  {^},fg{^} # Grep files command
-TKPWR*EPS          :  {^},fs{^} # Grep string under cursor
-HOEUP              :  {^},fh{^} # Grep files command
 HRA*EZ             :  {^},aa{^} # Lazy (package manager)
 HRO*EDZ         :  {^},ac{^} # Reload my entire neovim config
 TPHO*ET         :  {^},ad{^} # Show recent notifications
 PHR*EPB       : {^},dP{^} # Run plenary tests for neovim plugins
 WRAO          : {^}]d{^} # Forward to next diagnostic
 KWAO          : {^}[d{^} # Backward to previous diagnostic
-SKO*EP        : {^},ff{^} # Open telescope general prompt
-TP*UZ        : {^},fz{^} # Open telescope fuzzy find current buffer
-KPHA*PBD      : {^},fc{^} # Telescope open command history
-TA*EUP : {^},nt{^} # Toggle tapey-tape-plugin
-TKPW*EUTS : {^},fS{^} # Telescope git status search
-SR*EUPL : {^},fv{^} # Telescope nvim config directory
-SR*EUPLS : {^},fV{^} # Telescope live grep nvim config directory
-PHRO*F : {^},fp{^} # Telescope Plover dictionary directory
-PHRO*FS : {^},fP{^} # Telescope live grep Plover dictionary directory
 P-PL : {^},gj{^}
 P-FP : {^},gk{^}
-HRAO*EUPBS : {^},ll{^} # LSPlines plugin toggle
 TKPWUGT : {^}g?p{^} # Debug print plugin current line
 TKPWUGS : {^}g?v{^} # Debug print plugin current variable
+```
+
+## LSP Commands
+
+```yaml
+KW*EUBG            :  {^},ca{^} # LSP code action
+TPO*RPLT           :  {^},lf{^} # Format code
+```
+
+## File Commands
+
+```yaml
+TRAO*E             : {^},fe{^} # File tree toggle
+TRAO*ES            : {^},ft{^} # Telescope file browser
+TPAO*EUL           : {^},fF{^} # File search
+TPAO*EUG           : {^},fg{^} # Git files search
+TKPWAO*EUL         : {^},fg{^} # (Guiles) File search for git files
+PW*UFR             : {^},fb{^} # Search buffers
+TKPWR*EP           : {^},fg{^} # Grep files command
+TKPWR*EPS          : {^},fs{^} # Grep string under cursor
+HOEUP              : {^},fh{^} # Grep files command
+SKO*EP             : {^},ff{^} # Open telescope general prompt
+TP*UZ              : {^},fz{^} # Open telescope fuzzy find current buffer
+KPHA*PBD           : {^},fc{^} # Telescope open command history
+TKPW*EUTS          : {^},fS{^} # Telescope git status search
+SR*EUPL            : {^},fv{^} # Telescope nvim config directory
+SR*EUPLS           : {^},fV{^} # Telescope live grep nvim config directory
+PHRO*F             : {^},fp{^} # Telescope Plover dictionary directory
+PHRO*FS            : {^},fP{^} # Telescope live grep Plover dictionary directory
+```
+
+## My Plugins
+
+```yaml
+TA*EUP             : {^},nt{^} # Toggle tapey-tape-plugin
 ```
 
 ## [nvim-Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -113,11 +127,7 @@ TKPWUGS : {^}g?v{^} # Debug print plugin current variable
 
 ```yaml
 TREUT  : treesitter # Amazing smart parsing tool
-TR*EUT : {^},ab{^} # Open a live tree view of the current file, test queries, etc.
-T-PL   : {^},tnfs{^}
-T-FP   : {^},tpfs{^}
-T*PL   : {^},tnfe{^}
-T*FP   : {^},tpfe{^}
+TR*EUT : {^},uI{^} # Open a live tree view of the current file, test queries, etc.
 ```
 
 ## [Luasnip](https://github.com/L3MON4D3/LuaSnip)
@@ -182,26 +192,13 @@ PWO*D : {^}{\#Escape}:DBUIToggle\\n{^}
 ### [Harpoon](Harpoon)
 
 ```yaml
--FPL   : {^}{\#Escape},ha{^} # Add to harpoon
-*L     : {^}{\#Escape},hb{^} # Next harpoon item
-*F     : {^}{\#Escape},hc{^} # Previous harpoon item
-*P     : {^}{\#Escape},hp{^} # Pick harpoon item
-*FPL   : {^}{\#Escape},hP{^} # Pick harpoon item (editable)
-*R     : {^}{\#Escape},h1{^} # Go to harpoon item 1 (similar binary number picker to Emily's modifiers)
-*B     : {^}{\#Escape},h2{^} # Go to harpoon item 2
-*RB    : {^}{\#Escape},h3{^} # Go to harpoon item 3
-*G     : {^}{\#Escape},h4{^} # Go to harpoon item 4
-*RG    : {^}{\#Escape},h5{^} # Go to harpoon item 5
-*BG    : {^}{\#Escape},h6{^} # Go to harpoon item 6
-*RBG   : {^}{\#Escape},h7{^} # Go to harpoon item 7
-*S     : {^}{\#Escape},h8{^} # Go to harpoon item 8
-*RS    : {^}{\#Escape},h9{^} # Go to harpoon item 9
-*BS    : {^}{\#Escape},hA{^} # Go to harpoon item A
-*RBS   : {^}{\#Escape},hA{^} # Go to harpoon item B
-*GS    : {^}{\#Escape},hA{^} # Go to harpoon item C
-*RGS   : {^}{\#Escape},hA{^} # Go to harpoon item D
-*BGS   : {^}{\#Escape},hA{^} # Go to harpoon item E
-*RBGS  : {^}{\#Escape},hA{^} # Go to harpoon item F
+-FPL   : {^}{\#Escape},H{^} # Add to harpoon
+*P     : {^}{\#Escape},h{^} # Pick harpoon item
+*R     : {^}{\#Escape},1{^} # Go to harpoon item 1 (similar binary number picker to Emily's modifiers)
+*B     : {^}{\#Escape},2{^} # Go to harpoon item 2
+*RB    : {^}{\#Escape},3{^} # Go to harpoon item 3
+*G     : {^}{\#Escape},4{^} # Go to harpoon item 4
+*RG    : {^}{\#Escape},5{^} # Go to harpoon item 5
 ```
 
 ### Pairs Plugins

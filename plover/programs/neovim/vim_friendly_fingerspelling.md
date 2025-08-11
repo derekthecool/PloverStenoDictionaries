@@ -131,11 +131,3 @@ SWR*P      : {^}{-|}z{^}
 SWR*RBGS   : {>}{&z}
 SWR*FPLT   : {-|}{&z}
 ```
-
-## Added by Plover
-
-```yaml
-PW*UF: {^}buf{^}
-TPA*EUPL: filename
-PW*UFPB: bufnr
-```

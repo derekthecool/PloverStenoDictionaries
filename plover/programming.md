@@ -1008,4 +1008,12 @@ P-R/P-R: pull request
 P*R: PR
 P*R/P*R: pull request
 SP*ERBGT: spectre
+RART: restart
+S*EUPBG/TPHUS: synchronous
+SAO*EPBG/TPHOUS: synchronous
+SAO*EPBG/TPHUS: synchronous
+SAO*EPBG/TPH*US: asynchronous
+PW*UF: {^}buf{^}
+TPA*EUPL: filename
+PW*UFPB: bufnr
 ```
