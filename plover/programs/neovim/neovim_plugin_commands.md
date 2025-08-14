@@ -19,9 +19,9 @@ See [neovim_core_commands](./neovim_core_commands.md#G Commands)
 for similar mappings for neovim core commands like `gg`.
 
 ```yaml
-K-PL: '{^gcc^}' # Comment current line in line wise style
-K-PLT: '{^gcip^}' # Comment current block in a line wise style
-K*PL: '{^gbc^}' # Comment current line in block wise style
+K-PL: "{^gcc^}" # Comment current line in line wise style
+K-PLT: "{^gcip^}" # Comment current block in a line wise style
+K*PL: "{^gbc^}" # Comment current line in block wise style
 ```
 
 I've mapped more of the comment commands this plugin can do using the Emily's
@@ -38,7 +38,7 @@ block, the markdown dictionary plugin only works with an empty syntax or yaml)
 ## My Plugins
 
 ```yaml
-TOG: '{^,nB^}' # Boolean toggle
+TOG: "{^,nB^}" # Boolean toggle
 ```
 
 ## Personal mappings That Need To Be Ultra Fast
@@ -80,8 +80,8 @@ TPHO*ET         :  {^},ad{^} # Show recent notifications
 PHR*EPB       : {^},dP{^} # Run plenary tests for neovim plugins
 WRAO          : {^}]d{^} # Forward to next diagnostic
 KWAO          : {^}[d{^} # Backward to previous diagnostic
-P-PL : {^},gj{^}
-P-FP : {^},gk{^}
+P-PL : {^}]h{^} # Next git hunk
+P-FP : {^}[h{^} # Previous git hunk
 TKPWUGT : {^}g?p{^} # Debug print plugin current line
 TKPWUGS : {^}g?v{^} # Debug print plugin current variable
 -FPLT : {^}{\#Control_L(Slash)}{^} # Toggle terminal
@@ -103,8 +103,8 @@ TPAO*EUL           : {^},fF{^} # File search
 TPAO*EUG           : {^},fg{^} # Git files search
 TKPWAO*EUL         : {^},fg{^} # (Guiles) File search for git files
 PW*UFR             : {^},fb{^} # Search buffers
-TKPWR*EP           : {^},fg{^} # Grep files command
-TKPWR*EPS          : {^},fs{^} # Grep string under cursor
+TKPWR*EP           : {^},sg{^} # Grep files command
+TKPWR*EPS          : {^},sw{^} # Grep string under cursor
 HOEUP              : {^},fh{^} # Grep files command
 SKO*EP             : {^},ff{^} # Open telescope general prompt
 TP*UZ              : {^},fz{^} # Open telescope fuzzy find current buffer
@@ -159,7 +159,7 @@ TKPW*URB           :  {^},gP{^} # Git push (gush)
 TKPW*URB/TKPW*URB  :  {^}git push\\n
 TKPW*UL            :  {^},gp{^} # Git pull (gull)
 TKPW*UL/TKPW*UL    :  {^}git pull\\n
-TKPW*EUT           :  {^},g1{^} # Call primary git plugin in neovim
+TKPW*EUT           :  {^},gg{^} # Call primary git plugin in neovim
 TKPWO*EUT           :  {^},g2{^} # Call next git plugin in neovim
 TKPWA*EUT           :  {^},g3{^} # Call next git plugin in neovim
 ```
