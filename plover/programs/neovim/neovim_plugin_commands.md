@@ -105,7 +105,6 @@ TKPWAO*EUL         : {^},fg{^} # (Guiles) File search for git files
 PW*UFR             : {^},fb{^} # Search buffers
 TKPWR*EP           : {^},sg{^} # Grep files command
 TKPWR*EPS          : {^},sw{^} # Grep string under cursor
-HOEUP              : {^},fh{^} # Grep files command
 SKO*EP             : {^},ff{^} # Open telescope general prompt
 TP*UZ              : {^},fz{^} # Open telescope fuzzy find current buffer
 KPHA*PBD           : {^},fc{^} # Telescope open command history
@@ -114,6 +113,16 @@ SR*EUPL            : {^},fv{^} # Telescope nvim config directory
 SR*EUPLS           : {^},fV{^} # Telescope live grep nvim config directory
 PHRO*F             : {^},fp{^} # Telescope Plover dictionary directory
 PHRO*FS            : {^},fP{^} # Telescope live grep Plover dictionary directory
+```
+
+## Other Fuzzy Helpers
+
+```yaml
+KAO*ES : {^},sk{^} # Search key maps
+HOEUP  : {^},sh{^} # Search help files
+TKAO*EUGT : {^},sd{^} # Search diagnostics (overwrites 'indicting')
+TAO*D     : {^},st{^} # Search todos
+RA*EUS    : {^},sr{^} # Search and replace
 ```
 
 ## My Plugins
