@@ -10,6 +10,11 @@ neovim leader key and so most of these commands start with `,`.
 
 ## Leader + `d` 🟰 **debug**
 
+```yaml
+TKPW*UG : {^},dc{^}
+TPH*EGT : {^},di{^}
+```
+
 ## G Commands
 
 Any command that starts with `g` or `G` or `:g`.
@@ -108,7 +113,6 @@ TKPWR*EPS          : {^},sw{^} # Grep string under cursor
 SKO*EP             : {^},ff{^} # Open telescope general prompt
 TP*UZ              : {^},fz{^} # Open telescope fuzzy find current buffer
 KPHA*PBD           : {^},fc{^} # Telescope open command history
-TKPW*EUTS          : {^},fS{^} # Telescope git status search
 SR*EUPL            : {^},fv{^} # Telescope nvim config directory
 SR*EUPLS           : {^},fV{^} # Telescope live grep nvim config directory
 PHRO*F             : {^},fp{^} # Telescope Plover dictionary directory
@@ -123,6 +127,7 @@ HOEUP  : {^},sh{^} # Search help files
 TKAO*EUGT : {^},sd{^} # Search diagnostics (overwrites 'indicting')
 TAO*D     : {^},st{^} # Search todos
 RA*EUS    : {^},sr{^} # Search and replace
+TKPW*EUTS : {^},gs{^} # Git status changed files
 ```
 
 ## My Plugins
