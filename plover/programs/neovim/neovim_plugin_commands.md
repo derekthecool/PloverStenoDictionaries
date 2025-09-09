@@ -174,14 +174,20 @@ TKPW*URB/TKPW*URB  :  {^}git push\\n
 TKPW*UL            :  {^},gp{^} # Git pull (gull)
 TKPW*UL/TKPW*UL    :  {^}git pull\\n
 TKPW*EUT           :  {^},gg{^} # Call primary git plugin in neovim
-TKPWO*EUT           :  {^},g2{^} # Call next git plugin in neovim
-TKPWA*EUT           :  {^},g3{^} # Call next git plugin in neovim
+TKPWO*EUT          :  {^},g2{^} # Call next git plugin in neovim
+TKPWA*EUT          :  {^},g3{^} # Call next git plugin in neovim
+TKPWRET           :  {^},ghr{^} # Reset git hunk
+TKPWR*ET           :  {^},ghR{^} # Reset all hunks in file
+TKPWRAEUPBLG       :  {^},ghs{^} # Git stage hunk
+TKPWRA*EUPBLG      :  {^},ghS{^} # Git stage all hunks
+TKPWRAO*ES         :  {^},gw{^} # Select git worktree
+TKPWRAO*EPB        :  {^},gm{^} # Create new git worktree
 ```
 
 ### DiffView.nvim
 
 ```yaml
-TK*EUF            :  {^},gd{^} # Call my special function to toggle diff view
+TK*EUF            :  {^},gD{^} # Call my special function to toggle diff view
 TK*EUFR           :  {^}{\#Escape}:DiffviewFileHistory %{^} # Diff file history for currently opened file
 TK*EUFPL          :  {^}{\#Escape}:DiffviewOpen{^ ^} # Better starter for diff view open
 TK*EUFPLT         :  {^}{\#Escape}:DiffviewClose \\n

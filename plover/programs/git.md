@@ -3,10 +3,10 @@
 ## Git Vocabulary
 
 ```yaml
-TKPWUB                      :  GitHub
-AZ/SHUR                     :  Azure
-TKPWHRAB                    :  GitLab
-TKPWEUT                     :  git
+TKPWUB: GitHub
+AZ/SHUR: Azure
+TKPWHRAB: GitLab
+TKPWEUT: git
 ```
 
 ## Custom Commands
@@ -38,6 +38,9 @@ PURB/O*RPBLG/PHAFRT         :  push origin master
 PUL/H-PBZ/RE/PWAEUS         :  pull --rebase
 HROG/H*PB/P*                :  log -p
 RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
+PWA*EUS                     : --rebase
+PWRA*FRPB                   : git symbolic-ref HEAD --short
+PWRA*FRPB/PWRA*FRPB         : $(git symbolic-ref HEAD --short)
 ```
 
 ```yaml
@@ -72,10 +75,11 @@ TKPWEUT/HROG: {^}git log
 STA*RS: {^}**{\#LEFT}{^}
 TKPWEUT/KHEUBG : git cherry-pick
 ```
+
 ## Git Worktrees
 
 ```yaml
-TKPWRAO*E : git worktree
+TKPWRAO*E: git worktree
 ```
 
 ## Dot files git commands
@@ -221,8 +225,8 @@ PR: pr
 ## [commitizen](https://commitizen-tools.github.io/commitizen/)
 
 ```yaml
-KR*Z : cz
-KR*Z/KR*Z : cz bump
+KR*Z: cz
+KR*Z/KR*Z: cz bump
 ```
 
 ## [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
@@ -254,6 +258,6 @@ SR*EPBL/SR*EPBL/SR*EPBL/SR*EPBL/SR*EPBL/SR*EPBL/SR*EPBL/SR*EPBL/SR*EPBL/SR*EPBL/
 ## [pre-commit](https://pre-commit.com/)
 
 ```yaml
-PRE/KPHEUT : pre-commit
-PREUPLT : pre-commit # overwrites perimeter
+PRE/KPHEUT: pre-commit
+PREUPLT: pre-commit # overwrites perimeter
 ```

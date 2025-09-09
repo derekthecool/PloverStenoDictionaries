@@ -152,4 +152,6 @@ TPRA*: errloga.txt
 TPR*B: errlogb.txt
 O*ET: ota
 O*ET/O*ET: OTA
+TKPWEFLS: log_level_nvs
+AZ/AZ: AZ{^}
 ```
