@@ -38,7 +38,8 @@ PURB/O*RPBLG/PHAFRT         :  push origin master
 PUL/H-PBZ/RE/PWAEUS         :  pull --rebase
 HROG/H*PB/P*                :  log -p
 RE/SET/KPA*E/HED/KR-RT      :  reset HEAD ^
-PWA*EUS                     : --rebase
+PWA*EUS                     : rebase
+PWA*EUS/PWA*EUS             : --rebase
 PWRA*FRPB                   : git symbolic-ref HEAD --short
 PWRA*FRPB/PWRA*FRPB         : $(git symbolic-ref HEAD --short)
 ```
