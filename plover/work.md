@@ -154,4 +154,8 @@ O*ET: ota
 O*ET/O*ET: OTA
 TKPWEFLS: log_level_nvs
 AZ/AZ: AZ{^}
+OG/TKOBG: ogddvxdoc01
+OG: ogddvx
+OG/WEB: ogddvxweb1
+OG/TPO*ET: fotarepository.freeus.com
 ```

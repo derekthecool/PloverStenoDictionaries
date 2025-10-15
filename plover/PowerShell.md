@@ -532,4 +532,5 @@ KPAPBD/KPAPBD: ExpandProperty
 TKPWAOEUP: .GetType()
 RAEUPL: rename
 RAEUPL/AOEUPLT: Rename-Item
+TKPWAO*EU: gci
 ```

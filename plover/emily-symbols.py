@@ -84,9 +84,9 @@ symbols = {
             # Solo prefix
             "{#Control(b)}",
             # Next window
-            "{#Control(b)p}",
+            "{#Control(b)}{PLOVER:DELAY:0.1}p",
             # Previous window
-            "{#Control(b)n}",
+            "{#Control(b)}{PLOVER:DELAY:0.1}n",
             # Open copy mode
             "{#Control(b)}[{^}",
         ],
@@ -107,38 +107,28 @@ symbols = {
         # add your own strokes here (or above, or wherever else you like)!
         # Pairs of brackets
         # "FPL": ["()", "[]", "<>", "\{\}"],
-
         # Powershell elpers
         # logic for my placement
         # absence of E and U is positive logic
         # E and U is negative logic
         # E is alternate negative logic
         # U is alternate positive logic
-
         # like symbol =
         "PBLG": ["-eq", "-cne", "-ceq", "-ne"],
         # "FR": ["-ne", "-ine", "-cne", ""],
-
         # like symbol ) but thought of as >
         "RBG": ["-gt", "-le", "-ge", "-lt"],
         # "FPL": ["-lt", "-le", "-clt", "-cle"],
-
         "BLG": ["-like", "-cnotlike", "-clike", "-notlike"],
-
         # just like letter m
         "PL": ["-match", "-cnotmatch", "-cmatch", "-notmatch"],
-
         # RP like replace
         "RP": ["-replace", "", "-creplace", ""],
-
         # PB like N
         "PB": ["-in", "-cnotin", "-cin", "-notin"],
-
         # like symbol @
         "FRPBLG": ["-contains", "-cnotcontains", "-ccontains", "-notcontains"],
-
         "F": ["-is", "", "", "-isnot"],
-
         # Date and time commands
         # Needs plover_current_time plugin
         # https://github.com/EPLHREU/plover-current-time

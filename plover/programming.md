@@ -49,16 +49,13 @@ for the better `ps` printing.
 KAEURPB : container # Overwrites Karen
 TKPW*ET/TK-BG : curl -sSL https://get.docker.com/ | sh # Easy script to install docker and docker compose
 TK-BG : docker{^ ^}
-TK-BG/UP : docker-compose up -d
-TK-BG/*UP : docker compose up -d
-TK-BG/UP/UP : docker-compose up -d --build
+TK-BG/UP : docker compose up -d
+TK-BG/*UP : docker compose up
 TK-BG/*UP/*UP : docker compose up -d --build
-TK-BG/HROGS : docker-compose logs -f -t
-TK-BG/HRO*GS : docker compose logs -f -t
-TK-BG/PWEULD : docker-compose build
-TK-BG/PW*EULD : docker compose build
-TK-BG/TKOUPB : docker-compose down
-TK-BG/TKO*UPB : docker compose down
+TK-BG/HROGS : docker compose logs -f -t
+TK-BG/PWEULD : docker compose build
+TK-BG/PW*EULD : docker compose build --no-cache
+TK-BG/TKOUPB : docker compose down
 TK-BG/P : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 TK-BG/P-S : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 TK-BG/RUPB : docker run -it{^ ^}
@@ -67,21 +64,18 @@ TK-BGZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requ
 TKAO*EUL : Dockerfile
 KPO*ES : compose.yaml # The official recommended docker compose file name. Not docker-compose.yaml, docker-compose.yml, or compose.yml
 P-D : podman{^ ^}
-P-D/UP : podman-compose up -d
-P-D/*UP : podman compose up -d
-P-D/UP/UP : podman-compose up -d --build
-P-D/*UP/*UP : podman compose up -d --build
-P-D/TKOUPB : podman-compose down
-P-D/TKO*UPB : podman compose down
-P-D/HROGS : podman-compose logs -f -t
-P-D/HRO*GS : podman compose logs -f -t
-P-D/PWEULD : podman-compose build
-P-D/PW*EULD : podman compose build
+P-D/UP : podman compose up -d
+P-D/*UP : podman compose up
+P-D/TKOUPB : podman compose down
+P-D/HROGS : podman compose logs -f -t
+P-D/PWEULD : podman compose build
+P-D/PW*EULD : podman compose build --no-cache
 P-D/P : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 P-D/P-S : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 P-D/RUPB : podman run -it{^ ^}
 P-D/R*UPB : podman run -it --rm{^ ^}
 P-DZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requires starting container with interactive mode (-it)
+SROL/SROL : -v $\\{PWD\\}:/
 ```
 
 ## Linux
@@ -667,7 +661,7 @@ STKPW*RBGSZ : {^ ^}-z
 SHEB: \#!/usr/bin/env bash
 SHEB/SHEB: \#!/bin/bash
 SHEB/SHEB/SHEB: \#!/bin/sh
-PWARB/TP-R: 'for i in {1..10}; do echo $i; done'
+PWARB/TP-R: "for i in {1./.10}; do echo $i; done"
 ```
 
 #### Common Directory Names
@@ -954,6 +948,13 @@ TPHRUT: flutter
 TPHRUPB: flutter run
 ```
 
+## Quick Curl Installs
+
+```yaml
+TKPWUB/RAOES: https://github.com/USER/PROJECT/releases/latest/download/FILENAME
+TKPWUB/TK-L: https://github.com/USER/PROJECT/releases/latest/download/FILENAME
+```
+
 ## Added by Plover
 
 ```yaml
@@ -1021,4 +1022,7 @@ PHA*FRT: origin/master
 T*UPL: tcpdump
 TKAO*US: reproduce
 TA*RBG: tshark
+OG/TKO*BG: ogddvxdoc02
+P-S: ps
+TPRAO*ES: freeus
 ```
