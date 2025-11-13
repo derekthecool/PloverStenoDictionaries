@@ -691,7 +691,9 @@ HAEUPL/KR-LT : hostnamectl
 KHOD : chmod +x{^ ^}
 KPHOD : chmod +x{^ ^}
 HR*S : ls
-HR*S/HR*S : ls -Recurse
+HR*S/HR*S : ls -lah
+HR : ls
+HR/HR : ls -lah
 HR*Z : ls\\n
 TAR : tar xzvf
 TAR/TAR : tar czvf
@@ -1025,4 +1027,6 @@ TA*RBG: tshark
 OG/TKO*BG: ogddvxdoc02
 P-S: ps
 TPRAO*ES: freeus
+TKWR: tty
+TKPWO*E: gpio
 ```
