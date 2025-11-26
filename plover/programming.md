@@ -48,6 +48,7 @@ for the better `ps` printing.
 ```yaml
 KAEURPB : container # Overwrites Karen
 TKPW*ET/TK-BG : curl -sSL https://get.docker.com/ | sh # Easy script to install docker and docker compose
+TK-BG/SOEUD : sudo usermod -aG docker $USER
 TK-BG : docker{^ ^}
 TK-BG/UP : docker compose up -d
 TK-BG/*UP : docker compose up

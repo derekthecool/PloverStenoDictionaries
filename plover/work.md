@@ -158,4 +158,5 @@ OG/TKOBG: ogddvxdoc01
 OG: ogddvx
 OG/WEB: ogddvxweb1
 OG/TPO*ET: fotarepository.freeus.com
+SHRAOEPLT: sleep_for_pm
 ```

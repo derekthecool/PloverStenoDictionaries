@@ -10,7 +10,7 @@ This dictionary will help writing powershell commands even faster.
 ## Quickly Reload My Dotfiles Powershell Module
 
 ```yaml
-TKO*TS : Import-Module -Force -Name Dots\\n
+TKO*TS: Import-Module -Force -Name Dots\\n
 ```
 
 ## Powershell File Extensions
@@ -42,8 +42,8 @@ Most important ones to have quick commands for
 ## Powershell Terms That Are Not Commands
 
 ```yaml
-PW-RB              :  powershell
-AO*EF               : env
+PW-RB: powershell
+AO*EF: env
 ```
 
 ## Fast Commands
@@ -78,7 +78,7 @@ See [emily-symbols.py](./emily-symbols.py), there are too many variations
 ## Other Powershell Items
 
 ```yaml
-SKREUPT/RAOT : $PSScriptRoot
+SKREUPT/RAOT: $PSScriptRoot
 ```
 
 ## PowerShell/Pwsh Cmdlets
@@ -110,13 +110,13 @@ WEUPB/TKPWET : winget
 TODO: (Derek Lomax) 5/22/2024 3:26:15 PM, finish adding the rest of important verbs here
 
 ```yaml
-TKPW*ET : Get-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
-S*ET : Set-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
-SRO*EBG : Invoke-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
-KHRAO*ER : Clear-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
-KHRO*ES : Close-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
-TPH*U : New-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
-AUPTD/AUPTD : Update-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+TKPW*ET: Get-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+S*ET: Set-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+SRO*EBG: Invoke-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+KHRAO*ER: Clear-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+KHRO*ES: Close-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+TPH*U: New-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+AUPTD/AUPTD: Update-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
 ```
 
 Copy
@@ -485,7 +485,7 @@ WRAOEUT/WARPBG : Write-Warning
 ## Nuget Package Manager Commands
 
 ```yaml
-TPAOEUPBD/PAPBLG : Find-Package
+TPAOEUPBD/PAPBLG: Find-Package
 ```
 
 ## Commands From Powershell Gallery Modules
@@ -495,8 +495,8 @@ TPAOEUPBD/PAPBLG : Find-Package
 Awesome powershell testing framework
 
 ```yaml
-SR*EFT : Invoke-Pester
-SROEBG/PEFT : Invoke-Pester
+SR*EFT: Invoke-Pester
+SROEBG/PEFT: Invoke-Pester
 ```
 
 ### [PSScriptTools](https://github.com/jdhitsolutions/PSScriptTools)
@@ -522,7 +522,7 @@ FirstNumber LastNumber
 ```
 
 ```yaml
-TPR/TEGT : ConvertFrom-Text
+TPR/TEGT: ConvertFrom-Text
 ```
 
 ## Added by Plover
@@ -534,4 +534,5 @@ RAEUPL: rename
 RAEUPL/AOEUPLT: Rename-Item
 TKPWAO*EU: gci
 PAEUBG: psake
+SRAEUBG: Invoke-psake
 ```
