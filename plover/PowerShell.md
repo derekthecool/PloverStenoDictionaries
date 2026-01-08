@@ -69,6 +69,8 @@ TKPWAPLD: Get-Command
 TKPWAPLD/TKPWAPLD: Get-Command -Module
 TKPWA*PLD: Get-Command -Module
 TA*T: Test-Path
+HAEUBL: hashtable
+HA*EUBL: @\\{\\}{\#Left}{^}
 ```
 
 ## Logcal Operaters And Others Like `-eq`
@@ -486,6 +488,17 @@ WRAOEUT/WARPBG : Write-Warning
 
 ```yaml
 TPAOEUPBD/PAPBLG: Find-Package
+```
+
+## Dotnet Command Helpers
+
+There are many, many dotnet commands that can be quite lengthy to write.
+[type_accelerators](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_type_accelerators?view=powershell-7.5)
+can help shorten things significantly and will be used here.
+
+```yaml
+TPR/PWA*EUS: [Convert]::FromBase64String( # In the style of other ConvertFrom- commands e.g. ConvertFrom-Json
+O/PWA*EUS: [Convert]::ToBase64String( # In the style of other ConvertTo- commands e.g. ConvertTo-Json
 ```
 
 ## Commands From Powershell Gallery Modules

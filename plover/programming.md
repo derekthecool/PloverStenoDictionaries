@@ -771,6 +771,7 @@ TO*P                 : htop
 
 ```yaml
 PHUBGS  : tmux
+PHUBGS/PHUBGS  : tmux new -A
 PH*UBGS : {^}{\#Control_R(a)}{^} # tmux prefix
 KW*EU   : {^}{\#Control_R(a)}j{^} # Open my wiki in new tmux window
 ```

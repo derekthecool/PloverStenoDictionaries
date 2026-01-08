@@ -95,8 +95,8 @@ TKPWUGS : {^}g?v{^} # Debug print plugin current variable
 ## LSP Commands
 
 ```yaml
-KW*EUBG            :  {^},ca{^} # LSP code action
-TPO*RPLT           :  {^},lf{^} # Format code
+KW*EUBG            :  {^}gra{^} # LSP code action
+TPO*RPLT           :  {^},cf{^} # Format code
 ```
 
 ## File Commands

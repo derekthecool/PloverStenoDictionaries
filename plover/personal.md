@@ -9,22 +9,22 @@ Since this dictionary is always very near the top of the dictionary stack it's
 the perfect place for this.
 
 ```yaml
-EU: '{null}' # I
-U: '{null}' # you
-E: '{null}' # he
-HE: '{null}' # he
-SHAOE: '{null}' # she
-SHAO*E: '{null}' # she
-SHE: '{null}' # she
-(UPDATED) T: 'Derek' #  it
-TEUS: '{null}' # it is
-EUT: '{null}' # it
-THE: '{null}' # they
-TH: '{null}' # this
-THA: '{null}' # that
-WE: '{null}' # we
-WAOE: '{null}' # we
-THR: '{null}' # there
+EU: "{null}" # I
+U: "{null}" # you
+E: "{null}" # he
+HE: "{null}" # he
+SHAOE: "{null}" # she
+SHAO*E: "{null}" # she
+SHE: "{null}" # she
+(UPDATED) T: "Derek" #  it
+TEUS: "{null}" # it is
+EUT: "{null}" # it
+THE: "{null}" # they
+TH: "{null}" # this
+THA: "{null}" # that
+WE: "{null}" # we
+WAOE: "{null}" # we
+THR: "{null}" # there
 ```
 
 ## General Words
@@ -195,6 +195,7 @@ TPHAOELS: Neilson
 TPHAOEL/SOPB: Neilson
 T-FS: tsp
 T-FB: tbsp
+TKOEUB: {^}Dubbo{^}{-|}
 PAOEUPBL: pineapple
 STPHA*UL: uninstall
 TKPWA*L: gmail

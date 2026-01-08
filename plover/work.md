@@ -159,4 +159,5 @@ OG: ogddvx
 OG/WEB: ogddvxweb1
 OG/TPO*ET: fotarepository.freeus.com
 SHRAOEPLT: sleep_for_pm
+KH*ET: charger_system_reset
 ```

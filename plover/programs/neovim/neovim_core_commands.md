@@ -104,7 +104,7 @@ TKPW-D  : {^}gd{^}  # gd -- go to definition
 TKPW*D  : {^}gD{^}  # gD -- go to declaration
 TKPWEU  : {^}gi{^}  # gi -- go to implementation
 TKPW-R  : {^}gr{^}  # gr -- go to references
-TKPW*R  : {^}gR{^}  # gR -- replace symbol
+TKPW*R  : {^}grn{^} # grn -- replace symbol
 TKPW-PB : {^}gn{^}  # gn -- go to next diagnostic
 TKPW-P  : {^}gp{^}  # gp -- go to previous diagnostic
 ```
@@ -137,6 +137,7 @@ KR-R           :  {^}<CR>{^}
 HRAOUF         :  {^}luafile %{^}
 HRAO*UF  : {^}{\#Escape}:luafile %\\n{^}
 SKWR*URPL : {^},fd{^}
+H-D : {^},ch{^} # Switch between C source and header file
 ```
 
 ### Searching And Replacing Commands
@@ -205,7 +206,7 @@ This is for both writing tests and running them.
 #S*ERT           : ASSERT{^}
 #T*EFT           : TEST{^}
 #T*EFRT          : FILE_TEST{^} # For creating starter test files
-#STKRAO*EUB      : DESCRIBE{^} # For creating lua test groups
+#STKRAO*EUB      : DESCRIBE{^} # For creating test groups (inspired by lua busted and powershell pester)
 #T*EFTD : {^},tT{^}
 #T*EFTS : {^},ts{^}
 ```
