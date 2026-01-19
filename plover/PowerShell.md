@@ -71,6 +71,14 @@ TKPWA*PLD: Get-Command -Module
 TA*T: Test-Path
 HAEUBL: hashtable
 HA*EUBL: @\\{\\}{\#Left}{^}
+A*RGS: $args[0]
+A*RGS/A*RGS: $args[1]
+A*RGS/A*RGS/A*RGS: $args[2]
+A*RGS/A*RGS/A*RGS/A*RGS: $args[3]
+A*RGS/A*RGS/A*RGS/A*RGS/A*RGS: $args[4]
+A*RGS/A*RGS/A*RGS/A*RGS/A*RGS/A*RGS: $args[5]
+A*RGS/A*RGS/A*RGS/A*RGS/A*RGS/A*RGS/A*RGS: $args[6]
+A*RGS/A*RGS/A*RGS/A*RGS/A*RGS/A*RGS/A*RGS/A*RGS: $args[7]
 ```
 
 ## Logcal Operaters And Others Like `-eq`

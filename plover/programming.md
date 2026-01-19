@@ -29,9 +29,7 @@ WAEURS: workspacer
 
 ## Package Managers
 
-### Windows
-
-#### [scoop](https://scoop.sh/)
+### [scoop](https://scoop.sh/) - Windows
 
 ```yaml
 TKPW*ET/SKAOP: Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
@@ -233,25 +231,6 @@ TAOEUP/TKEF : typedef
 SOF : sizeof
 #SO*F : {^}SIZEOF # Meant to trigger a snippet for sizeof
 T*ERPB : ternary
-```
-
-### Cmake
-
-```yaml
-KPHAEUBG: cmake
-KPHAEUBG/KPHAEUBG: CMakeLists.txt
-```
-
-#### Common Command Line Cmake Options
-
-```yaml
-KPHAEUBG/EBG: -DCMAKE_EXPORT_COMPILE_COMMANDS=1
-KPHAEUBG/KPAOEUL: -DCMAKE_EXPORT_COMPILE_COMMANDS=1
-```
-
-### string.h
-
-```yaml
 KHR*U/STR*EUPBG    :  {^}\#include <string.h>\\n
 STR                :  {^}str
 STR/KOP            :  {^}strcpy({^}
@@ -261,14 +240,18 @@ STR/KPH-P          :  {^}strcmp({^}
 STR/TOBG           :  {^}strtok({^}
 PHEPL              : mem{^} # Replaces "member", more important as mem
 PHEPL/KO*EP        : memcpy
-```
-
-### stdlib.h
-
-```yaml
 PHOEUBG: malloc
 ROEUBG: realloc
 KROEUBG: calloc
+```
+
+### Cmake
+
+```yaml
+KPHAEUBG: cmake
+KPHAEUBG/KPHAEUBG: CMakeLists.txt
+KPHAEUBG/EBG: -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+KPHAEUBG/KPAOEUL: -DCMAKE_EXPORT_COMPILE_COMMANDS=1
 ```
 
 ### Microcontroller Specific
@@ -318,6 +301,8 @@ SKW*L: sql
 SKW-L: sql
 TKPWRAO*EU: group by
 TKPWRAO*EU/TKPWRAO*EU: GROUP BY
+TK*EFBG: desc
+SRAR/KHAR: varchar
 ```
 
 ### MySQL
@@ -455,9 +440,7 @@ HAO*UG/HAO*UG : {^}hugo server -D
 HAO*UG/HAO*UG/HAO*UG : hugo server --bind $(hostname -I | tr -d \' \') --baseURL=http://$(hostname -I | tr -d \' \') -D
 ```
 
-## Terminal
-
-### General
+## General
 
 ```yaml
 R*UPB: {^}{\#Control(Shift(v))}}\\n{^}
@@ -473,7 +456,7 @@ TKPWO*             :  {./^}
 H-F                :  {^}{\#Control(c)}{^}
 ```
 
-### Getting Help
+## Getting Help
 
 This makes using the terminal cheat tool very easy. See
 [cht.sh](https://cht.sh/)
@@ -486,16 +469,14 @@ T*ERB                    :  {^}nc termbin.com 9999
 T*ERB/T*ERB              :  https://termbin.com/{^}
 ```
 
-### Names Of Programs That Are Not Used In A Shell Command Manner
+## Names Of Programs That Are Not Used In A Shell Command Manner
 
 ```yaml
 A/HRABG: Alacritty
 PROBGS: Proxmox
 ```
 
-### Linux Shell Scripting
-
-#### Backslash Alphabet
+## Backslash Alphabet
 
 This collection of backslashed letters is very helpful for these reasons:
 
@@ -586,7 +567,7 @@ STKPW*PS : {^\\Z^}
 STKPW-PS : {^\\z^}
 ```
 
-#### Command-line Options Alphabet
+## Command-line Options Alphabet
 
 It is extremely common to use command-line options. Such as `grep -P -u`
 or maybe `bash -c`.
@@ -656,7 +637,7 @@ STKPW*FPLTD : {^ ^}-Z
 STKPW*RBGSZ : {^ ^}-z
 ```
 
-#### Bash Scripting
+## Bash Scripting
 
 ```yaml
 SHEB: \#!/usr/bin/env bash
@@ -665,7 +646,7 @@ SHEB/SHEB/SHEB: \#!/bin/sh
 PWARB/TP-R: "for i in {1./.10}; do echo $i; done"
 ```
 
-#### Common Directory Names
+## Common Directory Names
 
 ```yaml
 PH-PBT: /mnt/{^}
@@ -674,7 +655,7 @@ URS: /usr/{^}
 TPH-P: /tmp/{^}
 ```
 
-#### Main terminal commands
+## Main terminal commands
 
 ```yaml
 S*ED : sed
@@ -721,22 +702,29 @@ R-PL/R-PL                                                         :  {^}rm -rf{^
 PH-BG/TKEUR                                                       :  {^}mkdir {^ ^}
 KEUR                                                              :  {^}mkdir {^ ^}
 TP*EU                                                             :  {^}fi{^ ^}
-HR-PT                                                             :  {^}lftp {^ ^}
-TP-PLT                                                            :  {^}lftp {^ ^} # TP-PT (FTP) + L = TP-PLT = lftp
 S-PL/KR-LT : systemctl
 S-PL/KR-LT/ST*TS : systemctl status
 S-PL/KR-LT/TPHAEUBL : systemctl enable
 S-PL/KR-LT/START : systemctl start
 S-PL/KR-LT/STOP : systemctl stop
 KPHR-R : {^}xplr # Awesome terminal file manager
+```
+
+## Terminal Program Names
+
+```yaml
 ABD : adb
 ABD/ABD : adb devices\\n{^}
 STKPW-P : {^}7z{^ ^}
 KP-D : xxd
 KP-D/KP-D : xxd -r -p
+K*D: kdeconnect-cli
+K*D/K*D: kdeconnect-cli -d $(kdeconnect-cli -a --id-only)
+HR-PT                                                             :  {^}lftp {^ ^}
+TP-PLT                                                            :  {^}lftp {^ ^} # TP-PT (FTP) + L = TP-PLT = lftp
 ```
 
-#### [Wezterm](https://wezfurlong.org/wezterm/)
+## [Wezterm](https://wezfurlong.org/wezterm/)
 
 Wezterm is an amazing terminal emulator.
 
@@ -752,7 +740,7 @@ TKPWET/WERPL: curl -sL https://api.github.com/repos/wez/wezterm/releases/latest 
 TKPWET/WERPL/SOEUD: curl -sL https://api.github.com/repos/wez/wezterm/releases/latest | grep -Po \'https://.*AppImage\' | sort -u | xargs -I \\{\\} sudo wget \\{\\} -O /usr/bin/wezterm && sudo chmod +x /usr/bin/wezterm && wezterm --version
 ```
 
-#### Command macros
+## Command macros
 
 ```yaml
 H                    : {^}~/{^}
@@ -907,12 +895,14 @@ HAOEPTS/HAOEPTS/HAOEPTS/HAOEPTS: Hypertext Transfer Protocol (HTTPS)
 HAO*EPS: https://
 ```
 
-## Wireshark
+## Packet Capture
 
 ```yaml
 WAOEUR/SHARBG: wireshark
 WARBG: wireshark
-TARBG: termshark
+TARBG: tshark
+TA*RBG: termshark
+T*UPL: tcpdump
 ```
 
 ## Reverse Engineering
@@ -971,10 +961,7 @@ TKAE/PHOPB: daemon
 TPH*EUG: nginx
 TO*PL: toml
 P*D: pwd
-H*ED: HEAD
 PHOUPB: markdown
-TK*EFBG: desc
-SRAR/KHAR: varchar
 PAO*EU: py
 TKPWEBGS: regex
 SHR-PB: sln
@@ -1000,18 +987,9 @@ PWHRAORD: bootloader
 23EUS/23EUS: Espressif
 SKR-P: scp
 ST*ER: register
-TKUT: dut
-TK*FT: dvt
-P*FT: pvt
-'*EFT': evt
 A/KOUPBTS: accounts
 KPHAPBD/HRAOEUPB: command line
 TK-L: download
-PHERPBG: merge
-P-R: pr
-P-R/P-R: pull request
-P*R: PR
-P*R/P*R: pull request
 SP*ERBGT: spectre
 RART: restart
 S*EUPBG/TPHUS: synchronous
@@ -1021,14 +999,9 @@ SAO*EPBG/TPH*US: asynchronous
 PW*UF: {^}buf{^}
 TPA*EUPL: filename
 PW*UFPB: bufnr
-PHA*EUPB: origin/main
-PHA*FRT: origin/master
-T*UPL: tcpdump
 TKAO*US: reproduce
-TA*RBG: tshark
-OG/TKO*BG: ogddvxdoc02
 P-S: ps
-TPRAO*ES: freeus
 TKWR: tty
 TKPWO*E: gpio
+PHAOU/TEBGS: mutex
 ```

@@ -7,6 +7,21 @@ TKPWUB: GitHub
 AZ/SHUR: Azure
 TKPWHRAB: GitLab
 TKPWEUT: git
+P-R: pr
+P-R/P-R: pull request
+P*R: PR
+P*R/P*R: pull request
+```
+
+## Git Basics
+
+These are words or parts of actual commands
+
+```yaml
+PHERPBG: merge
+H*ED: HEAD
+PHA*EUPB: origin/main
+PHA*FRT: origin/master
 ```
 
 ## Custom Commands

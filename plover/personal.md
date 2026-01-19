@@ -203,4 +203,5 @@ TAEU: Atelier
 K*EBGT: disconnect
 TAOD: todo
 KWRAEUPL: username
+HRO*G: login
 ```

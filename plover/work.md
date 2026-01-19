@@ -24,6 +24,11 @@ KRAEULD: cradle
 KRA*EULD: cradled
 HRAOEUF/PREBGT: Life Protect
 PHED/K-L/TKPWARD/KWRAPB: Medical Guardian
+TPRAO*ES: freeus
+TKUT: dut
+TK*FT: dvt
+P*FT: pvt
+"*EFT": evt
 ```
 
 ## Device Type Names
@@ -117,11 +122,14 @@ A*T/KRAOEG : {^}AT+CEREG?{^}
 A*T/AOEU/AOEUS : {^}AT+ICCID{^}
 ```
 
-### Important IP Addresses
+### Important IP Addresses And Hostnames
 
 ```yaml
-TKAOEUS/PWROERBG: {^}192.168.100.35
-TKAOEUS/PWRO*ERBG: {^}174.143.42.75
+OG/TKO*BG: ogddvxdoc02
+OG/TKOBG: ogddvxdoc01
+OG: ogddvx
+OG/WEB: ogddvxweb1
+OG/TPO*ET: fotarepository.freeus.com
 ```
 
 ### Automations
@@ -131,6 +139,7 @@ PHAOEURBG/PHAOEURBG/PHAOEURBG : {^}cfe{PLOVER:DELAY:1.5}{\#Tab}{\#Tab}rf{PLOVER:
 ```
 
 PHAOEURBG/PHAOEURBG/PHAOEURBG : {^}cfe{\#Tab}{PLOVER:DELAY:1.5}{\#Tab}{PLOVER:DELAY:1.2}rf{\#Tab}{PLOVER:DELAY:1.2}cp{\#Tab}{PLOVER:DELAY:1.2}am{\#Tab}{PLOVER:DELAY:1.2}pm{\#Tab}{PLOVER:DELAY:1.2}{\#Tab}
+
 ## Added by Plover
 
 ```yaml
@@ -154,10 +163,6 @@ O*ET: ota
 O*ET/O*ET: OTA
 TKPWEFLS: log_level_nvs
 AZ/AZ: AZ{^}
-OG/TKOBG: ogddvxdoc01
-OG: ogddvx
-OG/WEB: ogddvxweb1
-OG/TPO*ET: fotarepository.freeus.com
 SHRAOEPLT: sleep_for_pm
 KH*ET: charger_system_reset
 ```
