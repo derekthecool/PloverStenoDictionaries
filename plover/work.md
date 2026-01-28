@@ -130,6 +130,13 @@ OG/TKOBG: ogddvxdoc01
 OG: ogddvx
 OG/WEB: ogddvxweb1
 OG/TPO*ET: fotarepository.freeus.com
+-B/-B/U: B2BUA
+-B/-B/1: ogddvxb2bua1
+-B/-B/2: ogddvxb2bua2
+-B/-B/3: ogddvxb2bua3
+OG/1: ogddvxb2bua1
+OG/2: ogddvxb2bua2
+OG/3: ogddvxb2bua3
 ```
 
 ### Automations
@@ -150,7 +157,6 @@ TW*EUL: twilio
 TPRAOES/PW-RB: FreeusPowershell
 SPHOED: {^}set_mcu_mode
 KW-BGD: QXDM
--B/-B/U: B2BUA
 "*UTS": UTS
 TKPWEFL: log_level
 PWEBG/HREFR: Becklar
@@ -165,4 +171,5 @@ TKPWEFLS: log_level_nvs
 AZ/AZ: AZ{^}
 SHRAOEPLT: sleep_for_pm
 KH*ET: charger_system_reset
+TKO*PS: AzureDevOps
 ```

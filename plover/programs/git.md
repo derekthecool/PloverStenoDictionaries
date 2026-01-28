@@ -34,7 +34,9 @@ TKPWUB/TKPWUB               :  https://github.com/{^}
 TKPWUB/TKPWUB/TKPWUB        :  "git@github.com:{^}"
 ST*TS                       :  status
 TKPWEUT/TKEUF               :  git diff
-TKPW*EUF                    :  git diff
+TKPWEUT/TK*EUF              :  git diff --word-diff=color --word-diff-regex=\\S+ --color-moved=zebra
+TKPW*EUF                    :  git diff --word-diff=color --word-diff-regex=\\S+ --color-moved=zebra
+TKPW*EUF/TKPW*EUF           :  git diff
 TKPWA*P                     :  add .
 TKPWEUT/ST*TS               :  git status
 TKPWEUT/TKPWEUT             :  git status\\n{^}

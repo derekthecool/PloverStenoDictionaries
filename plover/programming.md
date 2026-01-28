@@ -945,8 +945,9 @@ TPHRUPB: flutter run
 ## Quick Curl Installs
 
 ```yaml
-TKPWUB/RAOES: https://github.com/USER/PROJECT/releases/latest/download/FILENAME
+TKPWUB/RAOES: https://github.com/USER/PROJECT/releases/latest/download/FILENAME # Use this to download the latest release, but you need to know the filename - use the other command to get this
 TKPWUB/TK-L: https://github.com/USER/PROJECT/releases/latest/download/FILENAME
+TKPWUB/RAO*ES: curl -sL https://api.github.com/repos/OWNER/REPO/releases/latest | jq -r \'.assets[].name\' # Use this command to list release values e.g. Linux, windows etc.
 ```
 
 ## Added by Plover
