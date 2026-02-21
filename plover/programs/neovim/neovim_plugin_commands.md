@@ -69,7 +69,7 @@ R-T               :  {^}`b3{^} # Build action 3
 ### Testing
 
 ```yaml
-T*EFT              :  {^}`ui{^} # Test, note the ` instead of , this keeps it more usable in insert mode without delays
+T*EFT              :  {^}{\#Escape}:lua MiniTest.run()\\n{^} # Test, note the ` instead of , this keeps it more usable in insert mode without delays
 T-FT               :  {^}`ui{^} # Test shorter alternative
 ```
 

@@ -127,6 +127,8 @@ KHRAO*ER: Clear-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
 KHRO*ES: Close-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
 TPH*U: New-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
 AUPTD/AUPTD: Update-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+K*F: ConvertFrom-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
+K*T: ConvertTo-{^}{-|}{MODE:TITLE}{MODE:SET_SPACE:}
 ```
 
 Copy
@@ -556,4 +558,8 @@ RAEUPL/AOEUPLT: Rename-Item
 TKPWAO*EU: gci
 PAEUBG: psake
 SRAEUBG: Invoke-psake
+PHOEUPBD: Mandatory
+TPRAOEUPB: ValueFromPipeline
+TPRAO*EUPB: ValueFromPipelineByPropertyName
+-FRPBLGS: @()
 ```

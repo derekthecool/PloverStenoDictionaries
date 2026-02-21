@@ -104,7 +104,7 @@ TKPW-D  : {^}gd{^}  # gd -- go to definition
 TKPW*D  : {^}gD{^}  # gD -- go to declaration
 TKPWEU  : {^}gi{^}  # gi -- go to implementation
 TKPW-R  : {^}gr{^}  # gr -- go to references
-TKPW*R  : {^}grn{^} # grn -- replace symbol
+TKPW*R  : {^},cr{^} # ,cr -- replace symbol
 TKPW-PB : {^}gn{^}  # gn -- go to next diagnostic
 TKPW-P  : {^}gp{^}  # gp -- go to previous diagnostic
 ```

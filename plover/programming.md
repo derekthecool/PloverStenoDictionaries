@@ -59,6 +59,8 @@ TK-BG/P : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Imag
 TK-BG/P-S : "docker ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 TK-BG/RUPB : docker run -it{^ ^}
 TK-BG/R*UPB : docker run -it --rm{^ ^}
+TK-BG/EBG : docker exec -it aaa
+TK-BG/*EBG : docker compose exec -it service
 TK-BGZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requires starting container with interactive mode (-it)
 TKAO*EUL : Dockerfile
 KPO*ES : compose.yaml # The official recommended docker compose file name. Not docker-compose.yaml, docker-compose.yml, or compose.yml
@@ -73,6 +75,8 @@ P-D/P : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\
 P-D/P-S : "podman ps --format 'table \\{\\{.ID\\}\\}{#Backslash}{^t^}\\{\\{.Image\\}\\}{#Backslash}{^t^}\\{\\{.Status\\}\\}{#Backslash}{^t^}\\{\\{.Names\\}\\}'\\n{^}"
 P-D/RUPB : podman run -it{^ ^}
 P-D/R*UPB : podman run -it --rm{^ ^}
+P-D/EBG : podman exec -it aaa
+P-D/*EBG : podman compose exec -it service
 P-DZ     :  {^}{\#Control(p q)}{^} # Exit container without stopping it - requires starting container with interactive mode (-it)
 SROL/SROL : -v $\\{PWD\\}:/
 ```

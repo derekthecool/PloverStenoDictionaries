@@ -172,4 +172,6 @@ AZ/AZ: AZ{^}
 SHRAOEPLT: sleep_for_pm
 KH*ET: charger_system_reset
 TKO*PS: AzureDevOps
+SK*U: SKU
+SKWREPBS: geofence
 ```
