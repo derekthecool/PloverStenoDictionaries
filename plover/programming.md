@@ -1009,4 +1009,11 @@ P-S: ps
 TKWR: tty
 TKPWO*E: gpio
 PHAOU/TEBGS: mutex
+TKPW*PS: gps
+TKPW-PS/TKPW-PS: gps
+SAEUPL/SOPB: Jamison
+TPH-FS: nvs
+KPHAPBD/HRET: Cmdlet
+KPHAPBD/PWAOEUPBGD: [CmdletBinding()]
+KHRAUD: claude
 ```

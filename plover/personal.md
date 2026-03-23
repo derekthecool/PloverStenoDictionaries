@@ -204,4 +204,8 @@ K*EBGT: disconnect
 TAOD: todo
 KWRAEUPL: username
 HRO*G: login
+TPHABGS: Fnax
+KEUG/-D: configured
+KEUGD: configured
+TKPWOEUT: got it
 ```

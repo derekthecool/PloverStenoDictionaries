@@ -1,0 +1,11 @@
+{
+  "host": "localhost",
+  "port": 8086,
+  "remotes": [
+    {
+      "pattern": "^https?\\:\\/\\/localhost?(:[0-9]*)?"
+    }
+  ],
+  "private_key": "f3e82452e10b053a655a5d8f4e0d2205a042027c19e2dbd141a0fce0084792f1",
+  "public_key": "fe298a4aa1cfcecf4becbddc0521cd9970f49760a42a14d226b8bf2dc3fa641e"
+}
