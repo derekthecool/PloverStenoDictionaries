@@ -59,3 +59,30 @@ Here is my [Stenography layer](https://configure.zsa.io/moonlander/layouts/mz7LN
 
 I am storing my [Typey Type Progress](https://didoesdigital.com/typey-type/progress)
 json file [here](./plover/typey_type/typeytype_progress.json).
+
+---
+
+## Building from Source (Arch Linux)
+
+```bash
+# Install pyenv and Python 3.13.3 (Arch's Python is too new)
+sudo pacman -S pyenv
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc && source ~/.bashrc
+pyenv install 3.13.3
+
+# Clone and setup
+git clone git@github.com:opensteno/plover.git
+cd plover
+pyenv local 3.13.3
+~/.pyenv/versions/3.13.3/bin/python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip setuptools wheel
+pip install -c reqs/constraints.txt -r reqs/dev.txt
+
+# Setup udev rule for /dev/uinput
+echo 'KERNEL=="uinput", MODE="0660", GROUP="plover", TAG+="uaccess"' | sudo tee /etc/udev/rules.d/99-plover-uinput.rules
+sudo udevadm control --reload-rules && sudo udevadm trigger
+
+# Run
+tox -e launch
+```
