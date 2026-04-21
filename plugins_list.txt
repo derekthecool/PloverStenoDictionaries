@@ -1,9 +1,0 @@
-plover-markdown-dictionary
-spectra-lexer
-plover-emoji
-plover-fancytext
-plover-python-dictionary
-plover-tapey-tape
-plover-current-time
-plover-delay
-pyperclip

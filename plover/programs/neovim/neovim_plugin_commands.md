@@ -222,6 +222,14 @@ PWO*D : {^}{\#Escape}:DBUIToggle\\n{^}
 *RG    : {^}{\#Escape},5{^} # Go to harpoon item 5
 ```
 
+### Claude Code
+
+```yaml
+KHROD: {^},ac{^}
+KHROEUD: {^},aa{^}
+KHRO*EUD: {^},ad{^}
+```
+
 ### Pairs Plugins
 
 I used to use vim unimpaired by TPope, but now I use Mini.Pairs.

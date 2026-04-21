@@ -13,3 +13,5 @@ tapey_tape.txt
 
 # Don't track plugins directory
 plugins/
+
+*.pyc
