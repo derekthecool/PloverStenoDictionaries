@@ -62,7 +62,12 @@ json file [here](./plover/typey_type/typeytype_progress.json).
 
 ---
 
-## Building from Source (Arch Linux)
+## Building from Source
+
+### Arch Linux
+
+Using the AUR packages and appimage did not work for me with version 5.3.0.
+So I am compiling from source.
 
 ```bash
 # Install pyenv and Python 3.13.3 (Arch's Python is too new)
