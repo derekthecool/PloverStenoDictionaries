@@ -217,9 +217,6 @@ ST-D/EUPB          :  stdin
 TPH*UL             :  "\\{'\\0'\\}" # Print {'\0'}, this needs to be quoted
 TPH*UL/TPH*UL      :  "'\\0'"       # Print '\0', this needs to be quoted
 TPHOEUL            :  NULL
-PR*EUF             :  {^}printf(\"{^}
-TPR*EUF            :  {^}fprintf(stderr, \"{^}
-KHROET             :  {^}\",{^ ^}  # Klote... Closing quote with comma
 TP/TP              :  {^}\#if
 EFPBD              :  {^}\#endif\\n
 *EFPBD             :  {^}\#endif
@@ -247,6 +244,7 @@ PHEPL/KO*EP        : memcpy
 PHOEUBG: malloc
 ROEUBG: realloc
 KROEUBG: calloc
+PR*EUFL: periph
 ```
 
 ### Cmake
@@ -1016,4 +1014,7 @@ TPH-FS: nvs
 KPHAPBD/HRET: Cmdlet
 KPHAPBD/PWAOEUPBGD: [CmdletBinding()]
 KHRAUD: claude
+KROPB/TAB: crontab
+"*EFP/OBG": ESP_OK
+"*EFP/TPAEUL": ESP_FAIL
 ```

@@ -209,4 +209,10 @@ KEUG/-D: configured
 KEUGD: configured
 TKPWOEUT: got it
 HOR/KWRUBGS: horcrux
+TA*FBG: - [ ]
+KURPLT: culprit
+EUPL/EURB: immich
+EUPL/EUFP: immich
+PH*EUFP: immich
+HREBGS/KWREU: Lexi
 ```
