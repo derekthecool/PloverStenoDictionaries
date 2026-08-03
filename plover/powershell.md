@@ -44,6 +44,15 @@ Most important ones to have quick commands for
 ```yaml
 PW-RB: powershell
 AO*EF: env
+KPAPBD/KPAPBD: ExpandProperty
+TKPWAOEUP: .GetType()
+RAEUPL: rename
+PHOEUPBD: Mandatory
+TPRAOEUPB: ValueFromPipeline
+TPAO*EUPB: ValueFromPipelineByPropertyName
+-FRPBLGS: @()
+KPHAPBD/HRET: Cmdlet
+KPHAPBD/PWAOEUPBGD: [CmdletBinding()]
 ```
 
 ## Fast Commands
@@ -113,6 +122,10 @@ TP-LG : "F:{#Backslash}{^}"
 TKPW-LG : "G:{#Backslash}{^}"
 P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys\"
 WEUPB/TKPWET : winget
+RAEUPL/AOEUPLT: Rename-Item
+TKPWAO*EU: gci
+PAEUBK: psake
+SRAEUBG: Invoke-psake
 ```
 
 ## Main Verb Helpers
@@ -551,15 +564,4 @@ TPR/TEGT: ConvertFrom-Text
 ## Added by Plover
 
 ```yaml
-KPAPBD/KPAPBD: ExpandProperty
-TKPWAOEUP: .GetType()
-RAEUPL: rename
-RAEUPL/AOEUPLT: Rename-Item
-TKPWAO*EU: gci
-PAEUBG: psake
-SRAEUBG: Invoke-psake
-PHOEUPBD: Mandatory
-TPRAOEUPB: ValueFromPipeline
-TPRAO*EUPB: ValueFromPipelineByPropertyName
--FRPBLGS: @()
 ```

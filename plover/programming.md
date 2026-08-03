@@ -25,6 +25,86 @@ RA*EU: array
 ARG: arg
 WAEUS: workspace
 WAEURS: workspacer
+PWOEUPB: binary
+TPRO*EUBGS: Firefox
+TPRO*BGS: Firefox
+PRO*BGS: proxy
+PABG/PHAPB: pacman
+AZ: az
+TA*FBG: - [ ]
+EUPL/EURB: immich
+EUPL/EUFP: immich
+PH*EUFP: immich
+EUPLGTS: implementation
+TPHAUPB/SRO*E: non-zero
+K-FT: const
+HROEFT: localhost
+HROEFT/HROEFT: 127.0.0.1
+PW*RB: pwsh
+AO*URS: {^}usr
+KWRAPL: {^}yaml
+RAOUF: remove
+KPERPB: extern
+SHOUPB: shutdown
+SPR-PB: VPN
+S*EUD: obsidian
+KOT: kotlin
+UTS: UTC
+KRO*PL: COM
+TKAE/PHOPB: daemon
+TPH*EUG: nginx
+TO*PL: toml
+P*D: pwd
+PHOUPB: markdown
+PAO*EU: py
+TKPWEBGS: regex
+SHR-PB: sln
+PH-P: mpv
+PH-P/PH-P: mpv --shuffle{^ ^}
+'*URL': uri
+STK-BG: sdk
+TKPWRAEULD: gradle
+KWRART: UART
+P*EFT: pytest
+TPH-PBG: npx
+SRERT: convert
+SR*ERT: Convert
+TP-Z: fzf
+TKPWEBGS/TKPWEBGS: regular expression
+TKPWEBGS/TKPWEBGS/TKPWEBGS: System.Text.RegularExpressions
+STKPWUR: Azure
+URL: url
+KPOEPLT: component
+STK*BG: SDK
+STK-BG/KEUG: sdkconfig
+PWHRAORD: bootloader
+23EUS/23EUS: Espressif
+SKR-P: scp
+ST*ER: register
+A/KOUPBTS: accounts
+KPHAPBD/HRAOEUPB: command line
+TK-L: download
+SP*ERBGT: spectre
+RART: restart
+S*EUPBG/TPHUS: synchronous
+SAO*EPBG/TPHOUS: synchronous
+SAO*EPBG/TPHUS: synchronous
+SAO*EPBG/TPH*US: asynchronous
+PW*UF: {^}buf{^}
+TPA*EUPL: filename
+PW*UFPB: bufnr
+TKAO*US: reproduce
+P-S: ps
+TKWR: tty
+TKPWO*E: gpio
+PHAOU/TEBGS: mutex
+TKPW*PS: gps
+TKPW-PS/TKPW-PS: gps
+TPH-FS: nvs
+KHRAUD: claude
+KROPB/TAB: crontab
+"*EFP/OBG": ESP_OK
+"*EFP/TPAEUL": ESP_FAIL
 ```
 
 ## Package Managers
@@ -920,14 +1000,6 @@ T*UPL: tcpdump
 ## Added by Plover
 
 ```yaml
-HROEFT: localhost
-HROEFT/HROEFT: 127.0.0.1
-PW*RB: pwsh
-AO*URS: {^}usr
-KWRAPL: {^}yaml
-RAOUF: remove
-KPERPB: extern
-SHOUPB: shutdown
 ```
 
 ## Nix and NixOS
@@ -955,66 +1027,4 @@ TKPWUB/RAO*ES: curl -sL https://api.github.com/repos/OWNER/REPO/releases/latest 
 ## Added by Plover
 
 ```yaml
-SPR-PB: VPN
-S*EUD: obsidian
-KOT: kotlin
-UTS: UTC
-KRO*PL: COM
-TKAE/PHOPB: daemon
-TPH*EUG: nginx
-TO*PL: toml
-P*D: pwd
-PHOUPB: markdown
-PAO*EU: py
-TKPWEBGS: regex
-SHR-PB: sln
-PH-P: mpv
-PH-P/PH-P: mpv --shuffle{^ ^}
-'*URL': uri
-STK-BG: sdk
-TKPWRAEULD: gradle
-KWRART: UART
-P*EFT: pytest
-TPH-PBG: npx
-SRERT: convert
-SR*ERT: Convert
-TP-Z: fzf
-TKPWEBGS/TKPWEBGS: regular expression
-TKPWEBGS/TKPWEBGS/TKPWEBGS: System.Text.RegularExpressions
-STKPWUR: Azure
-URL: url
-KPOEPLT: component
-STK*BG: SDK
-STK-BG/KEUG: sdkconfig
-PWHRAORD: bootloader
-23EUS/23EUS: Espressif
-SKR-P: scp
-ST*ER: register
-A/KOUPBTS: accounts
-KPHAPBD/HRAOEUPB: command line
-TK-L: download
-SP*ERBGT: spectre
-RART: restart
-S*EUPBG/TPHUS: synchronous
-SAO*EPBG/TPHOUS: synchronous
-SAO*EPBG/TPHUS: synchronous
-SAO*EPBG/TPH*US: asynchronous
-PW*UF: {^}buf{^}
-TPA*EUPL: filename
-PW*UFPB: bufnr
-TKAO*US: reproduce
-P-S: ps
-TKWR: tty
-TKPWO*E: gpio
-PHAOU/TEBGS: mutex
-TKPW*PS: gps
-TKPW-PS/TKPW-PS: gps
-SAEUPL/SOPB: Jamison
-TPH-FS: nvs
-KPHAPBD/HRET: Cmdlet
-KPHAPBD/PWAOEUPBGD: [CmdletBinding()]
-KHRAUD: claude
-KROPB/TAB: crontab
-"*EFP/OBG": ESP_OK
-"*EFP/TPAEUL": ESP_FAIL
 ```

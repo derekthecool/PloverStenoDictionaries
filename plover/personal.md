@@ -52,6 +52,42 @@ THER/PHEUPB : theremin
 HROUT : layout
 HREUS : alias
 SROEBG : invoke
+KEUBL: configurable
+TKAOEUS: device
+SPERPT: separator
+KWRO*E: uh oh
+PWRUPT: abrupt
+PWRUPLT: abruptly
+HAEPS: happiness
+HROEURT: loiter
+HROEURGT: loitering
+KHRAOUD: conclude
+SAEUF: save
+SAF: safe
+A*RPBG: angry
+PHA*EUL: email
+SRO*E: zero
+ROEUF: review
+TK*EFGS: destination
+SROES: verbose
+KPAPBD: expand
+PH*EUGT: mitigate
+PHEUGT: mitigate
+T-FS: tsp
+T-FB: tbsp
+PAOEUPBL: pineapple
+STPHA*UL: uninstall
+TKPWA*L: gmail
+TAOD: todo
+KWRAEUPL: username
+HRO*G: login
+K*EBGT: disconnect
+KEUG/-D: configured
+KEUGD: configured
+TKPWOEUT: got it
+HOR/KWRUBGS: horcrux
+KURPLT: culprit
+KOEFD: covid-19
 ```
 
 ## Bird Watching
@@ -123,6 +159,13 @@ AD/KWREU                : Addie
 AD/HRAOEUPB             : Adaline
 PHOEUG                  : {^}Magoo{^}{-|}
 HRA*EUT/OPB             : Layton
+TPHAOELS: Neilson
+TPHAOEL/SOPB: Neilson
+TPHABGS: Fnax
+HREBGS/KWREU: Lexi
+TAEU: Atelier
+SAEUPL/SOPB: Jamison
+SKWRAEUBG/SOPB: Jamison
 ```
 
 ## Places
@@ -130,6 +173,7 @@ HRA*EUT/OPB             : Layton
 ```yaml
 HRA*EUT: Layton
 HRAEU/TOPB: Layton
+TKOEUB: {^}Dubbo{^}{-|}
 ```
 
 ## Email
@@ -143,6 +187,8 @@ AOE/PHA*EUL/PHA*EUL: dlomax@freeus.com
 
 ```yaml
 PHEU/SAO*EUT: https://dereklomax.com
+W-B: dereklomax.com
+W*B: lomaxsimplesoftware.com
 ```
 
 ## Date/Time
@@ -162,57 +208,4 @@ KR-Z: crazy
 ## Added by Plover
 
 ```yaml
-KEUBL: configurable
-TKAOEUS: device
-SPERPT: separator
-KWRO*E: uh oh
-PWRUPT: abrupt
-PWRUPLT: abruptly
-HAEPS: happiness
-HROEURT: loiter
-HROEURGT: loitering
-PWOEUPB: binary
-TPRO*EUBGS: Firefox
-TPRO*BGS: Firefox
-KHRAOUD: conclude
-SAEUF: save
-SAF: safe
-A*RPBG: angry
-PHA*EUL: email
-SRO*E: zero
-ROEUF: review
-TK*EFGS: destination
-PRO*BGS: proxy
-W-B: dereklomax.com
-W*B: lomaxsimplesoftware.com
-PABG/PHAPB: pacman
-SROES: verbose
-AZ: az
-KPAPBD: expand
-PH*EUGT: mitigate
-PHEUGT: mitigate
-TPHAOELS: Neilson
-TPHAOEL/SOPB: Neilson
-T-FS: tsp
-T-FB: tbsp
-TKOEUB: {^}Dubbo{^}{-|}
-PAOEUPBL: pineapple
-STPHA*UL: uninstall
-TKPWA*L: gmail
-TAEU: Atelier
-K*EBGT: disconnect
-TAOD: todo
-KWRAEUPL: username
-HRO*G: login
-TPHABGS: Fnax
-KEUG/-D: configured
-KEUGD: configured
-TKPWOEUT: got it
-HOR/KWRUBGS: horcrux
-TA*FBG: - [ ]
-KURPLT: culprit
-EUPL/EURB: immich
-EUPL/EUFP: immich
-PH*EUFP: immich
-HREBGS/KWREU: Lexi
 ```

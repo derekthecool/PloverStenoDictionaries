@@ -31,6 +31,58 @@ SA*EUFRS: saviors
 SA*EUFR: savior
 POEFS: apostles
 POFS: apostles
+SPWRAEUGS: celebration
+H*E: He
+R*EBGT: resurrect
+SKWR*S/PH*EPB: {^}. In the name of Jesus Christ, amen.{-|}
+SKWR*S/PHEPB: {^}. In the name of Jesus Christ, amen.{-|}
+ELD: Elder{-|}
+PREZ: President{-|}
+ST-R: Sister{-|}
+TPAO*EUD: testified
+TO*EPLT: atonement
+H-G: Holy Ghost
+H*G: Holy Spirit
+SKREURPT: scripture
+TKES/PRET: desperate
+TKAERB: dear brothers and sisters,
+PWAPT: baptize
+RAO*EUFPS: righteousness
+PWROEUS: brothers and sisters
+SRA*EL: Israel
+PH*EUGS: missionaries
+TKPWHREL: gospel
+SPERPBL: supernal
+PAULS: apostle
+TPA*ER: Father
+SREUPB: heaven
+SREUPBL: heavenly
+SREUFPBL : Heavenly Father
+SREUFPBL/SREUFPBL : Father in heaven
+TKPW*EUFT : giveth
+AOEU/REUPBG: Eyring
+O*EBGS: Oaks
+TKHRAEUR: declare
+SA*EUT: Satan
+STKAOEUPL: disciple
+HOE/KAPB: hosanna
+KPR*ES: express
+PH-PB: amen
+PH-PB/PH-PB: in the name of Jesus Christ, amen.{-|}
+TAFPLT: attachment
+TPHO*B: no problem
+TKPWODZ: "God's"
+TKPWO*D: god
+P*EPBT: repent
+"*UPBS": understood
+PR*EPBT: repentance
+PWHOELD: behold
+TPA*EULT: faithful
+OEFRBG: overcome
+PWEUP: bishop
+PWEUBG: bishopric
+SKRAO*EUB: subscribe
+TKUFRT: durst
 ```
 
 ## Scripture Words
@@ -64,69 +116,12 @@ TKPAS: and it came to pass
 HRAOE/HAOEU: Lehi
 HRE/HAOEU: Lehi
 HRAO*EF: Lehi
+SO*RPL: Zoram
+TPHAEU/PHAPB: Naaman
+12K3W4R50*EU6R7B8G9S: Jacob
 ```
 
 ## Added by Plover
 
 ```yaml
-SPWRAEUGS: celebration
-H*E: He
-R*EBGT: resurrect
-SKWR*S/PH*EPB: {^}. In the name of Jesus Christ, amen.{-|}
-SKWR*S/PHEPB: {^}. In the name of Jesus Christ, amen.{-|}
-ELD: Elder{-|}
-PREZ: President{-|}
-ST-R: Sister{-|}
-TPAO*EUD: testified
-TO*EPLT: atonement
-SO*RPL: Zoram
-H-G: Holy Ghost
-H*G: Holy Spirit
-SKREURPT: scripture
-TKES/PRET: desperate
-TKAERB: dear brothers and sisters,
-PWAPT: baptize
-RAO*EUFPS: righteousness
-PWROEUS: brothers and sisters
-SRA*EL: Israel
-KOEFD: covid-19
-PH*EUGS: missionaries
-TKPWHREL: gospel
-SPERPBL: supernal
-PAULS: apostle
-TPA*ER: Father
-SREUPB: heaven
-SREUPBL: heavenly
-SREUFPBL : Heavenly Father
-SREUFPBL/SREUFPBL : Father in heaven
-TKPW*EUFT : giveth
-AOEU/REUPBG: Eyring
-O*EBGS: Oaks
-TKHRAEUR: declare
-SA*EUT: Satan
-STKAOEUPL: disciple
-HOE/KAPB: hosanna
-KPR*ES: express
-PH-PB: amen
-PH-PB/PH-PB: in the name of Jesus Christ, amen.{-|}
-TAFPLT: attachment
-TPHO*B: no problem
-TKPWODZ: "God's"
-TKPWO*D: god
-P*EPBT: repent
-"*UPBS": understood
-PR*EPBT: repentance
-PWHOELD: behold
-TPA*EULT: faithful
-OEFRBG: overcome
-EUPLGTS: implementation
-PWEUP: bishop
-PWEUBG: bishopric
-TPHAEU/PHAPB: Naaman
-SKRAO*EUB: subscribe
-12K3W4R50*EU6R7B8G9S: Jacob
-TPHAUPB/SRO*E: non-zero
-TAT: AT&T
-K-FT: const
-TKUFRT: durst
 ```
