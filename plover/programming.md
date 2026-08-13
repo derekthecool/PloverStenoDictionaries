@@ -1027,4 +1027,14 @@ TKPWUB/RAO*ES: curl -sL https://api.github.com/repos/OWNER/REPO/releases/latest 
 ## Added by Plover
 
 ```yaml
+KPHAPBD/HRET: Cmdlet
+KPHAPBD/PWAOEUPBGD: "[CmdletBinding()]"
+PWRABGS: Brax
+SKROEP/SKROEP: Skrope is so strong, that no rope is too long!
+"*EFT/*EFT": EVT
+TK*FT/TK*FT: DVT
+P*FT/P*FT: PVT
+"*EFP/EUF": Espressif
+AOEUD/POET: idempotent
+AOEU/TKEPL/POE/TEPBT: idempotent
 ```

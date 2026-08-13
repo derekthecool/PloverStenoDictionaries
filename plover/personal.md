@@ -208,4 +208,7 @@ KR-Z: crazy
 ## Added by Plover
 
 ```yaml
+SKROEP: Skrope
+S*EUPL/TPHREUBGS: simplification
+SOEUPB: Zion
 ```

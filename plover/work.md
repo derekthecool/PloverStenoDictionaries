@@ -9,11 +9,6 @@ KAO*EL: Keil
 TWEUL/KWROE: Twilio
 RABG/SPAEUS: Rackspace
 TKPWAO*LG: google
-SR-Z: Verizon
-TEL/EUT: Telit
-TW*EUL: twilio
-PWEBG/HREFR: Becklar
-PWEBG/HRAR: Becklar
 ```
 
 ## Freeus Business Jargon
@@ -61,25 +56,6 @@ TPO*ET/TPO*ET: BXFota
 TPO*ET/TPO*ET/TPO*ET: BWFota
 R*EFP: resp
 TPRAOES/AP: freeus_app
-"*EFP": esp
-"*UTS": UTS
-TPRAOES/PW-RB: FreeusPowershell
-SPHOED: {^}set_mcu_mode
-KW-BGD: QXDM
-TKPWEFL: log_level
-TA*P: test_app
-TKA*P: device_app
-TPA*: errloga.txt
-TPR*B: errlogb.txt
-O*ET: ota
-O*ET/O*ET: OTA
-TKPWEFLS: log_level_nvs
-AZ/AZ: AZ{^}
-SHRAOEPLT: sleep_for_pm
-KH*ET: charger_system_reset
-TKO*PS: AzureDevOps
-SK*U: SKU
-SKWREPBS: geofence
 ```
 
 ### Programs
@@ -134,7 +110,6 @@ SOEUPL/SOEUPL: ICCID # Replaces sodium
 TA*PBD: AT command
 SEUPL: sim # overwrites similar, use SHRAR instead
 SRO*EUP: voip
-TAT: AT&T
 ```
 
 ### AT Cell Module Commands
@@ -175,4 +150,30 @@ PHAOEURBG/PHAOEURBG/PHAOEURBG : {^}cfe{\#Tab}{PLOVER:DELAY:1.5}{\#Tab}{PLOVER:DE
 ## Added by Plover
 
 ```yaml
+SR-Z: Verizon
+TEL/EUT: Telit
+TW*EUL: twilio
+"*EFP": esp
+TPRAOES/PW-RB: FreeusPowershell
+SPHOED: {^}set_mcu_mode
+KW-BGD: QXDM
+"*UTS": UTS
+TKPWEFL: log_level
+PWEBG/HREFR: Becklar
+PWEBG/HRAR: Becklar
+TA*P: test_app
+TKA*P: device_app
+TPRA*: errloga.txt
+TPR*B: errlogb.txt
+O*ET: ota
+O*ET/O*ET: OTA
+TKPWEFLS: log_level_nvs
+AZ/AZ: AZ{^}
+SHRAOEPLT: sleep_for_pm
+KH*ET: charger_system_reset
+TKO*PS: AzureDevOps
+SK*U: SKU
+SKWREPBS: geofence
+SKWRAEUBG/SOPB: Jamison
+KHA*EUBL: charger_input_enable 0
 ```
