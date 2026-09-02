@@ -124,8 +124,6 @@ P*URB/KAOE          : cat ~/.ssh/id_rsa.pub | ssh root@192.168.1.57 \"mkdir -p ~
 WEUPB/TKPWET : winget
 RAEUPL/AOEUPLT: Rename-Item
 TKPWAO*EU: gci
-PAEUBK: psake
-SRAEUBG: Invoke-psake
 ```
 
 ## Main Verb Helpers
@@ -564,4 +562,6 @@ TPR/TEGT: ConvertFrom-Text
 ## Added by Plover
 
 ```yaml
+PAEUBG: psake
+SROEBG/PAEUBG: Invoke-psake
 ```
